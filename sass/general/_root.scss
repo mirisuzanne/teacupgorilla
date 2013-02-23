@@ -8,17 +8,19 @@
 // Root
 
 $noise    : image-url('noise.png');
-$bg1      : rgba($pink-lightest,.25);
-$bg2      : rgba($blue-lightest,.25);
-$gradient : linear-gradient(top, $bg1, $bg2);
+$bg1      : color($blue lightest,.25);
+$bg2      : color($blue lighter,.25);
+$angle    : to bottom;
+$gradient : $bg1, $bg2;
 
 @include establish-baseline;
 
 html {
-  @include background($pink-hint);
+  @include background($blue lightest);
   @include background($bg1, $noise);
-  @include background($gradient, $noise);
-  @include text-shadow(rgba(white,.5) 0 1px 0);
+  @include background(convert-gradient($angle, $gradient...), $noise);
+  @include text-shadow(color(white,.5) 0 1px 0);
+  background: linear-gradient($angle, $gradient), $noise;
   background-attachment: fixed;
   color: $base;
 }

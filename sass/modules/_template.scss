@@ -2,42 +2,27 @@
 // Styleguides
 
 %spacer {
-  @include after("— & —") {
-    @include amp;
+  @include after("+ + +") {
+    @include sans;
     display: block;
-    color: $pink-lighter;
-    color: rgba($pink-dark,.25);
+    color: color($pink lighter);
+    color: color($pink dark,.25);
     text-align: center;
   }
-}
-
-%boilerplate {
-  @include clearfix;
-  @include bleed($grid-padding);
-  @include box-shadow(rgba($pink-light,.25) 0 0 rhythm(.25) inset);
-  background: rgba($pink-lightest,.25);
 }
 
 // ----------------------------------------------------------------------------
 // Banner
 
 [role="banner"] {
+  @include sans;
   @include adjust-font-size-to($medpx,2);
   white-space: nowrap;
-  text-align: center;
-
-  .amp {
-    @include adjust-font-size-to($xxxlargepx,2);
-    display: inline-block;
-    margin-left: -.1em;
-    margin-right: -.1em;
-    vertical-align: middle;
-    color: $blue-darker;
-  }
-
+  font-weight: bold;
+  text-transform: uppercase;
   a {
-    #{$link} { color: $pink-dark; }
-    #{$focus} { color: $blue-darker; }
+    #{$link} { color: color($pink darker); }
+    #{$focus} { color: color($blue darker); }
   }
 }
 
@@ -47,7 +32,7 @@
 @mixin active-nav($slug) {
   .#{$slug} &[href*="#{$slug}"] {
     @include before("/");
-    color: $pink-dark;
+    color: color($pink darkest);
   }
 }
 
@@ -64,7 +49,7 @@
     #{$link} {
       display: block;
       padding: 0 rhythm(.25);
-      color: rgba($pink-dark,.5);
+      color: color($pink darker,.75);
       @include before("+") {
         display: inline-block;
         width: .5em;
@@ -72,7 +57,7 @@
     }
     #{$focus} {
       @include before("/");
-      color: $blue-darker;
+      color: color($pink darker);
     }
     @include active-nav(who);
     @include active-nav(what);
@@ -83,15 +68,15 @@
 // ----------------------------------------------------------------------------
 // Main
 
-$main-top-border: 2px dashed rgba($pink-dark,.25);
+$main-border: 2px dotted color($pink darker);
 
 [role="main"] {
   @extend %type;
-  @include leading-border(2px,.5);
-  @include trailer;
+  @include h-borders(2px,.5);
   clear: both;
   counter-reset: fig;
-  border-top: $main-top-border;
+  border-top: $main-border;
+  border-bottom: $main-border;
 }
 
 @include at-breakpoint($total-columns) {
@@ -108,8 +93,10 @@ $main-top-border: 2px dashed rgba($pink-dark,.25);
     text-align: right;
   }
   [role="main"] {
-    @include leading-border(2px,1);
-    border-top: $main-top-border;
+    @include h-borders(2px,1);
+    @include trailer;
+    border-top: $main-border;
+    border-bottom: $main-border;
   }
 }
 
@@ -131,39 +118,22 @@ $main-top-border: 2px dashed rgba($pink-dark,.25);
 // Contentinfo
 
 [role="contentinfo"] {
-  @extend %boilerplate;
   @include sanscond;
-  @include adjust-font-size-to($smallpx);
-  @include border-top-radius;
-  padding-top: rhythm(.5);
-  padding-bottom: rhythm(.5);
+  @include adjust-font-size-to($xsmallpx);
+  padding-bottom: rhythm(1);
   clear: both;
   color: $mid;
   text-transform: uppercase;
 }
 
 .social {
-  @include trailer;
+  @include trailer(.5);
 
   ul { @include inline-block-list; }
-
-  a {
-    margin-right: rhythm(.5);
-    &:before {
-      @extend %icon-content;
-      @include adjust-font-size-to($base-font-size,1);
-      @include rem(padding-right, rhythm(.25));
-    }
-  }
-
-  [href*="twitter"] { @extend %icon-twitter; }
-  [href*="facebook"] { @extend %icon-facebook; }
-  [href*="dribbble"] { @extend %icon-dribbble; }
-  [href*="github"] { @extend %icon-github; }
-  [href*="vimeo"] { @extend %icon-vimeo; }
-  [href*="stackoverflow"] { @extend %icon-stack-overflow; }
-  [href*="feed"] { @extend %icon-feed; }
-  [href*="mailto"] { @extend %icon-mail; }
 }
 
-.colophon { @include trailer; }
+.colophon { @include trailer(.5); }
+
+.copyright {
+  .fn { font-weight: bold; }
+}

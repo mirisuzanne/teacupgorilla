@@ -28,21 +28,23 @@ a {
   // Headers
 
   h1 {
+    @include sans;
     @include adjust-font-size-to($xlargepx);
+    font-weight: bold;
     @include at-breakpoint($total-columns) { @include adjust-font-size-to($xxlargepx); }
-    a {
-      #{$link} { color: $pink-dark; }
-      #{$focus} { color: $blue-dark; }
-    }
   }
 
   h2 {
+    @include sans;
     @include adjust-font-size-to($largepx);
+    font-weight: bold;
     @include at-breakpoint($total-columns) { @include adjust-font-size-to($xlargepx); }
   }
 
   h3 {
+    @include sans;
     @include trailer;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .01em;
   }
@@ -60,7 +62,7 @@ a {
 
   blockquote {
     @include rem(padding, 0 rhythm(.751));
-    @include rem(border-left, rhythm(.25) solid $lighter);
+    @include rem(border-left, rhythm(.25) solid color(lighter));
     em { font-style: normal; }
   }
 
@@ -81,7 +83,7 @@ a {
     @include adjust-font-size-to($smallpx,.75);
     @include leader(.5);
     @include rem(padding, rhythm(.5));
-    background: rgba($pink-light,.125);
+    background: color($blue light,.125);
     counter-increment: fig;
     &:before {
       @include serif;
@@ -107,7 +109,7 @@ a {
   pre {
     @include rem(margin-left, rhythm(-.5));
     @include rem(padding, rhythm(.5));
-    border-left: 3px solid $pink-lightest;
+    border-left: 3px solid color($pink lightest);
   }
 
 }
