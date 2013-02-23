@@ -1,24 +1,27 @@
 @include font-face (
-  'IcoMoon',
+  'teacup',
   font-files(
-    'Icons.svg#Icons', svg,
-    'Icons.woff', woff,
-    'Icons.ttf', truetype
+    'teacup.svg#teacup', svg,
+    'teacup.woff', woff,
+    'teacup.ttf', truetype
   ),
-  'Icons.eot',
+  'teacup.eot',
   normal,
   normal
 );
 
 /* Use the following CSS code if you want to have a class per icon */
 %icon-content {
-  font-family: 'IcoMoon';
+  font-family: 'teacup';
   font-style: normal;
   speak: none;
 }
 
-%icon:before {
-  @extend %icon-content;
+%icon {
+  &:before {
+    @extend %icon-content;
+    margin-right: .4em;
+  }
 }
 
 %icon-replace {
@@ -31,6 +34,7 @@
     top: 0;
     left: 0;
     text-indent: 0;
+    margin: 0;
   }
 }
 
@@ -40,13 +44,6 @@
   content: attr(data-icon);
 }
 
-%icon-facebook:before       { content: "\e000"; }
-%icon-html5:before          { content: "\e001"; }
-%icon-css3:before           { content: "\e002"; }
-%icon-stack-overflow:before { content: "\e003"; }
-%icon-twitter:before        { content: "\e004"; }
-%icon-vimeo:before          { content: "\e005"; }
-%icon-github:before         { content: "\e006"; }
-%icon-dribbble:before       { content: "\e007"; }
-%icon-feed:before           { content: "\e008"; }
-%icon-mail:before           { content: "\e009"; }
+%icon-facebook:before { content: "\e001"; }
+%icon-twitter:before { content: "\e002"; }
+%icon-envelope:before { content: "\e000"; }

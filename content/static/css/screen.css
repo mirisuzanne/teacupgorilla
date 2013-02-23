@@ -290,23 +290,39 @@ a:focus, a:hover, a:active {
 }
 
 @font-face {
-  font-family: "IcoMoon";
-  src: url('../fonts/Icons.eot');
-  src: url('../fonts/Icons.eot?#iefix') format('eot'), url('../fonts/Icons.svg#Icons') format('svg'), url('../fonts/Icons.woff') format('woff'), url('../fonts/Icons.ttf') format('truetype');
+  font-family: "teacup";
+  src: url('../fonts/teacup.eot');
+  src: url('../fonts/teacup.eot?#iefix') format('eot'), url('../fonts/teacup.svg#teacup') format('svg'), url('../fonts/teacup.woff') format('woff'), url('../fonts/teacup.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
-[data-icon]:before {
-  font-family: 'IcoMoon';
+.social a:before, [data-icon]:before {
+  font-family: 'teacup';
   font-style: normal;
   speak: none;
+}
+
+.social a:before {
+  margin-right: .4em;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
   content: attr(data-icon);
+}
+
+.social [href*="facebook"]:before {
+  content: "\e001";
+}
+
+.social [href*="twitter"]:before {
+  content: "\e002";
+}
+
+.social [href*="mailto"]:before {
+  content: "\e000";
 }
 
 body {
@@ -338,11 +354,14 @@ body:after {
   font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 25px;
   font-size: 1.19048rem;
-  line-height: 64px;
-  line-height: 3.04762rem;
+  line-height: 32px;
+  line-height: 1.52381rem;
+  padding-top: 8px;
+  padding-top: 0.38095rem;
   white-space: nowrap;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 [role="banner"] a:link, [role="banner"] a:visited {
   color: #99004c;
@@ -357,10 +376,8 @@ body:after {
   font-size: 0.85714rem;
   line-height: 32px;
   line-height: 1.52381rem;
-  margin-top: -24px;
-  margin-top: -1.14286rem;
-  margin-bottom: 16px;
-  margin-bottom: 0.7619rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.38095rem;
   text-align: center;
 }
 [role="navigation"] ul {
@@ -435,8 +452,8 @@ body:after {
     width: 47.93388%;
     float: left;
     margin-right: 4.13223%;
-    margin-top: 16px;
-    margin-top: 0.7619rem;
+    padding-top: 16px;
+    padding-top: 0.7619rem;
   }
 
   [role="banner"] {
@@ -446,8 +463,6 @@ body:after {
   [role="navigation"] {
     float: right;
     margin-right: 0;
-    line-height: 56px;
-    line-height: 2.66667rem;
     margin-bottom: 16px;
     margin-bottom: 0.7619rem;
     text-align: right;
@@ -464,8 +479,8 @@ body:after {
     border-bottom-style: solid;
     padding-bottom: 30px;
     padding-bottom: 1.42857rem;
-    margin-bottom: 32px;
-    margin-bottom: 1.52381rem;
+    margin-bottom: 16px;
+    margin-bottom: 0.7619rem;
     border-top: 2px dotted #99004c;
     border-bottom: 2px dotted #99004c;
   }
@@ -520,6 +535,10 @@ body:after {
   display: inline-block;
   vertical-align: middle;
   white-space: nowrap;
+}
+.social a {
+  display: inline-block;
+  margin-right: 0.7619rem;
 }
 
 .colophon {
