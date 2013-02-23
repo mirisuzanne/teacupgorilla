@@ -17,8 +17,10 @@ Upcoming Shows
 Other Projects
 --------------
 
-* `Into the Green Green Mud`_ | *a novel with pictures - in development*
-* `Missa Populi`_ | *devised ensemble theatre - 2010*
+* `The Bakery`_ | *arts warehouse — in development*
+* `Into the Green Green Mud`_ | *a novel with pictures — in development*
+* `Missa Populi`_ | *devised ensemble theatre — 2010*
 
+.. _The Bakery: http://www.facebook.com/thebakerydenver
 .. _Into the Green Green Mud: http://greengreenmud.com/
 .. _Missa Populi: http://vicioustrap.com/shows/
