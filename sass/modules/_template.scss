@@ -126,20 +126,54 @@ $main-border: 2px dotted color($pink darker);
   text-transform: uppercase;
 }
 
+@mixin social($slug) {
+  $slug: compact($slug);
+  $icon: false;
+  @if length($slug) > 1 {
+    $icon: nth($slug,2);
+    $slug: nth($slug,1);
+  } @else {
+    $slug: nth($slug,1);
+    $icon: $slug;
+  }
+
+  [href*="#{$slug}"] {
+    @extend %icon-replace;
+    @extend %icon-#{$icon};
+  }
+}
+
 .social {
   @include trailer(.5);
 
-  ul { @include inline-block-list; }
-
-  a {
-    @extend %icon;
-    display: inline-block;
-    margin-right: rhythm(.5);
+  ul {
+    @include inline-block-list;
+    overflow: visible;
   }
 
-  [href*="mailto"] { @extend %icon-envelope; }
-  [href*="facebook"] { @extend %icon-facebook; }
-  [href*="twitter"] { @extend %icon-twitter; }
+  a {
+    &:before { right: 0; }
+    #{$link} {
+      @include adjust-font-size-to($normpx);
+      @include border-radius(rhythm(.125));
+      @include transition(border-color 200ms);
+      display: inline-block;
+      margin: -1px rhythm(.5) -1px 0;
+      padding: 0 rhythm(.25);
+      border: 1px solid color($blue darker,0);
+      text-align: center;
+    }
+    #{$focus} {
+      border-color: color($blue darker,.25);
+    }
+  }
+
+  @include social(mailto envelope);
+  @include social(facebook);
+  @include social(twitter);
+  @include social(soundcloud);
+  @include social(myspace);
+  @include social(feed);
 }
 
 .colophon { @include trailer(.5); }
