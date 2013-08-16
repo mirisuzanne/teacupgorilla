@@ -13,7 +13,7 @@ Upcoming Shows
 
 .. |contact| raw:: html
 
-  <a href="mailto:info(put the 'at' sign here)teacupgorilla.com" class="email">
+  <a href="mailto:booking(put the 'at' sign here)teacupgorilla.com" class="email">
     <em>Book a show »</em>
   </a>
 
