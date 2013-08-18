@@ -55,75 +55,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: "BaskervilleAmp";
-  src: url('../fonts/Baskerville-amp-webfont.eot');
-  src: url('../fonts/Baskerville-amp-webfont.eot?#iefix') format('eot'), url('../fonts/Baskerville-amp-webfont.woff') format('woff'), url('../fonts/Baskerville-amp-webfont.ttf') format('truetype'), url('../fonts/Baskerville-amp-webfont.svg#webfont') format('svg');
+  font-family: "Susy";
+  src: url('../fonts/susy/greenmudsusy-regular-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-regular-webfont.ttf?1349774720') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Regular-webfont.eot');
-  src: url('../fonts/CenturyOldStyle-Regular-webfont.eot?#iefix') format('eot'), url('../fonts/CenturyOldStyle-Regular-webfont.woff') format('woff'), url('../fonts/CenturyOldStyle-Regular-webfont.ttf') format('truetype'), url('../fonts/CenturyOldStyle-Regular-webfont.svg#webfontSMxOInhK') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Italic-webfont.eot');
-  src: url('../fonts/CenturyOldStyle-Italic-webfont.eot?#iefix') format('eot'), url('../fonts/CenturyOldStyle-Italic-webfont.woff') format('woff'), url('../fonts/CenturyOldStyle-Italic-webfont.ttf') format('truetype'), url('../fonts/CenturyOldStyle-Italic-webfont.svg#webfontSMxOInhK') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "CenturyOldStyle";
-  src: url('../fonts/CenturyOldStyle-Bold-webfont.eot');
-  src: url('../fonts/CenturyOldStyle-Bold-webfont.eot?#iefix') format('eot'), url('../fonts/CenturyOldStyle-Bold-webfont.woff') format('woff'), url('../fonts/CenturyOldStyle-Bold-webfont.ttf') format('truetype'), url('../fonts/CenturyOldStyle-Bold-webfont.svg#webfontSMxOInhK') format('svg');
+  font-family: "Susy";
+  src: url('../fonts/susy/greenmudsusy-bold-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-bold-webfont.ttf?1349774720') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "CenturyOldStyleCaps";
-  src: url('../fonts/CenturyOldStyleCaps-Regular-webfont.eot');
-  src: url('../fonts/CenturyOldStyleCaps-Regular-webfont.eot?#iefix') format('eot'), url('../fonts/CenturyOldStyleCaps-Regular-webfont.woff') format('woff'), url('../fonts/CenturyOldStyleCaps-Regular-webfont.ttf') format('truetype'), url('../fonts/CenturyOldStyleCaps-Regular-webfont.svg#webfontSMxOInhK') format('svg');
+  font-family: "SusyCaps";
+  src: url('../fonts/susy/greenmudsusy-smallcaps-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-smallcaps-webfont.ttf?1349774720') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-Cd-webfont.eot');
-  src: url('../fonts/FranklinGothic-Cd-webfont.eot?#iefix') format('eot'), url('../fonts/FranklinGothic-Cd-webfont.woff') format('woff'), url('../fonts/FranklinGothic-Cd-webfont.ttf') format('truetype'), url('../fonts/FranklinGothic-Cd-webfont.svg#webfontSMxOInhK') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-CdIt-webfont.eot');
-  src: url('../fonts/FranklinGothic-CdIt-webfont.eot?#iefix') format('eot'), url('../fonts/FranklinGothic-CdIt-webfont.woff') format('woff'), url('../fonts/FranklinGothic-CdIt-webfont.ttf') format('truetype'), url('../fonts/FranklinGothic-CdIt-webfont.svg#webfontSMxOInhK') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-DemiCd-webfont.eot');
-  src: url('../fonts/FranklinGothic-DemiCd-webfont.eot?#iefix') format('eot'), url('../fonts/FranklinGothic-DemiCd-webfont.woff') format('woff'), url('../fonts/FranklinGothic-DemiCd-webfont.ttf') format('truetype'), url('../fonts/FranklinGothic-DemiCd-webfont.svg#webfontSMxOInhK') format('svg');
+  font-family: "SusyCaps";
+  src: url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.woff?1349774824') format("woff"), url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.ttf?1349774824') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "FranklinGothicCond";
-  src: url('../fonts/FranklinGothic-DemiCdIt-webfont.eot');
-  src: url('../fonts/FranklinGothic-DemiCdIt-webfont.eot?#iefix') format('eot'), url('../fonts/FranklinGothic-DemiCdIt-webfont.woff') format('woff'), url('../fonts/FranklinGothic-DemiCdIt-webfont.ttf') format('truetype'), url('../fonts/FranklinGothic-DemiCdIt-webfont.svg#webfontSMxOInhK') format('svg');
+  font-family: "Narrator";
+  src: url('../fonts/narrator/greenmudnarrator-regular-webfont.woff?1352202722') format("woff"), url('../fonts/narrator/greenmudnarrator-regular-webfont.ttf?1352202722') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Narrator";
+  src: url('../fonts/narrator/greenmudnarrator-bold-webfont.woff?1352202722') format("woff"), url('../fonts/narrator/greenmudnarrator-bold-webfont.ttf?1352202722') format("truetype");
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 
 html {
@@ -132,21 +102,14 @@ html {
 }
 
 html {
-  background: deepskyblue lightest;
-  background: rgba(204, 242, 255, 0.25), url('../images/noise.png?1361577877');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(204, 242, 255, 0.25)), color-stop(100%, rgba(102, 216, 255, 0.25))), url('../images/noise.png?1361577877');
-  background: -webkit-linear-gradient(top, rgba(204, 242, 255, 0.25), rgba(102, 216, 255, 0.25)), url('../images/noise.png?1361577877');
-  background: -moz-linear-gradient(top, rgba(204, 242, 255, 0.25), rgba(102, 216, 255, 0.25)), url('../images/noise.png?1361577877');
-  background: -o-linear-gradient(top, rgba(204, 242, 255, 0.25), rgba(102, 216, 255, 0.25)), url('../images/noise.png?1361577877');
-  background: linear-gradient(top, rgba(204, 242, 255, 0.25), rgba(102, 216, 255, 0.25)), url('../images/noise.png?1361577877');
-  text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
-  background: linear-gradient(to bottom, rgba(204, 242, 255, 0.25), rgba(102, 216, 255, 0.25)), url('../images/noise.png?1361577877');
-  background-attachment: fixed;
-  color: #4c4c4c;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+  background: url('../images/noise.png?1347221205') #2d2d2d;
+  color: #e5e5e5;
 }
 
 body {
-  font-family: "CenturyOldStyle", Baskerville, Palatino, Cambria, Georgia, serif;
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
+  letter-spacing: .05em;
 }
 
 img {
@@ -158,26 +121,21 @@ a:hover, a:active {
   outline: none;
 }
 a:link, a:visited {
-  color: #007299;
+  color: #ef4242;
   text-decoration: none;
 }
 a:focus, a:hover, a:active {
-  color: #99004c;
-}
-
-.amp {
-  font-family: "BaskervilleAmp", Baskerville, Palatino, Cambria, Georgia, serif;
+  color: #fbcfcf;
 }
 
 [role="main"] h1 {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
   font-size: 32px;
   font-size: 1.52381rem;
   line-height: 48px;
   line-height: 2.28571rem;
-  font-weight: bold;
 }
-@media (min-width: 39.70313em) {
+@media (min-width: 29rem) {
   [role="main"] h1 {
     font-size: 44px;
     font-size: 2.09524rem;
@@ -185,15 +143,20 @@ a:focus, a:hover, a:active {
     line-height: 2.28571rem;
   }
 }
+[role="main"] h1 a:link, [role="main"] h1 a:visited {
+  color: #e5e5e5;
+}
+[role="main"] h1 a:focus, [role="main"] h1 a:hover, [role="main"] h1 a:active {
+  color: #ef4242;
+}
 [role="main"] h2 {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
   font-size: 30px;
   font-size: 1.42857rem;
   line-height: 48px;
   line-height: 2.28571rem;
-  font-weight: bold;
 }
-@media (min-width: 39.70313em) {
+@media (min-width: 29rem) {
   [role="main"] h2 {
     font-size: 32px;
     font-size: 1.52381rem;
@@ -202,12 +165,11 @@ a:focus, a:hover, a:active {
   }
 }
 [role="main"] h3 {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
   margin-bottom: 32px;
   margin-bottom: 1.52381rem;
-  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: .01em;
+  letter-spacing: .1em;
 }
 [role="main"] h4, [role="main"] strong {
   font-weight: bold;
@@ -246,9 +208,9 @@ a:focus, a:hover, a:active {
   margin-bottom: 1.52381rem;
 }
 [role="main"] figure > a, [role="main"] figure > img, [role="main"] figure > .video {
-  -webkit-box-shadow: #4c4c4c 0 0 6px;
-  -moz-box-shadow: #4c4c4c 0 0 6px;
-  box-shadow: #4c4c4c 0 0 6px;
+  -webkit-box-shadow: #e5e5e5 0 0 6px;
+  -moz-box-shadow: #e5e5e5 0 0 6px;
+  box-shadow: #e5e5e5 0 0 6px;
 }
 [role="main"] figure .video {
   position: relative;
@@ -266,7 +228,6 @@ a:focus, a:hover, a:active {
   padding: 0;
 }
 [role="main"] figcaption {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 0.85714rem;
   line-height: 24px;
@@ -279,7 +240,7 @@ a:focus, a:hover, a:active {
   counter-increment: fig;
 }
 [role="main"] figcaption:before {
-  font-family: "CenturyOldStyle", Baskerville, Palatino, Cambria, Georgia, serif;
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
   content: "fig." counter(fig);
   margin-right: .4em;
   font-style: italic;
@@ -289,7 +250,7 @@ a:focus, a:hover, a:active {
   font-size: 0.66667rem;
   line-height: 24px;
   line-height: 1.14286rem;
-  font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 [role="main"] tt, [role="main"] code {
   padding: 0 8px;
@@ -301,29 +262,29 @@ a:focus, a:hover, a:active {
   margin-left: -0.7619rem;
   padding: 16px;
   padding: 0.7619rem;
-  border-left: 3px solid #ffcce5;
+  border-left: 3px solid #fbcfcf;
 }
 
 @font-face {
   font-family: "teacup";
-  src: url('../fonts/teacup.eot');
-  src: url('../fonts/teacup.eot?#iefix') format('eot'), url('../fonts/teacup.svg#teacup') format('svg'), url('../fonts/teacup.woff') format('woff'), url('../fonts/teacup.ttf') format('truetype');
+  src: url('../fonts/icons/teacup.woff?1361779902') format("woff"), url('../fonts/icons/teacup.ttf?1361779902') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
 .social [href*="mailto"]:before, .social [href*="facebook"]:before, .social [href*="twitter"]:before, .social [href*="soundcloud"]:before, .social [href*="myspace"]:before, .social [href*="feed"]:before, [data-icon]:before {
-  font-family: 'teacup';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-family: "teacup";
   font-style: normal;
   speak: none;
 }
 
-.social [href*="mailto"]:before, .social [href*="facebook"]:before, .social [href*="twitter"]:before, .social [href*="soundcloud"]:before, .social [href*="myspace"]:before, .social [href*="feed"]:before {
-  margin-right: .4em;
-}
-
 .social [href*="mailto"], .social [href*="facebook"], .social [href*="twitter"], .social [href*="soundcloud"], .social [href*="myspace"], .social [href*="feed"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
   position: relative;
   min-width: 1em;
   text-indent: -9999px;
@@ -332,11 +293,11 @@ a:focus, a:hover, a:active {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   text-indent: 0;
-  margin: 0;
+  text-align: center;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
   content: attr(data-icon);
 }
@@ -366,12 +327,7 @@ a:focus, a:hover, a:active {
 }
 
 body {
-  max-width: 635px;
-  max-width: 30.25rem;
-  padding-left: 21px;
-  padding-left: 1rem;
-  padding-right: 21px;
-  padding-right: 1rem;
+  max-width: 29rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -383,39 +339,32 @@ body:after {
 
 .post:after {
   content: "+ + +";
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
   display: block;
-  color: #ff66b2;
-  color: rgba(204, 0, 102, 0.25);
+  color: #ef4242;
   text-align: center;
 }
 
 [role="banner"] {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 25px;
-  font-size: 1.19048rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
+  font-size: 44px;
+  font-size: 2.09524rem;
+  line-height: 48px;
+  line-height: 2.28571rem;
   padding-top: 8px;
   padding-top: 0.38095rem;
   white-space: nowrap;
-  font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-align: center;
 }
 [role="banner"] a:link, [role="banner"] a:visited {
-  color: #99004c;
+  color: #b2b2b2;
 }
 [role="banner"] a:focus, [role="banner"] a:hover, [role="banner"] a:active {
-  color: #007299;
+  color: #e5e5e5;
 }
 
 [role="navigation"] {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-size: 0.85714rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
   margin-bottom: 8px;
   margin-bottom: 0.38095rem;
   text-align: center;
@@ -438,7 +387,7 @@ body:after {
 [role="navigation"] a:link, [role="navigation"] a:visited {
   display: block;
   padding: 0 0.38095rem;
-  color: rgba(153, 0, 76, 0.75);
+  color: rgba(178, 178, 178, 0.75);
 }
 [role="navigation"] a:link:before, [role="navigation"] a:visited:before {
   content: "+";
@@ -446,63 +395,63 @@ body:after {
   width: .5em;
 }
 [role="navigation"] a:focus, [role="navigation"] a:hover, [role="navigation"] a:active {
-  color: #99004c;
+  color: #e5e5e5;
 }
 [role="navigation"] a:focus:before, [role="navigation"] a:hover:before, [role="navigation"] a:active:before {
   content: "/";
 }
 .who [role="navigation"] a[href*="who"] {
-  color: #320019;
+  color: #e5e5e5;
 }
 .who [role="navigation"] a[href*="who"]:before {
   content: "/";
 }
 .what [role="navigation"] a[href*="what"] {
-  color: #320019;
+  color: #e5e5e5;
 }
 .what [role="navigation"] a[href*="what"]:before {
   content: "/";
 }
-.why [role="navigation"] a[href*="why"] {
-  color: #320019;
-}
-.why [role="navigation"] a[href*="why"]:before {
-  content: "/";
-}
 
 [role="main"] {
-  border-top-width: 2px;
-  border-top-width: 0.09524rem;
+  border-top-width: 6px;
+  border-top-width: 0.28571rem;
   border-top-style: solid;
-  padding-top: 14px;
-  padding-top: 0.66667rem;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.09524rem;
+  padding-top: 10px;
+  padding-top: 0.47619rem;
+  border-bottom-width: 6px;
+  border-bottom-width: 0.28571rem;
   border-bottom-style: solid;
-  padding-bottom: 14px;
-  padding-bottom: 0.66667rem;
+  padding-bottom: 10px;
+  padding-bottom: 0.47619rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   clear: both;
   counter-reset: fig;
-  border-top: 2px dotted #99004c;
-  border-bottom: 2px dotted #99004c;
+  border-top: 6px double #e5e5e5;
+  border-bottom: 6px double #e5e5e5;
 }
 
-@media (min-width: 39.70313em) {
+@media (min-width: 29rem) {
   [role="banner"], [role="navigation"] {
-    width: 47.93388%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
     float: left;
-    margin-right: 4.13223%;
-    padding-top: 16px;
-    padding-top: 0.7619rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   [role="banner"] {
+    padding-top: 16px;
+    padding-top: 0.7619rem;
     text-align: left;
   }
 
   [role="navigation"] {
-    float: right;
-    margin-right: 0;
+    padding-top: 24px;
+    padding-top: 1.14286rem;
     margin-bottom: 16px;
     margin-bottom: 0.7619rem;
     text-align: right;
@@ -521,8 +470,8 @@ body:after {
     padding-bottom: 1.42857rem;
     margin-bottom: 16px;
     margin-bottom: 0.7619rem;
-    border-top: 2px dotted #99004c;
-    border-bottom: 2px dotted #99004c;
+    border-top: 6px double #e5e5e5;
+    border-bottom: 6px double #e5e5e5;
   }
 }
 .pagination {
@@ -546,20 +495,28 @@ body:after {
 }
 
 [role="contentinfo"] {
-  font-family: "FranklinGothicCond", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
   font-size: 15px;
   font-size: 0.71429rem;
   line-height: 32px;
   line-height: 1.52381rem;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+  opacity: .5;
   padding-bottom: 1.52381rem;
   clear: both;
-  color: gray;
   text-transform: uppercase;
+  text-align: center;
+}
+[role="contentinfo"]:hover {
+  opacity: 1;
 }
 
 .social {
-  margin-bottom: 16px;
-  margin-bottom: 0.7619rem;
+  margin-bottom: 32px;
+  margin-bottom: 1.52381rem;
 }
 .social ul {
   margin: 0;
@@ -585,26 +542,20 @@ body:after {
   font-size: 1rem;
   line-height: 32px;
   line-height: 1.52381rem;
-  -webkit-border-radius: 0.19048rem;
-  -moz-border-radius: 0.19048rem;
-  border-radius: 0.19048rem;
-  -webkit-transition: border-color 200ms;
-  -moz-transition: border-color 200ms;
-  -o-transition: border-color 200ms;
-  transition: border-color 200ms;
   display: inline-block;
   margin: -1px 0.7619rem -1px 0;
   padding: 0 0.38095rem;
-  border: 1px solid rgba(0, 114, 153, 0);
   text-align: center;
-}
-.social a:focus, .social a:hover, .social a:active {
-  border-color: rgba(0, 114, 153, 0.25);
 }
 
 .colophon {
+  font-size: 14px;
+  font-size: 0.66667rem;
+  line-height: 32px;
+  line-height: 1.52381rem;
   margin-bottom: 16px;
   margin-bottom: 0.7619rem;
+  display: none;
 }
 
 .copyright .fn {
@@ -620,16 +571,25 @@ body:after {
 }
 
 .byline {
+  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
+  text-transform: lowercase;
   color: gray;
-  font-style: italic;
 }
 
 .gallery > a, .gallery > img {
-  width: 47.93388%;
+  width: 50%;
   float: left;
-  margin-right: 4.13223%;
+  margin-right: -100%;
   margin-bottom: 32px;
   margin-bottom: 1.52381rem;
+}
+.gallery > a:nth-child(2n + 1), .gallery > img:nth-child(2n + 1) {
+  margin-left: 0;
+  clear: left;
+}
+.gallery > a:nth-child(2n + 2), .gallery > img:nth-child(2n + 2) {
+  margin-left: 50%;
+  clear: none;
 }
 .gallery > a:nth-child(even), .gallery > img:nth-child(even) {
   float: right;
@@ -665,7 +625,7 @@ body:after {
 
 .vevent {
   padding-left: 0.7619rem;
-  border-left: 0.38095rem solid rgba(76, 76, 76, 0.5);
+  border-left: 0.38095rem solid rgba(229, 229, 229, 0.5);
 }
 .vevent li {
   list-style: none;
@@ -676,7 +636,7 @@ body:after {
 .vevent .more {
   font-style: italic;
 }
-@media (min-width: 39.70313em) {
+@media (min-width: 29rem) {
   .vevent {
     margin-left: -1.14286rem;
   }
@@ -715,15 +675,4 @@ body:after {
   margin-top: 32px;
   margin-top: 1.52381rem;
   display: block;
-}
-
-.demo-rainbow {
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ff0000), color-stop(14.28571%, #ff0000), color-stop(14.28571%, #ffa500), color-stop(28.57143%, #ffa500), color-stop(28.57143%, #ffff00), color-stop(42.85714%, #ffff00), color-stop(42.85714%, #008000), color-stop(57.14286%, #008000), color-stop(57.14286%, #0000ff), color-stop(71.42857%, #0000ff), color-stop(71.42857%, #4b0082), color-stop(85.71429%, #4b0082), color-stop(85.71429%, #ee82ee), color-stop(100%, #ee82ee));
-  background-image: -webkit-linear-gradient(left, #ff0000 0%, #ff0000 14.28571%, #ffa500 14.28571%, #ffa500 28.57143%, #ffff00 28.57143%, #ffff00 42.85714%, #008000 42.85714%, #008000 57.14286%, #0000ff 57.14286%, #0000ff 71.42857%, #4b0082 71.42857%, #4b0082 85.71429%, #ee82ee 85.71429%, #ee82ee 100%);
-  background-image: -moz-linear-gradient(left, #ff0000 0%, #ff0000 14.28571%, #ffa500 14.28571%, #ffa500 28.57143%, #ffff00 28.57143%, #ffff00 42.85714%, #008000 42.85714%, #008000 57.14286%, #0000ff 57.14286%, #0000ff 71.42857%, #4b0082 71.42857%, #4b0082 85.71429%, #ee82ee 85.71429%, #ee82ee 100%);
-  background-image: -o-linear-gradient(left, #ff0000 0%, #ff0000 14.28571%, #ffa500 14.28571%, #ffa500 28.57143%, #ffff00 28.57143%, #ffff00 42.85714%, #008000 42.85714%, #008000 57.14286%, #0000ff 57.14286%, #0000ff 71.42857%, #4b0082 71.42857%, #4b0082 85.71429%, #ee82ee 85.71429%, #ee82ee 100%);
-  background-image: linear-gradient(left, #ff0000 0%, #ff0000 14.28571%, #ffa500 14.28571%, #ffa500 28.57143%, #ffff00 28.57143%, #ffff00 42.85714%, #008000 42.85714%, #008000 57.14286%, #0000ff 57.14286%, #0000ff 71.42857%, #4b0082 71.42857%, #4b0082 85.71429%, #ee82ee 85.71429%, #ee82ee 100%);
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-  height: 6.09524rem;
 }

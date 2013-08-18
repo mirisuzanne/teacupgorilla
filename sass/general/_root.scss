@@ -7,25 +7,18 @@
 // ----------------------------------------------------------------------------
 // Root
 
-$noise    : image-url('noise.png');
-$bg1      : color($blue lightest,.25);
-$bg2      : color($blue lighter,.25);
-$angle    : to bottom;
-$gradient : $bg1, $bg2;
-
 @include establish-baseline;
 
 html {
-  @include background($blue lightest);
-  @include background($bg1, $noise);
-  @include background(convert-gradient($angle, $gradient...), $noise);
-  @include text-shadow(color(white,.5) 0 1px 0);
-  background: linear-gradient($angle, $gradient), $noise;
-  background-attachment: fixed;
+  text-shadow: color(black,.5) 0 1px 0;
+  background: image-url('noise.png') color($base -80%);
   color: $base;
 }
 
-body { @include serif; }
+body {
+  @include sans;
+  letter-spacing: .05em;
+}
 
 img {
   vertical-align: bottom;

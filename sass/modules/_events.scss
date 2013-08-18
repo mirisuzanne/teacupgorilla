@@ -13,7 +13,7 @@ $event-border-padding: rhythm(.5);
   .summary { font-weight: bold; }
   .more { font-style: italic; }
 
-  @include at-breakpoint($total-columns) {
+  @include breakpoint(container()) {
     margin-left: - $event-border-padding - $event-border-width;
   }
 }

@@ -2,8 +2,8 @@
 
 require 'susy'
 require 'modular-scale'
-require 'animate'
 require 'accoutrement'
+require 'breakpoint'
 
 project_type = :stand_alone
 # Set this to the root of your project when deployed:

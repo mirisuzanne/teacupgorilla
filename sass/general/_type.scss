@@ -17,7 +17,7 @@ a {
 // ----------------------------------------------------------------------------
 // Ampersand
 
-.amp { @include amp; }
+// .amp { @include amp; }
 
 // ----------------------------------------------------------------------------
 // Typography
@@ -28,25 +28,27 @@ a {
   // Headers
 
   h1 {
-    @include sans;
+    @include serif;
     @include adjust-font-size-to($xlargepx);
-    font-weight: bold;
-    @include at-breakpoint($total-columns) { @include adjust-font-size-to($xxlargepx); }
+    @include breakpoint(container()) { @include adjust-font-size-to($xxlargepx); }
+
+    a {
+      #{$link} { color: $base; }
+      #{$focus} { color: $alt; }
+    }
   }
 
   h2 {
-    @include sans;
+    @include serif;
     @include adjust-font-size-to($largepx);
-    font-weight: bold;
-    @include at-breakpoint($total-columns) { @include adjust-font-size-to($xlargepx); }
+    @include breakpoint(container()) { @include adjust-font-size-to($xlargepx); }
   }
 
   h3 {
-    @include sans;
+    @include serif;
     @include trailer;
-    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: .01em;
+    letter-spacing: .1em;
   }
 
   // ------
@@ -80,7 +82,6 @@ a {
   }
 
   figcaption {
-    @include sanscond;
     @include adjust-font-size-to($smallpx,.75);
     @include leader(.5);
     @include rem(padding, rhythm(.5));
@@ -99,7 +100,7 @@ a {
 
   tt, code, pre {
     @include adjust-font-size-to($xxsmallpx,.75);
-    @include mono;
+    @include sans;
   }
 
   tt, code {
@@ -110,7 +111,7 @@ a {
   pre {
     @include rem(margin-left, rhythm(-.5));
     @include rem(padding, rhythm(.5));
-    border-left: 3px solid color($pink lightest);
+    border-left: 3px solid color($red lightest);
   }
 
 }

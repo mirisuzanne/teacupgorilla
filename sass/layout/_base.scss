@@ -1,7 +1,4 @@
 // ----------------------------------------------------------------------------
 // Layout
 
-body {
-  @include container;
-  @include baseline-grid-background;
-}
+body { @include container; }

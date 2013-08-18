@@ -3,10 +3,9 @@
 
 %spacer {
   @include after("+ + +") {
-    @include sans;
+    @include serif;
     display: block;
-    color: color($pink lighter);
-    color: color($pink dark,.25);
+    color: $alt;
     text-align: center;
   }
 }
@@ -15,16 +14,14 @@
 // Banner
 
 [role="banner"] {
-  @include sans;
-  @include adjust-font-size-to($medpx);
+  @include adjust-font-size-to($xxlargepx);
   @include padding-leader(.25);
   white-space: nowrap;
-  font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-align: center;
   a {
-    #{$link} { color: color($pink darker); }
-    #{$focus} { color: color($blue darker); }
+    #{$link} { color: color(lighter); }
+    #{$focus} { color: color(lightest); }
   }
 }
 
@@ -34,13 +31,12 @@
 @mixin active-nav($slug) {
   .#{$slug} &[href*="#{$slug}"] {
     @include before("/");
-    color: color($pink darkest);
+    color: color(lightest);
   }
 }
 
 [role="navigation"] {
-  @include sanscond;
-  @include adjust-font-size-to($smallpx);
+  @include sans;
   @include trailer(.25);
   text-align: center;
 
@@ -50,7 +46,7 @@
     #{$link} {
       display: block;
       padding: 0 rhythm(.25);
-      color: color($pink darker,.75);
+      color: color(lighter,.75);
       @include before("+") {
         display: inline-block;
         width: .5em;
@@ -58,37 +54,39 @@
     }
     #{$focus} {
       @include before("/");
-      color: color($pink darker);
+      color: color(lightest);
     }
     @include active-nav(who);
     @include active-nav(what);
-    @include active-nav(why);
   }
 }
 
 // ----------------------------------------------------------------------------
 // Main
 
-$main-border: 2px dotted color($pink darker);
+$main-border: 6px double $base;
 
 [role="main"] {
   @extend %type;
-  @include h-borders(2px,.5);
+  @include h-borders(6px,.5);
+  @include gutters;
   clear: both;
   counter-reset: fig;
   border-top: $main-border;
   border-bottom: $main-border;
 }
 
-@include at-breakpoint($total-columns) {
-  $half: floor($total-columns/2);
+@include breakpoint(container()) {
+  $half: floor($columns/2);
   [role="banner"], [role="navigation"] {
-    @include span-columns($half);
-    @include padding-leader(.5);
+    @include span($half);
   }
-  [role="banner"] { text-align: left; }
+  [role="banner"] {
+    @include padding-leader(.5);
+    text-align: left;
+  }
   [role="navigation"] {
-    @include omega;
+    @include padding-leader(.75);
     @include trailer(.5);
     text-align: right;
   }
@@ -118,12 +116,16 @@ $main-border: 2px dotted color($pink darker);
 // Contentinfo
 
 [role="contentinfo"] {
-  @include sanscond;
+  @include sans;
   @include adjust-font-size-to($xsmallpx);
+  @include transition(opacity 300ms);
+  opacity: .5;
   padding-bottom: rhythm(1);
   clear: both;
-  color: $mid;
   text-transform: uppercase;
+  text-align: center;
+
+  &:hover { opacity: 1; }
 }
 
 @mixin social($slug) {
@@ -144,7 +146,7 @@ $main-border: 2px dotted color($pink darker);
 }
 
 .social {
-  @include trailer(.5);
+  @include trailer;
 
   ul {
     @include inline-block-list;
@@ -155,16 +157,10 @@ $main-border: 2px dotted color($pink darker);
     &:before { right: 0; }
     #{$link} {
       @include adjust-font-size-to($normpx);
-      @include border-radius(rhythm(.125));
-      @include transition(border-color 200ms);
       display: inline-block;
       margin: -1px rhythm(.5) -1px 0;
       padding: 0 rhythm(.25);
-      border: 1px solid color($blue darker,0);
       text-align: center;
-    }
-    #{$focus} {
-      border-color: color($blue darker,.25);
     }
   }
 
@@ -176,7 +172,11 @@ $main-border: 2px dotted color($pink darker);
   @include social(feed);
 }
 
-.colophon { @include trailer(.5); }
+.colophon {
+  @include adjust-font-size-to($xxsmallpx);
+  @include trailer(.5);
+  display: none;
+}
 
 .copyright {
   .fn { font-weight: bold; }

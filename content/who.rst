@@ -3,15 +3,47 @@ bodyclasses: who
 hide_title: yes
 
 
+Adjectives
+==========
+
 Bio
-===
+---
 
-**Teacup Gorilla** is a mashup of music, performance, and poetry — inspired by artist such as Tom Waits, Mogwai, Bad Luck City, The Widow's Bane, Godspeed You! Black Emperor, and Low. They bring post-rock to poetry readings, and perform novels in crowded bars, without ever seeming out-of-place.
+**Teacup Gorilla** is a petite & deadly band of angular riffs,
+obtuse stomping, street-level poetry, and yelling at the audience.
+The smallest extant genus of primate bands by size,
+Teacup Gorilla are ground-dwelling apes
+that inhabit the china shops of Denver, CO.
 
-What started with math-punk in crowded small-town basements has grown into a long-term collaboration between three experienced multimedia artist. `Daniel Eisenstat`_ is a writer, composer, engineer, and multi-instrumentalist; `Sondra Eby`_ is a writer, visual artist, marketing consultant, and drummer; and `Eric Meyer`_ is a writer, web developer, digital artist, and bass player, with a background in ensemble theatre.
+What started with small-town math-punk in crowded basements
+has grown into a long-term collaboration between three experienced artists
+(`Daniel`_, `Eric`_, `Sondra`_)
+and four or five artistic genres.
+They are the next closest living relatives to humans after the bonobo,
+Tom Waits, Modest Mouse, Mogwai, Bad Luck City,
+The Widow’s Bane, Songs: Ohia, Godspeed You! Black Emperor,
+Fugazi, and Low.
 
-The three have played/fought together for over ten years, in bands such as Elephants for Sale, Dirt Circle Dogs (Onion AV Club B+ for *Kingdom Come*), Iron City, and Raven Jane (regular headliners at The Walnut Room, Meadowlark, and elsewhere). Recently they've been developing a new sound, creating live theatre soundscapes, and performing at readings and garage shows.
+The three have played/fought for over ten years,
+in bands such as Elephants for Sale,
+Dirt Circle Dogs, Iron City, and Raven Jane.
+They've performed at poetry readings and hard-core house shows,
+composed live theatre soundtracks, and started their own warehouse venue.
 
-.. _Daniel Eisenstat: http://thebakerydenver.com/
-.. _Sondra Eby: http://sondraedesign.tumblr.com/
-.. _Eric Meyer: http://eric.andmeyer.com/
+They may be fine artists in the parlor,
+but they're nasty in the garage.
+
+.. _Daniel: http://thebakerydenver.com/
+.. _Sondra: http://sondraedesign.tumblr.com/
+.. _Eric: http://eric.andmeyer.com/
+
+Projects
+--------
+
+* `The Bakery`_ | *arts warehouse — in development*
+* `Into the Green Green Mud`_ | *a novel with pictures — in development*
+* `Missa Populi`_ | *devised ensemble theatre — 2010*
+
+.. _The Bakery: http://www.facebook.com/thebakerydenver
+.. _Into the Green Green Mud: http://greengreenmud.com/
+.. _Missa Populi: http://vicioustrap.com/shows/

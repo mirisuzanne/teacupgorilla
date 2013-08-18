@@ -8,13 +8,14 @@
 }
 
 .byline {
+  @include sanscaps;
+  text-transform: lowercase;
   color: $mid;
-  font-style: italic;
 }
 
 .gallery {
   > a, > img {
-    @include span-columns(3);
+    @include gallery(3 outside after);
     @include nth-omega(even);
     @include trailer(1);
   }

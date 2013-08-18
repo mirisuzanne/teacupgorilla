@@ -1,52 +1,33 @@
-@include font-face (
-  'teacup',
-  font-files(
-    'teacup.svg#teacup', svg,
-    'teacup.woff', woff,
-    'teacup.ttf', truetype
-  ),
-  'teacup.eot',
-  normal,
-  normal
-);
+// Icons
+// =====
 
-/* Use the following CSS code if you want to have a class per icon */
-%icon-content {
-  font-family: 'teacup';
-  font-style: normal;
-  speak: none;
-}
+@include font('teacup' 'icons/teacup');
 
-%icon {
-  &:before {
-    @extend %icon-content;
-    margin-right: .4em;
+@include icon-defaults('teacup');
+
+@each $icon in $icons {
+  %icon-#{nth($icon,1)}:before {
+    content: nth($icon,2);
   }
 }
 
-%icon-replace {
+@mixin icon($name) {
   @extend %icon;
-  position: relative;
-  min-width: 1em;
-  text-indent: -9999px;
-  &:before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-indent: 0;
-    margin: 0;
+  @extend %icon-#{$name};
+
+  &:before {
+    @content;
   }
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-  @extend %icon-content;
-  content: attr(data-icon);
-}
+@mixin icon-replace($name, $width: null) {
+  @extend %icon-replace;
+  @extend %icon-#{$name};
+  display: inline-block;
+  min-width: $width;
+  text-align: left;
 
-%icon-facebook:before { content: "\e001"; }
-%icon-twitter:before { content: "\e002"; }
-%icon-envelope:before { content: "\e000"; }
-%icon-feed:before { content: "\e003"; }
-%icon-soundcloud:before { content: "\e004"; }
-%icon-myspace:before { content: "\e005"; }
+  &:before {
+    @content;
+  }
+}
