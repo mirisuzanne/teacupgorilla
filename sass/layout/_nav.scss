@@ -1,10 +1,18 @@
 // Navigation
 // ----------
 
+$nav: nouns, verbs, adjectives;
+
 @mixin active-nav($slug) {
   .#{$slug} &[href*="#{$slug}"] {
     @include before("/");
     color: color(lightest);
+  }
+}
+
+@mixin nav($slugs) {
+  @each $slug in $slugs {
+    @include active-nav($slug);
   }
 }
 
@@ -20,17 +28,17 @@
     #{$link} {
       display: block;
       color: color(lighter,.75);
-      @include before(" ") {
+      @include wrap-content(" ") {
         display: inline-block;
-        width: 1rem;
+        width: .5rem;
       }
     }
     #{$focus} {
       @include before("/");
       color: color(lightest);
     }
-    @include active-nav(verbs);
-    @include active-nav(adjectives);
+
+    @include nav($nav);
   }
 
   @include breakpoint($container-width) {

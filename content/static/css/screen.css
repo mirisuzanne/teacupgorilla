@@ -393,12 +393,23 @@ body:after {
 [role="navigation"] a:link:before, [role="navigation"] a:visited:before {
   content: " ";
   display: inline-block;
-  width: 1rem;
+  width: .5rem;
+}
+[role="navigation"] a:link:after, [role="navigation"] a:visited:after {
+  content: " ";
+  display: inline-block;
+  width: .5rem;
 }
 [role="navigation"] a:focus, [role="navigation"] a:hover, [role="navigation"] a:active {
   color: #e5e5e5;
 }
 [role="navigation"] a:focus:before, [role="navigation"] a:hover:before, [role="navigation"] a:active:before {
+  content: "/";
+}
+.nouns [role="navigation"] a[href*="nouns"] {
+  color: #e5e5e5;
+}
+.nouns [role="navigation"] a[href*="nouns"]:before {
   content: "/";
 }
 .verbs [role="navigation"] a[href*="verbs"] {
