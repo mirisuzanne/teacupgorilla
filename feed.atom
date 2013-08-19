@@ -37,30 +37,10 @@ as we line up the&amp;nbsp;gigs.&lt;/p&gt;
       <name>Eric A. Meyer</name>
     </author>
     <content type="html">&lt;p&gt;We&amp;#8217;ll be reading/playing in the &lt;a class="reference external" href="http://boulderingpoets.wordpress.com/"&gt;Bouldering Poets&lt;/a&gt; series next&amp;nbsp;month:&lt;/p&gt;
-&lt;p&gt;&lt;ul class="vevent"&gt;
-  &lt;li class="summary"&gt;Bouldering&amp;nbsp;Poets&lt;/li&gt;
-  &lt;li class="info"&gt;
-    &lt;time class="dtstart" datetime="2013-3-22T19:30:00"&gt;
-      Friday March 22, 7:30pm
-    &lt;/time&gt;
-    at
-    &lt;a href="http://303vodka.com/" class="location"&gt;303 Vodka&lt;/a&gt;.
-  &lt;/li&gt;
-  &lt;li class="description"&gt;
-    with
-    &lt;a href="http://naropa.digication.com/GeorgiaVangunten"&gt;
-      Georgia Van Gunten&lt;/a&gt;,
-    &lt;a href="http://www.corvidwriters.org/ellen/index.html"&gt;
-      Ellen Orleans&lt;/a&gt;,
-    and &lt;a href="http://asalott.com/"&gt;Asalott&lt;/a&gt;.
-  &lt;/li&gt;
-  &lt;li class="more"&gt;
-    more details
-    &lt;a href="https://www.facebook.com/events/146730512153484/"&gt;
-      on facebook&amp;nbsp;»
-    &lt;/a&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;March 22, 2013&lt;/strong&gt; at &lt;a class="reference external" href="http://303vodka.com/"&gt;303&amp;nbsp;Vodka&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;with &lt;a class="reference external" href="http://naropa.digication.com/GeorgiaVangunten"&gt;Georgia Van Gunten&lt;/a&gt;, &lt;a class="reference external" href="http://www.corvidwriters.org/ellen/index.html"&gt;Ellen Orleans&lt;/a&gt;, and &lt;a class="reference external" href="http://asalott.com/"&gt;Asalott&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry xml:base="http://teacupgorilla.com/feed.atom">
