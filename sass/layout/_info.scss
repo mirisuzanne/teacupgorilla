@@ -1,0 +1,62 @@
+// Content Info
+// ============
+
+[role="contentinfo"] {
+  @include sans;
+  @include adjust-font-size-to($xsmallpx);
+  padding-bottom: rhythm(1);
+  clear: both;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.copyright {
+  .fn { font-weight: bold; }
+}
+
+// Social
+// ------
+
+@mixin social($slug) {
+  $slug: compact($slug);
+  $icon: false;
+  @if length($slug) > 1 {
+    $icon: nth($slug,2);
+    $slug: nth($slug,1);
+  } @else {
+    $slug: nth($slug,1);
+    $icon: $slug;
+  }
+
+  [href*="#{$slug}"] {
+    @extend %icon-replace;
+    @extend %icon-#{$icon};
+  }
+}
+
+.social {
+  @include trailer;
+
+  ul {
+    @include inline-block-list;
+    overflow: visible;
+  }
+
+  a {
+    &:before { right: 0; }
+    #{$link} {
+      @include adjust-font-size-to($normpx);
+      display: inline-block;
+      margin: -1px rhythm(.5) -1px 0;
+      padding: 0 rhythm(.25);
+      text-align: center;
+    }
+  }
+
+  @include social(mailto envelope);
+  @include social(facebook);
+  @include social(twitter);
+  @include social(soundcloud);
+  @include social(myspace);
+  @include social(feed);
+}

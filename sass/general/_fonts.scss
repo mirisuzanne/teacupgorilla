@@ -13,18 +13,6 @@
 @include font('Narrator' 'narrator/greenmudnarrator-regular-webfont');
 @include font('Narrator' 'narrator/greenmudnarrator-bold-webfont' bold);
 
-// Ampersand
-// ---------
-
-// @include font('BaskervilleAmp' 'amp/Baskerville-amp-webfont.woff');
-
-// CenturyOldStyle
-// ---------------
-
-// @include font-face('CenturyOldStyle' 'serif/CenturyOldStyle-Regular-webfont');
-// @include font-face('CenturyOldStyle' 'serif/CenturyOldStyle-Italic-webfont' italic);
-// @include font-face('CenturyOldStyle' 'serif/CenturyOldStyle-Bold-webfont' bold);
-
 // Font Stacks
 // -----------
 
@@ -37,4 +25,3 @@ $serif-stack  : Baskerville, Palatino, Cambria, Georgia, serif;
 @mixin serif { font-family: 'Narrator', $serif-stack; }
 @mixin sans { font-family: 'Susy', $serif-stack; }
 @mixin sanscaps { font-family: 'SusyCaps', $serif-stack; }
-// @mixin amp { font-family: 'BaskervilleAmp', $serif-stack; }

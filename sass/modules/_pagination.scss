@@ -1,0 +1,13 @@
+// Pagination
+// ==========
+
+.pagination {
+  text-align: center;
+  .prev { &:before { content: "« ";} }
+  .current {
+    @include adjust-font-size-to($xxxlargepx);
+    vertical-align: middle;
+  }
+  .next { &:after { content: " »";} }
+  .disabled { color: $mid; }
+}

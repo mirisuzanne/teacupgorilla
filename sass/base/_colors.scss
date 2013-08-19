@@ -1,16 +1,13 @@
-// ----------------------------------------------------------------------------
 // Colors
+// ======
 
 $mid              : hsl(0,0%,50%);
 $blue             : hsl(195,100%,50%);
 $red              : hsl(0,85%,50%);
-$orange           : hsl(24,100%,50%);
-$green            : hsl(75,100%,50%);
-$pink             : hsl(330,100%,50%);
 
-// ----------------------------------------------------------------------------
 // Defaults
+// --------
 
-$base             : color(lightest);
+$base             : color(lighter);
 $alt              : color($red light);
-$accent           : color($red lightest);
+$accent           : color($red);

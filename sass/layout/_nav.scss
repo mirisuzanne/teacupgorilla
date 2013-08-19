@@ -1,0 +1,42 @@
+// Navigation
+// ----------
+
+@mixin active-nav($slug) {
+  .#{$slug} &[href*="#{$slug}"] {
+    @include before("/");
+    color: color(lightest);
+  }
+}
+
+[role="navigation"] {
+  @include sans;
+  @include adjust-font-size-to($smallpx);
+  @include trailer(.5);
+  text-align: center;
+
+  ul { @include inline-block-list; }
+
+  a {
+    #{$link} {
+      display: block;
+      color: color(lighter,.75);
+      @include before(" ") {
+        display: inline-block;
+        width: 1rem;
+      }
+    }
+    #{$focus} {
+      @include before("/");
+      color: color(lightest);
+    }
+    @include active-nav(verbs);
+    @include active-nav(adjectives);
+  }
+
+  @include breakpoint($container-width) {
+    @include span(3 omega);
+    @include padding-leader(.75);
+    @include trailer(.75);
+    text-align: right;
+  }
+}

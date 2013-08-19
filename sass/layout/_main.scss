@@ -1,0 +1,25 @@
+// Main
+// ====
+
+$main-border-width  : 2px;
+$main-border-style  : solid;
+$main-border-color  : $base;
+
+$main-border: $main-border-width $main-border-style $main-border-color;
+
+[role="main"] {
+  @extend %type;
+  @include gutters;
+  @include trailer(.5);
+  @include h-borders($main-border-width,1);
+  clear: both;
+  counter-reset: fig;
+  border: $main-border;
+  border-width: $main-border-width 0;
+
+  @include breakpoint($container-width) {
+    @include h-borders(2px,1.5);
+    border-top: $main-border;
+    border-bottom: $main-border;
+  }
+}

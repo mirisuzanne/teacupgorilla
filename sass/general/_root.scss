@@ -1,17 +1,11 @@
-// ----------------------------------------------------------------------------
-// Reset
-
-@import "compass/reset";
-@import "fonts";
-
-// ----------------------------------------------------------------------------
 // Root
+// ====
 
 @include establish-baseline;
 
 html {
   text-shadow: color(black,.5) 0 1px 0;
-  background: image-url('noise.png') color($base -80%);
+  background: image-url('noise.png') color(darkest);
   color: $base;
 }
 
@@ -24,9 +18,3 @@ img {
   vertical-align: bottom;
   width: 100%;
 }
-
-// ----------------------------------------------------------------------------
-// Imports
-
-@import "type";
-@import "icons";

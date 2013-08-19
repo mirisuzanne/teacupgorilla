@@ -1,5 +1,5 @@
-// ----------------------------------------------------------------------------
 // Links
+// -----
 
 a {
   &:hover, &:active {
@@ -14,48 +14,49 @@ a {
   }
 }
 
-// ----------------------------------------------------------------------------
-// Ampersand
-
-// .amp { @include amp; }
-
-// ----------------------------------------------------------------------------
 // Typography
+// ----------
 
-%type {
-
-  // -------
-  // Headers
+%headings {
+  h1, h2, h3 {
+    @include serif;
+    color: color(lightest);
+  }
 
   h1 {
-    @include serif;
     @include adjust-font-size-to($xlargepx);
     @include breakpoint(container()) { @include adjust-font-size-to($xxlargepx); }
 
     a {
-      #{$link} { color: $base; }
+      #{$link} { color: color(lightest); }
       #{$focus} { color: $alt; }
     }
   }
 
   h2 {
-    @include serif;
     @include adjust-font-size-to($largepx);
     @include breakpoint(container()) { @include adjust-font-size-to($xlargepx); }
   }
 
   h3 {
-    @include serif;
     @include trailer;
     text-transform: uppercase;
     letter-spacing: .1em;
   }
 
-  // ------
-  // Blocks
+  h4 {
+    @include sanscaps;
+    font-weight: bold;
+  }
 
-  h4, strong { font-weight: bold; }
-  h5, h6, em, blockquote { font-style: italic; }
+  h5, h6 { @include sanscaps; }
+}
+
+%type {
+  @extend %headings;
+
+  strong { font-weight: bold; }
+  em, blockquote { @include sanscaps; }
 
   p, ul, ol, pre, blockquote { @include trailer; }
   p:empty { display: none; }
@@ -72,12 +73,8 @@ a {
     ul, ol { @include rem(margin-left, rhythm(1)); }
   }
 
-  // -------
-  // Figures
-
   figure {
     @include trailer(1);
-    > a, > img, > .video { @include box-shadow($base 0 0 6px); }
     .video { @include fluid-ratio; }
   }
 
@@ -85,33 +82,14 @@ a {
     @include adjust-font-size-to($smallpx,.75);
     @include leader(.5);
     @include rem(padding, rhythm(.5));
-    background: color($blue light,.125);
+    background: color(black,.25);
+    color: color($base dark, .75);
     counter-increment: fig;
     &:before {
       @include serif;
       content: "fig." counter(fig);
       margin-right: .4em;
-      font-style: italic;
+      color: color($base dark,.5);
     }
   }
-
-  // ----
-  // Code
-
-  tt, code, pre {
-    @include adjust-font-size-to($xxsmallpx,.75);
-    @include sans;
-  }
-
-  tt, code {
-    @include rem(padding, 0 rhythm(.25));
-    background: rgba(white,.75);
-  }
-
-  pre {
-    @include rem(margin-left, rhythm(-.5));
-    @include rem(padding, rhythm(.5));
-    border-left: 3px solid color($red lightest);
-  }
-
 }

@@ -1,22 +1,21 @@
-// ----------------------------------------------------------------------------
 // Posts
+// =====
 
 .post {
   @extend %spacer;
   @include trailer;
   &:last-of-type:after { display: none; }
-}
 
-.byline {
-  @include sanscaps;
-  text-transform: lowercase;
-  color: $mid;
+  .byline {
+    @include sanscaps;
+    @include trailer(.5);
+    color: color(dark);
+  }
 }
 
 .gallery {
   > a, > img {
-    @include gallery(3 outside after);
-    @include nth-omega(even);
+    @include gallery(2 outside after);
     @include trailer(1);
   }
   a {
@@ -27,7 +26,7 @@
 }
 
 .readmore {
-  font-style: italic;
+  @include serif;
   &:after { content: "»"; }
 }
 

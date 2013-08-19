@@ -1,13 +1,13 @@
 public: yes
-bodyclasses: who
 hide_title: yes
+bodyclasses: adjectives
 
 
 Adjectives
 ==========
 
-Bio
----
+The Band
+--------
 
 **Teacup Gorilla** is a petite & deadly band of angular riffs,
 obtuse stomping, street-level poetry, and yelling at the audience.

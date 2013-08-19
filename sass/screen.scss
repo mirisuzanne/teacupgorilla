@@ -1,14 +1,49 @@
-// ----------------------------------------------------------------------------
+// Imports
+// -------
+
+@import "compass";
+@import "compass/layout";
+@import "modular-scale";
+@import "accoutrement";
+@import "breakpoint";
+@import "susy";
+
 // Base
+// ----
 
-@import "base/settings";
+@import "base/browsers";
+@import "base/sizes";
+@import "base/colors";
+@import "base/grids";
+@import "base/icons";
+@import "base/type";
+
+// General
+// -------
+
+@import "compass/reset";
+@import "general/fonts";
 @import "general/root";
-@import "layout/base";
+@import "general/type";
+@import "general/icons";
 
-// ----------------------------------------------------------------------------
+// Patterns
+// --------
+
+@import "patterns/spacer";
+
+// Layout
+// ------
+
+@import "layout/base";
+@import "layout/banner";
+@import "layout/nav";
+@import "layout/main";
+@import "layout/info";
+
 // Modules
 
-@import "modules/template";
 @import "modules/posts";
 @import "modules/events";
 @import "modules/list-pages";
+@import "modules/pagination";

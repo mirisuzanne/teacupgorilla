@@ -1,11 +1,6 @@
-// ----------------------------------------------------------------------------
 // Grid
+// ====
 
-@include set-grid(6 (4rem 1rem) inside-static hide);
+@include set-grid(6 (5rem 1.5rem) inside-static hide);
 
-// ----------------------------------------------------------------------------
-// Background
-
-$grid-background-baseline-color   : color(lighter,.25);
-$grid-background-baseline-height  : $base-line-height;
-$grid-background-column-color     : color($blue lightest,.25);
+$container-width: container();

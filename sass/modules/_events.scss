@@ -1,19 +1,18 @@
-// ----------------------------------------------------------------------------
 // Events
+// ======
 
-$event-border-width: rhythm(.25);
-$event-border-padding: rhythm(.5);
+.verbs [id$="-shows"] {
+  ul ul {
+    @include sanscaps;
+    @include adjust-font-size-to($smallpx);
+    @include trailer(.25);
+    text-transform: lowercase;
 
-.vevent {
-  padding-left: $event-border-padding;
-  border-left: $event-border-width solid color($base,.5);
+    a, em { text-transform: uppercase; }
+  }
 
-  li { list-style: none; }
-
-  .summary { font-weight: bold; }
-  .more { font-style: italic; }
-
-  @include breakpoint(container()) {
-    margin-left: - $event-border-padding - $event-border-width;
+  strong {
+    @include serif;
+    color: color(lighter);
   }
 }

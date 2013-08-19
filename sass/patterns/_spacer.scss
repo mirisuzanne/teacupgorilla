@@ -1,0 +1,11 @@
+// Spacer
+// ======
+
+%spacer {
+  @include after("+ + +") {
+    @include serif;
+    display: block;
+    color: $alt;
+    text-align: center;
+  }
+}
