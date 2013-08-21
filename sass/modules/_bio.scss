@@ -1,0 +1,8 @@
+// Bio
+// ===
+
+figure.bio-sketch {
+  @include fluid-ratio(600/450);
+  @include trailer(0);
+  @include breakpoint(25em) { @include trailer(-1); }
+}
