@@ -6,6 +6,14 @@ bodyclasses: adjectives
 Adjectives
 ==========
 
+|heads|
+
+.. |heads| raw:: html
+
+  <figure>
+    <img src="/static/images/heads.svg" alt="" />
+  </figure>
+
 The Band
 --------
 
