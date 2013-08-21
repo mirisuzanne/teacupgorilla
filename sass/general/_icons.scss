@@ -31,3 +31,13 @@
     @content;
   }
 }
+
+@mixin data-icons($icons) {
+  @each $icon in $icons {
+    $name: nth($icon,1);
+    $value: nth($icon,2);
+    [data-icon="#{$name}"]:before { content: $value; }
+  }
+}
+
+@include data-icons($icons);

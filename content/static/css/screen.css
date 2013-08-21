@@ -253,12 +253,12 @@ a:focus, a:hover, a:active {
 
 @font-face {
   font-family: "teacup";
-  src: url('../fonts/icons/teacup.woff?1361779902') format("woff"), url('../fonts/icons/teacup.ttf?1361779902') format("truetype");
+  src: url('../fonts/icons/teacup.woff?1377148464') format("woff"), url('../fonts/icons/teacup.ttf?1377148464') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-.social [href*="mailto"]:before, .social [href*="facebook"]:before, .social [href*="twitter"]:before, .social [href*="soundcloud"]:before, .social [href*="myspace"]:before, .social [href*="feed"]:before, [data-icon]:before {
+[data-icon]:before {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -267,49 +267,36 @@ a:focus, a:hover, a:active {
   speak: none;
 }
 
-.social [href*="mailto"], .social [href*="facebook"], .social [href*="twitter"], .social [href*="soundcloud"], .social [href*="myspace"], .social [href*="feed"] {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  position: relative;
-  min-width: 1em;
-  text-indent: -9999px;
-}
-.social [href*="mailto"]:before, .social [href*="facebook"]:before, .social [href*="twitter"]:before, .social [href*="soundcloud"]:before, .social [href*="myspace"]:before, .social [href*="feed"]:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-indent: 0;
-  text-align: center;
-}
-
 [data-icon]:before {
   content: attr(data-icon);
 }
 
-.social [href*="facebook"]:before {
+[data-icon="facebook"]:before {
   content: "\e001";
 }
 
-.social [href*="twitter"]:before {
+[data-icon="twitter"]:before {
   content: "\e002";
 }
 
-.social [href*="mailto"]:before {
+[data-icon="email"]:before {
   content: "\e000";
 }
 
-.social [href*="feed"]:before {
+[data-icon="feed"]:before {
   content: "\e003";
 }
 
-.social [href*="soundcloud"]:before {
+[data-icon="soundcloud"]:before {
   content: "\e004";
 }
 
-.social [href*="myspace"]:before {
+[data-icon="myspace"]:before {
   content: "\e005";
+}
+
+[data-icon="html5"]:before {
+  content: "\e006";
 }
 
 .post:after {
@@ -318,6 +305,52 @@ a:focus, a:hover, a:active {
   display: block;
   color: #ef4242;
   text-align: center;
+}
+
+.tooltip {
+  font-size: 15px;
+  font-size: 0.71429rem;
+  line-height: 32px;
+  line-height: 1.52381rem;
+  position: absolute;
+  padding: 0 0.38095rem;
+  color: black;
+  background: #c1c1c1;
+  border: 1px solid black;
+  text-shadow: 0 1px 0 #cdcdcd;
+  white-space: nowrap;
+  display: none;
+}
+[data-tooltip].tooltip:after {
+  content: attr(data-tooltip);
+}
+
+.social a .tooltip {
+  bottom: 100%;
+  margin-bottom: 0.38095rem;
+}
+
+.social a .tooltip {
+  left: 0;
+}
+.social a .tooltip:before {
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  pointer-events: none;
+  top: 100%;
+  border-top-color: #c1c1c1;
+  border-width: 0.38095rem;
+  left: 0.38095rem;
+}
+
+.social a {
+  position: relative;
+}
+.social a:hover .tooltip {
+  display: block;
 }
 
 body {
@@ -514,16 +547,13 @@ body:after {
   vertical-align: middle;
   white-space: nowrap;
 }
-.social a:before {
-  right: 0;
-}
 .social a:link, .social a:visited {
   font-size: 21px;
   font-size: 1rem;
   line-height: 32px;
   line-height: 1.52381rem;
   display: inline-block;
-  margin: -1px 0.7619rem -1px 0;
+  margin: 0 0.7619rem;
   padding: 0 0.38095rem;
   text-align: center;
 }

@@ -17,23 +17,6 @@
 // Social
 // ------
 
-@mixin social($slug) {
-  $slug: compact($slug);
-  $icon: false;
-  @if length($slug) > 1 {
-    $icon: nth($slug,2);
-    $slug: nth($slug,1);
-  } @else {
-    $slug: nth($slug,1);
-    $icon: $slug;
-  }
-
-  [href*="#{$slug}"] {
-    @extend %icon-replace;
-    @extend %icon-#{$icon};
-  }
-}
-
 .social {
   @include trailer;
 
@@ -43,20 +26,14 @@
   }
 
   a {
-    &:before { right: 0; }
+    @include tooltip;
+
     #{$link} {
       @include adjust-font-size-to($normpx);
       display: inline-block;
-      margin: -1px rhythm(.5) -1px 0;
+      margin: 0 rhythm(.5);
       padding: 0 rhythm(.25);
       text-align: center;
     }
   }
-
-  @include social(mailto envelope);
-  @include social(facebook);
-  @include social(twitter);
-  @include social(soundcloud);
-  @include social(myspace);
-  @include social(feed);
 }
