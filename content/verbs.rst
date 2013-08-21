@@ -40,8 +40,25 @@ Past Shows
   - `Bouldering Poets`_
     with `Georgia Van Gunten`_, `Ellen Orleans`_, and `Asalott`_
 
+- **July 21, 2012** | `Leon`_ Presents a Reading Series #6
+
+  - with `Eric Meyer`_ [solo] and *Kelly Dulaney*
+
+- **Sept 3, 2010** | `Butterfly Pavilion`_
+
+- **June 26, 2010** | `Packing House Center for the Arts`_
+
+- **March 25-27, 2010** | `Packing House Center for the Arts`_
+
+  - *Missa Populi* with `Vicious Trap`_
+
 .. _303 Vodka: http://303vodka.com/
 .. _Bouldering Poets: http://boulderingpoets.wordpress.com/
 .. _Georgia Van Gunten: http://naropa.digication.com/GeorgiaVangunten
 .. _Ellen Orleans: http://www.corvidwriters.org/ellen/index.html
 .. _Asalott: http://asalott.com/
+.. _Leon: https://www.facebook.com/leongallery
+.. _Eric Meyer: http://eric.andmeyer.com/
+.. _Butterfly Pavilion: http://www.butterflies.org/
+.. _Packing House Center for the Arts: http://www.controlgroupproductions.org/
+.. _Vicious Trap: http://vicioustrap.com/
