@@ -3,14 +3,18 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="332.5 -58 600 450" enable-background="new 332.5 -58 600 450" xml:space="preserve">
-<rect x="338.5" y="50.498" fill="#B2B2B2" width="60" height="257.004"/>
-<rect x="406.5" y="-34.5" fill="#B2B2B2" width="68.828" height="303"/>
-<rect x="484.133" y="-11.5" fill="#B2B2B2" width="62.367" height="347"/>
-<rect x="555.5" y="-55" fill="#B2B2B2" width="88" height="446.5"/>
-<rect x="652.5" y="11.934" fill="#B2B2B2" width="45" height="259.066"/>
-<rect x="769.5" y="-29.621" fill="#B2B2B2" width="88" height="321"/>
-<rect x="865.5" y="57" fill="#B2B2B2" width="61.746" height="258.502"/>
-<rect x="704.5" y="57" fill="#B2B2B2" width="57" height="288"/>
+<style type="text/css">
+	.window { fill: #b2b2b2; }
+	.window:hover { fill: #ec1313; }
+</style>
+<rect class="window" x="338.5" y="50.498" width="60" height="257.004"/>
+<rect class="window" x="406.5" y="-34.5" width="68.828" height="303"/>
+<rect class="window" x="484.133" y="-11.5" width="62.367" height="347"/>
+<rect class="window" x="555.5" y="-55" width="88" height="446.5"/>
+<rect class="window" x="652.5" y="11.934" width="45" height="259.066"/>
+<rect class="window" x="769.5" y="-29.621" width="88" height="321"/>
+<rect class="window" x="865.5" y="57" width="61.746" height="258.502"/>
+<rect class="window" x="704.5" y="57" width="57" height="288"/>
 <g>
 	<g>
 		<path fill="none" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" d="M863.146,56.113
