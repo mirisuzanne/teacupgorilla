@@ -630,6 +630,7 @@ body:after {
   text-transform: lowercase;
 }
 .verbs [id$="-shows"] ul ul a, .verbs [id$="-shows"] ul ul em {
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
   text-transform: uppercase;
 }
 .verbs [id$="-shows"] strong {

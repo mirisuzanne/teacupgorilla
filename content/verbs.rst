@@ -9,6 +9,10 @@ Verbs
 Upcoming Shows
 --------------
 
+- **Thurs, Sept 19** / Doors at 8pm / `Herman's Hideaway`_
+
+.. _Herman's Hideaway: http://www.hermanshideaway.com/
+
 |contact|
 
 .. |contact| raw:: html
@@ -31,24 +35,24 @@ Demos
 Past Shows
 ----------
 
-- **July 27, 2013** | Zach's Garage
+- **July 27, 2013** / Zach's Garage
 
   - with *Muscle Beach* and *[empty brackets]*
 
-- **March 22, 2013** | `303 Vodka`_
+- **March 22, 2013** / `303 Vodka`_
 
   - `Bouldering Poets`_
     with `Georgia Van Gunten`_, `Ellen Orleans`_, and `Asalott`_
 
-- **July 21, 2012** | `Leon`_ Presents a Reading Series #6
+- **July 21, 2012** / `Leon`_ Presents a Reading Series #6
 
   - with `Eric Meyer`_ [solo] and *Kelly Dulaney*
 
-- **Sept 3, 2010** | `Butterfly Pavilion`_
+- **Sept 3, 2010** / `Butterfly Pavilion`_
 
-- **June 26, 2010** | `Packing House Center for the Arts`_
+- **June 26, 2010** / `Packing House Center for the Arts`_
 
-- **March 25-27, 2010** | `Packing House Center for the Arts`_
+- **March 25-27, 2010** / `Packing House Center for the Arts`_
 
   - *Missa Populi* with `Vicious Trap`_
 

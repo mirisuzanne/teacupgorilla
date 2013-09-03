@@ -8,7 +8,10 @@
     @include trailer(.25);
     text-transform: lowercase;
 
-    a, em { text-transform: uppercase; }
+    a, em {
+      @include sans;
+      text-transform: uppercase;
+    }
   }
 
   strong {
