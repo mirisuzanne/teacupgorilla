@@ -12,9 +12,9 @@
     @extend %event-description;
     @include before('• ');
     margin-left: rhythm(.5);
+    display: none;
+    .verbs & { display: block; }
   }
-
-  + .vevent { @include leader(.25); }
 }
 
 %event-description {
