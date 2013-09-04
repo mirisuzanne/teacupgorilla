@@ -619,25 +619,6 @@ body:after {
   clear: both;
 }
 
-.verbs [id$="-shows"] ul ul {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-size: 18px;
-  font-size: 0.85714rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-  margin-bottom: 8px;
-  margin-bottom: 0.38095rem;
-  text-transform: lowercase;
-}
-.verbs [id$="-shows"] ul ul a, .verbs [id$="-shows"] ul ul em {
-  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
-  text-transform: uppercase;
-}
-.verbs [id$="-shows"] strong {
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-  color: #b2b2b2;
-}
-
 .blog-archive, .tag-archive {
   margin-top: 32px;
   margin-top: 1.52381rem;
@@ -691,6 +672,84 @@ body:after {
 }
 .pagination .disabled {
   color: gray;
+}
+
+.feature {
+  border-top-width: 2px;
+  border-top-width: 0.09524rem;
+  border-top-style: solid;
+  padding-top: 14px;
+  padding-top: 0.66667rem;
+  padding-bottom: 16px;
+  padding-bottom: 0.7619rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  clear: both;
+}
+
+.vevent .dtstart {
+  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
+  font-weight: bold;
+}
+.vevent .time:before {
+  content: " / ";
+  font-weight: normal;
+}
+.vevent .time:after {
+  content: " / ";
+  font-weight: normal;
+}
+.vevent .date {
+  color: #e5e5e5;
+}
+.vevent .description {
+  margin-left: 0.7619rem;
+}
+.vevent .description:before {
+  content: "• ";
+}
+.vevent + .vevent {
+  margin-top: 8px;
+  margin-top: 0.38095rem;
+}
+
+.vevent .description, .verbs [id$="-shows"] ul ul {
+  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
+  font-size: 18px;
+  font-size: 0.85714rem;
+  line-height: 32px;
+  line-height: 1.52381rem;
+}
+.vevent .description a, .verbs [id$="-shows"] ul ul a, .vevent .description em, .verbs [id$="-shows"] ul ul em {
+  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
+  text-transform: uppercase;
+}
+
+.booking-link:link, .booking-link:visited {
+  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
+  margin-top: -48px;
+  margin-top: -2.28571rem;
+  -moz-border-radius-bottomleft: 0.125rem;
+  -webkit-border-bottom-left-radius: 0.125rem;
+  border-bottom-left-radius: 0.125rem;
+  -moz-border-radius-bottomright: 0.125rem;
+  -webkit-border-bottom-right-radius: 0.125rem;
+  border-bottom-right-radius: 0.125rem;
+  float: right;
+  display: inline-block;
+  padding: 0 1.52381rem;
+  border: 2px solid #b2b2b2;
+  background: #666666;
+  color: #b2b2b2;
+}
+.booking-link:focus, .booking-link:hover, .booking-link:active {
+  background-color: #ec1313;
+  color: #e5e5e5;
+}
+
+.verbs [id$="-shows"] ul ul {
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 figure.bio-sketch {

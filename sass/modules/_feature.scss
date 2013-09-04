@@ -1,0 +1,9 @@
+// Feature
+// =======
+
+.feature {
+  @include leading-border(2px, .5);
+  @include padding-trailer(.5);
+  @include gutters;
+  clear: both;
+}

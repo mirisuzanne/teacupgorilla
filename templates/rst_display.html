@@ -10,6 +10,14 @@
 
 {% block bodyclasses %}{{ super() }}{% if config.bodyclasses %} {{ config.bodyclasses }}{% endif %}{% endblock %}
 
+{% block feature %}
+  {% if config.calendar %}
+  <section class="feature">
+    {% include "_shows.html" %}
+  </section>
+  {% endif %}
+{% endblock feature %}
+
 {% block body %}
 
   {%- if not config.hide_title %}

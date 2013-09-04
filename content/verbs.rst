@@ -1,25 +1,15 @@
 public: yes
 hide_title: yes
 bodyclasses: verbs
+calendar: yes
 
 
 Verbs
 =====
 
-Upcoming Shows
---------------
+.. raw:: html
 
-- **Thurs, Sept 19** / Doors at 8pm / `Herman's Hideaway`_
-
-.. _Herman's Hideaway: http://www.hermanshideaway.com/
-
-|contact|
-
-.. |contact| raw:: html
-
-  <a href="mailto:booking(put the 'at' sign here)teacupgorilla.com" class="email">
-    <em>book a show »</em>
-  </a>
+  <a href="mailto:booking(put the 'at' sign here)teacupgorilla.com" class="email booking-link">book a show »</a>
 
 Demos
 -----
