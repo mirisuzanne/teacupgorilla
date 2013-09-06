@@ -704,13 +704,9 @@ body:after {
 }
 .vevent .description {
   margin-left: 0.7619rem;
-  display: none;
 }
-.vevent .description:before {
+.vevent .description li:before {
   content: "• ";
-}
-.verbs .vevent .description {
-  display: block;
 }
 
 .vevent .description, .verbs [id$="-shows"] ul ul {
