@@ -10,10 +10,12 @@
   .date { color: color(lightest); }
   .description {
     @extend %event-description;
-    @include before('• ');
     margin-left: rhythm(.5);
-    display: none;
-    .verbs & { display: block; }
+    li { @include before('• '); }
+
+    // @@@ hide details on index pages?
+    // display: none;
+    // .verbs & { display: block; }
   }
 }
 
