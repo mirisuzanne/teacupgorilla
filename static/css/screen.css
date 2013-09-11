@@ -572,24 +572,38 @@ body:after {
   color: #666666;
 }
 
-.gallery > a, .gallery > img {
-  width: 33.33333%;
+.gallery {
+  overflow: hidden;
+}
+.gallery > a, .gallery > img, .gallery > .video {
+  width: 48.0%;
   float: left;
   margin-right: -100%;
   margin-bottom: 32px;
   margin-bottom: 1.52381rem;
 }
-.gallery > a:nth-child(3n + 1), .gallery > img:nth-child(3n + 1) {
+.gallery > a:nth-child(2n + 1), .gallery > img:nth-child(2n + 1), .gallery > .video:nth-child(2n + 1) {
   margin-left: 0;
   clear: left;
 }
-.gallery > a:nth-child(3n + 2), .gallery > img:nth-child(3n + 2) {
-  margin-left: 33.33333%;
+.gallery > a:nth-child(2n + 2), .gallery > img:nth-child(2n + 2), .gallery > .video:nth-child(2n + 2) {
+  margin-left: 52%;
   clear: none;
 }
-.gallery > a:nth-child(3n + 3), .gallery > img:nth-child(3n + 3) {
-  margin-left: 66.66667%;
-  clear: none;
+.gallery > .video.video {
+  position: relative;
+  height: 0;
+  padding-top: 27.0%;
+  width: 48.0%;
+}
+.gallery > .video.video > * {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
 }
 .gallery a:link, .gallery a:visited {
   -webkit-transition: all 150ms;
@@ -689,24 +703,26 @@ body:after {
 
 .vevent .dtstart {
   font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-weight: bold;
-}
-.vevent .time:before {
-  content: " / ";
-  font-weight: normal;
-}
-.vevent .time:after {
-  content: " / ";
-  font-weight: normal;
 }
 .vevent .date {
   color: #e5e5e5;
+  font-weight: bold;
+}
+.vevent .time:before {
+  content: " :: ";
+}
+.vevent .time:after {
+  content: " :: ";
 }
 .vevent .description {
   margin-left: 0.7619rem;
+  display: none;
 }
 .vevent .description li:before {
   content: "• ";
+}
+.verbs .vevent .description {
+  display: block;
 }
 
 .vevent .description, .verbs [id$="-shows"] ul ul {
