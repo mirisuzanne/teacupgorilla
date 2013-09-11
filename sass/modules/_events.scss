@@ -2,20 +2,22 @@
 // ======
 
 .vevent {
-  .dtstart {
-    @include serif;
+  .dtstart { @include serif; }
+  .date {
+    color: color(lightest);
     font-weight: bold;
   }
-  .time { @include wrap-content(' / ') { font-weight: normal; } }
-  .date { color: color(lightest); }
+  .time {
+    @include before(' :: ');
+    @include after(' :: ');
+  }
   .description {
     @extend %event-description;
     margin-left: rhythm(.5);
     li { @include before('• '); }
 
-    // @@@ hide details on index pages?
-    // display: none;
-    // .verbs & { display: block; }
+    display: none;
+    .verbs & { display: block; }
   }
 }
 
