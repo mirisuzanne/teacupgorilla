@@ -7,9 +7,11 @@
     color: color(lightest);
     font-weight: bold;
   }
-  .time {
-    @include before(' :: ');
-    @include after(' :: ');
+  .date, .time {
+    @include after(' :: ') {
+      color: $base;
+      font-weight: normal;
+    }
   }
   .description {
     @extend %event-description;
