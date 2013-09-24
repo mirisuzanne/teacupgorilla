@@ -25,9 +25,13 @@ Demos
 Past Shows
 ----------
 
+- **Sept. 19, 2013** / `Herman's Hideaway`_
+
+  - with `Nikol&Zack`_, `Blame Gravity`_, and `Lindsey Saunders Band`_
+
 - **July 27, 2013** / Zach's Garage
 
-  - with *Muscle Beach* and *[empty brackets]*
+  - with `Muscle Beach`_ and *[empty brackets]*
 
 - **March 22, 2013** / `303 Vodka`_
 
@@ -46,6 +50,11 @@ Past Shows
 
   - *Missa Populi* with `Vicious Trap`_
 
+.. _Herman's Hideaway: http://www.hermanshideaway.com/
+.. _Nikol&Zack: http://www.ourstage.com/epk/nikolzack/
+.. _Blame Gravity: http://www.blamegravity.com/
+.. _Lindsey Saunders Band: http://lindseysaundersmusic.com/
+.. _Muscle Beach: https://www.facebook.com/musclebeachparty
 .. _303 Vodka: http://303vodka.com/
 .. _Bouldering Poets: http://boulderingpoets.wordpress.com/
 .. _Georgia Van Gunten: http://naropa.digication.com/GeorgiaVangunten
