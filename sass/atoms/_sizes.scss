@@ -1,10 +1,10 @@
-// Defaults
-// ========
+// Size Settings
+// =============
 
 $base-size: 21px;
 $ratio: minor-third() fifth();
 
-// Variants
+// Pallette
 // --------
 
 $m      : 1;
@@ -27,3 +27,17 @@ $largepx      : ms($l);
 $xlargepx     : ms($xl);
 $xxlargepx    : ms($xxl);
 $xxxlargepx   : ms($xxxl);
+
+// Guide
+// -----
+
+$rhythm-unit                      : rem;
+$rem-with-px-fallback             : false;
+
+$base-font-size                   : $normpx;
+$base-line-height                 : $xlargepx;
+
+$round-to-nearest-half-line       : true;
+$grid-background-baseline-height  : $base-line-height;
+
+$body-size                        : $base-font-size;

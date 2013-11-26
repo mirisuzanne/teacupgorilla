@@ -1,0 +1,30 @@
+// Logo
+// ====
+
+$t-size: ms(21);
+$g-size: ms(17);
+
+.logo {
+  font-size: 0;
+  letter-spacing: rhythm(-2);
+  a {
+    &:link, &:visited {
+      @include transition(all 200ms);
+      display: block;
+      color: $red;
+      text-shadow: -1px 4px 0 white;
+    }
+    &:hover, &:focus, &:active {
+      color: white;
+      text-shadow: 0 0 0 white;
+    }
+  }
+}
+
+.t, .g {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.t { @include adjust-font-size-to($t-size); }
+.g { @include adjust-font-size-to($g-size); }

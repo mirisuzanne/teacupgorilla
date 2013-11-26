@@ -55,45 +55,103 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: "Susy";
-  src: url('../fonts/susy/greenmudsusy-regular-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-regular-webfont.ttf?1349774720') format("truetype");
+  font-family: "susy";
+  src: url('../fonts/susy/greenmudsusy-regular-webfont.woff?1385428933') format("woff"), url('../fonts/susy/greenmudsusy-regular-webfont.ttf?1385428933') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "Susy";
-  src: url('../fonts/susy/greenmudsusy-bold-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-bold-webfont.ttf?1349774720') format("truetype");
+  font-family: "susy";
+  src: url('../fonts/susy/greenmudsusy-bold-webfont.woff?1385428933') format("woff"), url('../fonts/susy/greenmudsusy-bold-webfont.ttf?1385428933') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "SusyCaps";
-  src: url('../fonts/susy/greenmudsusy-smallcaps-webfont.woff?1349774720') format("woff"), url('../fonts/susy/greenmudsusy-smallcaps-webfont.ttf?1349774720') format("truetype");
+  font-family: "susycaps";
+  src: url('../fonts/susy/greenmudsusy-smallcaps-webfont.woff?1385428933') format("woff"), url('../fonts/susy/greenmudsusy-smallcaps-webfont.ttf?1385428933') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "SusyCaps";
-  src: url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.woff?1349774824') format("woff"), url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.ttf?1349774824') format("truetype");
+  font-family: "susycaps";
+  src: url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.woff?1385428933') format("woff"), url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.ttf?1385428933') format("truetype");
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "Narrator";
-  src: url('../fonts/narrator/greenmudnarrator-regular-webfont.woff?1352202722') format("woff"), url('../fonts/narrator/greenmudnarrator-regular-webfont.ttf?1352202722') format("truetype");
+  font-family: "narrator";
+  src: url('../fonts/narrator/greenmudnarrator-regular-webfont.woff?1385428933') format("woff"), url('../fonts/narrator/greenmudnarrator-regular-webfont.ttf?1385428933') format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: "Narrator";
-  src: url('../fonts/narrator/greenmudnarrator-bold-webfont.woff?1352202722') format("woff"), url('../fonts/narrator/greenmudnarrator-bold-webfont.ttf?1352202722') format("truetype");
+  font-family: "narrator";
+  src: url('../fonts/narrator/greenmudnarrator-bold-webfont.woff?1385428933') format("woff"), url('../fonts/narrator/greenmudnarrator-bold-webfont.ttf?1385428933') format("truetype");
   font-weight: bold;
   font-style: normal;
+}
+html h1, html h2, html h3, html h4 {
+  font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
+}
+
+html {
+  font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
+}
+
+html a:link, html a:visited {
+  color: #ef4242;
+  text-decoration: none;
+}
+html a:hover, html a:focus, html a:active {
+  color: #ec1313;
+  text-decoration: underline;
+}
+
+html h1, html h2, html h3, html h4 {
+  color: #e5e5e5;
+}
+
+html h1 {
+  font-size: 2.09524rem;
+  line-height: 2.28571rem;
+}
+
+html h2 {
+  font-size: 1.52381rem;
+  line-height: 2.28571rem;
+}
+
+html h3 {
+  text-transform: uppercase;
+}
+
+html strong {
+  font-weight: bold;
+}
+html em, html blockquote {
+  font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
+}
+html p, html ul, html ol, html pre, html blockquote {
+  margin-bottom: 1.52381rem;
+}
+html p:empty {
+  display: none;
+}
+html ul {
+  list-style-type: disc;
+}
+html ol {
+  list-style-type: decimal;
+}
+html blockquote {
+  padding: 0 1.14286rem;
+  border-left: 0.38095rem solid;
+}
+html blockquote em {
+  font-style: normal;
+}
+html ul ul, html ul ol, html ol ul, html ol ol, html blockquote ul, html blockquote ol {
+  margin-left: 1.52381rem;
 }
 
 html {
@@ -102,687 +160,90 @@ html {
 }
 
 html {
-  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
-  background: url('../images/noise.png?1347221205') #191919;
+  background: #191919 url('../images/black_paper.png?1339701544') repeat fixed;
   color: #b2b2b2;
-}
-
-body {
-  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
+  text-shadow: 0 -1px 0 #0f0f0f;
   letter-spacing: .05em;
 }
 
-img {
-  vertical-align: bottom;
-  width: 100%;
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0 1.52381rem;
+  border-top: 0.19048rem solid #ec1313;
 }
 
-a:hover, a:active {
-  outline: none;
+[role='navigation'] {
+  font-size: 0.85714rem;
+  line-height: 1.52381rem;
+  text-align: right;
 }
-a:link, a:visited {
-  color: #ef4242;
+.blog [role='navigation'] [href*="blog"] {
+  padding-top: 2.28571rem;
+  background: #ec1313;
+  text-transform: uppercase;
+}
+.nouns [role='navigation'] [href*="nouns"] {
+  padding-top: 2.28571rem;
+  background: #ec1313;
+  text-transform: uppercase;
+}
+.verbs [role='navigation'] [href*="verbs"] {
+  padding-top: 2.28571rem;
+  background: #ec1313;
+  text-transform: uppercase;
+}
+.adjectives [role='navigation'] [href*="adjectives"] {
+  padding-top: 2.28571rem;
+  background: #ec1313;
+  text-transform: uppercase;
+}
+[role='navigation'] a:link, [role='navigation'] a:visited {
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  display: inline-block;
+  padding: 0.38095rem 1.52381rem 0;
+  vertical-align: top;
+  color: #efefef;
+  background: rgba(239, 66, 66, 0.5);
+}
+[role='navigation'] a:hover, [role='navigation'] a:focus, [role='navigation'] a:active {
+  padding-top: 1.52381rem;
+  background: #ec1313;
   text-decoration: none;
 }
-a:focus, a:hover, a:active {
+
+.logo {
+  font-size: 0;
+  letter-spacing: -3.04762rem;
+}
+.logo a:link, .logo a:visited {
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  display: block;
   color: #ec1313;
+  text-shadow: -1px 4px 0 white;
+}
+.logo a:hover, .logo a:focus, .logo a:active {
+  color: white;
+  text-shadow: 0 0 0 white;
 }
 
-[role="main"] h1, [role="main"] h2, [role="main"] h3 {
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-  color: #e5e5e5;
-}
-[role="main"] h1 {
-  font-size: 32px;
-  font-size: 1.52381rem;
-  line-height: 48px;
-  line-height: 2.28571rem;
-}
-@media (min-width: 37.5rem) {
-  [role="main"] h1 {
-    font-size: 44px;
-    font-size: 2.09524rem;
-    line-height: 48px;
-    line-height: 2.28571rem;
-  }
-}
-[role="main"] h1 a:link, [role="main"] h1 a:visited {
-  color: #e5e5e5;
-}
-[role="main"] h1 a:focus, [role="main"] h1 a:hover, [role="main"] h1 a:active {
-  color: #ef4242;
-}
-[role="main"] h2 {
-  font-size: 30px;
-  font-size: 1.42857rem;
-  line-height: 48px;
-  line-height: 2.28571rem;
-}
-@media (min-width: 37.5rem) {
-  [role="main"] h2 {
-    font-size: 32px;
-    font-size: 1.52381rem;
-    line-height: 48px;
-    line-height: 2.28571rem;
-  }
-}
-[role="main"] h3 {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-}
-[role="main"] h4 {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-weight: bold;
-}
-[role="main"] h5, [role="main"] h6 {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-
-[role="main"] strong {
-  font-weight: bold;
-}
-[role="main"] em, [role="main"] blockquote {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-[role="main"] p, [role="main"] ul, [role="main"] ol, [role="main"] pre, [role="main"] blockquote {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-}
-[role="main"] p:empty {
-  display: none;
-}
-[role="main"] ul {
-  list-style-type: disc;
-}
-[role="main"] ol {
-  list-style-type: decimal;
-}
-[role="main"] blockquote {
-  padding: 0 24px;
-  padding: 0 1.14438rem;
-  border-left: 8px solid #b2b2b2;
-  border-left: 0.38095rem solid #b2b2b2;
-}
-[role="main"] blockquote em {
-  font-style: normal;
-}
-[role="main"] ul ul, [role="main"] ul ol, [role="main"] ol ul, [role="main"] ol ol, [role="main"] blockquote ul, [role="main"] blockquote ol {
-  margin-left: 32px;
-  margin-left: 1.52381rem;
-}
-[role="main"] figure {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-}
-[role="main"] figure .video {
-  position: relative;
-  height: 0;
-  padding-top: 56.25%;
-  width: 100%;
-}
-[role="main"] figure .video > * {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  margin: 0;
-  padding: 0;
-}
-[role="main"] figcaption {
-  font-size: 18px;
-  font-size: 0.85714rem;
-  line-height: 24px;
-  line-height: 1.14286rem;
-  margin-top: 16px;
-  margin-top: 0.7619rem;
-  padding: 16px;
-  padding: 0.7619rem;
-  background: rgba(0, 0, 0, 0.25);
-  color: rgba(142, 142, 142, 0.75);
-  counter-increment: fig;
-}
-[role="main"] figcaption:before {
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-  content: "fig." counter(fig);
-  margin-right: .4em;
-  color: rgba(142, 142, 142, 0.5);
-}
-
-@font-face {
-  font-family: "teacup";
-  src: url('../fonts/icons/teacup.woff?1377148464') format("woff"), url('../fonts/icons/teacup.ttf?1377148464') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-[data-icon]:before {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  font-family: "teacup";
-  font-style: normal;
-  speak: none;
-}
-
-[data-icon]:before {
-  content: attr(data-icon);
-}
-
-[data-icon="facebook"]:before {
-  content: "\e001";
-}
-
-[data-icon="twitter"]:before {
-  content: "\e002";
-}
-
-[data-icon="email"]:before {
-  content: "\e000";
-}
-
-[data-icon="feed"]:before {
-  content: "\e003";
-}
-
-[data-icon="soundcloud"]:before {
-  content: "\e004";
-}
-
-[data-icon="myspace"]:before {
-  content: "\e005";
-}
-
-[data-icon="html5"]:before {
-  content: "\e006";
-}
-
-.post:after {
-  content: "+ + +";
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-  display: block;
-  color: #ef4242;
-  text-align: center;
-}
-
-.tooltip {
-  font-size: 15px;
-  font-size: 0.71429rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-  position: absolute;
-  padding: 0 0.38095rem;
-  color: black;
-  background: #c1c1c1;
-  border: 1px solid black;
-  text-shadow: 0 1px 0 #cdcdcd;
-  white-space: nowrap;
-  display: none;
-}
-[data-tooltip].tooltip:after {
-  content: attr(data-tooltip);
-}
-
-.social a .tooltip {
-  bottom: 100%;
-  margin-bottom: 0.38095rem;
-}
-
-.social a .tooltip {
-  left: 0;
-}
-.social a .tooltip:before {
-  content: " ";
-  position: absolute;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  pointer-events: none;
-  top: 100%;
-  border-top-color: #c1c1c1;
-  border-width: 0.38095rem;
-  left: 0.38095rem;
-}
-
-.social a {
-  position: relative;
-}
-.social a:hover .tooltip {
-  display: block;
-}
-
-body {
-  max-width: 37.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-body:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-[role="banner"] {
-  font-size: 44px;
-  font-size: 2.09524rem;
-  line-height: 48px;
-  line-height: 2.28571rem;
-  padding-top: 16px;
-  padding-top: 0.7619rem;
-  white-space: nowrap;
-  text-transform: lowercase;
-  text-align: center;
-}
-[role="banner"] a:link, [role="banner"] a:visited {
-  color: #b2b2b2;
-}
-[role="banner"] a:focus, [role="banner"] a:hover, [role="banner"] a:active {
-  color: #ec1313;
-}
-@media (min-width: 37.5rem) {
-  [role="banner"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    text-align: left;
-  }
-}
-
-[role="navigation"] {
-  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-size: 18px;
-  font-size: 0.85714rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-  margin-bottom: 16px;
-  margin-bottom: 0.7619rem;
-  text-align: center;
-}
-[role="navigation"] ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-}
-[role="navigation"] ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  display: -moz-inline-stack;
+.t, .g {
   display: inline-block;
   vertical-align: middle;
-  white-space: nowrap;
-}
-[role="navigation"] a:link, [role="navigation"] a:visited {
-  display: block;
-  color: rgba(178, 178, 178, 0.75);
-}
-[role="navigation"] a:link:before, [role="navigation"] a:visited:before {
-  content: " ";
-  display: inline-block;
-  width: .5rem;
-}
-[role="navigation"] a:link:after, [role="navigation"] a:visited:after {
-  content: " ";
-  display: inline-block;
-  width: .5rem;
-}
-[role="navigation"] a:focus, [role="navigation"] a:hover, [role="navigation"] a:active {
-  color: #e5e5e5;
-}
-[role="navigation"] a:focus:before, [role="navigation"] a:hover:before, [role="navigation"] a:active:before {
-  content: "/";
-}
-.nouns [role="navigation"] a[href*="nouns"] {
-  color: #e5e5e5;
-}
-.nouns [role="navigation"] a[href*="nouns"]:before {
-  content: "/";
-}
-.verbs [role="navigation"] a[href*="verbs"] {
-  color: #e5e5e5;
-}
-.verbs [role="navigation"] a[href*="verbs"]:before {
-  content: "/";
-}
-.adjectives [role="navigation"] a[href*="adjectives"] {
-  color: #e5e5e5;
-}
-.adjectives [role="navigation"] a[href*="adjectives"]:before {
-  content: "/";
-}
-@media (min-width: 37.5rem) {
-  [role="navigation"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 50%;
-    float: right;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-top: 24px;
-    padding-top: 1.14286rem;
-    margin-bottom: 24px;
-    margin-bottom: 1.14286rem;
-    text-align: right;
-  }
 }
 
-[role="main"] {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  margin-bottom: 16px;
-  margin-bottom: 0.7619rem;
-  border-top-width: 2px;
-  border-top-width: 0.09524rem;
-  border-top-style: solid;
-  padding-top: 30px;
-  padding-top: 1.42857rem;
-  border-bottom-width: 2px;
-  border-bottom-width: 0.09524rem;
-  border-bottom-style: solid;
-  padding-bottom: 30px;
-  padding-bottom: 1.42857rem;
-  clear: both;
-  counter-reset: fig;
-  border: 2px solid #b2b2b2;
-  border-width: 2px 0;
-}
-@media (min-width: 37.5rem) {
-  [role="main"] {
-    border-top-width: 2px;
-    border-top-width: 0.09524rem;
-    border-top-style: solid;
-    padding-top: 46px;
-    padding-top: 2.19048rem;
-    border-bottom-width: 2px;
-    border-bottom-width: 0.09524rem;
-    border-bottom-style: solid;
-    padding-bottom: 46px;
-    padding-bottom: 2.19048rem;
-    border-top: 2px solid #b2b2b2;
-    border-bottom: 2px solid #b2b2b2;
-  }
+.t {
+  font-size: 15.42857rem;
+  line-height: 16rem;
 }
 
-[role="contentinfo"] {
-  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-size: 15px;
-  font-size: 0.71429rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-  padding-bottom: 1.52381rem;
-  clear: both;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.copyright .fn {
-  font-weight: bold;
-}
-
-.social {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-}
-.social ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  overflow: visible;
-}
-.social ul li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.social a:link, .social a:visited {
-  font-size: 21px;
-  font-size: 1rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-  display: inline-block;
-  margin: 0 0.7619rem;
-  padding: 0 0.38095rem;
-  text-align: center;
-}
-
-.post {
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-}
-.post:last-of-type:after {
-  display: none;
-}
-.post .byline {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-  margin-bottom: 16px;
-  margin-bottom: 0.7619rem;
-  color: #666666;
-}
-
-.gallery {
-  overflow: hidden;
-}
-.gallery > a, .gallery > img, .gallery > .video {
-  width: 48.0%;
-  float: left;
-  margin-right: -100%;
-  margin-bottom: 32px;
-  margin-bottom: 1.52381rem;
-}
-.gallery > a:nth-child(2n + 1), .gallery > img:nth-child(2n + 1), .gallery > .video:nth-child(2n + 1) {
-  margin-left: 0;
-  clear: left;
-}
-.gallery > a:nth-child(2n + 2), .gallery > img:nth-child(2n + 2), .gallery > .video:nth-child(2n + 2) {
-  margin-left: 52%;
-  clear: none;
-}
-.gallery > .video.video {
-  position: relative;
-  height: 0;
-  padding-top: 27.0%;
-  width: 48.0%;
-}
-.gallery > .video.video > * {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  margin: 0;
-  padding: 0;
-}
-.gallery a:link, .gallery a:visited {
-  -webkit-transition: all 150ms;
-  -moz-transition: all 150ms;
-  -o-transition: all 150ms;
-  transition: all 150ms;
-}
-.gallery a:focus, .gallery a:hover, .gallery a:active {
-  -webkit-transform: scale(1.05, 1.05);
-  -moz-transform: scale(1.05, 1.05);
-  -ms-transform: scale(1.05, 1.05);
-  -o-transform: scale(1.05, 1.05);
-  transform: scale(1.05, 1.05);
-}
-.gallery figcaption {
-  clear: both;
-}
-
-.readmore {
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-.readmore:after {
-  content: "»";
-}
-
-.section {
-  clear: both;
-}
-
-.blog-archive, .tag-archive {
-  margin-top: 32px;
-  margin-top: 1.52381rem;
-}
-
-.blog-archive li {
-  list-style-type: none;
-}
-.blog-archive li ul {
-  margin-left: 0;
-}
-.blog-archive li li {
-  list-style-type: disc;
-}
-
-.tag-list {
-  list-style-type: none;
-}
-.tag-list, .tag-list li {
-  margin: 0px;
-  padding: 0px;
-  display: inline;
-}
-.tag-list li:after {
-  content: ", ";
-}
-.tag-list li:last-child:after {
-  content: "";
-}
-.tag-list {
-  margin-top: 32px;
-  margin-top: 1.52381rem;
-  display: block;
-}
-
-.pagination {
-  text-align: center;
-}
-.pagination .prev:before {
-  content: "« ";
-}
-.pagination .current {
-  font-size: 63px;
-  font-size: 3rem;
-  line-height: 80px;
-  line-height: 3.80952rem;
-  vertical-align: middle;
-}
-.pagination .next:after {
-  content: " »";
-}
-.pagination .disabled {
-  color: gray;
-}
-
-.feature {
-  border-top-width: 2px;
-  border-top-width: 0.09524rem;
-  border-top-style: solid;
-  padding-top: 14px;
-  padding-top: 0.66667rem;
-  padding-bottom: 16px;
-  padding-bottom: 0.7619rem;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  clear: both;
-}
-
-.vevent .dtstart {
-  font-family: "Narrator", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-.vevent .date {
-  color: #e5e5e5;
-  font-weight: bold;
-}
-.vevent .date:after, .vevent .time:after {
-  content: " :: ";
-  color: #b2b2b2;
-  font-weight: normal;
-}
-.vevent .description {
-  margin-left: 0.7619rem;
-  display: none;
-}
-.vevent .description li:before {
-  content: "• ";
-}
-.verbs .vevent .description {
-  display: block;
-}
-
-.vevent .description, .verbs [id$="-shows"] ul ul {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-  font-size: 18px;
-  font-size: 0.85714rem;
-  line-height: 32px;
-  line-height: 1.52381rem;
-}
-.vevent .description a, .verbs [id$="-shows"] ul ul a, .vevent .description em, .verbs [id$="-shows"] ul ul em {
-  font-family: "Susy", Baskerville, Palatino, Cambria, Georgia, serif;
-  text-transform: uppercase;
-}
-
-.booking-link:link, .booking-link:visited {
-  font-family: "SusyCaps", Baskerville, Palatino, Cambria, Georgia, serif;
-  margin-top: -48px;
-  margin-top: -2.28571rem;
-  -moz-border-radius-bottomleft: 0.125rem;
-  -webkit-border-bottom-left-radius: 0.125rem;
-  border-bottom-left-radius: 0.125rem;
-  -moz-border-radius-bottomright: 0.125rem;
-  -webkit-border-bottom-right-radius: 0.125rem;
-  border-bottom-right-radius: 0.125rem;
-  float: right;
-  display: inline-block;
-  padding: 0 1.52381rem;
-  border: 2px solid #b2b2b2;
-  background: #666666;
-  color: #b2b2b2;
-}
-.booking-link:focus, .booking-link:hover, .booking-link:active {
-  background-color: #ec1313;
-  color: #e5e5e5;
-}
-
-.verbs [id$="-shows"] ul ul {
-  margin-bottom: 0px;
-  margin-bottom: 0rem;
-}
-
-figure.bio-sketch {
-  position: relative;
-  height: 0;
-  padding-top: 75%;
-  width: 100%;
-  margin-bottom: 0px;
-  margin-bottom: 0rem;
-}
-figure.bio-sketch > * {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  margin: 0;
-  padding: 0;
-}
-@media (min-width: 25em) {
-  figure.bio-sketch {
-    margin-bottom: -32px;
-    margin-bottom: -1.52381rem;
-  }
+.g {
+  font-size: 8.90476rem;
+  line-height: 9.14286rem;
 }

@@ -1,0 +1,20 @@
+// Colors
+// ======
+
+$red    : hsl(0,85%,50%);
+$blue   : hsl(195,100%,50%);
+
+// Pallette
+// --------
+
+$base: color(lighter);
+$alt: color(light $red);
+$accent: color(light $blue);
+
+// Styleguide
+// ----------
+
+$bg-color: color(darkest);
+$text-color: $base;
+$link-color: $alt;
+$link-focus-color: $red;

@@ -1,0 +1,20 @@
+// Base Styles
+// ===========
+
+@include establish-baseline;
+
+html {
+  @extend %type;
+  @include body-text;
+  background: $bg-color image-url('black_paper.png') repeat fixed;
+  color: $text-color;
+  text-shadow: 0 -1px 0 color(darker $bg-color);
+  letter-spacing: .05em;
+}
+
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0 rhythm(1);
+  border-top: rhythm(.125) solid $red;
+}

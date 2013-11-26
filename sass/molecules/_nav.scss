@@ -1,0 +1,40 @@
+// Navigation
+// ==========
+
+$nav: blog, nouns, verbs, adjectives;
+
+@mixin active-nav($slug) {
+  .#{$slug} & [href*="#{$slug}"] {
+    @include padding-leader(1.5);
+    background: $link-focus-color;
+    text-transform: uppercase;
+  }
+}
+
+@mixin nav($slugs: $nav) {
+  @each $slug in $slugs {
+    @include active-nav($slug);
+  }
+}
+
+[role='navigation'] {
+  @include adjust-font-size-to($smallpx);
+  @include nav;
+  text-align: right;
+
+  a {
+    &:link, &:visited {
+      @include transition(all 200ms);
+      display: inline-block;
+      padding: rhythm(.25) rhythm(1) 0;
+      vertical-align: top;
+      color: color(lightest $text-color);
+      background: color($link-color, .5);
+    }
+    &:hover, &:focus, &:active {
+      @include padding-leader;
+      background: $link-focus-color;
+      text-decoration: none;
+    }
+  }
+}

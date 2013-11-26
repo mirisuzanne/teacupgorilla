@@ -1,15 +1,19 @@
 {% extends "base.html" %}
 
 {% block template %}
-<h1 role="banner"><a href="/" rel="home">Teacup Gorilla</a></h1>
-
 <nav role="navigation">
-  <ul>
-    <li><a href="/verbs/">verbs</a></li>
-    <li><a href="/nouns/">nouns</a></li>
-    <li><a href="/adjectives/">adjectives</a></li>
-  </ul>
+  <a href="/#blog">blog</a>
+  <a href="/verbs/">verbs</a>
+  <a href="/nouns/">nouns</a>
+  <a href="/adjectives/">adjectives</a>
 </nav>
+
+<h1 class="logo">
+  <a href="/" rel="home">
+    <span class="t">T</span>eacup
+    <span class="g">G</span>orilla
+  </a>
+</h1>
 
 {% block feature %}{% endblock feature %}
 
