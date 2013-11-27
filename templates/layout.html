@@ -1,80 +1,18 @@
 {% extends "base.html" %}
 
 {% block template %}
-<nav role="navigation">
-  <a href="/#blog">blog</a>
-  <a href="/verbs/">verbs</a>
-  <a href="/nouns/">nouns</a>
-  <a href="/adjectives/">adjectives</a>
-</nav>
+  {% include "layout/_nav.html" %}
+  {% include "layout/_logo.html" %}
 
-<h1 class="logo">
-  <a href="/" rel="home">
-    <span class="t">T</span>eacup
-    <span class="g">G</span>orilla
-  </a>
-</h1>
+  <section role="main">
+    {% block body %}{% endblock %}
+  </section>
 
-{% block feature %}{% endblock feature %}
+  <footer role="contentinfo">
+    {% include "layout/_social.html" %}
 
-<section role="main">
-
-  {% block body %}
-
-  {% endblock body %}
-
-</section>
-
-<footer role="contentinfo">
-  <div class="social">
-    <ul>
-      <li>
-        <a rel="me" href="http://feeds.feedburner.com/teacupgorilla">
-          <span data-icon="feed"> </span>
-          <span class="tooltip">feed</span>
-        </a>
-      </li>
-      <li title="email">
-        <a href="mailto:info(put the 'at' sign here)teacupgorilla.com" class="email">
-          <span data-icon="email"> </span>
-          <span class="tooltip">email</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://twitter.com/teacupgorilla/">
-          <span data-icon="twitter"> </span>
-          <span class="tooltip">twitter</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://facebook.com/teacupgorilla/">
-          <span data-icon="facebook"> </span>
-          <span class="tooltip">facebook</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://soundcloud.com/teacupgorilla/">
-          <span data-icon="soundcloud"> </span>
-          <span class="tooltip">soundcloud</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://new.myspace.com/teacupgorilla/">
-          <span data-icon="myspace"> </span>
-          <span class="tooltip">myspace</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="/colophon/">
-          <span data-icon="html5"> </span>
-          <span class="tooltip">Colophon</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-  <p class="copyright vcard">copyright &copy; 2010-2013
-    <a href="http://teacupgorilla.com/" class="fn url org">Teacup Gorilla</a>
-  </p>
-</footer>
-{% endblock template %}
+    <p class="copyright vcard">Copyright &copy; 2013
+      <a href="http://teacupgorilla.com/" class="fn url org">Teacup Gorilla</a>
+    </p>
+  </footer>
+{% endblock %}

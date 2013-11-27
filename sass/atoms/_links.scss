@@ -1,14 +1,15 @@
 // Links
 // =====
 
+$link-color: color(light $alt);
+$link-focus-color: $alt;
+
 @mixin link-base {
   color: $link-color;
-  text-decoration: none;
 }
 
 @mixin link-focus {
   color: $link-focus-color;
-  text-decoration: underline;
 }
 
 @mixin link-styles(
@@ -34,3 +35,5 @@
     @extend %#{if($fake, 'fake-', '')}link;
   }
 }
+
+a { @include link; }

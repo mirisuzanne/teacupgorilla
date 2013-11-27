@@ -1,0 +1,19 @@
+// Social
+// ======
+
+.social {
+  @include inline-block-list;
+  overflow: visible;
+
+  li + li { margin-left: rhythm(.5); }
+
+  a {
+    &:link, &:visited {
+      display: inline-block;
+      padding: 0 rhythm(.25);
+      text-decoration: none;
+    }
+  }
+
+  .tooltip { display: none; }
+}

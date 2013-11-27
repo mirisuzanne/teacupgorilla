@@ -1,6 +1,8 @@
 public: yes
 hide_title: yes
 bodyclasses: nouns
+after:
+  - include: 'music/_recent.html'
 
 
 Nouns

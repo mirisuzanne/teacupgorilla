@@ -8,13 +8,8 @@ $blue   : hsl(195,100%,50%);
 // --------
 
 $base: color(lighter);
-$alt: color(light $red);
+$alt: $red;
 $accent: color(light $blue);
-
-// Styleguide
-// ----------
 
 $bg-color: color(darkest);
 $text-color: $base;
-$link-color: $alt;
-$link-focus-color: $red;

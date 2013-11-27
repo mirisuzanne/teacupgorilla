@@ -1,0 +1,9 @@
+// Copyright
+// =========
+
+.copyright {
+  @include font-size(xxsmall);
+  text-transform: uppercase;
+
+  .fn { font-weight: bold; }
+}

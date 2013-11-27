@@ -28,6 +28,19 @@ $xlargepx     : ms($xl);
 $xxlargepx    : ms($xxl);
 $xxxlargepx   : ms($xxxl);
 
+$sizes: (
+  normal     : $normpx,
+  medium     : $medpx,
+  small      : $smallpx,
+  xsmall     : $xsmallpx,
+  xxsmall    : $xxsmallpx,
+  xxxsmall   : $xxxsmallpx,
+  large      : $largepx,
+  xlarge     : $xlargepx,
+  xxlarge    : $xxlargepx,
+  xxxlarge   : $xxxlargepx,
+);
+
 // Guide
 // -----
 
@@ -41,3 +54,23 @@ $round-to-nearest-half-line       : true;
 $grid-background-baseline-height  : $base-line-height;
 
 $body-size                        : $base-font-size;
+
+// Mixins
+// ------
+
+@mixin font-size(
+  $size: normal,
+  $lines: false
+){
+  $out: if($lines, (lines: $lines), ());
+
+  @if type-of($size) == number {
+    $out: map-merge($out, (to_size: $size));
+  } @else if type-of($size) == string {
+    $px: map-get($sizes, $size);
+    $out: map-merge($out, (to_size: $px));
+  }
+
+  @include adjust-font-size-to($out...);
+}
+

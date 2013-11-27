@@ -40,8 +40,6 @@ $h2-size: $xlargepx;
 %type {
   @extend %headings;
 
-  a { @include link; }
-
   strong { font-weight: bold; }
   em, blockquote { @include caps; }
 

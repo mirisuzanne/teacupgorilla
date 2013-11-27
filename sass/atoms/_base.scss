@@ -4,7 +4,6 @@
 @include establish-baseline;
 
 html {
-  @extend %type;
   @include body-text;
   background: $bg-color image-url('black_paper.png') repeat fixed;
   color: $text-color;
@@ -12,9 +11,10 @@ html {
   letter-spacing: .05em;
 }
 
+html, body { min-height: 100%; }
+
 body {
-  max-width: 40em;
-  margin: 0 auto;
   padding: 0 rhythm(1);
-  border-top: rhythm(.125) solid $red;
+  border: rhythm(.125) solid $alt;
+  border-width: rhythm(.125) 0;
 }

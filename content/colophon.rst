@@ -1,8 +1,8 @@
 public: yes
 
 
-Colophone
-=========
+Colophon
+========
 
 This site is built on plain old semantic `HTML5`_,
 powered by the `rstblog`_ static site generator for `Python`_,

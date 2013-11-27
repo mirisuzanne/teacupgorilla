@@ -1,0 +1,27 @@
+// Show
+// ====
+
+.show {
+  @include trailer(.5);
+
+  .dtstart {
+    @extend %heading;
+    @include after(' :: ') { color: $text-color; }
+    font-weight: bold;
+  }
+
+  .summary { display: inline-block; }
+
+  .title, .org {
+    @extend %h3;
+    font-weight: bold;
+  }
+
+  .with {
+    @include font-size(small);
+    @include before('• ');
+    padding-left: rhythm(1);
+    a, em { text-transform: uppercase; }
+  }
+}
+

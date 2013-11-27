@@ -1,17 +1,9 @@
 {% extends "layout.html" %}
 
+{% block title %}Blog :: {{ super() }}{% endblock %}
 {% block bodyclasses %}{{ super() }}blog{% endblock %}
 
-{% block title %}Blog{% endblock %}
-
-{% block feature %}
-  <section class="feature">
-    {% include "_shows.html" %}
-  </section>
-{% endblock feature %}
-
 {% block body %}
-
   {%- for ctx in pagination.get_slice() %}
   <article class="post">
     <h1 class="title">

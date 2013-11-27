@@ -1,22 +1,27 @@
 // Logo
 // ====
 
-$t-size: ms(21);
-$g-size: ms(17);
+$t-size: 18;
+$g-size: $t-size - 4;
+
+$t-size: ms($t-size);
+$g-size: ms($g-size);
 
 .logo {
+  @extend %heading;
   font-size: 0;
-  letter-spacing: rhythm(-2);
+  letter-spacing: rhythm(-1.375);
+  text-align: center;
   a {
     &:link, &:visited {
       @include transition(all 200ms);
       display: block;
-      color: $red;
-      text-shadow: -1px 4px 0 white;
+      color: $alt;
+      text-shadow: -1px 4px 0 $heading-color;
     }
     &:hover, &:focus, &:active {
-      color: white;
-      text-shadow: 0 0 0 white;
+      color: $heading-color;
+      text-shadow: 0 0 0 $heading-color;
     }
   }
 }

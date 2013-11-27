@@ -1,5 +1,9 @@
 {% extends "layout.html" %}
-{% block title %}{{ rst.title }}{% endblock %}
+
+{% block title -%}
+  {% if rst.title != 'Home' %}{{ rst.title }} ::{% endif %}
+  {{ super() }}
+{%- endblock %}
 
 {% block styles %}
   {{ super() }}
@@ -10,15 +14,10 @@
 
 {% block bodyclasses %}{{ super() }}{% if config.bodyclasses %} {{ config.bodyclasses }}{% endif %}{% endblock %}
 
-{% block feature %}
-  {% if config.calendar %}
-  <section class="feature">
-    {% include "_shows.html" %}
-  </section>
-  {% endif %}
-{% endblock feature %}
-
 {% block body %}
+  {% for module in config.before %}
+    {% include module.include %}
+  {% endfor %}
 
   {%- if not config.hide_title %}
   {{ rst.html_title }}
@@ -28,8 +27,7 @@
 
   {{ rst.fragment }}
 
-  {% if 'disqus' in config.active_modules %}
-    {{ get_disqus() }}
-  {% endif %}
-
+  {% for module in config.after %}
+    {% include module.include %}
+  {% endfor %}
 {% endblock %}

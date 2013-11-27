@@ -14,6 +14,7 @@
 @import "atoms/sizes";
 @import "atoms/fonts";
 @import "atoms/links";
+@import "atoms/icons";
 @import "atoms/type";
 @import "atoms/base";
 
@@ -22,4 +23,7 @@
 
 @import "molecules/nav";
 @import "molecules/logo";
-
+@import "molecules/copyright";
+@import "molecules/faces";
+@import "molecules/show";
+@import "molecules/social";

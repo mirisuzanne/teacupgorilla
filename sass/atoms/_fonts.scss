@@ -13,7 +13,10 @@ $fonts: (
   narrator: (
     regular: 'narrator/greenmudnarrator-regular-webfont',
     bold: 'narrator/greenmudnarrator-bold-webfont',
-  )
+  ),
+  teacup: (
+    regular: 'icons/teacup',
+  ),
 );
 
 @mixin fonts(

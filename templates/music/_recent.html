@@ -1,0 +1,8 @@
+<section class="recent">
+  <h2 class="cal-title">Recent Shows:</h2>
+  {% for show in config.recent %}
+  {% if not module.count or loop.index <= module.count %}
+  {% include "music/_show.html" %}
+  {% endif %}
+  {% endfor %}
+</section>
