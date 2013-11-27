@@ -9,11 +9,10 @@
 
   a {
     &:link, &:visited {
+      @include tooltip(top right);
       display: inline-block;
       padding: 0 rhythm(.25);
       text-decoration: none;
     }
   }
-
-  .tooltip { display: none; }
 }

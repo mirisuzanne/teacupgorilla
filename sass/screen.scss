@@ -7,19 +7,28 @@
 @import "accoutrement";
 @import "susy";
 
-// Atoms
-// -----
+// Atoms: Abstract
+// ---------------
 
 @import "atoms/colors";
 @import "atoms/sizes";
 @import "atoms/fonts";
-@import "atoms/links";
 @import "atoms/icons";
+
+// Atoms: Concrete
+// ---------------
+
+@import "atoms/links";
 @import "atoms/type";
 @import "atoms/base";
 
-// Molecules
-// ---------
+// Molecules: Abstract
+// -------------------
+
+@import "molecules/tooltips";
+
+// Molecules: Concrete
+// -------------------
 
 @import "molecules/nav";
 @import "molecules/logo";

@@ -97,19 +97,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal;
 }
-.show .title, .show .org, .logo, .show .dtstart {
+.show .title, .show .location, .logo, .show .dtstart {
   font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-html {
+html, .tooltip {
   font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
-}
-
-a:link, a:visited {
-  color: #ef4242;
-}
-a:hover, a:focus, a:active {
-  color: #ec1313;
 }
 
 [data-icon]:before {
@@ -148,11 +141,18 @@ a:hover, a:focus, a:active {
   content: "\e006";
 }
 
-.show .title, .show .org, .logo, .show .dtstart {
+a:link, a:visited {
+  color: #ef4242;
+}
+a:hover, a:focus, a:active {
+  color: #ec1313;
+}
+
+.show .title, .show .location, .logo, .show .dtstart {
   color: #e5e5e5;
 }
 
-.show .title, .show .org {
+.show .title, .show .location {
   text-transform: uppercase;
 }
 
@@ -176,6 +176,71 @@ body {
   padding: 0 1.52381rem;
   border: 0.19048rem solid #ec1313;
   border-width: 0.19048rem 0;
+}
+
+.tooltip {
+  font-size: 0.85714rem;
+  line-height: 1.52381rem;
+  position: absolute;
+  padding: 0 0.38095rem;
+  color: #c1c1c1;
+  background: rgba(236, 19, 19, 0.95);
+  border: 1px solid #191919;
+  text-shadow: 0 1px 0 rgba(135, 10, 10, 0.75);
+  font-weight: bold;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: none;
+  -moz-transition: all 75ms 200ms;
+  -o-transition: all 75ms 200ms;
+  -webkit-transition: all 75ms;
+  -webkit-transition-delay: 200ms;
+  transition: all 75ms 200ms;
+  opacity: 0;
+  z-index: -1;
+}
+[data-tooltip].tooltip:after {
+  content: attr(data-tooltip);
+}
+
+.social a:link .tooltip, .social a:visited .tooltip {
+  -moz-transform: translateY(0.38095rem);
+  -ms-transform: translateY(0.38095rem);
+  -o-transform: translateY(0.38095rem);
+  -webkit-transform: translateY(0.38095rem);
+  transform: translateY(0.38095rem);
+  bottom: 100%;
+  margin-bottom: 0.19048rem;
+}
+
+.social a:link .tooltip, .social a:visited .tooltip {
+  left: 0;
+}
+.social a:link .tooltip:before, .social a:visited .tooltip:before {
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  pointer-events: none;
+  top: 100%;
+  border-top-color: rgba(236, 19, 19, 0.95);
+  border-width: 0.19048rem;
+  left: 0.19048rem;
+}
+
+.help-tip, .social a:link, .social a:visited {
+  position: relative;
+  text-decoration: none;
+}
+.help-tip:hover .tooltip, .social a:hover:link .tooltip, .social a:hover:visited .tooltip {
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+  z-index: 900;
 }
 
 [role='navigation'] {
@@ -310,7 +375,7 @@ body {
 .show .summary {
   display: inline-block;
 }
-.show .title, .show .org {
+.show .title, .show .location {
   font-weight: bold;
 }
 .show .with {
@@ -351,7 +416,4 @@ body {
   display: inline-block;
   padding: 0 0.38095rem;
   text-decoration: none;
-}
-.social .tooltip {
-  display: none;
 }
