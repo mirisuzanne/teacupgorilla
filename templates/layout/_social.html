@@ -1,12 +1,15 @@
 {% if config.social %}
-  <ul class="social">
-  {% for item in config.social %}
-    <li>
+<aside class="social">
+  <h2 class="social-title">White Noise</h2>
+  <ul class="social-list">
+    {% for item in config.social %}
+    <li class="social-item">
       <a rel="me" class="{{ item.slug }}" href="{{ item.url }}">
         <span data-icon="{{ item.icon or item.slug }}" aria-hidden="true"> </span>
         <span class="tooltip">{{ item.slug }}</span>
       </a>
     </li>
-  {% endfor %}
+    {% endfor %}
   </ul>
+</aside>
 {% endif %}

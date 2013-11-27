@@ -14,7 +14,9 @@ html {
 html, body { min-height: 100%; }
 
 body {
+  border-top: rhythm(.25) solid $alt;
+}
+
+[role="main"] {
   padding: 0 rhythm(1);
-  border: rhythm(.125) solid $alt;
-  border-width: rhythm(.125) 0;
 }

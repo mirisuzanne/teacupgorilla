@@ -2,8 +2,6 @@
 // ====
 
 .show {
-  @include trailer(.5);
-
   .dtstart {
     @extend %heading;
     @include after(' :: ') { color: $text-color; }
@@ -21,7 +19,7 @@
     @include font-size(small);
     @include before('• ');
     padding-left: rhythm(1);
-    a, em { text-transform: uppercase; }
+    a, em { @include alt-text; }
   }
 }
 

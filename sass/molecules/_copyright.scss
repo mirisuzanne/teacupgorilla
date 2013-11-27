@@ -2,8 +2,7 @@
 // =========
 
 .copyright {
-  @include font-size(xxsmall);
-  text-transform: uppercase;
-
-  .fn { font-weight: bold; }
+  @include font-size(small);
+  @include alt-text;
+  text-transform: lowercase;
 }

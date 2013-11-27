@@ -3,8 +3,8 @@
 
 $heading-color: color(lightest);
 
-$h1-size: $xxlargepx;
-$h2-size: $xlargepx;
+$h1-size: xxxlarge;
+$h2-size: xxlarge;
 
 %heading {
   @include display-text;
@@ -13,12 +13,12 @@ $h2-size: $xlargepx;
 
 %h1 {
   @extend %heading;
-  @include adjust-font-size-to($h1-size);
+  @include font-size($h1-size);
 }
 
 %h2 {
   @extend %heading;
-  @include adjust-font-size-to($h2-size);
+  @include font-size($h2-size);
 }
 
 %h3 {

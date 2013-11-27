@@ -13,6 +13,7 @@
 @import "atoms/colors";
 @import "atoms/sizes";
 @import "atoms/fonts";
+@import "atoms/grid";
 @import "atoms/icons";
 
 // Atoms: Concrete
@@ -25,6 +26,7 @@
 // Molecules: Abstract
 // -------------------
 
+@import "molecules/a11y";
 @import "molecules/tooltips";
 
 // Molecules: Concrete
@@ -32,7 +34,15 @@
 
 @import "molecules/nav";
 @import "molecules/logo";
-@import "molecules/copyright";
 @import "molecules/faces";
 @import "molecules/show";
-@import "molecules/social";
+@import "molecules/rel_colophon";
+@import "molecules/copyright";
+
+// Organisms
+// ---------
+
+@import "organisms/section";
+@import "organisms/shows";
+@import "organisms/social";
+@import "organisms/contentinfo";

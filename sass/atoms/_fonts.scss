@@ -70,7 +70,7 @@ $serif-stack  : Baskerville, Palatino, Cambria, Georgia, serif;
   }
 }
 
-@mixin strong-text(
+@mixin alt-text(
   $include: false
 ) {
   @if $include {

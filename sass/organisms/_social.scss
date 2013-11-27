@@ -1,0 +1,35 @@
+// Social
+// ======
+
+$social-size: xlarge;
+
+%social-icon-link {
+  &:link, &:visited {
+    @extend %icon-link;
+    @include font-size($social-size);
+    @include tooltip(top right);
+    display: inline-block;
+    padding: 0 rhythm(.25);
+  }
+}
+
+.social {
+  padding: 0 rhythm(1);
+}
+
+.social-title { @extend .alt }
+
+.social-list {
+  @extend %section;
+  @include padding-leader(3);
+  display: block;
+  overflow: visible;
+  text-align: center;
+}
+
+.social-item {
+  display: inline-block;
+
+  + #{&} { margin-left: rhythm(.5); }
+  a { @extend %social-icon-link; }
+}

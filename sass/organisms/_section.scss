@@ -1,0 +1,22 @@
+// Section
+// =======
+
+%section {
+  @include container(35em);
+  @include rhythm-margins(3, 2);
+  @include padding-leader(.5);
+  position: relative;
+  border-top: rhythm(.125) dashed $alt;
+}
+
+%section-head {
+  @extend %h2;
+  @include trailer(2);
+  position: relative;
+
+  @include before('»') {
+    position: absolute;
+    right: 100%;
+    margin-right: .4em;
+  }
+}
