@@ -1,36 +1,21 @@
 // Logo
 // ====
 
-$t-size: 18;
-$g-size: $t-size - 4;
-
-$t-size: ms($t-size);
-$g-size: ms($g-size);
-
 .logo {
-  @extend %heading;
-  font-size: 0;
-  letter-spacing: rhythm(-1.375);
+  @include display-text;
+  @include font-size(large);
+  @include padding-leader;
+  padding: rhythm(1) rhythm(1) 0;
+
+  text-transform: lowercase;
   text-align: center;
-  display: none;
 
   a {
     &:link, &:visited {
-      @include transition(all 200ms);
-      display: block;
-      color: $alt;
-      text-shadow: none;
+      color: $heading-color;
     }
     &:hover, &:focus, &:active {
-      color: $heading-color;
+      color: $alt;
     }
   }
 }
-
-.t, .g {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.t { @include adjust-font-size-to($t-size); }
-.g { @include adjust-font-size-to($g-size); }

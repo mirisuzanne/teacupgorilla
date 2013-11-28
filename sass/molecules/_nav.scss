@@ -5,7 +5,8 @@ $nav: blog, nouns, verbs, adjectives;
 
 [role='navigation'] {
   @include font-size(small);
-  text-align: right;
+  min-height: rhythm(2);
+  text-align: center;
 
   a {
     &:link, &:visited {
@@ -20,7 +21,6 @@ $nav: blog, nouns, verbs, adjectives;
     }
     &:hover, &:focus, &:active {
       @include padding-leader;
-      @include trailer(-1);
       background: $link-focus-color;
     }
   }
@@ -30,7 +30,6 @@ $nav: blog, nouns, verbs, adjectives;
   .#{$slug} [data-nav="#{$slug}"] {
     &:link, &:visited {
       @include padding-leader(1.5);
-      @include trailer(-1);
       background: $link-focus-color;
     }
   }

@@ -1,0 +1,19 @@
+// Banner
+// ======
+
+[role="banner"] {
+  @include pie-clearfix;
+  @include trailer;
+}
+
+@include breakpoint(45em) {
+  .logo {
+    @include span(45% no-gutters);
+    padding: 0 rhythm(1);
+    text-align: left;
+  }
+  [role="navigation"] {
+    @include span(last 55% no-gutters);
+    text-align: right;
+  }
+}
