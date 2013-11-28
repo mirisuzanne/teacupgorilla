@@ -3,15 +3,14 @@
 
 %section {
   @include container;
-  @include rhythm-margins(3, 2);
-  @include padding-leader(.5);
+  @include rhythm-padding(.5, 2);
   position: relative;
-  border-top: rhythm(.125) dashed color($alt, .5);
+  border-bottom: rhythm(.125) dashed color($alt, .5);
 }
 
 %section-head {
   @extend %h2;
-  @include trailer(2);
+  @include trailer;
   position: relative;
 
   @include before('»') {

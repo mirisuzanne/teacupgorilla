@@ -2,7 +2,7 @@
 // ============
 
 [role='contentinfo'] {
-  @include leader(3);
+  @include leader;
   padding: rhythm(.5) rhythm(1) rhythm(.25);
   background: $alt;
   color: color(lightest $alt, .85);

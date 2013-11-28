@@ -14,16 +14,17 @@ $social-size: xlarge;
 }
 
 .social {
-  padding: 0 rhythm(1);
+  @include gutters(rhythm(2) inside);
 }
 
 .social-title { @extend .alt }
 
 .social-list {
   @extend %section;
-  @include padding-leader(3);
+  @include rhythm-padding(3, 2);
   display: block;
   overflow: visible;
+  border: 0;
   text-align: center;
 }
 
