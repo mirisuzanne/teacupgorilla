@@ -1,7 +1,11 @@
 // Blog Post
 // =========
 
-.post { @extend %section; }
+.post {
+  @extend %section;
+
+  .show { @include trailer; }
+}
 
 .post-title {
   @extend %section-head;

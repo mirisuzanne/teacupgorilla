@@ -5,12 +5,17 @@
 
 {% block body %}
   {%- for ctx in pagination.get_slice() %}
+  {% set config = ctx.config %}
   <article class="post">
     <h1 class="post-title">
       <a href="{{ link_to('page', slug=ctx.slug) }}">
         {{ ctx.title }}
       </a>
     </h1>
+
+    {% for module in config.before %}
+      {% include module.include %}
+    {% endfor %}
 
     <div class="post-body">
       {% if ctx.summary %}
@@ -22,6 +27,10 @@
         {{ ctx.render_contents() }}
       {% endif %}
     </div>
+
+    {% for module in config.after %}
+      {% include module.include %}
+    {% endfor %}
 
     {% include "_byline.html" %}
   </article>

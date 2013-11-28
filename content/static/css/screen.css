@@ -357,7 +357,19 @@ body {
   fill: #33cbff;
 }
 
+.show {
+  -moz-transition: border 1s;
+  -o-transition: border 1s;
+  -webkit-transition: border 1s;
+  transition: border 1s;
+  padding-left: 0.75rem;
+  border-left: 0.1875rem solid #b2b2b2;
+}
+.show:hover {
+  border-color: #33cbff;
+}
 .show .dtstart {
+  color: inherit;
   font-weight: bold;
 }
 .show .dtstart:after {
@@ -365,10 +377,11 @@ body {
   color: #b2b2b2;
 }
 .show .summary {
-  display: inline-block;
+  display: inline;
 }
 .show .title, .show .location {
   font-weight: bold;
+  color: inherit;
 }
 .show .with {
   font-size: 0.83333rem;
@@ -438,6 +451,10 @@ body {
 
 .shows .show {
   margin-bottom: 0.75rem;
+}
+
+.post .show {
+  margin-bottom: 1.5rem;
 }
 
 .post-title a:link, .post-title a:visited {

@@ -8,11 +8,13 @@
   <h3 class="summary">
     {# Title #}
     {% if show.title %}
-    {% if show.title_url or show.url %}
-    <a href="{{ show.title_url or show.url }}" class="title">{{ show.title }}</a>
-    {% else %}
-    <span class="title">{{ show.title }}</span>
-    {% endif %}
+    <span class="title">
+      {% if show.title_url or show.url %}
+      <a href="{{ show.title_url or show.url }}">{{ show.title }}</a>
+      {% else %}
+      {{ show.title }}
+      {% endif %}
+    </span>
     {% if show.venue %}<i>at</i>{% endif %}
     {% endif %}
 

@@ -2,17 +2,25 @@
 // ====
 
 .show {
+  @include transition(border 1s);
+  padding-left: rhythm(.5);
+  border-left: rhythm(.125) solid $text-color;
+
+  &:hover { border-color: $accent; }
+
   .dtstart {
     @extend %heading;
     @include after(' :: ') { color: $text-color; }
+    color: inherit;
     font-weight: bold;
   }
 
-  .summary { display: inline-block; }
+  .summary { display: inline; }
 
   .title, .location {
     @extend %h3;
     font-weight: bold;
+    color: inherit;
   }
 
   .with {

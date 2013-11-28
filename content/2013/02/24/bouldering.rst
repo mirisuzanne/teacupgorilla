@@ -1,17 +1,26 @@
 public: yes
 tags: [show, reading, poetry, boulder]
+shows:
+  - date: March 22, 2013
+    title: Bouldering Poets
+    url: http://boulderingpoets.wordpress.com/2013/02/
+    venue: 303 Vodka
+    venue_url: http://303vodka.com/
+    datetime: 2013-03-22
+    with:
+      - name: Georgia Van Gunten
+        url: http://naropa.digication.com/GeorgiaVangunten
+      - name: Ellen Orleans
+        url: http://www.corvidwriters.org/ellen/index.html
+      - name: Asalott
+        url: http://asalott.com/
+after:
+  - include: 'music/_shows.html'
 
 
 March 22: Bouldering Poets
 ==========================
 
-We'll be reading/playing in the `Bouldering Poets`_ series next month:
+We'll be reading/playing in the `Bouldering Poets`_ series next month.
 
-- **March 22, 2013** at `303 Vodka`_
-- with `Georgia Van Gunten`_, `Ellen Orleans`_, and `Asalott`_
-
-.. _303 Vodka: http://303vodka.com/
 .. _Bouldering Poets: http://boulderingpoets.wordpress.com/
-.. _Georgia Van Gunten: http://naropa.digication.com/GeorgiaVangunten
-.. _Ellen Orleans: http://www.corvidwriters.org/ellen/index.html
-.. _Asalott: http://asalott.com/
