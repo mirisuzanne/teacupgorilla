@@ -1,0 +1,14 @@
+// Faces
+// =====
+
+.faces {
+  @extend %section;
+  @include rhythm-padding(0, 1);
+}
+
+.faces-wrapper {
+  width: 100%;
+  height: 0;
+  padding-top: percentage(805/1368);
+  position: relative;
+}

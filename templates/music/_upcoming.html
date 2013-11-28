@@ -6,5 +6,9 @@
   {% include "music/_show.html" %}
   {% endif %}
   {% endfor %}
+
+  {% if module.count and config.upcoming|length > module.count %}
+  <a href="/verbs/" class="more">more activities »</a>
+  {% endif %}
 </section>
 {% endif %}

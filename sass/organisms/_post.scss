@@ -3,6 +3,7 @@
 
 .post {
   @extend %section;
+  @extend %body;
 
   .show { @include trailer; }
 }

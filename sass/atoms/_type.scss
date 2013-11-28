@@ -37,9 +37,7 @@ $h2-size: xxlarge;
   h4 { @extend %h4; }
 }
 
-%type {
-  @extend %headings;
-
+%body {
   strong { font-weight: bold; }
   em, blockquote { @include caps; }
 
@@ -57,4 +55,9 @@ $h2-size: xxlarge;
   ul, ol, blockquote {
     ul, ol { margin-left: rhythm(1); }
   }
+}
+
+%type {
+  @extend %headings;
+  @extend %body;
 }

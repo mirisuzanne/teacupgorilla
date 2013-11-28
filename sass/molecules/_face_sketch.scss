@@ -18,6 +18,8 @@
 }
 
 .face-sketch {
+  @include stretch;
+
   path { pointer-events: none; }
 
   .style0 { @extend %sketch-line; }

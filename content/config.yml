@@ -55,7 +55,7 @@ recent:
     with:
       - name: Muscle Beach
         url: https://www.facebook.com/musclebeachparty
-      - name: [empty brackets]
+      - name: '[empty brackets]'
 
   - date: March 22, 2013
     title: Bouldering Poets

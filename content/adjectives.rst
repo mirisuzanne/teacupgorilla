@@ -12,7 +12,6 @@ Adjectives
 The Band
 --------
 
-The smallest extant genus of primate musicians by size,
 **Teacup Gorilla** are petite & deadly ground-dwelling apes
 that inhabit the china shops of Denver
 with angular riffs,
@@ -26,7 +25,7 @@ has grown into a long-term collaboration between three experienced artists
 and four or five artistic genres.
 The three have played/fought for over ten years,
 in bands like
-Elephants for Sale, Dirt Circle Dogs, Iron City, and Raven Jane,
+*Elephants for Sale*, *Dirt Circle Dogs*, *Iron City*, and *Raven Jane*,
 
 Since forming in 2010,
 Teacup Gorilla have performed at poetry readings & hard-core house shows,
@@ -57,9 +56,9 @@ but they're nasty in the garage.
 Projects
 --------
 
-* `The Bakery`_ | *arts warehouse — in development*
-* `Into the Green Green Mud`_ | *a novel with pictures — in development*
-* `Missa Populi`_ | *devised ensemble theatre — 2010*
+* `The Bakery`_ | *arts warehouse*
+* `Into the Green Green Mud`_ | *a novel with pictures*
+* `Missa Populi`_ | *devised ensemble theatre*
 
 .. _The Bakery: http://thebakerydenver.com/
 .. _Into the Green Green Mud: http://greengreenmud.com/
