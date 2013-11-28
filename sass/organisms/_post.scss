@@ -1,0 +1,19 @@
+// Blog Post
+// =========
+
+.post { @extend %section; }
+
+.post-title {
+  @extend %section-head;
+
+  a {
+    &:link, &:visited {
+      color: $heading-color;
+    }
+    &:hover, &:focus, &:active {
+      color: $link-focus-color;
+    }
+  }
+}
+
+.post-body { @include trailer; }

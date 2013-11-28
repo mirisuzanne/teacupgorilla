@@ -7,7 +7,7 @@ $tooltip-border: $bg-color;
 $tooltip-arrow-size: rhythm(.125);
 
 %tooltip-base {
-  @include body-text;
+  @include alt-text;
   @include font-size(small);
   position: absolute;
   padding: 0 rhythm(.25);

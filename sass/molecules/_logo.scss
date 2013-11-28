@@ -12,16 +12,17 @@ $g-size: ms($g-size);
   font-size: 0;
   letter-spacing: rhythm(-1.375);
   text-align: center;
+  display: none;
+
   a {
     &:link, &:visited {
       @include transition(all 200ms);
       display: block;
       color: $alt;
-      text-shadow: -1px 4px 0 $heading-color;
+      text-shadow: none;
     }
     &:hover, &:focus, &:active {
       color: $heading-color;
-      text-shadow: 0 0 0 $heading-color;
     }
   }
 }

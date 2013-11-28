@@ -28,6 +28,7 @@
 
 @import "molecules/a11y";
 @import "molecules/tooltips";
+@import "molecules/byline";
 
 // Molecules: Concrete
 // -------------------
@@ -44,5 +45,6 @@
 
 @import "organisms/section";
 @import "organisms/shows";
+@import "organisms/post";
 @import "organisms/social";
 @import "organisms/contentinfo";

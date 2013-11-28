@@ -2,7 +2,7 @@
 // =======
 
 %section {
-  @include container(35em);
+  @include container;
   @include rhythm-margins(3, 2);
   @include padding-leader(.5);
   position: relative;

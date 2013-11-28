@@ -1,0 +1,9 @@
+// Byline
+// ======
+
+.byline {
+  @include alt-text;
+  @include wrap-content('::' '::');
+  opacity: .75;
+  text-transform: lowercase;
+}

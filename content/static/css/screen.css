@@ -97,15 +97,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal;
 }
-.shows .shows-title, .show .title, .show .location, .logo, .show .dtstart {
+.shows .shows-title, .post-title, .show .title, .show .location, .logo, .show .dtstart {
   font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-html, .tooltip {
+html {
   font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-[role='navigation'] a:link, [role='navigation'] a:visited, .show .with a, .show .with em, .copyright {
+.tooltip, .byline, [role='navigation'] a:link, [role='navigation'] a:visited, .show .with a, .show .with em, .copyright {
   font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -156,11 +156,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-.shows .shows-title, .show .title, .show .location, .logo, .show .dtstart {
+.shows .shows-title, .post-title, .show .title, .show .location, .logo, .show .dtstart {
   color: #e5e5e5;
 }
 
-.shows .shows-title {
+.shows .shows-title, .post-title {
   font-size: 2.08333rem;
   line-height: 2.25rem;
 }
@@ -248,6 +248,17 @@ body {
   z-index: 900;
 }
 
+.byline {
+  opacity: .75;
+  text-transform: lowercase;
+}
+.byline:before {
+  content: "::";
+}
+.byline:after {
+  content: "::";
+}
+
 [role='navigation'] {
   font-size: 0.83333rem;
   line-height: 1.5rem;
@@ -299,6 +310,7 @@ body {
   font-size: 0;
   letter-spacing: -2.0625rem;
   text-align: center;
+  display: none;
 }
 .logo a:link, .logo a:visited {
   -moz-transition: all 200ms;
@@ -307,11 +319,10 @@ body {
   transition: all 200ms;
   display: block;
   color: #ec1313;
-  text-shadow: -1px 4px 0 #e5e5e5;
+  text-shadow: none;
 }
 .logo a:hover, .logo a:focus, .logo a:active {
   color: #e5e5e5;
-  text-shadow: 0 0 0 #e5e5e5;
 }
 
 .t, .g {
@@ -385,9 +396,9 @@ body {
   text-transform: lowercase;
 }
 
-.shows, .social-list {
+.shows, .post, .social-list {
   *zoom: 1;
-  max-width: 35em;
+  max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4.5rem;
@@ -396,17 +407,17 @@ body {
   position: relative;
   border-top: 0.1875rem dashed #ec1313;
 }
-.shows:after, .social-list:after {
+.shows:after, .post:after, .social-list:after {
   content: " ";
   display: block;
   clear: both;
 }
 
-.shows .shows-title {
+.shows .shows-title, .post-title {
   margin-bottom: 3rem;
   position: relative;
 }
-.shows .shows-title:before {
+.shows .shows-title:before, .post-title:before {
   content: "»";
   position: absolute;
   right: 100%;
@@ -415,6 +426,17 @@ body {
 
 .shows .show {
   margin-bottom: 0.75rem;
+}
+
+.post-title a:link, .post-title a:visited {
+  color: #e5e5e5;
+}
+.post-title a:hover, .post-title a:focus, .post-title a:active {
+  color: #ec1313;
+}
+
+.post-body {
+  margin-bottom: 1.5rem;
 }
 
 [rel='colophon']:link, .social-item a:link, [rel='colophon']:visited, .social-item a:visited {

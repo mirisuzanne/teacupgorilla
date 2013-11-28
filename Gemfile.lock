@@ -35,8 +35,8 @@ GEM
       ffi (>= 0.5.0)
     sass (3.3.0.rc.2)
       listen (~> 1.1.0)
-    sassy-math (1.5)
-      compass (~> 0.11)
+    sassy-math (1.5.1)
+      compass (>= 0.11)
     susy (2.0.0.alpha.5)
       sass (~> 3.3.0.rc.1)
 
