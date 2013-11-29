@@ -1,9 +1,0 @@
-// Home
-// ====
-
-.verbs {
-  .faces:first-child {
-    @include breakpoint(45em) { @include leader(-1); }
-    @include breakpoint(65em) { @include leader(-2); }
-  }
-}

@@ -230,8 +230,15 @@ body {
   border-top: 0.375rem solid #ec1313;
 }
 
-[role="main"] {
-  padding: 0 1.5rem;
+[role="main"], .social, [role='contentinfo'] {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+@media (min-width: 35em) {
+  [role="main"], .social, [role='contentinfo'] {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 .more {
@@ -512,6 +519,16 @@ body {
   padding-top: 0rem;
   padding-bottom: 1.5rem;
 }
+@media (min-width: 45em) {
+  [role='main'] > .faces:first-child {
+    margin-top: -1.5rem;
+  }
+}
+@media (min-width: 65em) {
+  [role='main'] > .faces:first-child {
+    margin-top: -3rem;
+  }
+}
 
 .faces-wrapper {
   width: 100%;
@@ -525,11 +542,6 @@ body {
   line-height: 2.25rem;
   display: inline-block;
   padding: 0 0.375rem;
-}
-
-.social {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .social-list {
@@ -550,7 +562,8 @@ body {
 
 [role='contentinfo'] {
   margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem 0.375rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.375rem;
   background: #ec1313;
   color: rgba(251, 207, 207, 0.85);
   text-shadow: 0 -1px 0 rgba(141, 11, 11, 0.5);
@@ -563,15 +576,4 @@ body {
 }
 [role='contentinfo'] a:hover, [role='contentinfo'] a:focus, [role='contentinfo'] a:active {
   color: #e5e5e5;
-}
-
-@media (min-width: 45em) {
-  .verbs .faces:first-child {
-    margin-top: -1.5rem;
-  }
-}
-@media (min-width: 65em) {
-  .verbs .faces:first-child {
-    margin-top: -3rem;
-  }
 }

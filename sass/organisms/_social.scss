@@ -13,9 +13,7 @@ $social-size: xlarge;
   }
 }
 
-.social {
-  @include gutters(rhythm(2) inside);
-}
+.social { @extend %grid-padding; }
 
 .social-title { @extend .alt }
 

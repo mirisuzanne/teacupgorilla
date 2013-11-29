@@ -4,6 +4,11 @@
 .faces {
   @extend %section;
   @include rhythm-padding(0, 1);
+
+  [role='main'] > &:first-child {
+    @include breakpoint(45em) { @include leader(-1); }
+    @include breakpoint(65em) { @include leader(-2); }
+  }
 }
 
 .faces-wrapper {
