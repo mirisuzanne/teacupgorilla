@@ -45,7 +45,7 @@
     {%- else -%}
     <em>{{ feature.name }}</em>
     {%- endif -%}
-    {%- if not loop.last %}, {% endif %}
+    {%- if loop.length > 2 and not loop.last %}, {% endif %}
     {% endfor %}
     {% endif %}
   </div>
