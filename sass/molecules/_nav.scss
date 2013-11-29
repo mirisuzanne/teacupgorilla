@@ -6,7 +6,6 @@ $nav: blog, nouns, verbs, adjectives;
 [role='navigation'] {
   @include font-size(small);
   min-height: rhythm(2);
-  text-align: center;
 
   a {
     &:link, &:visited {

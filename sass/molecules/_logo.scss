@@ -2,20 +2,19 @@
 // ====
 
 .logo {
+  @extend %grid-padding;
   @include display-text;
   @include font-size(large);
-  @include padding-leader;
-  padding: rhythm(1) rhythm(1) 0;
-
+  background: $alt;
   text-transform: lowercase;
-  text-align: center;
 
   a {
     &:link, &:visited {
       color: $heading-color;
+      text-decoration: none;
     }
     &:hover, &:focus, &:active {
-      color: $alt;
+      text-decoration: underline;
     }
   }
 }

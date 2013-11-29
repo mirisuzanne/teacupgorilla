@@ -14,6 +14,8 @@
 .faces-wrapper {
   width: 100%;
   height: 0;
-  padding-top: percentage(805/1368);
+  padding-top: 75%;
   position: relative;
+
+  @include breakpoint(35em) { padding-top: 60%; }
 }

@@ -16,10 +16,6 @@ html {
 
 html, body { min-height: 100%; }
 
-body {
-  border-top: rhythm(.25) solid $alt;
-}
-
 %grid-padding {
   @include gutters($grid-padding inside);
   @include breakpoint(35em) { @include gutters($grid-padding * 2 inside); }
