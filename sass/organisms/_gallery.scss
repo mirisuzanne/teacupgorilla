@@ -1,0 +1,23 @@
+// Gallery
+// =======
+
+$gallery-span: 4 after;
+
+.gallery {
+  @extend %section;
+  @include padding-trailer;
+}
+
+.gallery-caption { @extend %section-head; }
+
+.gallery-body {
+  img, .video {
+    @include gallery($gallery-span);
+    @include trailer(.5);
+    &:last-child:nth-child(odd) { width: 100%; }
+  }
+  .video {
+    @include fluid-ratio(16/9, span($gallery-span));
+    &:last-child:nth-child(odd) { @include fluid-ratio(16/9); }
+  }
+}
