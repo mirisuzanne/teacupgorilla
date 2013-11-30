@@ -4,13 +4,17 @@
 $gallery-span: 4 after;
 
 .gallery {
-  @extend %section;
-  @include padding-trailer;
+  &.section {
+    @extend %section;
+    @include padding-trailer;
+    .gallery-caption { @extend %section-head; }
+  }
 }
 
-.gallery-caption { @extend %section-head; }
 
 .gallery-body {
+  @include pie-clearfix;
+
   img, .video {
     @include gallery($gallery-span);
     @include trailer(.5);

@@ -97,7 +97,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal;
 }
-.shows .shows-title, .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .show .title, .show .location, .show .dtstart, .logo {
+.shows .shows-title, .gallery.section .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .show .title, .show .location, .show .dtstart, .logo {
   font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -156,11 +156,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-.shows .shows-title, .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .show .title, .show .location, .show .dtstart {
+.shows .shows-title, .gallery.section .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .show .title, .show .location, .show .dtstart {
   color: #e5e5e5;
 }
 
-.shows .shows-title, .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child {
+.shows .shows-title, .gallery.section .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child {
   font-size: 2.08333rem;
   line-height: 2.25rem;
 }
@@ -476,7 +476,7 @@ img, video, iframe {
     text-align: right;
   }
 }
-.shows, .gallery, .post, .faces, .demos, [id='the-band'], [id='projects'], .social-list {
+.shows, .gallery.section, .post, .faces, .demos, [id='the-band'], [id='projects'], .social-list {
   *zoom: 1;
   max-width: 30rem;
   margin-left: auto;
@@ -486,17 +486,17 @@ img, video, iframe {
   position: relative;
   border-bottom: 0.1875rem dashed rgba(236, 19, 19, 0.5);
 }
-.shows:after, .gallery:after, .post:after, .faces:after, .demos:after, [id='the-band']:after, [id='projects']:after, .social-list:after {
+.shows:after, .gallery.section:after, .post:after, .faces:after, .demos:after, [id='the-band']:after, [id='projects']:after, .social-list:after {
   content: " ";
   display: block;
   clear: both;
 }
 
-.shows .shows-title, .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child {
+.shows .shows-title, .gallery.section .gallery-caption, .post-title, .demos-title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child {
   margin-bottom: 1.5rem;
   position: relative;
 }
-.shows .shows-title:before, .gallery-caption:before, .post-title:before, .demos-title:before, [id='the-band'] h2:first-child:before, [id='projects'] h2:first-child:before {
+.shows .shows-title:before, .gallery.section .gallery-caption:before, .post-title:before, .demos-title:before, [id='the-band'] h2:first-child:before, [id='projects'] h2:first-child:before {
   content: "»";
   position: absolute;
   right: 100%;
@@ -507,10 +507,18 @@ img, video, iframe {
   margin-bottom: 0.75rem;
 }
 
-.gallery {
+.gallery.section {
   padding-bottom: 1.5rem;
 }
 
+.gallery-body {
+  *zoom: 1;
+}
+.gallery-body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .gallery-body img, .gallery-body .video {
   width: 48.71795%;
   float: left;
