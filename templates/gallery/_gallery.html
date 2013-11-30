@@ -8,9 +8,9 @@
   <div class="gallery-body">
     {% for item in gallery.body %}
     {% if item.image %}
-    <img src="/static/pictures/{{ item.image }}"{% if item.alt %} alt="{{ item.alt }}"{% endif %} />
+    <img src="/static/pictures/{{ item.image }}"{% if item.class %} class="{{ item.class }}"{% endif %}{% if item.alt %} alt="{{ item.alt }}"{% endif %} />
     {% elif item.video %}
-    <div class="video">{{ item.video|safe }}</div>
+    <div class="video{% if item.class %} {{ item.class }}{% endif %}">{{ item.video|safe }}</div>
     {% endif %}
     {% endfor %}
   </div>

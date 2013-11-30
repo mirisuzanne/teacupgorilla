@@ -1,7 +1,7 @@
 // Gallery
 // =======
 
-$gallery-span: 4 after;
+$gallery-span: 4 split;
 
 .gallery {
   &.section {
@@ -16,12 +16,15 @@ $gallery-span: 4 after;
   @include pie-clearfix;
 
   img, .video {
-    @include gallery($gallery-span);
+    @include span($gallery-span);
     @include trailer(.5);
-    &:last-child:nth-child(odd) { width: 100%; }
+    &.full {
+      @include full(split);
+      width: span(8 split);
+    }
   }
   .video {
     @include fluid-ratio(16/9, span($gallery-span));
-    &:last-child:nth-child(odd) { @include fluid-ratio(16/9); }
+    &.full { @include fluid-ratio(16/9); }
   }
 }
