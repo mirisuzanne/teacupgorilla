@@ -1,5 +1,5 @@
-<section class="shows recent">
-  <h2 class="shows-title">Memories</h2>
+<section class="shows recent" aria-labelledby='recent-title'>
+  <h2 class="shows-title" id="recent-title">Memories</h2>
   {% for show in config.recent %}
   {% if not module.count or loop.index <= module.count %}
   {% include "music/_show.html" %}

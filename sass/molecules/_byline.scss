@@ -4,6 +4,6 @@
 .byline {
   @include alt-text;
   @include wrap-content('::' '::');
-  opacity: .75;
+  opacity: .5;
   text-transform: lowercase;
 }

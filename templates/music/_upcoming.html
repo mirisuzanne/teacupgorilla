@@ -1,6 +1,6 @@
 {% if config.upcoming %}
-<section class="shows upcoming">
-  <h2 class="shows-title">To Do</h2>
+<section class="shows upcoming" aria-labelledby='upcoming-title'>
+  <h2 class="shows-title" id="upcoming-title">To Do</h2>
   {% for show in config.upcoming %}
   {% if not module.count or loop.index <= module.count %}
   {% include "music/_show.html" %}
@@ -8,7 +8,7 @@
   {% endfor %}
 
   {% if module.count and config.upcoming|length > module.count %}
-  <a href="/verbs/" class="more">more activities »</a>
+  <a href="/verbs/" class="more">more plans »</a>
   {% endif %}
 </section>
 {% endif %}

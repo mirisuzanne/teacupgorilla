@@ -4,8 +4,8 @@ bodyclasses: verbs
 before:
   - include: 'faces/_faces.html'
   - include: 'music/_upcoming.html'
-after:
   - include: 'music/_demos.html'
+after:
   - include: 'music/_recent.html'
     count: 3
 

@@ -1,13 +1,11 @@
 ---
 # Site Config
-active_modules: [pygments, tags, blog, typogrify]
+active_modules: [blog, typogrify]
 author: Eric A. Meyer
 canonical_url: http://teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages
 template_path: ../templates
 modules:
-  pygments:
-    style: borland
   blog:
     index_url: /blog/
 

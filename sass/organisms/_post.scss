@@ -4,12 +4,15 @@
 .post {
   @extend %section;
   @extend %body;
+  @include padding-trailer(1);
 
   .show { @include trailer; }
+  .byline { @include trailer(1); }
 }
 
 .post-title {
   @extend %section-head;
+  @include trailer(0);
 
   a {
     &:link, &:visited {

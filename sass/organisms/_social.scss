@@ -15,7 +15,7 @@ $social-size: xlarge;
 
 .social { @extend %grid-padding; }
 
-.social-title { @extend .alt }
+[id='social-title'] { @extend .alt }
 
 .social-list {
   @extend %section;

@@ -239,9 +239,12 @@ html, body {
 
 .more {
   display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.alt, .social-title {
+.alt, [id='social-title'] {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
 }
@@ -297,7 +300,7 @@ html, body {
 }
 
 .byline {
-  opacity: .75;
+  opacity: .5;
   text-transform: lowercase;
 }
 .byline:before {
@@ -499,10 +502,19 @@ html, body {
   margin-bottom: 0.75rem;
 }
 
+.post {
+  padding-bottom: 1.5rem;
+}
 .post .show {
   margin-bottom: 1.5rem;
 }
+.post .byline {
+  margin-bottom: 1.5rem;
+}
 
+.post-title {
+  margin-bottom: 0rem;
+}
 .post-title a:link, .post-title a:visited {
   color: #e5e5e5;
 }
