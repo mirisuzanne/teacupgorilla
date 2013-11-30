@@ -1,0 +1,18 @@
+{% if config.gallery %}
+{% for gallery in config.gallery %}
+<figure class="gallery">
+  <div class="gallery-body">
+    {% for item in gallery.body %}
+    {% if item.image %}
+    <img src="/static/pictures/{{ item.image }}"{% if item.alt %} alt="{{ item.alt }}"{% endif %} />
+    {% elif item.video %}
+    {{ item.video|safe }}
+    {% endif %}
+    {% endfor %}
+  </div>
+  <figcaption class="gallery-caption">
+    {{ gallery.caption|safe }}
+  </figcaption>
+</figure>
+{% endfor %}
+{% endif %}
