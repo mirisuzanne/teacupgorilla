@@ -25,6 +25,6 @@ $gallery-span: 4 split;
   }
   .video {
     @include fluid-ratio(16/9, span($gallery-span));
-    &.full { @include fluid-ratio(16/9); }
+    &.full { @include fluid-ratio(16/9, span(8 split)); }
   }
 }
