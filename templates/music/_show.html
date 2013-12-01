@@ -1,0 +1,53 @@
+<article class="show vevent">
+  {# Time #}
+  <time class="dtstart" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
+    {% if show.date %}<span class="date">{{ show.date }}</span>{% endif %}
+    {% if show.time %}<span class="time">{{ show.time }}</span>{% endif %}
+  </time>
+
+  <h3 class="summary">
+    {# Title #}
+    {% if show.title %}
+    <span class="title">
+      {% if show.title_url or show.url %}
+      <a href="{{ show.title_url or show.url }}">{{ show.title }}</a>
+      {% else %}
+      {{ show.title }}
+      {% endif %}
+    </span>
+    {% if show.venue %}<i>at</i>{% endif %}
+    {% endif %}
+
+    {# Location #}
+    {% if show.venue %}
+    <span class="location vcard">
+      {% if show.venue_url or show.url %}
+      <a href="{{ show.venue_url or show.url }}" class="fn org url">{{ show.venue }}</a>
+      {% else %}
+      <span class="fn org">{{ show.venue }}</span>
+      {% endif %}
+    </span>
+    {% endif %}
+  </h3>
+
+  {# With #}
+  {% if show.with %}
+  <div class="with">
+    {% if show.with is string %}
+    {{ show.with }}
+    {% else %}
+    {% if show.before_with %}{{ show.before_with }}{% endif %}
+    with
+    {% for feature in show.with -%}
+    {%- if loop.last and not loop.first %} and {% endif %}
+    {%- if feature.url -%}
+    <a href="{{ feature.url }}">{{ feature.name }}</a>
+    {%- else -%}
+    <em>{{ feature.name }}</em>
+    {%- endif -%}
+    {%- if loop.length > 2 and not loop.last %}, {% endif %}
+    {% endfor %}
+    {% endif %}
+  </div>
+  {% endif %}
+</article>

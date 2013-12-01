@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ rst.title }}{% endblock %}
+
+{% block template %}
+  <nav class="styleguide-nav">
+    <a href="/">Teacup Gorilla</a> »
+    <a href="/style/">Styleguide</a>
+    {% block styleguide_nav %}{% endblock %}
+  </nav>
+
+  {% block body %}
+  {{ rst.fragment }}
+  {% endblock %}
+{% endblock %}

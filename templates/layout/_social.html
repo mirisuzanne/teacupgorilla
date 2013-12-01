@@ -1,0 +1,16 @@
+{% if config.social %}
+<aside class="social" aria-labelledby="social-title">
+  <h2 id="social-title">Contact</h2>
+
+  <ul class="social-list">
+    {% for item in config.social %}
+    <li class="social-item">
+      <a rel="me" class="{{ item.slug }}" href="{{ item.url }}">
+        <span data-icon="{{ item.icon or item.slug }}" aria-hidden="true"> </span>
+        <span class="tooltip">{{ item.slug }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

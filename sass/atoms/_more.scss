@@ -1,0 +1,10 @@
+// More
+// ====
+
+.more {
+  @include alt-text;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

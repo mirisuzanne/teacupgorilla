@@ -1,11 +1,132 @@
 ---
-active_modules: [pygments, tags, blog, typogrify]
+# Site Config
+active_modules: [blog, typogrify]
 author: Eric A. Meyer
 canonical_url: http://teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages
 template_path: ../templates
 modules:
-  pygments:
-    style: borland
   blog:
-    index_url: /
+    index_url: /blog/
+
+# Upcoming Shows
+upcoming: false
+
+# Recent Shows
+recent:
+  - date: Oct. 24, 2013
+    venue: Toad Tavern
+    url: http://toadtavern.com/?tribe_events=current-youth-johny-got-roxx-timothy-lee-houston-band-tea-cup-gorilla
+    datetime: 2013-10-24
+    with:
+      - name: Current Youth
+        url: https://www.facebook.com/currentyouth1
+      - name: Johny Got Roxx
+        url: https://www.facebook.com/pages/Johnny-Got-Rox/386241998134260
+      - name: Timothy Lee Houston Band
+
+  - date: Sept. 30, 2013
+    venue: Larimer Lounge
+    url: http://www.larimerlounge.com/event_details.cfm?blogid=1278
+    datetime: 2013-09-30
+    with:
+      - name: Evan Holm Band
+        url: https://www.facebook.com/EvanHolmDenver
+      - name: Mark Risius
+        url: https://www.facebook.com/pages/Mark-Risius-Music/209451469137272
+
+  - date: Sept. 19, 2013
+    venue: Herman’s Hideaway
+    url: http://www.hermanshideaway.com/
+    datetime: 2013-09-19
+    with:
+      - name: 'Nikol&Zack'
+        url: http://www.ourstage.com/epk/nikolzack/
+      - name: Blame Gravity
+        url: http://www.blamegravity.com/
+      - name: Lindsey Saunders Band
+        url: http://lindseysaundersmusic.com/
+
+  - date: July 27, 2013
+    venue: Zach’s Garage
+    datetime: 2013-07-27
+    with:
+      - name: Muscle Beach
+        url: https://www.facebook.com/musclebeachparty
+      - name: '[empty brackets]'
+
+  - date: March 22, 2013
+    title: Bouldering Poets
+    url: http://boulderingpoets.wordpress.com/2013/02/
+    venue: 303 Vodka
+    venue_url: http://303vodka.com/
+    datetime: 2013-03-22
+    with:
+      - name: Georgia Van Gunten
+        url: http://naropa.digication.com/GeorgiaVangunten
+      - name: Ellen Orleans
+        url: http://www.corvidwriters.org/ellen/index.html
+      - name: Asalott
+        url: http://asalott.com/
+
+  - date: July 21, 2012
+    title: 'Leon Presents a Reading Series #6'
+    url: https://www.facebook.com/leongallery
+    datetime: 2012-07-21
+    with:
+      - name: Eric Meyer [solo]
+        url: http://eric.andmeyer.com/
+      - name: Kelly Dulaney
+
+  - date: Sept 3, 2010
+    venue: Butterfly Pavilion
+    datetime: 2010-09-03
+    with:
+      - name: Rachel Eisenstat
+        url: http://www.ravenjane.com/
+
+  - date: June 26, 2010
+    venue: The Packing House
+    url: http://www.controlgroupproductions.org/
+    datetime: 2010-06-26
+
+  - date: March 25-27, 2010
+    title: Missa Populi
+    url: http://vicioustrap.com/shows/
+    venue: The Packing House
+    venue_url: http://www.controlgroupproductions.org/
+    datetime: 2010-03-25
+    before_with: a collaboration
+    with:
+      - name: Vicious Trap
+        url: http://vicioustrap.com/
+
+# Demo
+demo: <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ec1313&amp;auto_play=false&amp;show_artwork=false"></iframe>
+
+# Navigation
+nav:
+  - url: '/blog/'
+    name: blog
+  - url: '/'
+    name: verbs
+  - url: '/nouns/'
+    name: nouns
+  - url: '/adjectives/'
+    name: adjectives
+
+# Social Links
+social:
+  - slug: 'email'
+    url: "mailto:info(put the 'at' sign here)teacupgorilla.com"
+  - slug: 'twitter'
+    url: 'http://twitter.com/teacupgorilla/'
+  - slug: 'facebook'
+    url: 'http://facebook.com/teacupgorilla/'
+  - slug: 'soundcloud'
+    url: 'http://soundcloud.com/teacupgorilla/'
+  - slug: 'myspace'
+    url: 'http://new.myspace.com/teacupgorilla/'
+  - slug: 'rss'
+    icon: 'feed'
+    url: 'http://feeds.feedburner.com/teacupgorilla'

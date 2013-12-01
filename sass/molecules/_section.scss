@@ -1,0 +1,23 @@
+// Section
+// =======
+
+$section-border: rhythm(.125) dashed color($alt, .5);
+
+%section {
+  @include container;
+  @include rhythm-padding(.5, 2);
+  position: relative;
+  border-bottom: $section-border;
+}
+
+%section-head {
+  @extend %h2;
+  @include trailer;
+  position: relative;
+
+  @include before('»') {
+    position: absolute;
+    right: 100%;
+    margin-right: .4em;
+  }
+}

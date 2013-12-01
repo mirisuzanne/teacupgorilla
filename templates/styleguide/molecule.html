@@ -1,0 +1,17 @@
+{% extends "styleguide/base.html" %}
+
+{% block styleguide_nav %}
+  » <span>{{ rst.title }}</span>
+{% endblock %}
+
+{% block body %}
+  {% for module in config.before %}
+    {% include module.include %}
+  {% endfor %}
+
+  {{ rst.fragment }}
+
+  {% for module in config.after %}
+    {% include module.include %}
+  {% endfor %}
+{% endblock %}

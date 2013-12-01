@@ -1,0 +1,20 @@
+// Logo
+// ====
+
+.logo {
+  @extend %grid-padding;
+  @include display-text;
+  @include font-size(large);
+  background: $alt;
+  text-transform: lowercase;
+
+  a {
+    &:link, &:visited {
+      color: $heading-color;
+      text-decoration: none;
+    }
+    &:hover, &:focus, &:active {
+      text-decoration: underline;
+    }
+  }
+}

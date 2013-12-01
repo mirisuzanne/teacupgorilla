@@ -1,34 +1,38 @@
 {% extends "layout.html" %}
-{% block title %}Blog{% endblock %}
 
-{% block feature %}
-  <section class="feature">
-    {% include "_shows.html" %}
-  </section>
-{% endblock feature %}
+{% block title %}Blog :: {{ super() }}{% endblock %}
+{% block bodyclasses %}{{ super() }}blog{% endblock %}
 
 {% block body %}
-
   {%- for ctx in pagination.get_slice() %}
+  {% set config = ctx.config %}
   <article class="post">
-    <h1 class="title">
+    <h2 class="post-title">
       <a href="{{ link_to('page', slug=ctx.slug) }}">
         {{ ctx.title }}
       </a>
-    </h1>
+    </h2>
 
     {% include "_byline.html" %}
 
-    <div class="body">
+    {% for module in config.before %}
+      {% include module.include %}
+    {% endfor %}
+
+    <div class="post-body">
       {% if ctx.summary %}
         {{ ctx.render_summary() }}
-        <a href="{{ link_to('page', slug=ctx.slug) }}" class="readmore">
+        <a href="{{ link_to('page', slug=ctx.slug) }}" class="more">
           read more
         </a>
       {% else %}
         {{ ctx.render_contents() }}
       {% endif %}
     </div>
+
+    {% for module in config.after %}
+      {% include module.include %}
+    {% endfor %}
   </article>
   {%- endfor %}
 

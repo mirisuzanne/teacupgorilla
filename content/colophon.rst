@@ -1,14 +1,15 @@
 public: yes
+main_class: colophon
 
 
-Colophone
-=========
+Colophon
+========
 
 This site is built on plain old semantic `HTML5`_,
 powered by the `rstblog`_ static site generator for `Python`_,
 and styled using `CSS3`_,
 with help from `jQuery`_,
-`Modernizr`_,
+`Email Defuscator`_,
 `IcoMoon`_,
 `Breakpoint`_,
 `Modular Scale`_,
@@ -22,7 +23,7 @@ and several `GreenMud`_ fonts.
 .. _Python: http://www.python.org
 .. _CSS3: http://www.w3.org/TR/css-2010/
 .. _jQuery: http://www.jquery.com/
-.. _Modernizr: http://www.modernizr.com/
+.. _Email Defuscator: http://www.jquery-plugins.info/email-defuscator-00012634.htm
 .. _IcoMoon: http://keyamoon.com/icomoon/
 .. _Breakpoint: http://breakpoint-sass.com/
 .. _Modular Scale: https://github.com/Team-Sass/modular-scale

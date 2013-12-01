@@ -1,0 +1,76 @@
+// Size Settings
+// =============
+
+$base-size: 24px;
+$ratio: minor-third() fifth();
+
+// Pallette
+// --------
+
+$m      : 1;
+$s      : -1;
+$xs     : -2;
+$xxs    : -3;
+$xxxs   : -4;
+$l      : 2;
+$xl     : 3;
+$xxl    : 5;
+$xxxl   : 8;
+
+$normpx       : $base-size;
+$medpx        : ms($m);
+$smallpx      : ms($s);
+$xsmallpx     : ms($xs);
+$xxsmallpx    : ms($xxs);
+$xxxsmallpx   : ms($xxxs);
+$largepx      : ms($l);
+$xlargepx     : ms($xl);
+$xxlargepx    : ms($xxl);
+$xxxlargepx   : ms($xxxl);
+
+$sizes: (
+  normal     : $normpx,
+  medium     : $medpx,
+  small      : $smallpx,
+  xsmall     : $xsmallpx,
+  xxsmall    : $xxsmallpx,
+  xxxsmall   : $xxxsmallpx,
+  large      : $largepx,
+  xlarge     : $xlargepx,
+  xxlarge    : $xxlargepx,
+  xxxlarge   : $xxxlargepx,
+);
+
+// Guide
+// -----
+
+$rhythm-unit                      : rem;
+$rem-with-px-fallback             : false;
+
+$base-font-size                   : $normpx;
+$base-line-height                 : $xlargepx;
+
+$round-to-nearest-half-line       : true;
+$grid-background-baseline-height  : $base-line-height;
+
+$body-size                        : $base-font-size;
+
+// Mixins
+// ------
+
+@mixin font-size(
+  $size: normal,
+  $lines: false
+){
+  $out: if($lines, (lines: $lines), ());
+
+  @if type-of($size) == number {
+    $out: map-merge($out, (to_size: $size));
+  } @else if type-of($size) == string {
+    $px: map-get($sizes, $size);
+    $out: map-merge($out, (to_size: $px));
+  }
+
+  @include adjust-font-size-to($out...);
+}
+

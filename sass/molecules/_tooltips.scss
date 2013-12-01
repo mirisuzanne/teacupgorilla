@@ -1,0 +1,141 @@
+// Tooltips
+// ========
+
+$tooltip-background: color($alt, .95);
+$tooltip-color: color(light $text-color);
+$tooltip-border: $bg-color;
+$tooltip-arrow-size: rhythm(.125);
+
+%tooltip-base {
+  @include alt-text;
+  @include font-size(small);
+  position: absolute;
+  padding: 0 rhythm(.25);
+  color: $tooltip-color;
+  background: $tooltip-background;
+  border: 1px solid $tooltip-border;
+  text-shadow: 0 1px 0 color(darker $tooltip-background, .75);
+  font-weight: bold;
+  white-space: nowrap;
+  z-index: 100;
+  pointer-events: none;
+
+  &[data-tooltip] { @include after(attr(data-tooltip)); }
+
+  // Hide
+  opacity: 0;
+  z-index: -1;
+}
+
+// Positions
+// ---------
+
+%tooltip-top {
+  bottom: 100%;
+  margin-bottom: $tooltip-arrow-size;
+}
+
+%tooltip-top-left {
+  @extend %tooltip-top;
+  @include arrow(bottom (- $tooltip-arrow-size) $tooltip-background $tooltip-arrow-size, $positioning: null);
+  right: 0;
+}
+
+%tooltip-top-right {
+  @extend %tooltip-top;
+  @include arrow(bottom $tooltip-arrow-size $tooltip-background $tooltip-arrow-size, $positioning: null);
+  left: 0;
+}
+
+%tooltip-bottom {
+  top: 100%;
+  margin-top: $tooltip-arrow-size;
+}
+
+%tooltip-bottom-left {
+  @extend %tooltip-bottom;
+  @include arrow(top (- $tooltip-arrow-size) $tooltip-background $tooltip-arrow-size, $positioning: null);
+  right: 0;
+}
+
+%tooltip-bottom-right {
+  @extend %tooltip-bottom;
+  @include arrow(top $tooltip-arrow-size $tooltip-background $tooltip-arrow-size, $positioning: null);
+  left: 0;
+}
+
+%tooltip-right {
+  @include arrow(left center $tooltip-background $tooltip-arrow-size, $positioning: null);
+  left: 100%;
+  top: 0;
+  margin-left: $tooltip-arrow-size;
+}
+
+%tooltip-left {
+  @include arrow(right center $tooltip-background $tooltip-arrow-size, $positioning: null);
+  right: 100%;
+  top: 0;
+  margin-right: $tooltip-arrow-size;
+}
+
+// Defaults
+// --------
+
+.tooltip {
+  @extend %tooltip-base;
+}
+
+@mixin active-tooltip {
+  opacity: 1;
+  z-index: 900;
+}
+
+// Triggers
+// --------
+
+%has-tooltip {
+  position: relative;
+  text-decoration: none;
+  &:hover .tooltip {
+    @include active-tooltip;
+  }
+}
+
+.help-tip { @extend %has-tooltip; }
+
+// Mixin
+// -----
+
+$default-tooltip-x          : right           !default;
+$default-tooltip-y          : top             !default;
+$default-tooltip-selector   : '.tooltip'      !default;
+
+@mixin tooltip(
+  $pos: $default-tooltip-x $default-tooltip-y,
+  $selector: $default-tooltip-selector
+) {
+  $xpos: null;
+  $ypos: null;
+  $extend: '%tooltip';
+
+  @if index($pos, left) {
+    $xpos: left;
+  } @else if index($pos, right) {
+    $xpos: right;
+  }
+
+  @if index($pos, top) {
+    $ypos: top;
+  } @else if index($pos, bottom) {
+    $ypos: bottom;
+  }
+
+  @if $ypos { $extend: $extend + '-#{$ypos}'; }
+  @if $xpos { $extend: $extend + '-#{$xpos}'; }
+
+  @extend %has-tooltip;
+  #{$selector} {
+    @extend #{$extend};
+    @content;
+  }
+}

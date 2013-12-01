@@ -1,0 +1,24 @@
+// Banner
+// ======
+
+[role="banner"] {
+  @include pie-clearfix;
+  @include trailer(.5);
+  text-align: center;
+}
+
+@include breakpoint(45em) {
+  [role="banner"] {
+    border-top: rhythm(.25) solid $alt;
+    text-align: left;
+  }
+
+  .logo {
+    @include span(45% no-gutters);
+    background: none;
+  }
+  [role="navigation"] {
+    @include span(last 55% no-gutters);
+    text-align: right;
+  }
+}

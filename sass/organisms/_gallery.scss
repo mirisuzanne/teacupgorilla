@@ -1,0 +1,30 @@
+// Gallery
+// =======
+
+$gallery-span: 4 split;
+
+.gallery {
+  &.section {
+    @extend %section;
+    @include padding-trailer;
+    .gallery-caption { @extend %section-head; }
+  }
+}
+
+
+.gallery-body {
+  @include pie-clearfix;
+
+  img, .video {
+    @include span($gallery-span);
+    @include trailer(.5);
+    &.full {
+      @include full(split);
+      width: span(8 split);
+    }
+  }
+  .video {
+    @include fluid-ratio(16/9, span($gallery-span));
+    &.full { @include fluid-ratio(16/9, span(8 split)); }
+  }
+}

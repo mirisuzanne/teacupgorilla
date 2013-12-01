@@ -1,0 +1,43 @@
+// Links
+// =====
+
+$link-color: color(light $alt);
+$link-focus-color: $alt;
+
+@mixin link-base {
+  color: $link-color;
+}
+
+@mixin link-focus {
+  color: $link-focus-color;
+}
+
+@mixin link-styles(
+  $fake: false
+) {
+  $selector: if($fake, '&', '&:link, &:visited');
+  #{$selector} { @include link-base; }
+  &:hover, &:focus, &:active { @include link-focus; }
+}
+
+%link-base { @include link-base; }
+%link-focus { @include link-focus; }
+%link { @include link-styles; }
+%fake-link { @include link-styles(fake); }
+
+@mixin link(
+  $fake: false,
+  $include: false
+) {
+  @if $include {
+    @include link-styles($fake);
+  } @else {
+    @extend %#{if($fake, 'fake-', '')}link;
+  }
+}
+
+a { @include link; }
+
+%icon-link {
+  &:link, &:visited { text-decoration: none; }
+}

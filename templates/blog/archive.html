@@ -2,14 +2,14 @@
 {% block title %}Blog Archive{% endblock %}
 {% block body %}
 
-  <h1 class="title">Archive</h1>
+  <h2 class="title">Archive</h2>
 
   <ul class="blog-archive">
   {%- for entry in archive %}
     <li>
-      <h2>
+      <h3>
         <a href="{{ link_to('blog_archive', year=entry.year) }}">{{ entry.year }}</a>
-      </h2>
+      </h3>
       <ul>
       {%- for subentry in entry.months %}
         <li>

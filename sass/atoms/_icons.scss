@@ -1,0 +1,36 @@
+// Icons
+// =====
+
+$icon-facebook      : "\e001";
+$icon-twitter       : "\e002";
+$icon-envelope      : "\e000";
+$icon-feed          : "\e003";
+$icon-soundcloud    : "\e004";
+$icon-myspace       : "\e005";
+$icon-html5         : "\e006";
+
+$icons: (
+  facebook      : $icon-facebook,
+  twitter       : $icon-twitter,
+  email         : $icon-envelope,
+  feed          : $icon-feed,
+  soundcloud    : $icon-soundcloud,
+  myspace       : $icon-myspace,
+  html5         : $icon-html5,
+);
+
+%icon-content {
+  box-sizing: content-box;
+  font-family: "teacup";
+  font-style: normal !important;
+  font-weight: normal !important;
+  speak: none;
+}
+
+[data-icon]:before {
+  @extend %icon-content;
+}
+
+@each $name, $icon in $icons {
+  [data-icon="#{$name}"]:before { content: $icon; }
+}
