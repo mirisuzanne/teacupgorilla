@@ -2,3 +2,5 @@
 // =====
 
 @include fluid-media(100%, 'img, video, iframe');
+
+img { vertical-align: top; }

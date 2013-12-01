@@ -4,10 +4,10 @@
 $gallery-span: 4 split;
 
 .gallery {
+  img { width: 100%; }
   &.section {
     @extend %section;
     @include padding-trailer;
-    .gallery-caption { @extend %section-head; }
   }
 }
 
@@ -15,16 +15,32 @@ $gallery-span: 4 split;
 .gallery-body {
   @include pie-clearfix;
 
-  img, .video {
+  .gallery-item {
     @include span($gallery-span);
     @include trailer(.5);
-    &.full {
-      @include full(split);
-      width: span(8 split);
-    }
+    border: 1px solid color(darker, .5);
+  }
+  .full {
+    @include gutters(split);
+    width: span(8 split);
   }
   .video {
     @include fluid-ratio(16/9, span($gallery-span));
     &.full { @include fluid-ratio(16/9, span(8 split)); }
   }
+}
+
+.gallery-caption {
+  .section & { @extend %section-head; }
+}
+
+.gallery-citation {
+  @include gutters(split);
+  @include translateY(rhythm(-.5));
+  @include font-size(small);
+  @include alt-text;
+  opacity: .675;
+  display: block;
+  text-transform: lowercase;
+  text-align: right;
 }

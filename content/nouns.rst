@@ -15,16 +15,18 @@ gallery:
       - image: 'nouns/130919-hermans/hermans6.jpg'
       - image: 'nouns/130919-hermans/hermans3.jpg'
         class: full
-    caption:
-      text: 09.13 Herman's Hideaway
+    caption: 09.13 Herman's Hideaway
+    citation: |
+      video by <a href="http://megansumner.com">Megan Sumner</a> ::
+      photos by Kenny Storms
     is_section: true
   - body:
       - image: 'nouns/bouldering.jpg'
         class: full
       - image: 'nouns/tg-epk-low-1.jpg'
       - image: 'nouns/tg-epk-low-2.jpg'
-    caption:
-      text: 03.13 Bouldering Poets
+    caption: 03.13 Bouldering Poets
+    citation: photos by Elyse Brownell &amp; Christopher Shugrue
     is_section: true
   - body:
       - video: <iframe src="http://player.vimeo.com/video/39468690?title=0&amp;byline=0&amp;portrait=0&amp;color=ec1313" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
