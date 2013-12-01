@@ -18,7 +18,7 @@ $gallery-span: 4 split;
   .gallery-item {
     @include span($gallery-span);
     @include trailer(.5);
-    border: 1px solid color(darker, .5);
+    outline: 1px solid color(darker, .5);
   }
   .full {
     @include gutters(split);
