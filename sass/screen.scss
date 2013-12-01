@@ -26,6 +26,7 @@
 @import "atoms/base";
 @import "atoms/media";
 @import "atoms/more";
+@import "atoms/face_sketch";
 
 // Molecules: Abstract
 // -------------------
@@ -33,27 +34,26 @@
 @import "molecules/a11y";
 @import "molecules/tooltips";
 @import "molecules/byline";
+@import "molecules/section";
 
 // Molecules: Concrete
 // -------------------
 
 @import "molecules/nav";
 @import "molecules/logo";
-@import "molecules/face_sketch";
+@import "molecules/faces";
 @import "molecules/show";
-@import "molecules/rel_colophon";
+@import "molecules/demo";
+@import "molecules/post";
+@import "molecules/colophon";
+@import "molecules/bio";
+@import "molecules/social";
 @import "molecules/copyright";
 
 // Organisms
 // ---------
 
 @import "organisms/banner";
-@import "organisms/section";
 @import "organisms/shows";
 @import "organisms/gallery";
-@import "organisms/post";
-@import "organisms/faces";
-@import "organisms/demo";
-@import "organisms/bio";
-@import "organisms/social";
 @import "organisms/contentinfo";

@@ -1,0 +1,12 @@
+// Demo
+// ====
+
+.demos {
+  @extend %section;
+  iframe {
+    width: 100%;
+    min-height: 314px;
+  }
+}
+
+.demos-title { @extend %section-head; }

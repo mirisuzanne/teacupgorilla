@@ -4,3 +4,8 @@
 [rel='colophon'] {
   @extend %social-icon-link;
 }
+
+.colophon {
+  @extend %section;
+  .title { @extend %section-head; }
+}

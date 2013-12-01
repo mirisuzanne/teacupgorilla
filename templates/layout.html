@@ -3,7 +3,7 @@
 {% block template %}
   {% include "layout/_banner.html" %}
 
-  <main role="main">
+  <main role="main"{% if config.main_class %} class="{{ config.main_class }}"{% endif %}>
     {% block body %}{% endblock %}
   </main>
 
