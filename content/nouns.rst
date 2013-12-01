@@ -21,10 +21,10 @@ gallery:
       photos by Kenny Storms
     is_section: true
   - body:
-      - image: 'nouns/bouldering.jpg'
+      - image: 'nouns/130322-bouldering/bouldering.jpg'
         class: full
-      - image: 'nouns/tg-epk-low-1.jpg'
-      - image: 'nouns/tg-epk-low-2.jpg'
+      - image: 'nouns/130322-bouldering/bouldering1.jpg'
+      - image: 'nouns/130322-bouldering/bouldering2.jpg'
     caption: 03.13 Bouldering Poets
     citation: photos by Elyse Brownell &amp; Christopher Shugrue
     is_section: true
