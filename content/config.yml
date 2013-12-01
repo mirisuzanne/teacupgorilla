@@ -127,6 +127,3 @@ social:
     url: 'http://soundcloud.com/teacupgorilla/'
   - slug: 'myspace'
     url: 'http://new.myspace.com/teacupgorilla/'
-  - slug: 'rss'
-    icon: 'feed'
-    url: 'http://feeds.feedburner.com/teacupgorilla'
