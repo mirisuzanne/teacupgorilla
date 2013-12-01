@@ -7,13 +7,13 @@
   
 
   <!-- Page Info -->
-  <title>Blog Archive for February, 2013 | TeacupGorilla</title>
+  <title>Blog Archive for February, 2013</title>
   <meta name="description" content="Multimedia arts collective with post-rock tendencies." />
 
   <!-- Site Info -->
   <meta name="robots" content="index, follow" />
   <meta name="author" content="Teacup Gorilla" />
-  <meta name="keywords" content="post-rock" />
+  <meta name="keywords" content="post-rock, music, denver" />
   <meta name="language" content="en-us" />
 
   <link href="/feed.atom" rel="alternate" title="Feed" type="application/atom+xml">
@@ -29,29 +29,30 @@
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
-
-  <!--iOS. Delete if not required -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="initial-scale=1">
 
   <!-- favicon.ico -->
   <link rel="shortcut icon" href="/static/images/favicons/favicon.ico" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/images/favicons/apple-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/images/favicons/apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="/static/images/favicons/apple-touch-icon-precomposed.png">
-  
   <!-- Styles -->
 
   
   <link rel="stylesheet" href="/static/css/screen.css" />
   
 
-  <!-- Modernizr -->
-  <script src="/static/js/modernizr.js"></script>
-  <script src="/static/js/modernizr.selectors.js"></script>
-
   <!-- Google -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-17741217-1', 'teacupgorilla.com');
+    ga('send', 'pageview');
+
+  </script>
 
   <!-- Page-Specific Head -->
   
@@ -62,27 +63,34 @@
 <body id="andmeyer" class="">
 
 
-<h1 role="banner"><a href="/" rel="home">Teacup Gorilla</a></h1>
-
-<nav role="navigation">
-  <ul>
-    <li><a href="/verbs/">verbs</a></li>
-    <li><a href="/nouns/">nouns</a></li>
-    <li><a href="/adjectives/">adjectives</a></li>
-  </ul>
-</nav>
-
-
-
-<section role="main">
-
+  <header role="banner">
+  <h1 class="logo">
+  <a href="/" rel="home">
+    <span class="t">T</span>eacup
+    <span class="g">G</span>orilla
+  </a>
+</h1>
+  <nav role="navigation">
   
+  <a href="/blog/" data-nav="blog">blog</a>
+  
+  <a href="/" data-nav="verbs">verbs</a>
+  
+  <a href="/nouns/" data-nav="nouns">nouns</a>
+  
+  <a href="/adjectives/" data-nav="adjectives">adjectives</a>
+  
+</nav>
+</header>
 
-  <h1 class="title">
+  <main role="main">
+    
+
+  <h2 class="title">
     <a href="/archive/">Archive</a>:
     February,
     <a href="/2013/">2013</a>
-  </h1>
+  </h2>
 
   <ul class="blog-archive">
       <li>
@@ -92,58 +100,66 @@
       </li>
   </ul>
 
+  </main>
 
-</section>
+  
+<aside class="social" aria-labelledby="social-title">
+  <h2 id="social-title">Contact</h2>
 
-<footer role="contentinfo">
-  <div class="social">
-    <ul>
-      <li>
-        <a rel="me" href="http://feeds.feedburner.com/teacupgorilla">
-          <span data-icon="feed"> </span>
-          <span class="tooltip">feed</span>
-        </a>
-      </li>
-      <li title="email">
-        <a href="mailto:info(put the 'at' sign here)teacupgorilla.com" class="email">
-          <span data-icon="email"> </span>
-          <span class="tooltip">email</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://twitter.com/teacupgorilla/">
-          <span data-icon="twitter"> </span>
-          <span class="tooltip">twitter</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://facebook.com/teacupgorilla/">
-          <span data-icon="facebook"> </span>
-          <span class="tooltip">facebook</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://soundcloud.com/teacupgorilla/">
-          <span data-icon="soundcloud"> </span>
-          <span class="tooltip">soundcloud</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="http://new.myspace.com/teacupgorilla/">
-          <span data-icon="myspace"> </span>
-          <span class="tooltip">myspace</span>
-        </a>
-      </li>
-      <li>
-        <a rel="me" href="/colophon/">
-          <span data-icon="html5"> </span>
-          <span class="tooltip">Colophon</span>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <ul class="social-list">
+    
+    <li class="social-item">
+      <a rel="me" class="email" href="mailto:info(put the &#39;at&#39; sign here)teacupgorilla.com">
+        <span data-icon="email" aria-hidden="true"> </span>
+        <span class="tooltip">email</span>
+      </a>
+    </li>
+    
+    <li class="social-item">
+      <a rel="me" class="twitter" href="http://twitter.com/teacupgorilla/">
+        <span data-icon="twitter" aria-hidden="true"> </span>
+        <span class="tooltip">twitter</span>
+      </a>
+    </li>
+    
+    <li class="social-item">
+      <a rel="me" class="facebook" href="http://facebook.com/teacupgorilla/">
+        <span data-icon="facebook" aria-hidden="true"> </span>
+        <span class="tooltip">facebook</span>
+      </a>
+    </li>
+    
+    <li class="social-item">
+      <a rel="me" class="soundcloud" href="http://soundcloud.com/teacupgorilla/">
+        <span data-icon="soundcloud" aria-hidden="true"> </span>
+        <span class="tooltip">soundcloud</span>
+      </a>
+    </li>
+    
+    <li class="social-item">
+      <a rel="me" class="myspace" href="http://new.myspace.com/teacupgorilla/">
+        <span data-icon="myspace" aria-hidden="true"> </span>
+        <span class="tooltip">myspace</span>
+      </a>
+    </li>
+    
+    <li class="social-item">
+      <a rel="me" class="rss" href="http://feeds.feedburner.com/teacupgorilla">
+        <span data-icon="feed" aria-hidden="true"> </span>
+        <span class="tooltip">rss</span>
+      </a>
+    </li>
+    
+  </ul>
+</aside>
 
-  <p class="copyright vcard">copyright &copy; 2010-2013
+  <footer role="contentinfo">
+  <a href="/colophon/" rel="colophon">
+    <span data-icon="html5" aria-hidden="true"> </span>
+    <span class="alt">Colophon</span>
+  </a>
+
+  <p class="copyright vcard">Copyright &copy; 2013
     <a href="http://teacupgorilla.com/" class="fn url org">Teacup Gorilla</a>
   </p>
 </footer>
@@ -152,7 +168,6 @@
 <!-- JavaScript @@@ compress -->
 <script src="/static/js/jquery-1.7.2.js"></script>
 <script src="/static/js/defuscator.js"></script>
-<script src="/static/js/viewport.js"></script>
 <script src="/static/js/local.js"></script>
 
 </body>
