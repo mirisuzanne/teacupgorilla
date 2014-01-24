@@ -43,14 +43,14 @@ but they're nasty in the garage.
 .. _Sondra: http://sondraedesign.tumblr.com/
 .. _Eric: http://eric.andmeyer.com/
 
-.. _Tom Waits: www.tomwaits.com/
-.. _Modest Mouse: www.modestmouse.com
-.. _Mogwai: www.mogwai.co.uk/‎
+.. _Tom Waits: http://www.tomwaits.com/
+.. _Modest Mouse: http://www.modestmouse.com
+.. _Mogwai: http://www.mogwai.co.uk/‎
 .. _Bad Luck City: https://myspace.com/badluckcity
 .. _The Widow’s Bane: https://myspace.com/widowsbane
 .. _`Songs: Ohia`: https://myspace.com/songsohiajasonmolina‎
-.. _Godspeed You! Black Emperor: www.brainwashed.com/godspeed/‎
-.. _Fugazi: www.dischord.com/band/fugazi‎
+.. _Godspeed You! Black Emperor: http://www.brainwashed.com/godspeed/‎
+.. _Fugazi: http://www.dischord.com/band/fugazi‎
 .. _Low: http://chairkickers.com/
 
 Projects

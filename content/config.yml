@@ -14,6 +14,16 @@ upcoming: false
 
 # Recent Shows
 recent:
+  - date: Jan. 29, 2014
+    venue: Larimer Lounge
+    url: https://www.facebook.com/events/352732091534807
+    datetime: 2014-01-29
+    with:
+      - name: Arthur Lawrence
+        url: http://www.reverbnation.com/arthurlawrence
+      - name: Black Wool
+        url: http://blackwool.bandcamp.com
+
   - date: Oct. 24, 2013
     venue: Toad Tavern
     url: http://toadtavern.com/?tribe_events=current-youth-johny-got-roxx-timothy-lee-houston-band-tea-cup-gorilla
