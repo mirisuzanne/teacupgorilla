@@ -9,11 +9,9 @@ modules:
   blog:
     index_url: /blog/
 
-# Upcoming Shows
-upcoming: false
 
-# Recent Shows
-recent:
+# Upcoming Shows
+upcoming:
   - date: Jan. 29, 2014
     venue: Larimer Lounge
     url: https://www.facebook.com/events/352732091534807
@@ -24,6 +22,9 @@ recent:
       - name: Black Wool
         url: http://blackwool.bandcamp.com
 
+
+# Recent Shows
+recent:
   - date: Oct. 24, 2013
     venue: Toad Tavern
     url: http://toadtavern.com/?tribe_events=current-youth-johny-got-roxx-timothy-lee-houston-band-tea-cup-gorilla
