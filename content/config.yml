@@ -11,7 +11,14 @@ modules:
 
 
 # Upcoming Shows
-upcoming: false
+upcoming:
+  - date: Apr. 5, 2014
+    venue: Pikes Peak Brewing Co.
+    url: http://pikespeakbrewing.com/fall-music-schedule-updated-november-19th/
+    datetime: 2014-04-05
+    with:
+      - name: The Truth & Spectacle
+        url: http://thetruthandspectacle.com/
 
 
 # Recent Shows
