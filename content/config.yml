@@ -12,6 +12,23 @@ modules:
 
 # Upcoming Shows
 upcoming:
+  - date: May 17, 2014
+    title: Bouldering Poets Two Year Anniversary
+    url: http://boulderingpoets.wordpress.com/2014/04/07/may-17-2014-two-year-anniversary/
+    venue: Trident Booksellers & Cafe
+    venue_url: http://tridentcafe.com/
+    street: 940 Pearl St
+    locality: Boulder
+    region: CO
+    datetime: 2014-05-17
+    with:
+      - name: Alan Mudd
+      - name: Chris Shugrue
+        url: http://twocrowsonawire.blogspot.com/
+
+
+# Recent Shows
+recent:
   - date: Apr. 5, 2014
     venue: Pikes Peak Brewing Co.
     url: http://pikespeakbrewing.com/fall-music-schedule-updated-november-19th/
@@ -20,9 +37,6 @@ upcoming:
       - name: The Truth & Spectacle
         url: http://thetruthandspectacle.com/
 
-
-# Recent Shows
-recent:
   - date: Jan. 29, 2014
     venue: Larimer Lounge
     url: https://www.facebook.com/events/352732091534807
