@@ -1,0 +1,21 @@
+// Verbs
+// =====
+
+.verbs {
+  [role='main'] {
+    @include before(' ') {
+      @include background(image-url('logo.png') no-repeat scroll center);
+      @include background-size(contain);
+      @include container;
+      @include leader(-2);
+      display: block;
+      height: 0;
+      padding-top: percentage(617/732);
+
+      @include breakpoint(45em) {
+        padding-top: 617/732 * 30em;
+      }
+      @include breakpoint(65em) { @include leader(-3); }
+    }
+  }
+}

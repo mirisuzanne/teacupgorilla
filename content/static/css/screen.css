@@ -665,6 +665,38 @@ img {
   text-align: right;
 }
 
+.verbs [role='main']:before {
+  content: " ";
+  background: url('../images/logo.png?1404599100') no-repeat scroll center;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  *zoom: 1;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  display: block;
+  height: 0;
+  padding-top: 84.28962%;
+}
+.verbs [role='main']:before:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 45em) {
+  .verbs [role='main']:before {
+    padding-top: 25.28689em;
+  }
+}
+@media (min-width: 65em) {
+  .verbs [role='main']:before {
+    margin-top: -4.5rem;
+  }
+}
+
 [role='contentinfo'] {
   margin-top: 1.5rem;
   padding-top: 0.75rem;
