@@ -1,7 +1,7 @@
 ---
 # Site Config
 active_modules: [blog, typogrify]
-author: Eric A. Meyer
+author: Eric M. Suzanne
 canonical_url: http://teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages
 template_path: ../templates
@@ -12,6 +12,12 @@ modules:
 
 # Upcoming Shows
 upcoming:
+  - date: July 5, 2014
+    title: 'Mile High Erotic Spoken Word (#4)'
+    venue: 'The&nbsp;Bakery'
+    url: http://www.thebakerydenver.com/4th-mile-high-erotic-spoken-word-amurika/
+    datetime: 2014-07-05
+
   - date: Aug. 23, 2014
     venue: Pikes Peak Brewing Co.
     url: http://pikespeakbrewing.com/

@@ -10,9 +10,9 @@
     {% if show.title %}
     <span class="title">
       {% if show.title_url or show.url %}
-      <a href="{{ show.title_url or show.url }}">{{ show.title }}</a>
+      <a href="{{ show.title_url or show.url }}">{{ show.title|safe }}</a>
       {% else %}
-      {{ show.title }}
+      {{ show.title|safe }}
       {% endif %}
     </span>
     {% if show.venue %}<i>at</i>{% endif %}
@@ -22,9 +22,9 @@
     {% if show.venue %}
     <span class="location vcard">
       {% if show.venue_url or show.url %}
-      <a href="{{ show.venue_url or show.url }}" class="fn org url">{{ show.venue }}</a>
+      <a href="{{ show.venue_url or show.url }}" class="fn org url">{{ show.venue|safe }}</a>
       {% else %}
-      <span class="fn org">{{ show.venue }}</span>
+      <span class="fn org">{{ show.venue|safe }}</span>
       {% endif %}
     </span>
     {% endif %}
