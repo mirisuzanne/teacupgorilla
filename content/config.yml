@@ -12,12 +12,6 @@ modules:
 
 # Upcoming Shows
 upcoming:
-  - date: July 5, 2014
-    title: 'Mile High Erotic Spoken Word (#4)'
-    venue: 'The&nbsp;Bakery'
-    url: http://www.thebakerydenver.com/4th-mile-high-erotic-spoken-word-amurika/
-    datetime: 2014-07-05
-
   - date: Aug. 23, 2014
     venue: Pikes Peak Brewing Co.
     url: http://pikespeakbrewing.com/
@@ -26,6 +20,12 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: July 5, 2014
+    title: 'Mile High Erotic Spoken Word (#4)'
+    venue: 'The&nbsp;Bakery'
+    url: http://www.thebakerydenver.com/4th-mile-high-erotic-spoken-word-amurika/
+    datetime: 2014-07-05
+
   - date: May 17, 2014
     title: Bouldering Poets Two Year Anniversary
     url: http://boulderingpoets.wordpress.com/2014/04/07/may-17-2014-two-year-anniversary/
