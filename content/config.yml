@@ -1,7 +1,7 @@
 ---
 # Site Config
 active_modules: [blog, typogrify]
-author: Eric M. Suzanne
+author: tg
 canonical_url: http://teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages
 template_path: ../templates

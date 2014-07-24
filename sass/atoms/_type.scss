@@ -3,8 +3,8 @@
 
 $heading-color: color(lightest);
 
-$h1-size: xxxlarge;
-$h2-size: xxlarge;
+$h1-size: xxlarge;
+$h2-size: large;
 
 %heading {
   @include display-text;

@@ -24,4 +24,7 @@
   }
 }
 
-.post-body { @include trailer; }
+.post-body {
+  @extend %headings;
+  @include trailer;
+}

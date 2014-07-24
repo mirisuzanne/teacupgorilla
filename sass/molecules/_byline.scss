@@ -3,7 +3,7 @@
 
 .byline {
   @include alt-text;
-  @include wrap-content('::' '::');
+  @include before('::');
   opacity: .5;
   text-transform: lowercase;
 }

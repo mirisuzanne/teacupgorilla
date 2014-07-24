@@ -1,0 +1,39 @@
+
+{% macro post(rst, config, list=true) %}
+<article class="post">
+  <h2 class="post-title">
+    {% if list %}
+    <a href="{{ link_to('page', slug=rst.slug) }}">
+      {{ rst.title }}
+    </a>
+    {% else %}
+      {{ rst.title }}
+    {% endif %}
+  </h2>
+
+  {% include "_byline.html" %}
+
+  {% for module in config.before %}
+    {% include module.include %}
+  {% endfor %}
+
+  <div class="post-body">
+  {% if list %}
+    {% if rst.summary %}
+      {{ rst.render_summary() }}
+      <a href="{{ link_to('page', slug=rst.slug) }}" class="more">
+        read more
+      </a>
+    {% else %}
+      {{ rst.render_contents() }}
+    {% endif %}
+  {% else %}
+    {{ rst.fragment }}
+  {% endif %}
+  </div>
+
+  {% for module in config.after %}
+    {% include module.include %}
+  {% endfor %}
+</article>
+{% endmacro %}
