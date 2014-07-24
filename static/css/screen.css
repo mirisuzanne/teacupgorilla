@@ -97,7 +97,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal;
 }
-.demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption, .show .title, .show .location, .show .dtstart, .logo {
+.post-body h1, .demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption, .post-body h2, .post-body h3, .show .title, .show .location, .post-body h4, .show .dtstart, .logo {
   font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -105,7 +105,7 @@ html {
   font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-.more, .tooltip, .byline, [role='navigation'] a:link, [role='navigation'] a:visited, .show .with a, .show .with em, .copyright, .gallery-citation {
+.more, .tooltip, .byline, [role='navigation'] a:link, [role='navigation'] a:visited, .show .with a, .show .with em, .copyright, .gallery-caption, .gallery-citation {
   font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -156,16 +156,21 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-.demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption, .show .title, .show .location, .show .dtstart {
+.post-body h1, .demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption, .post-body h2, .post-body h3, .show .title, .show .location, .post-body h4, .show .dtstart {
   color: #e5e5e5;
 }
 
-.demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption {
+.post-body h1, .demos-title, .post-title, .colophon .title, [id='the-band'] h2:first-child, [id='projects'] h2:first-child, .shows .shows-title, .section .gallery-caption {
   font-size: 2.08333rem;
   line-height: 2.25rem;
 }
 
-.show .title, .show .location {
+.post-body h2 {
+  font-size: 1.45833rem;
+  line-height: 2.25rem;
+}
+
+.post-body h3, .show .title, .show .location {
   text-transform: uppercase;
 }
 
@@ -348,9 +353,6 @@ img {
   text-transform: lowercase;
 }
 .byline:before {
-  content: "::";
-}
-.byline:after {
   content: "::";
 }
 
@@ -614,9 +616,10 @@ img {
   outline: 1px solid rgba(76, 76, 76, 0.5);
 }
 .gallery-body .full {
-  margin-left: 1.25%;
-  margin-right: 1.25%;
-  width: 97.5%;
+  width: 100%;
+  float: left;
+  margin-right: 2.5641%;
+  margin-left: 0;
 }
 .gallery-body .video {
   position: relative;
@@ -636,8 +639,8 @@ img {
 .gallery-body .video.full {
   position: relative;
   height: 0;
-  padding-top: 54.84375%;
-  width: 97.5%;
+  padding-top: 56.25%;
+  width: 100%;
 }
 .gallery-body .video.full > * {
   display: block;
@@ -647,6 +650,18 @@ img {
   top: 0;
   margin: 0;
   padding: 0;
+}
+
+.gallery-caption {
+  padding-left: 1.25%;
+  padding-right: 1.25%;
+  font-size: 0.83333rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: rgba(76, 76, 76, 0.5);
+}
+.section .gallery-caption {
+  background: transparent;
 }
 
 .gallery-citation {
