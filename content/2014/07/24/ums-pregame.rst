@@ -17,8 +17,8 @@ Denver Post Underground Music Showcase [Preview]
 
 The
 `Denver Post Underground Music Showcase`_ (UMS)
-starts tomorrow night.
-This is one of the best events in Denver —
+starts tonight —
+one of the best events in Denver,
 turning South Broadway into a massive 4-night
 indie-music orgy.
 
