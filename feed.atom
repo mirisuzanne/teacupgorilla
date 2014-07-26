@@ -8,6 +8,26 @@
   <subtitle type="text">Recent blog posts</subtitle>
   <generator>Werkzeug</generator>
   <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">A Dark Plain [Demo]</title>
+    <id>http://teacupgorilla.com/2014/07/26/darkplain</id>
+    <updated>2014-07-26T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2014/07/26/darkplain" />
+    <author>
+      <name>tg</name>
+    </author>
+    <content type="html">&lt;p&gt;Here it is!
+The first in a new set of demos,
+updated to reflect our current sound.
+There are more on the way,
+so check back again&amp;nbsp;tomorrow.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159477907&amp;amp;color=ff0000&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to leave comments on &lt;a class="reference external" href="https://soundcloud.com/teacupgorilla"&gt;SoundCloud&lt;/a&gt;,
+or find us on &lt;a class="reference external" href="http://twitter.com/teacupgorilla"&gt;Twitter&lt;/a&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; &lt;a class="reference external" href="http://facebook.com/teacupgorilla"&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
     <title type="text">UMS Day 2</title>
     <id>http://teacupgorilla.com/2014/07/26/ums-day2</id>
     <updated>2014-07-26T00:00:00Z</updated>
