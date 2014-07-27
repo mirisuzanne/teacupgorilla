@@ -43,7 +43,7 @@ UMS Day 3
 =========
 
 I have no time to write this
-before I dive back into the frey.
+before I dive back into the fray.
 Magic Cyclops is always magic,
 and we love Jen Korte in all her incarnations.
 We played with Abandin Pictures
