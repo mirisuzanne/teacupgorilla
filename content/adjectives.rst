@@ -26,7 +26,9 @@ has grown into a long-term collaboration between three experienced artists
 and four or five artistic genres.
 The three have played/fought for over ten years,
 in bands like
-*Elephants for Sale*, *Dirt Circle Dogs*, *Iron City*, and *Raven Jane*,
+*Elephants for Sale*, *Dirt Circle Dogs*, *Iron City*, and *Raven Jane*.
+Now they've been joined by a second Daniel,
+finally achieving the highly coveted two-Daniel sound!
 
 Since forming in 2010,
 Teacup Gorilla have performed at poetry readings & hard-core house shows,
@@ -42,7 +44,7 @@ but they're nasty in the garage.
 
 .. _Daniel: http://thebakerydenver.com/
 .. _Sondra: http://sondraedesign.tumblr.com/
-.. _Eric: http://eric.andmeyer.com/
+.. _Eric: http://ericsuzanne.com/
 
 .. _Tom Waits: http://www.tomwaits.com/
 .. _Modest Mouse: http://www.modestmouse.com
