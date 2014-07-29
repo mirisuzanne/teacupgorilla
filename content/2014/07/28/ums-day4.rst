@@ -26,7 +26,7 @@ gallery:
     - image: 'ums/14-27/blondredhead.jpg'
     caption: |
       <a href="http://deadeyesbrokenspirits.bandcamp.com/">Broken Spirits</a>,
-      <a href="http://hellolandlines.com/">Landlines</a>,
+      <a href="http://hellolandlines.com/">Land Lines</a>,
       <a href="http://porlolo.wordpress.com/">Porlolo</a>,
       Teacup Gorilla,
       <a href="http://www.soundcloud.com/kittycrimes">Kitty Crimes</a>,
@@ -52,7 +52,7 @@ to some brilliant post-punk noise
 I wish I could do it all again.
 
 I've been a fan of `Broken Spirits`_,
-`Landlines`_, and `Kitty Crimes`_ for some time now.
+`Land Lines`_, and `Kitty Crimes`_ for some time now.
 `Porlolo`_, `In the Whale`_, `Blonde Redhead`_,
 and `Gora Gora`_ were all very entertaining.
 But the lucky surprise of the night was wandering past
@@ -62,7 +62,7 @@ and discovering the wonderful noise of `Emerald Siam`_.
 Thank you, Denver!
 
 .. _Broken Spirits: http://deadeyesbrokenspirits.bandcamp.com/
-.. _Landlines: http://hellolandlines.com/
+.. _Land Lines: http://hellolandlines.com/
 .. _Kitty Crimes: http://www.soundcloud.com/kittycrimes
 .. _Porlolo: http://porlolo.wordpress.com/
 .. _In the Whale: http://www.inthewhalesucks.com/
