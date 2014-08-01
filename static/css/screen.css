@@ -242,7 +242,7 @@ html, body {
   }
 }
 
-img, video, iframe {
+img, video {
   max-width: 100%;
   height: auto;
 }
@@ -499,11 +499,6 @@ img {
 }
 .show .with:before {
   content: "• ";
-}
-
-.demos iframe {
-  width: 100%;
-  min-height: 380px;
 }
 
 .post {
