@@ -1,15 +1,4 @@
 ---
-# Site Config
-active_modules: [blog, typogrify]
-author: tg
-canonical_url: http://teacupgorilla.com/
-output_folder: ../../teacupgorilla-pages
-template_path: ../templates
-modules:
-  blog:
-    index_url: /blog/
-
-
 # Upcoming Shows
 upcoming:
   - date: Aug. 23, 2014
@@ -141,7 +130,7 @@ recent:
         url: http://vicioustrap.com/
 
 # Demo
-demo: <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ec1313&amp;auto_play=false&amp;show_artwork=false"></iframe>
+demo: '<iframe width="100%" height="420" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 
 # Navigation
 nav:
@@ -166,3 +155,15 @@ social:
     url: 'http://soundcloud.com/teacupgorilla/'
   - slug: 'myspace'
     url: 'http://new.myspace.com/teacupgorilla/'
+
+# Site Config
+active_modules: [blog, typogrify]
+author: tg
+canonical_url: http://teacupgorilla.com/
+output_folder: ../../teacupgorilla-pages
+template_path: ../templates
+modules:
+  blog:
+    index_url: /blog/
+
+

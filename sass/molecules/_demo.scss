@@ -3,10 +3,6 @@
 
 .demos {
   @extend %section;
-  iframe {
-    width: 100%;
-    min-height: 380px;
-  }
 }
 
 .demos-title { @extend %section-head; }
