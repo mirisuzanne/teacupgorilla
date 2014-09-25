@@ -1,14 +1,18 @@
 ---
 # Upcoming Shows
-upcoming:
-  - date: Aug. 23, 2014
-    venue: Pikes Peak Brewing Co.
-    url: http://pikespeakbrewing.com/
-    datetime: 2014-08-23
+upcoming: false
 
 
 # Recent Shows
 recent:
+  - date: Aug. 23, 2014
+    venue: Pikes Peak Brewing Co.
+    url: http://pikespeakbrewing.com/
+    datetime: 2014-08-23
+    with:
+      - name: Millican
+        url: https://soundcloud.com/a-millican
+
   - date: July 5, 2014
     title: 'Mile High Erotic Spoken Word (#4)'
     venue: 'The&nbsp;Bakery'
@@ -41,6 +45,15 @@ recent:
         url: http://www.reverbnation.com/arthurlawrence
       - name: Black Wool
         url: http://blackwool.bandcamp.com
+
+  - date: Nov. 16, 2013
+    title: Bad Shadow Affair
+    venue: Lost Lake Lounge
+    url: http://badshadowaffair.blogspot.com/2013/11/november-16th-douglas-cook-meyer.html
+    datetime: 2013-11-16
+    with:
+      - name: Marcia Douglas
+      - name: Matt Cook
 
   - date: Oct. 24, 2013
     venue: Toad Tavern
@@ -102,8 +115,8 @@ recent:
     url: https://www.facebook.com/leongallery
     datetime: 2012-07-21
     with:
-      - name: Eric Meyer [solo]
-        url: http://eric.andmeyer.com/
+      - name: Eric Suzanne [solo]
+        url: http://ericsuzanne.com/
       - name: Kelly Dulaney
 
   - date: Sept 3, 2010
