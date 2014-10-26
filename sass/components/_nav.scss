@@ -1,0 +1,63 @@
+// Nav
+// ===
+
+$nav: blog nouns adjectives verbs;
+$nav-bleed: size(rhythm) * 3;
+
+[role='navigation'] {
+  @extend %caps;
+
+  @include breakpoint(max-width size(break, em)) {
+    @include font-size(small);
+    margin-bottom: size(gutter);
+    text-align: center;
+  }
+
+  @include breakpoint(size(break, em)) {
+    margin-top: size(gutter);
+  }
+}
+
+
+[data-nav] {
+  text-decoration: none;
+
+  @include breakpoint(max-width size(break, em)) {
+    + [data-nav] {
+      margin-left: size(shim);
+    }
+  }
+
+  @include breakpoint(size(break, em)) {
+    &:link, &:visited {
+      @include transition(all 150ms);
+      clear: both;
+      float: left;
+      margin-bottom: size(shim);
+      margin-left: - $nav-bleed;
+      padding-left: $nav-bleed;
+      padding-right: size(gutter);
+    }
+
+    &:hover, &:focus, &:active {
+      background: color(action (rgba: .5));
+      color: color(text);
+      padding-right: size(gutter) * 4;
+    }
+  }
+}
+
+@each $item in $nav {
+  [data-location='#{$item}'] [data-nav='#{$item}'] {
+    @include breakpoint(max-width size(break, em)) {
+      border-bottom: .125rem solid color(border);
+    }
+
+    @include breakpoint(size(break, em)) {
+      background: color(action);
+      color: color(text);
+      display: block;
+      float: none;
+    }
+  }
+}

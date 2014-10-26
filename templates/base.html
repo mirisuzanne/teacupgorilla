@@ -64,7 +64,7 @@
   {% endblock htmlhead %}
 </head>
 
-<body id="andmeyer" class="{% block bodyclasses %}{% endblock %}">
+<body id="andmeyer" class="{% block bodyclasses %}{% endblock %}" data-location="{% block location %}{{ config.location }}{% endblock %}">
 
 {% block template %}{% endblock template %}
 

@@ -3,20 +3,20 @@
 
 $colors: (
   'red': hsl(0, 85%, 50%),
-  'blue': hsl(195, 100%, 50%),
   'gray': 'red' (desaturate: 90%),
 
-  light: 'gray' (tint: 85%),
-  dark: 'gray' (shade: 85%),
+  light: 'gray' (tint: 75%),
+  dark: 'gray' (shade: 75%),
 
   primary: 'red',
-  accent: 'blue',
+  accent: primary (adjust-hue: -90deg, tint: 25%),
 
   text: light,
   background: dark,
-  action: 'red',
-  focus: action (shade: 20%),
+  border: primary,
+  action: primary,
+  focus: action (tint: 30%),
 
-  border: light (rgba: .25),
+  outline: light (rgba: .25),
   shadow: dark (shade: 20%, rgba: .75),
 );

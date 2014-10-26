@@ -1,21 +1,33 @@
-// Faces
-// =====
+// Face Sketch
+// ===========
 
-.faces {
-  @extend %section;
-  @include rhythm-padding(0, 1);
+.face-sketch {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke: color(background);
 
-  [role='main'] > &:first-child {
-    @include breakpoint(45em) { @include leader(-1); }
-    @include breakpoint(65em) { @include leader(-2); }
+  path {
+    pointer-events: none;
   }
-}
 
-.faces-wrapper {
-  width: 100%;
-  height: 0;
-  padding-top: 75%;
-  position: relative;
+  .stroke {
+    fill: none;
+  }
 
-  @include breakpoint(35em) { padding-top: 60%; }
+  .fill {
+    fill: color(background);
+  }
+
+  .window {
+    @include transition(fill 300ms);
+    fill: color(text);
+
+    &:hover {
+      fill: color(action);
+    }
+
+    &:nth-child(4):hover {
+      fill: color(accent);
+    }
+  }
 }

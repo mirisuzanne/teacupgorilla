@@ -9,6 +9,7 @@
 html {
   @extend %sans;
   background: color(background) image-url('black_paper.png') repeat fixed;
+  border-left: size(shim) solid color(border);
   color: color(text);
   letter-spacing: .05em;
 }

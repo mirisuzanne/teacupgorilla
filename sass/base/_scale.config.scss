@@ -12,7 +12,7 @@ $sizes: (
   large: 2,
   medium: 1,
   normal: 0,
-  small: -2,
+  small: -1,
 
   rhythm: large,
   gutter: small,
@@ -26,6 +26,7 @@ $sizes: (
 
 $sizes: map-merge($sizes, (
   shim: size(gutter)/2,
+  border: shim,
 ));
 
 // Settings
