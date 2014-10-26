@@ -170,7 +170,7 @@ social:
     url: 'http://new.myspace.com/teacupgorilla/'
 
 # Site Config
-active_modules: [blog, typogrify]
+active_modules: [blog, typogrify, author, wrap]
 author: tg
 canonical_url: http://teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages

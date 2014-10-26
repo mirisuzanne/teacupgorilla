@@ -1,7 +1,6 @@
 public: yes
 hide_title: yes
-bodyclasses: nouns
-template: 'page.html'
+location: nouns
 before:
   - include: 'gallery/_gallery.html'
 gallery:

@@ -1,13 +1,13 @@
 // Typography
 // ----------
 
-$heading-color: color(lightest);
+$heading-color: color(light);
 
-$h1-size: xxlarge;
-$h2-size: large;
+$h1-size: large;
+$h2-size: medium;
 
 %heading {
-  @include display-text;
+  @extend %serif;
   color: $heading-color;
 }
 
@@ -37,23 +37,27 @@ $h2-size: large;
   h4 { @extend %h4; }
 }
 
+%link {
+  &:link, &:visited {
+    color: color(action);
+  }
+  &:hover, &:active, &:focus {
+    color: color(focus);
+  }
+}
+
 %body {
   strong { font-weight: bold; }
-  em, blockquote { @include caps; }
+  em, blockquote { @extend %caps; }
+  blockquote em { font-style: normal; }
 
-  p, ul, ol, pre, blockquote { @include trailer; }
+  p, ul, ol, pre, blockquote { margin-bottom: size(rhythm); }
   p:empty { display: none; }
   ul { list-style-type: disc; }
   ol { list-style-type: decimal; }
 
-  blockquote {
-    padding: 0 rhythm(.75);
-    border-left: rhythm(.25) solid;
-    em { font-style: normal; }
-  }
-
   ul, ol, blockquote {
-    ul, ol { margin-left: rhythm(1); }
+    ul, ol { margin-left: size(rhythm); }
   }
 }
 

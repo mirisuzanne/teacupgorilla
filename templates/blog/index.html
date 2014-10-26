@@ -1,15 +1,19 @@
-{% extends "layout.html" %}
+{% extends "blog/archives.html" %}
+
 {% import "blog/macros.j2" as blog %}
 
-{% block title %}Blog :: {{ super() }}{% endblock %}
-{% block bodyclasses %}{{ super() }}blog{% endblock %}
+{% block title %}Blog{% endblock %}
 
-{% block body %}
-  {%- for rst in pagination.get_slice() %}
-    {{ blog.post(rst, rst.config) }}
+{% block list_intro %}
+  <h1 class="title">The Words</h1>
+{% endblock list_intro %}
+
+{% block archive %}
+  {%- for post in pagination.get_slice() %}
+    {{ blog.list(post) }}
   {%- endfor %}
 
   {% if show_pagination and pagination.pages > 1 %}
     {{ pagination }}
   {% endif %}
-{% endblock %}
+{% endblock archive %}

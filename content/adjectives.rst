@@ -1,7 +1,6 @@
 public: yes
 hide_title: yes
-bodyclasses: adjectives
-template: 'page.html'
+location: adjectives
 before:
   - include: 'faces/_faces.html'
 

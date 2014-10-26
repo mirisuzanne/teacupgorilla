@@ -1,0 +1,34 @@
+// Base Styles
+// ===========
+
+
+@include fonts;
+@include establish-baseline;
+@include global-box-sizing;
+
+html {
+  @extend %sans;
+  background: color(background) image-url('black_paper.png') repeat fixed;
+  color: color(text);
+  letter-spacing: .05em;
+}
+
+.is-hidden {
+  @extend %is-hidden;
+}
+
+// Links
+// -----
+
+a {
+  @extend %link;
+}
+
+
+// Media
+// -----
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}

@@ -1,9 +1,0 @@
-// Bio
-// ===
-
-[id='the-band'], [id='projects'] {
-  @extend %section;
-  @extend %body;
-
-  h2:first-child { @extend %section-head; }
-}

@@ -1,0 +1,22 @@
+// Colors
+// ======
+
+$colors: (
+  'red': hsl(0, 85%, 50%),
+  'blue': hsl(195, 100%, 50%),
+  'gray': 'red' (desaturate: 90%),
+
+  light: 'gray' (tint: 85%),
+  dark: 'gray' (shade: 85%),
+
+  primary: 'red',
+  accent: 'blue',
+
+  text: light,
+  background: dark,
+  action: 'red',
+  focus: action (shade: 20%),
+
+  border: light (rgba: .25),
+  shadow: dark (shade: 20%, rgba: .75),
+);
