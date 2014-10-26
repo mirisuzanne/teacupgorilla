@@ -1,6 +1,14 @@
 ---
 # Upcoming Shows
-upcoming: false
+upcoming:
+  - date: Nov. 9, 2014
+    venue: Lion's Lair
+    url: http://www.lionslairlounge.com/events/
+    datetime: 2014-11-09
+    with:
+      - name: See-You-Home-Wolf
+        url: http://see-you-home-wolf.bandcamp.com/
+      - name: Dirty Fingers
 
 
 # Recent Shows
