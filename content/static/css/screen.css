@@ -404,6 +404,7 @@ body {
   }
   [role='contentinfo'] p {
     border-top: 0.25rem dashed #ef3939;
+    padding: 0.625rem 0;
   }
 }
 
@@ -526,6 +527,7 @@ body {
 .body {
   overflow: hidden;
   *zoom: 1;
+  margin-bottom: 2.5rem;
 }
 
 .more-link {

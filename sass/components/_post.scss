@@ -33,6 +33,7 @@
 .body {
   @extend %body;
   @include clearfix;
+  margin-bottom: size(spacer);
 }
 
 .more-link {

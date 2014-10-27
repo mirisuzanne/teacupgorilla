@@ -13,6 +13,7 @@
 
     p {
       border-top: size(border) dashed color(border);
+      padding: size(shim) 0;
     }
   }
 }
