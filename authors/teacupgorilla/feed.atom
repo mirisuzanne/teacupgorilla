@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Recent Blog Posts</title>
+  <id>http://teacupgorilla.com/feed.atom</id>
+  <updated>2014-08-01T00:00:00Z</updated>
+  <link href="http://teacupgorilla.com/" />
+  <link href="http://teacupgorilla.com/feed.atom" rel="self" />
+  <subtitle type="text">Recent blog posts</subtitle>
+  <generator>Werkzeug</generator>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">Pig Sez [Demo]</title>
+    <id>http://teacupgorilla.com/2014/08/01/pigsez</id>
+    <updated>2014-08-01T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2014/08/01/pigsez" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;The last demo of new material (for now).
+This is Pig Sez,
+with words from &lt;span class="caps"&gt;CA&lt;/span&gt; Conrad&amp;#8217;s
+&lt;a class="reference external" href="http://wavepoetry.myshopify.com/products/the-book-of-frank"&gt;The Book of&amp;nbsp;Frank&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159477906&amp;amp;color=ff0000&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to leave comments on &lt;a class="reference external" href="https://soundcloud.com/teacupgorilla"&gt;SoundCloud&lt;/a&gt;,
+or find us on &lt;a class="reference external" href="http://twitter.com/teacupgorilla"&gt;Twitter&lt;/a&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; &lt;a class="reference external" href="http://facebook.com/teacupgorilla"&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">I'm Not Ready To Go Yet [Demo]</title>
+    <id>http://teacupgorilla.com/2014/07/29/inrtgy</id>
+    <updated>2014-07-29T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2014/07/29/inrtgy" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;Another demo!
+This one features Daniel Rule on the second guitar &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; vocals.
+Daniel has started playing with us regularly these days —
+we&amp;#8217;re excited to have him in the&amp;nbsp;band!&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m Not Ready To Go Yet is our follow-up
+to the earlier Suicide Note.
+We have an updated demo of that coming soon&amp;nbsp;too&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159561832&amp;amp;color=ff0000&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to leave comments on &lt;a class="reference external" href="https://soundcloud.com/teacupgorilla"&gt;SoundCloud&lt;/a&gt;,
+or find us on &lt;a class="reference external" href="http://twitter.com/teacupgorilla"&gt;Twitter&lt;/a&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; &lt;a class="reference external" href="http://facebook.com/teacupgorilla"&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">A Dark Plain [Demo]</title>
+    <id>http://teacupgorilla.com/2014/07/26/darkplain</id>
+    <updated>2014-07-26T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2014/07/26/darkplain" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;Here it is!
+The first in a new set of demos,
+updated to reflect our current sound.
+There are more on the way,
+so check back again&amp;nbsp;tomorrow.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/159477907&amp;amp;color=ff0000&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false"&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to leave comments on &lt;a class="reference external" href="https://soundcloud.com/teacupgorilla"&gt;SoundCloud&lt;/a&gt;,
+or find us on &lt;a class="reference external" href="http://twitter.com/teacupgorilla"&gt;Twitter&lt;/a&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; &lt;a class="reference external" href="http://facebook.com/teacupgorilla"&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">The Bakery [art warehouse]</title>
+    <id>http://teacupgorilla.com/2012/11/19/bakery</id>
+    <updated>2012-11-19T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2012/11/19/bakery" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;Dan &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Sondra have taken over a warehouse
+in downtown Denver
+and started renovating it
+to create a multimedia art space,
+venue, and recording studio
+called &lt;a class="reference external" href="http://www.facebook.com/thebakerydenver"&gt;The&amp;nbsp;Bakery&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ve started practicing on the new stage already,
+and are very excited to perform there when it&amp;#8217;s&amp;nbsp;ready.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">Chapter 13 [A Reading]</title>
+    <id>http://teacupgorilla.com/2012/04/05/chapter13</id>
+    <updated>2012-04-05T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2012/04/05/chapter13" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">Chapter 12 [A Reading]</title>
+    <id>http://teacupgorilla.com/2012/03/30/chapter12</id>
+    <updated>2012-03-30T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2012/03/30/chapter12" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">Into the Green Green Mud</title>
+    <id>http://teacupgorilla.com/2012/02/27/greenmud-intro</id>
+    <updated>2012-02-27T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2012/02/27/greenmud-intro" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;We&amp;#8217;re teaming up with &lt;a class="reference external" href="http://oddbird.net/"&gt;OddBird&lt;/a&gt;
+to publish
+&lt;a class="reference external" href="http://greengreenmud.com/"&gt;Into the Green Green Mud&lt;/a&gt;,
+a new multimedia novel
+written &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; illustrated by &lt;a class="reference external" href="http://eric.andmeyer.com/"&gt;Eric&lt;/a&gt;.
+We&amp;#8217;re also creating a soundtrack,
+which may grow into a full&amp;nbsp;performance.&lt;/p&gt;
+&lt;p&gt;Eric is working hard to put it all online,
+and the process is public,
+so feel free to &lt;a class="reference external" href="http://greengreenmud.com/"&gt;follow&amp;nbsp;along&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://teacupgorilla.com/feed.atom">
+    <title type="text">Five[5] Demo</title>
+    <id>http://teacupgorilla.com/2012/02/11/five5-demo</id>
+    <updated>2012-02-11T00:00:00Z</updated>
+    <link href="http://teacupgorilla.com/2012/02/11/five5-demo" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;figure&gt;
+  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F36314485&amp;amp;color=ff6600&amp;amp;auto_play=false&amp;amp;show_artwork=false"&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
