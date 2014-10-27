@@ -1,0 +1,10 @@
+// Demos
+// =====
+
+.demos {
+  padding-bottom: size(spacer);
+}
+
+.demos-title {
+  @extend %is-hidden;
+}

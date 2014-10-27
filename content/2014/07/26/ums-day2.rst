@@ -36,6 +36,28 @@ gallery:
       <a href="http://accordion-crimes.blogspot.com/">Accordion Crimes</a>,
       and <a href="http://thetruthandspectacle.com/">The Truth & Spectacle</a>
       (with Daniel on drums).
+summary: |
+  Notes & photos from the `UMS`_ — with
+  `Raven Jane`_,
+  `StaG`_,
+  `Ian Cooke`_,
+  `Dave Devine Relay`_,
+  `Dragondeer`_,
+  `Mako1972`_,
+  `Saturn Cowboys`_,
+  `Accordion Crimes`_,
+  and `The Truth & Spectacle`_.
+
+  .. _UMS: http://www.theums.com/
+  .. _Raven Jane: http://www.ravenjane.com/
+  .. _StaG: http://stag.bandcamp.com/
+  .. _Ian Cooke: http://www.iancookemusic.com/
+  .. _Dave Devine Relay: http://davedevine.com/relay
+  .. _Dragondeer: http://dragondeer.com/
+  .. _Mako1972: http://mako1972.weebly.com/
+  .. _Saturn Cowboys: http://saturncowboysmusic.com/
+  .. _Accordion Crimes: http://accordion-crimes.blogspot.com/
+  .. _The Truth & Spectacle: http://thetruthandspectacle.com/
 
 
 UMS Day 2

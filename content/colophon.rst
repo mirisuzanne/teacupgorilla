@@ -12,11 +12,9 @@ with help from `jQuery`_,
 `Email Defuscator`_,
 `IcoMoon`_,
 `Breakpoint`_,
-`Modular Scale`_,
-`Susy`_,
 `Compass`_,
 `Sass`_,
-and several `GreenMud`_ fonts.
+and a number of `GreenMud`_ fonts.
 
 .. _HTML5: http://www.w3.org/TR/html5/
 .. _rstblog: https://github.com/mitsuhiko/rstblog/

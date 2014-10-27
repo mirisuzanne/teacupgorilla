@@ -1,7 +1,7 @@
 {% macro list(post) %}
-<article class="post--list">
+<article class="post">
   {% if post.title %}
-    <h2 class="post-title">
+    <h2 class="title">
       <a href="{{ link_to('page', slug=post.slug) }}">
         {{ post.title }}
       </a>
@@ -10,11 +10,11 @@
 
   {{ byline(post) }}
 
-  <div class="post-body">
+  <div class="body">
     {% if post.summary %}
       {{ post.render_summary() }}
       <a href="{{ link_to('page', slug=post.slug) }}" class="more-link">
-        read more
+        read more »
       </a>
     {% else %}
       {{ post.render_contents() }}

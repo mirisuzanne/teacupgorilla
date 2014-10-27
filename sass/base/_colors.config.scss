@@ -2,11 +2,11 @@
 // ======
 
 $colors: (
-  'red': hsl(0, 85%, 50%),
+  'red': hsl(0, 85%, 58%),
   'gray': 'red' (desaturate: 90%),
 
-  light: 'gray' (tint: 75%),
-  dark: 'gray' (shade: 75%),
+  light: 'gray' (tint: 70%),
+  dark: 'gray' (shade: 85%),
 
   primary: 'red',
   accent: primary (adjust-hue: -90deg, tint: 25%),

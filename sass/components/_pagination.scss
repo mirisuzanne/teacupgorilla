@@ -1,0 +1,37 @@
+// Pagination
+// ==========
+
+.pagination {
+  @extend %serif;
+  @include font-size(small);
+  margin-bottom: size(spacer);
+  text-align: center;
+
+  .prev,
+  .next {
+    padding: 0 size(shim);
+
+    &:link, &:visited {
+      text-decoration: none;
+    }
+  }
+
+  .location {
+    @include wrap-content(' • ');
+  }
+
+  .now,
+  .context {
+    color: color(text);
+    display: inline-block;
+    font-style: normal;
+    margin: 0 size(shim)/2;
+    vertical-align: middle;
+  }
+
+  .now,
+  .context {
+    @include font-size(larger);
+    font-weight: bold;
+  }
+}

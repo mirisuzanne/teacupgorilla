@@ -1,40 +1,23 @@
 // Typography
 // ----------
 
-$heading-color: color(light);
-
-$h1-size: large;
-$h2-size: medium;
-
-%heading {
-  @extend %serif;
-  color: $heading-color;
-}
 
 %h1 {
-  @extend %heading;
-  @include font-size($h1-size);
+  @extend %serif;
+  @include font-size(large);
 }
 
 %h2 {
-  @extend %heading;
-  @include font-size($h2-size);
-}
-
-%h3 {
-  @extend %heading;
+  @extend %serif;
   text-transform: uppercase;
 }
 
-%h4 {
-  @extend %heading;
+%h3 {
+  @extend %serif;
 }
 
-%headings {
-  h1 { @extend %h1; }
-  h2 { @extend %h2; }
-  h3 { @extend %h3; }
-  h4 { @extend %h4; }
+%h4 {
+  @extend %serif;
 }
 
 %link {
@@ -47,21 +30,21 @@ $h2-size: medium;
 }
 
 %body {
+  h1 { @extend %h1; }
+  h2 { @extend %h2; }
+  h3 { @extend %h3; }
+  h4 { @extend %h4; }
+
   strong { font-weight: bold; }
   em, blockquote { @extend %caps; }
   blockquote em { font-style: normal; }
 
-  p, ul, ol, pre, blockquote { margin-bottom: size(rhythm); }
+  p, ul, ol, pre, blockquote, figure { margin-bottom: size(gutter); }
   p:empty { display: none; }
   ul { list-style-type: disc; }
   ol { list-style-type: decimal; }
 
   ul, ol, blockquote {
-    ul, ol { margin-left: size(rhythm); }
+    ul, ol { margin-left: size(gutter); }
   }
-}
-
-%type {
-  @extend %headings;
-  @extend %body;
 }

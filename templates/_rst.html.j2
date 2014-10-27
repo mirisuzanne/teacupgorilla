@@ -10,9 +10,11 @@
   {% include module.include %}
 {%- endfor -%}
 
-<div class="body">
-  {{ rst.fragment }}
-</div>
+{% if rst.fragment %}
+  <div class="body">
+    {{ rst.fragment }}
+  </div>
+{% endif %}
 
 {%- for module in config.after -%}
   {% include module.include %}

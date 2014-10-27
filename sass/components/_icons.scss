@@ -1,0 +1,8 @@
+// Icons
+// =====
+
+[data-icon] {
+  @include square(normal);
+  fill: currentColor;
+  vertical-align: middle;
+}

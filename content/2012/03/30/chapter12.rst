@@ -9,6 +9,12 @@ gallery:
     caption: |
       <a href="http://greengreenmud.com">Into the Green Green Mud</a>
       chapter 12, with music.
+summary: |
+  Eric reads from chapter 12 of
+  `Into The Green Green Mud`_,
+  with music by Teacup Gorilla.
+
+  .. _Into The Green Green Mud: http://greengreenmud.com
 
 
 Chapter 12 [A Reading]

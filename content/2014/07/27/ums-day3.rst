@@ -37,6 +37,34 @@ gallery:
       <a href="http://www.jkandtheloss.com/">Jen Korte & The Loss</a>,
       <a href="http://tvgirl.bandcamp.com/">TV Girl</a> (it was too dark for a photo),
       <a href="http://tratwd.com/wp/">The Raven & The Writing Desk</a>.
+summary: |
+  Notes & photos from the `UMS`_ — with
+  `Magic Cyclops`_,
+  `Belle Jar`_,
+  `Dirty Femmes`_,
+  `Joy Subtraction`_,
+  `Echo Beds`_,
+  `A Band In Pictures`_,
+  `Natalie Tate`_,
+  `Shady Elders`_,
+  `Casey James Prestwood`_,
+  `Jen Korte & The Loss`_,
+  `TV Girl`_,
+  and `The Raven & The Writing Desk`_.
+
+  .. _UMS: http://www.theums.com/
+  .. _Magic Cyclops: http://themagiccyclops.com/
+  .. _Belle Jar: http://thebellejarmusic.wordpress.com/
+  .. _Dirty Femmes: http://www.thedirtyfemmes.com/
+  .. _Joy Subtraction: http://www.joysubtraction.com/
+  .. _Echo Beds: http://echobeds.tumblr.com/
+  .. _A Band In Pictures: http://abandinpictures.com/
+  .. _Natalie Tate: http://natalietatemusic.com/
+  .. _Shady Elders: http://www.holyunderground.com/artists/shadyelders/
+  .. _Casey James Prestwood: http://caseyjamesprestwood.com/
+  .. _Jen Korte & The Loss: http://www.jkandtheloss.com/
+  .. _TV Girl: http://tvgirl.bandcamp.com/
+  .. _The Raven & The Writing Desk: http://tratwd.com/wp/
 
 
 UMS Day 3

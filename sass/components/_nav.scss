@@ -9,7 +9,7 @@ $nav-bleed: size(rhythm) * 3;
 
   @include breakpoint(max-width size(break, em)) {
     @include font-size(small);
-    margin-bottom: size(gutter);
+    margin-bottom: size(spacer);
     text-align: center;
   }
 
@@ -23,6 +23,15 @@ $nav-bleed: size(rhythm) * 3;
   text-decoration: none;
 
   @include breakpoint(max-width size(break, em)) {
+    &:link, &:visited {
+      @include transition(all 150ms);
+      border-bottom: 0 solid color(border (rgba: .5));
+    }
+
+    &:hover, &:focus, &:active {
+      border-bottom-width: size(border)/2;
+    }
+
     + [data-nav] {
       margin-left: size(shim);
     }
@@ -30,19 +39,19 @@ $nav-bleed: size(rhythm) * 3;
 
   @include breakpoint(size(break, em)) {
     &:link, &:visited {
-      @include transition(all 150ms);
+      @include transition(all 150ms, padding 300ms);
       clear: both;
       float: left;
       margin-bottom: size(shim);
       margin-left: - $nav-bleed;
       padding-left: $nav-bleed;
-      padding-right: size(gutter);
+      padding-right: size(shim);
     }
 
     &:hover, &:focus, &:active {
       background: color(action (rgba: .5));
       color: color(text);
-      padding-right: size(gutter) * 4;
+      padding-right: size(spacer) * 2;
     }
   }
 }
@@ -50,7 +59,7 @@ $nav-bleed: size(rhythm) * 3;
 @each $item in $nav {
   [data-location='#{$item}'] [data-nav='#{$item}'] {
     @include breakpoint(max-width size(break, em)) {
-      border-bottom: .125rem solid color(border);
+      border-bottom: size(border)/2 solid color(border);
     }
 
     @include breakpoint(size(break, em)) {

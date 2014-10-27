@@ -3,7 +3,12 @@
 
 .gallery {
   @include clearfix;
-  margin-bottom: size(gutter);
+  margin-bottom: size(spacer);
+
+  &:not(:last-child) {
+    border-bottom: size(border) dashed color(border);
+    padding-bottom: size(spacer);
+  }
 }
 
 .gallery-body {
@@ -37,5 +42,11 @@
   @include font-size(small);
   float: right;
   margin-top: - size(gutter);
+  text-transform: lowercase;
 }
 
+.gallery-caption {
+  @extend %serif;
+  @include font-size(small);
+  @include wrap-content('[' ']');
+}

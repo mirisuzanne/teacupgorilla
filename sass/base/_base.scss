@@ -11,12 +11,18 @@ html {
   background: color(background) image-url('black_paper.png') repeat fixed;
   border-left: size(shim) solid color(border);
   color: color(text);
+  height: 100%;
   letter-spacing: .05em;
 }
+
+
+// A11y
+// ----
 
 .is-hidden {
   @extend %is-hidden;
 }
+
 
 // Links
 // -----
@@ -29,7 +35,7 @@ a {
 // Media
 // -----
 
-img {
+img, video, iframe {
   max-width: 100%;
   vertical-align: top;
 }

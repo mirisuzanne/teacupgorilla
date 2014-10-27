@@ -35,6 +35,26 @@ gallery:
       Robin & Kim,
       <a href="http://goragora.org/">Gora Gora Orkestar</a>,
       and <a href="http://blonde-redhead.com/">Blonde Redhead</a>.
+summary: |
+  Notes & photos from the `UMS`_ — with
+  `Broken Spirits`_,
+  `Land Lines`_,
+  `Porlolo`_,
+  `Kitty Crimes`_,
+  `Emerald Siam`_,
+  `In the Whale`_,
+  `Gora Gora Orkestar`_,
+  and `Blonde Redhead`_.
+
+  .. _UMS: http://www.theums.com/
+  .. _Broken Spirits: http://deadeyesbrokenspirits.bandcamp.com/
+  .. _Land Lines: http://hellolandlines.com/
+  .. _Porlolo: http://porlolo.wordpress.com/
+  .. _Kitty Crimes: http://www.soundcloud.com/kittycrimes
+  .. _Emerald Siam: https://www.facebook.com/EmeraldSiam/
+  .. _In the Whale: http://www.inthewhalesucks.com/
+  .. _Gora Gora Orkestar: http://goragora.org/
+  .. _Blonde Redhead: http://blonde-redhead.com/
 
 
 UMS Day 4: The End
