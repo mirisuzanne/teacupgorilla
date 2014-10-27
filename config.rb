@@ -1,8 +1,5 @@
 # Compass CSS framework config file
 
-require 'susy'
-require 'modular-scale'
-require 'accoutrement'
 require 'breakpoint'
 
 project_type = :stand_alone

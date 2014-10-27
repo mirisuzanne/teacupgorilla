@@ -1,0 +1,32 @@
+// Fonts
+// =====
+
+$font-formats: woff ttf;
+
+$stack: Baskerville, Palatino, Cambria, Georgia;
+
+$fonts: (
+  sans: (
+    name: 'susy',
+    styles: (regular, bold),
+    path: 'susy/greenmudsusy-%s%s-webfont',
+    stack: $stack,
+    type: serif,
+  ),
+  caps: (
+    name: 'susycaps',
+    files: (
+      regular: 'susy/greenmudsusy-smallcaps-webfont',
+      bold: 'susy/greenmudsusy-smallcapsbold-webfont',
+    ),
+    stack: $stack,
+    type: serif,
+  ),
+  serif: (
+    name: 'narrator',
+    styles: (regular, bold),
+    path: 'narrator/greenmudnarrator-%s%s-webfont',
+    stack: $stack,
+    type: serif,
+  ),
+);

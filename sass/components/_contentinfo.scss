@@ -1,0 +1,19 @@
+// Contentinfo
+// ===========
+
+[role='contentinfo'] {
+  @extend %caps;
+  @include font-size(small);
+  padding-bottom: size(shim);
+  text-align: center;
+  text-transform: lowercase;
+
+  @include breakpoint(size(break, em)) {
+    padding-top: 0;
+
+    p {
+      border-top: size(border) dashed color(border);
+      padding: size(shim) 0;
+    }
+  }
+}

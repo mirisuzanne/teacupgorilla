@@ -1,0 +1,52 @@
+// Gallery
+// =======
+
+.gallery {
+  @include clearfix;
+  margin-bottom: size(spacer);
+
+  &:not(:last-child) {
+    border-bottom: size(border) dashed color(border);
+    padding-bottom: size(spacer);
+  }
+}
+
+.gallery-body {
+  @include clearfix;
+  margin: 0 0 - size(shim);
+
+  iframe, video, img {
+    border: 1px solid color(outline);
+    width: 100%;
+  }
+}
+
+.gallery-item {
+  float: left;
+  margin-bottom: size(gutter);
+  padding-left: size(shim);
+  padding-right: size(shim);
+  width: 50%;
+}
+
+.full {
+  width: 100%;
+}
+
+.video-wrap {
+  @include fluid-media;
+}
+
+.gallery-citation {
+  @extend %caps;
+  @include font-size(small);
+  float: right;
+  margin-top: - size(gutter);
+  text-transform: lowercase;
+}
+
+.gallery-caption {
+  @extend %serif;
+  @include font-size(small);
+  @include wrap-content('[' ']');
+}

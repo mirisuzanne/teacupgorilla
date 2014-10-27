@@ -1,9 +1,0 @@
-// Shows
-// =====
-
-.shows {
-  @extend %section;
-
-  .shows-title { @extend %section-head; }
-  .show { @include trailer(.5); }
-}

@@ -1,0 +1,45 @@
+// Layout
+// ======
+
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  max-width: size(mobile);
+  padding: size(small);
+}
+
+@include breakpoint(size(break)) {
+  body {
+    margin: 0;
+    max-width: size(page);
+  }
+
+  [role='banner'] {
+    float: left;
+    padding: size(shim);
+    width: percentage(1/3);
+  }
+
+  main {
+    float: right;
+    padding: size(shim);
+    padding-bottom: 0;
+    width: percentage(2/3);
+  }
+
+  .social {
+    clear: left;
+    float: left;
+    padding: size(shim);
+    width: percentage(1/3);
+  }
+
+  [role='contentinfo'] {
+    clear: both;
+    float: right;
+    padding: size(shim);
+    width: percentage(2/3);
+  }
+}
+

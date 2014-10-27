@@ -1,9 +1,0 @@
-// Byline
-// ======
-
-.byline {
-  @include alt-text;
-  @include before('::');
-  opacity: .5;
-  text-transform: lowercase;
-}

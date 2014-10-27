@@ -20,6 +20,18 @@ gallery:
       class: full
     caption: |
       Kenny wants pizza. Stevie want's out of the shot. Sorry Stevie.
+summary: |
+  Notes & photos from the `UMS`_ — with
+  `Elin Palmer`_,
+  `Rossonian`_,
+  `Safe Boating is No Accident`_,
+  and `Pan Astral`_.
+
+  .. _UMS: http://www.theums.com/
+  .. _Elin Palmer: http://elinpalmer.com/
+  .. _Rossonian: http://www.rossonianmusic.com/
+  .. _Safe Boating is No Accident: http://safeboatingisnoaccident.com/
+  .. _Pan Astral: http://www.panastral.com/
 
 
 UMS Day 1

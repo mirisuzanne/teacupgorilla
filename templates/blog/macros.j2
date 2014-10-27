@@ -1,39 +1,42 @@
-
-{% macro post(rst, config, list=true) %}
+{% macro list(post) %}
 <article class="post">
-  <h2 class="post-title">
-    {% if list %}
-    <a href="{{ link_to('page', slug=rst.slug) }}">
-      {{ rst.title }}
-    </a>
-    {% else %}
-      {{ rst.title }}
-    {% endif %}
-  </h2>
+  {% if post.title %}
+    <h2 class="title">
+      <a href="{{ link_to('page', slug=post.slug) }}">
+        {{ post.title }}
+      </a>
+    </h2>
+  {% endif %}
 
-  {% include "_byline.html" %}
+  {{ byline(post) }}
 
-  {% for module in config.before %}
-    {% include module.include %}
-  {% endfor %}
-
-  <div class="post-body">
-  {% if list %}
-    {% if rst.summary %}
-      {{ rst.render_summary() }}
-      <a href="{{ link_to('page', slug=rst.slug) }}" class="more">
-        read more
+  <div class="body">
+    {% if post.summary %}
+      {{ post.render_summary() }}
+      <a href="{{ link_to('page', slug=post.slug) }}" class="more-link">
+        read more »
       </a>
     {% else %}
-      {{ rst.render_contents() }}
+      {{ post.render_contents() }}
     {% endif %}
-  {% else %}
-    {{ rst.fragment }}
-  {% endif %}
   </div>
-
-  {% for module in config.after %}
-    {% include module.include %}
-  {% endfor %}
 </article>
+{% endmacro %}
+
+{% macro byline(post) %}
+{% if post.pub_date %}
+<div class="byline">
+  {% if post.pub_date %}
+  <time datetime="{{ post.pub_date.isoformat() }}" pubdate="pubdate">
+    {{ post.pub_date.strftime("%B %d, %Y") }}
+  </time>
+  {% endif %}
+
+  {% if post.author %}
+  <span class="vcard">
+    by <a href="{{ link_to('author', author=post.author) }}" class="fn">{{ post.author }}</a>
+  </span>
+  {% endif %}
+</div>
+{% endif %}
 {% endmacro %}

@@ -1,0 +1,21 @@
+// Logo
+// ====
+
+.logo {
+  margin: 0 auto;
+  max-width: size(logo);
+
+  fill: transparent;
+  stroke: color(text);
+  stroke-width: 3;
+
+  .e, .bang {
+    stroke: color(action);
+  }
+
+  @include breakpoint(25em size(break, em)) {
+    stroke-width: 2;
+  }
+}
+
+

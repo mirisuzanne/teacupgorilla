@@ -4,57 +4,33 @@
 @import "compass";
 @import "compass/layout";
 @import "compass/reset";
-@import "modular-scale";
 @import "accoutrement";
 @import "breakpoint";
-@import "susy";
 
-// Atoms: Abstract
-// ---------------
 
-@import "atoms/colors";
-@import "atoms/sizes";
-@import "atoms/fonts";
-@import "atoms/grid";
-@import "atoms/icons";
+// Base
+// ----
 
-// Atoms: Concrete
-// ---------------
+@import "base/colors.config";
+@import "base/scale.config";
+@import "base/fonts.config";
+@import "base/type.config";
+@import "base/box.config";
+@import "base/base";
+@import "base/layout";
 
-@import "atoms/links";
-@import "atoms/type";
-@import "atoms/base";
-@import "atoms/media";
-@import "atoms/more";
-@import "atoms/face_sketch";
 
-// Molecules: Abstract
-// -------------------
+// Components
+// ----------
 
-@import "molecules/a11y";
-@import "molecules/tooltips";
-@import "molecules/byline";
-@import "molecules/section";
-
-// Molecules: Concrete
-// -------------------
-
-@import "molecules/nav";
-@import "molecules/logo";
-@import "molecules/faces";
-@import "molecules/show";
-@import "molecules/demo";
-@import "molecules/post";
-@import "molecules/colophon";
-@import "molecules/bio";
-@import "molecules/social";
-@import "molecules/copyright";
-
-// Organisms
-// ---------
-
-@import "organisms/banner";
-@import "organisms/shows";
-@import "organisms/gallery";
-@import "organisms/verbs";
-@import "organisms/contentinfo";
+@import "components/icons";
+@import "components/logo";
+@import "components/nav";
+@import "components/social";
+@import "components/contentinfo";
+@import "components/gallery";
+@import "components/faces";
+@import "components/post";
+@import "components/pagination";
+@import "components/shows";
+@import "components/demos";

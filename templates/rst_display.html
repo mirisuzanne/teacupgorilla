@@ -1,13 +1,10 @@
 {% extends "layout.html" %}
-{% import "blog/macros.j2" as blog %}
+{% block title %}{{ rst.title }}{% endblock %}
 
-{% block title -%}
-  {% if rst.title != 'Home' %}{{ rst.title }} ::{% endif %}
-  {{ super() }}
-{%- endblock %}
 
-{% block bodyclasses %}{{ super() }}{% if config.bodyclasses %} {{ config.bodyclasses }}{% endif %} blog{% endblock %}
+{% block location %}{% if ctx.pub_date %}blog{% else %}{{ super() }}{% endif %}{% endblock %}
+
 
 {% block body %}
-  {{ blog.post(rst, config, list=false) }}
+  {% include "_rst.html.j2" %}
 {% endblock %}

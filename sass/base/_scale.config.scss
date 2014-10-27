@@ -1,0 +1,44 @@
+// Size Settings
+// =============
+
+$base-size: 24px;
+$ratio: minor-third;
+
+
+// Pallette
+// --------
+
+$sizes: (
+  larger: 4,
+  large: 2,
+  medium: 1,
+  normal: 0,
+  small: -1,
+
+  rhythm: large,
+  gutter: small,
+
+  border: -8,
+
+  logo: 16,
+  mobile: 19,
+  page: 21,
+
+  break: 55em,
+);
+
+$sizes: map-merge($sizes, (
+  shim: size(gutter)/2,
+  spacer: size(gutter)*2,
+));
+
+// Settings
+// --------
+
+$rhythm-unit                      : rem;
+$rem-with-px-fallback             : false;
+
+$base-font-size                   : size(normal, px);
+$base-line-height                 : size(rhythm, px);
+
+$round-to-nearest-half-line       : true;

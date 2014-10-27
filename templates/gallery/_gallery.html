@@ -1,9 +1,7 @@
 {% if config.gallery %}
 {% for gallery in config.gallery %}
-<figure class="gallery{% if gallery.is_section %} section{% endif %}">
-  {% if gallery.is_section %}
+<figure class="gallery">
   {% include "gallery/_caption.html" %}
-  {% endif %}
 
   <div class="gallery-body">
     {% for item in gallery.body -%}
@@ -13,15 +11,13 @@
     </div>
     {%- elif item.video -%}
     <div class="video gallery-item{% if item.class %} {{ item.class }}{% endif %}">
-      {{ item.video|safe }}
+      <div class="video-wrap">
+        {{ item.video|safe }}
+      </div>
     </div>
     {%- endif -%}
     {%- endfor %}
   </div>
-
-  {% if not gallery.is_section %}
-  {% include "gallery/_caption.html" %}
-  {% endif %}
 
   {% if gallery.citation %}
   <cite class="gallery-citation">

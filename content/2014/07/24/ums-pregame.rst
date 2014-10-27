@@ -10,6 +10,15 @@ gallery:
       <a href="https://www.facebook.com/pages/Broken-Spirits/126134540735923">
       Broken Spirits</a>
       at UMS '13.
+summary: |
+  The
+  `Denver Post Underground Music Showcase`_ (UMS)
+  starts tonight —
+  one of the best events in Denver,
+  turning South Broadway into a massive 4-night
+  indie-music orgy.
+
+  .. _Denver Post Underground Music Showcase: http://www.theums.com/
 
 
 Denver Post Underground Music Showcase [Preview]

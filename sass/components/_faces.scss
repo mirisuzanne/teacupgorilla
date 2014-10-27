@@ -1,0 +1,33 @@
+// Face Sketch
+// ===========
+
+.face-sketch {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke: color(background);
+
+  path {
+    pointer-events: none;
+  }
+
+  .stroke {
+    fill: none;
+  }
+
+  .fill {
+    fill: color(background);
+  }
+
+  .window {
+    @include transition(fill 300ms);
+    fill: color(text);
+
+    &:hover {
+      fill: color(action);
+    }
+
+    &:nth-child(4):hover {
+      fill: color(accent);
+    }
+  }
+}

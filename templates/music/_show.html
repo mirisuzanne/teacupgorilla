@@ -1,30 +1,30 @@
-<article class="show vevent">
+<article class="show h-event">
   {# Time #}
-  <time class="dtstart" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
+  <time class="dt-start" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
     {% if show.date %}<span class="date">{{ show.date }}</span>{% endif %}
     {% if show.time %}<span class="time">{{ show.time }}</span>{% endif %}
   </time>
 
-  <h3 class="summary">
+  <h3 class="p-summary">
     {# Title #}
     {% if show.title %}
-    <span class="title">
+    <span class="p-name">
       {% if show.title_url or show.url %}
       <a href="{{ show.title_url or show.url }}">{{ show.title|safe }}</a>
       {% else %}
       {{ show.title|safe }}
       {% endif %}
     </span>
-    {% if show.venue %}<i>at</i>{% endif %}
     {% endif %}
 
     {# Location #}
     {% if show.venue %}
-    <span class="location vcard">
+    <span class="p-location h-card">
+      <b class="at">at</b>
       {% if show.venue_url or show.url %}
-      <a href="{{ show.venue_url or show.url }}" class="fn org url">{{ show.venue|safe }}</a>
+      <a href="{{ show.venue_url or show.url }}" class="p-organization-name u-url">{{ show.venue|safe }}</a>
       {% else %}
-      <span class="fn org">{{ show.venue|safe }}</span>
+      <span class="p-organization-name">{{ show.venue|safe }}</span>
       {% endif %}
     </span>
     {% endif %}
@@ -32,14 +32,14 @@
 
   {# With #}
   {% if show.with %}
-  <div class="with">
+  <div class="p-description">
     {% if show.with is string %}
     {{ show.with }}
     {% else %}
     {% if show.before_with %}{{ show.before_with }}{% endif %}
-    with
+    <b class="at">with</b>
     {% for feature in show.with -%}
-    {%- if loop.last and not loop.first %} and {% endif %}
+    {%- if loop.last and not loop.first %} <b class="at">and</b> {% endif %}
     {%- if feature.url -%}
     <a href="{{ feature.url }}">{{ feature.name }}</a>
     {%- else -%}

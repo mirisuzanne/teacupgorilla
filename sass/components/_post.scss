@@ -1,0 +1,42 @@
+// Blog Posts
+// ==========
+
+.post {
+  border-bottom: size(border) dashed color(border);
+  margin-bottom: size(spacer);
+  padding-bottom: size(spacer);
+}
+
+.title {
+  @extend %h1;
+
+  a {
+    &:link, &:visited {
+      text-decoration: none;
+    }
+  }
+}
+
+.byline {
+  @extend %caps;
+  @include font-size(small);
+  margin-bottom: size(gutter);
+  margin-top: - size(shim);
+
+  a {
+    &:link, &:visited {
+      text-decoration: none;
+    }
+  }
+}
+
+.body {
+  @extend %body;
+  @include clearfix;
+  margin-bottom: size(spacer);
+}
+
+.more-link {
+  @include font-size(small);
+  float: right;
+}

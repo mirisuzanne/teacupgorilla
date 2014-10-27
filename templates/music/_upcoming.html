@@ -8,7 +8,9 @@
   {% endfor %}
 
   {% if module.count and config.upcoming|length > module.count %}
-  <a href="/verbs/" class="more">more perfection »</a>
+    <a href="/verbs/" class="more-link">more perfection »</a>
+  {% elif module.more %}
+    <a href="/verbs/" class="more-link">past imperfection »</a>
   {% endif %}
 </section>
 {% endif %}

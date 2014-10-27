@@ -1,0 +1,72 @@
+// Nav
+// ===
+
+$nav: blog nouns adjectives verbs;
+$nav-bleed: size(rhythm) * 3;
+
+[role='navigation'] {
+  @extend %caps;
+
+  @include breakpoint(max-width size(break, em)) {
+    @include font-size(small);
+    margin-bottom: size(spacer);
+    text-align: center;
+  }
+
+  @include breakpoint(size(break, em)) {
+    margin-top: size(gutter);
+  }
+}
+
+
+[data-nav] {
+  text-decoration: none;
+
+  @include breakpoint(max-width size(break, em)) {
+    &:link, &:visited {
+      @include transition(all 150ms);
+      border-bottom: 0 solid color(border (rgba: .5));
+    }
+
+    &:hover, &:focus, &:active {
+      border-bottom-width: size(border)/2;
+    }
+
+    + [data-nav] {
+      margin-left: size(shim);
+    }
+  }
+
+  @include breakpoint(size(break, em)) {
+    &:link, &:visited {
+      @include transition(all 150ms, padding 300ms);
+      clear: both;
+      float: left;
+      margin-bottom: size(shim);
+      margin-left: - $nav-bleed;
+      padding-left: $nav-bleed;
+      padding-right: size(shim);
+    }
+
+    &:hover, &:focus, &:active {
+      background: color(action (rgba: .5));
+      color: color(text);
+      padding-right: size(spacer) * 2;
+    }
+  }
+}
+
+@each $item in $nav {
+  [data-location='#{$item}'] [data-nav='#{$item}'] {
+    @include breakpoint(max-width size(break, em)) {
+      border-bottom: size(border)/2 solid color(border);
+    }
+
+    @include breakpoint(size(break, em)) {
+      background: color(action);
+      color: color(text);
+      display: block;
+      float: none;
+    }
+  }
+}

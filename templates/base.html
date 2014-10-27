@@ -64,7 +64,8 @@
   {% endblock htmlhead %}
 </head>
 
-<body id="andmeyer" class="{% block bodyclasses %}{% endblock %}">
+<body id="teacupgorilla" class="{% block bodyclasses %}{% endblock %}" data-location="{% block location %}{{ config.location }}{% endblock %}">
+{% include "_icons.svg" %}
 
 {% block template %}{% endblock template %}
 
