@@ -141,7 +141,7 @@ html {
   font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-.body em, .body blockquote, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .p-description {
+.body em, .body blockquote, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at {
   font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -612,6 +612,10 @@ body {
 }
 .show .p-description:before {
   content: " • ";
+}
+.show .at {
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
 }
 
 .demos {

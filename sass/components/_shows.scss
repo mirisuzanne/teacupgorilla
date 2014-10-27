@@ -40,9 +40,13 @@
   }
 
   .p-description {
-    @extend %caps;
     @include before(' • ');
     @include font-size(small);
     margin-left: size(gutter);
+  }
+
+  .at {
+    @extend %caps;
+    @include font-size(small);
   }
 }
