@@ -482,25 +482,21 @@ body {
   stroke: #161616;
 }
 .face-sketch path {
-  pointer-events: none;
-}
-.face-sketch .stroke {
   fill: none;
+  pointer-events: none;
+  stroke-width: .75;
 }
-.face-sketch .fill {
-  fill: #161616;
-}
-.face-sketch .window {
+.face-sketch rect {
   -moz-transition: fill 300ms;
   -o-transition: fill 300ms;
   -webkit-transition: fill 300ms;
   transition: fill 300ms;
-  fill: #dedede;
+  fill: rgba(222, 222, 222, 0.75);
 }
-.face-sketch .window:hover {
+.face-sketch rect:hover {
   fill: #ef3939;
 }
-.face-sketch .window:nth-child(4):hover {
+.face-sketch rect:nth-child(3):hover {
   fill: #ae6af3;
 }
 
