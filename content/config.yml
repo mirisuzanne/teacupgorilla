@@ -1,6 +1,34 @@
 ---
 # Upcoming Shows
 upcoming:
+  - date: Nov. 29, 2014
+    venue: Larimer Lounge
+    url: http://www.larimerlounge.com/event_details.cfm?blogid=1499
+    datetime: 2014-11-29
+    with:
+      - name: The Truth & Spectacle
+        url: https://www.facebook.com/thetruthandspectacle
+      - name: Cutlass
+        url: https://www.facebook.com/cutlasstracks
+      - name: Reverb and The Verse
+        url: https://www.facebook.com/ReverbandTheVerse
+
+  - date: Jan. 09, 2015
+    title: Denver Indie/Alt Fest
+    venue: Merchant's Mile High Saloon
+    url: http://facebook.com/MerchantsMileHighSaloon
+    datetime: 2015-01-09
+    with:
+      - name: Lucid Vigilantes
+        url: facebook.com/LucidVigilantes
+      - name: Blind Tomorrow
+        url: facebook.com/BlindTomorrow
+      - name: 3Piece Special
+        url: http://facebook.com/3PieceSpecial
+
+
+# Recent Shows
+recent:
   - date: Nov. 9, 2014
     venue: Lion's Lair
     url: http://www.lionslairlounge.com/events/
@@ -10,9 +38,6 @@ upcoming:
         url: http://see-you-home-wolf.bandcamp.com/
       - name: Drunkin Relatives
 
-
-# Recent Shows
-recent:
   - date: Aug. 23, 2014
     venue: Pikes Peak Brewing Co.
     url: http://pikespeakbrewing.com/
