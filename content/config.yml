@@ -1,18 +1,18 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: Nov. 29, 2014
-    venue: Larimer Lounge
-    url: http://www.larimerlounge.com/event_details.cfm?blogid=1499
-    datetime: 2014-11-29
+  - date: Jan. 24, 2015
+    title: Gorilla Hound Party
+    venue: The Bakery
+    url: https://www.facebook.com/events/978753592154777/
+    datetime: 2015-01-24
     with:
-      - name: The Truth & Spectacle
-        url: https://www.facebook.com/thetruthandspectacle
-      - name: Cutlass
-        url: https://www.facebook.com/cutlasstracks
-      - name: Reverb and The Verse
-        url: https://www.facebook.com/ReverbandTheVerse
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
 
+
+# Recent Shows
+recent:
   - date: Jan. 09, 2015
     title: Denver Indie/Alt Fest
     venue: Merchant's Mile High Saloon
@@ -26,9 +26,18 @@ upcoming:
       - name: 3Piece Special
         url: http://facebook.com/3PieceSpecial
 
+  - date: Nov. 29, 2014
+    venue: Larimer Lounge
+    url: http://www.larimerlounge.com/event_details.cfm?blogid=1499
+    datetime: 2014-11-29
+    with:
+      - name: The Truth & Spectacle
+        url: https://www.facebook.com/thetruthandspectacle
+      - name: Cutlass
+        url: https://www.facebook.com/cutlasstracks
+      - name: Reverb and The Verse
+        url: https://www.facebook.com/ReverbandTheVerse
 
-# Recent Shows
-recent:
   - date: Nov. 9, 2014
     venue: Lion's Lair
     url: http://www.lionslairlounge.com/events/
