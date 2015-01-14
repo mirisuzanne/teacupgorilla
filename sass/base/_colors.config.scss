@@ -17,6 +17,6 @@ $colors: (
   action: primary,
   focus: action (tint: 30%),
 
-  outline: light (rgba: .25),
+  outline: 'gray',
   shadow: dark (shade: 20%, rgba: .75),
 );

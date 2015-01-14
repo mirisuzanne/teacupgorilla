@@ -23,11 +23,27 @@
 }
 
 .show {
-  border-left: size(border) solid color(text (rgba: .5));
-  padding-left: size(shim);
+  @include clearfix;
 
   + .show {
     margin-top: size(gutter);
+  }
+
+  .u-photo {
+    @include transition(all 300ms);
+    background: no-repeat scroll;
+    background-size: cover;
+    border: 1px solid color(outline);
+    float: left;
+    height: size(rhythm)*2;
+    margin-right: size(shim);
+    width: size(rhythm)*2;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: color(primary);
+    }
   }
 
   .dt-start {
@@ -40,7 +56,7 @@
   }
 
   .p-description {
-    @include before(' • ');
+    @include before('» ');
     @include font-size(small);
     margin-left: size(gutter);
   }

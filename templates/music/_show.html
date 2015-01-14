@@ -1,4 +1,8 @@
 <article class="show h-event">
+  {% set image_path='/static/images/shows/' %}
+  {% set image_url=show.image if show.image else 'default.jpg' %}
+  <a href="{{ image_path }}{{ image_url }}" style="background-image: url('{{ image_path }}{{ image_url }}');" class="u-photo"></a>
+
   {# Time #}
   <time class="dt-start" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
     {% if show.date %}<span class="date">{{ show.date }}</span>{% endif %}
