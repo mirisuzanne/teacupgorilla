@@ -145,7 +145,7 @@ html {
   font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-.body h1, .title, .body h2, .body h3, .body h4, .gallery-caption, .pagination, .shows-title, .show .dt-start {
+.body h1, .title, .body h2, .body h3, .body h4, .gallery-caption, .pagination, .shows-title, .show .dt-start, .show .p-summary {
   font-family: "narrator", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -614,22 +614,35 @@ body {
   border-color: #ef3939;
 }
 .show .dt-start {
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
   font-weight: bold;
 }
 .show .p-summary {
-  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.show .p-name,
+.show .p-organization-name {
+  font-weight: bold;
 }
 .show .p-description {
   font-size: 0.83333rem;
   line-height: 1.45833rem;
-  margin-left: 0.83333rem;
+  display: inline;
 }
 .show .p-description:before {
-  content: "» ";
+  content: "—";
 }
 .show .at {
   font-size: 0.83333rem;
   line-height: 1.45833rem;
+}
+.show .with {
+  display: inline-block;
 }
 
 .demos {

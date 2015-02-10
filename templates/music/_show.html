@@ -3,12 +3,6 @@
   {% set image_url=show.image if show.image else 'default.jpg' %}
   <a href="{{ image_path }}{{ image_url }}" style="background-image: url('{{ image_path }}{{ image_url }}');" class="u-photo"></a>
 
-  {# Time #}
-  <time class="dt-start" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
-    {% if show.date %}<span class="date">{{ show.date }}</span>{% endif %}
-    {% if show.time %}<span class="time">{{ show.time }}</span>{% endif %}
-  </time>
-
   <h3 class="p-summary">
     {# Title #}
     {% if show.title %}
@@ -24,7 +18,9 @@
     {# Location #}
     {% if show.venue %}
     <span class="p-location h-card">
+      {% if show.title %}
       <b class="at">at</b>
+      {% endif %}
       {% if show.venue_url or show.url %}
       <a href="{{ show.venue_url or show.url }}" class="p-organization-name u-url">{{ show.venue|safe }}</a>
       {% else %}
@@ -33,6 +29,12 @@
     </span>
     {% endif %}
   </h3>
+
+  {# Time #}
+  <time class="dt-start" {% if show.datetime %}datetime="{{ show.datetime }}"{% endif %}>
+    {% if show.date %}<span class="date">{{ show.date }}</span>{% endif %}
+    {% if show.time %}<span class="time">{{ show.time }}</span>{% endif %}
+  </time>
 
   {# With #}
   {% if show.with %}
@@ -45,9 +47,9 @@
     {% for feature in show.with -%}
     {%- if loop.last and not loop.first %} <b class="at">and</b> {% endif %}
     {%- if feature.url -%}
-    <a href="{{ feature.url }}">{{ feature.name }}</a>
+    <a href="{{ feature.url }}" class="with">{{ feature.name }}</a>
     {%- else -%}
-    <em>{{ feature.name }}</em>
+    <em class="with">{{ feature.name }}</em>
     {%- endif -%}
     {%- if loop.length > 2 and not loop.last %}, {% endif %}
     {% endfor %}

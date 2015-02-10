@@ -48,21 +48,32 @@
 
   .dt-start {
     @extend %serif;
+    @include font-size(small);
     font-weight: bold;
   }
 
   .p-summary {
-    display: inline;
+    @extend %serif;
+    @include ellipsis;
+  }
+
+  .p-name,
+  .p-organization-name {
+    font-weight: bold;
   }
 
   .p-description {
-    @include before('» ');
+    @include before('—');
     @include font-size(small);
-    margin-left: size(gutter);
+    display: inline;
   }
 
   .at {
     @extend %caps;
     @include font-size(small);
+  }
+
+  .with {
+    display: inline-block;
   }
 }

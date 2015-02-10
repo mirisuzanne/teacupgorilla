@@ -1,6 +1,24 @@
 ---
 # Upcoming Shows
 upcoming:
+  - date: Apr. 2, 2015
+    title: SideSaddle* Book Release
+    url: http://ridingsidesaddle.net/
+    venue: Syntax Physic Opera
+    venue_url: http://physicopera.com/
+    datetime: 2015-04-02
+    image: 'neck.jpg'
+
+  - date: Apr. 17, 2015
+    venue: Merchant's Mile High Saloon
+    datetime: 2015-04-17
+    with:
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
+
+
+# Recent Shows
+recent:
   - date: Jan. 24, 2015
     title: Gorilla Hound Party
     url: https://www.facebook.com/events/978753592154777/
@@ -12,9 +30,6 @@ upcoming:
       - name: Open to the Hound
         url: http://www.opentothehound.com
 
-
-# Recent Shows
-recent:
   - date: Jan. 09, 2015
     title: Denver Indie/Alt Fest
     venue: Merchant's Mile High Saloon
@@ -159,7 +174,7 @@ recent:
     url: https://www.facebook.com/leongallery
     datetime: 2012-07-21
     with:
-      - name: Eric Suzanne [solo]
+      - name: Eric Suzanne
         url: http://ericsuzanne.com/
       - name: Kelly Dulaney
 

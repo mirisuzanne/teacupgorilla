@@ -16,8 +16,8 @@ and obtuse stomping.
 
 What started with math-punk in crowded basements
 has grown into a long-term collaboration between
-`Daniel E`_, `Eric`_, `Sondra`_, and Daniel R —
-playing/fighting together over ten years in bands like
+`Daniel`_, `Eric`_, and `Sondra`_
+playing/fighting together since 2001 in bands like
 *Elephants for Sale*, *Dirt Circle Dogs*, *Iron City*, and *Raven Jane*.
 Since forming Teacup Gorilla in 2010,
 they have performed at poetry readings & hard-core house shows,
@@ -32,7 +32,7 @@ Teacup Gorilla are the closest relatives to humans after the bonobo,
 They may be fine artists in the parlor,
 but they're nasty in the garage.
 
-.. _Daniel E: http://thebakerydenver.com/
+.. _Daniel: http://thebakerydenver.com/
 .. _Sondra: http://sondraedesign.tumblr.com/
 .. _Eric: http://ericsuzanne.com/
 
