@@ -7,7 +7,7 @@ gallery:
   - body:
       - video: <iframe src="http://player.vimeo.com/video/119834636?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         class: full
-    caption: 05.14 Bouldering Poets
+    caption: 02.15 A Dark Plane — Demo Recording Session
     citation: |
       Words by Gil Scott Heron
     is_section: true
