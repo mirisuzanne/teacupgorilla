@@ -28,7 +28,8 @@ body {
     width: percentage(2/3);
   }
 
-  .social {
+  .social,
+  .email-signup {
     clear: left;
     float: left;
     padding: size(shim);

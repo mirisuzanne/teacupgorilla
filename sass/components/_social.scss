@@ -44,3 +44,25 @@
     @include is-hidden;
   }
 }
+
+
+// Email
+// -----
+
+.email-signup {
+  padding: size(gutter);
+
+  @include breakpoint(size(break, em)) {
+    margin-bottom: - size(border);
+    margin-left: - size(gutter);
+  }
+
+  [for='mce-EMAIL'] {
+    @include is-hidden;
+  }
+}
+
+.email-title {
+  @extend %caps;
+  @include font-size(small);
+}
