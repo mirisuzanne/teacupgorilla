@@ -14,23 +14,45 @@ with angular riffs,
 twisted stories,
 and obtuse stomping.
 
-What started with math-punk in crowded basements
-has grown into a long-term collaboration between
-`Daniel`_, `Eric`_, and `Sondra`_
-playing/fighting together since 2001 in bands like
-*Elephants for Sale*, *Dirt Circle Dogs*, *Iron City*, and *Raven Jane*.
-Since forming Teacup Gorilla in 2010,
-they have performed at poetry readings & hard-core house shows,
-composed live theatre soundtracks,
-and founded the `The Bakery`_ arts warehouse.
+.. BAND
+.. ----
 
-Teacup Gorilla are the closest relatives to humans after the bonobo,
+`Daniel`_, `Eric`_, and `Sondra`_ have been
+playing/fighting together since 2001
+in a mix of bands, theatres, and web design companies —
+finally forming their own band in 2010.
+
+
+.. BUSINESS
+.. --------
+
+Since then Teacup Gorilla has performed at
+poetry readings, book releases,
+& hard-core house shows,
+composed live theatre soundtracks,
+and founded the `The Bakery`_ arts warehouse —
+while playing regularly around great local venues
+like Larimer Lounge, and Pikes Peak Brewing Co, and Lion's Lair.
+
+
+.. MUSIC
+.. -----
+
+With a dark indie sound,
+post-rock tendencies,
+and a strong literary bent — 
+Teacup Gorilla has been
+compared to Velvet Underground,
+Everything Absent or Distorted (a love story),
+Rabbit is a Sphere, and more.
+They are also clearly decended from the bonobo,
 `Tom Waits`_, `Modest Mouse`_, `Mogwai`_, `Bad Luck City`_,
 `Songs: Ohia`_, `Godspeed You! Black Emperor`_,
 `Fugazi`_, and `Low`_ (to name an odd few).
 
 They may be fine artists in the parlor,
 but they're nasty in the garage.
+
 
 .. _Daniel: http://thebakerydenver.com/
 .. _Sondra: http://sondraedesign.tumblr.com/
