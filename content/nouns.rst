@@ -5,6 +5,14 @@ before:
   - include: 'gallery/_gallery.html'
 gallery:
   - body:
+      - video: <iframe src="http://player.vimeo.com/video/119834636?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        class: full
+    caption: 05.14 Bouldering Poets
+    citation: |
+      Words by Gil Scott Heron
+    is_section: true
+
+  - body:
       - video: <iframe src="http://player.vimeo.com/video/96653953?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         class: full
     caption: 05.14 Bouldering Poets
