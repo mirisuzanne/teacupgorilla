@@ -141,7 +141,7 @@ html {
   font-family: "susy", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
-.body em, .body blockquote, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at {
+.body em, .body blockquote, [role='navigation'], .email-title, [role='contentinfo'], .gallery-citation, .byline, .show .at {
   font-family: "susycaps", Baskerville, Palatino, Cambria, Georgia, serif;
 }
 
@@ -199,7 +199,8 @@ body {
     width: 66.66667%;
   }
 
-  .social {
+  .social,
+  .email-signup {
     clear: left;
     float: left;
     padding: 0.625rem;
@@ -218,6 +219,71 @@ body {
   width: 1rem;
   fill: currentColor;
   vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+  color: #949494;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #949494;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #949494;
+}
+
+:-ms-input-placeholder {
+  color: #949494;
+}
+
+input:not([type='checkbox']):not([type='radio']) {
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
+  background: transparent;
+  border: 2px solid #ef3939;
+  color: #ef3939;
+  font-family: inherit;
+  margin-bottom: 0.3125rem;
+  padding: 0 0.3125rem;
+  transition: all 300ms;
+  width: 100%;
+}
+input:not([type='checkbox']):not([type='radio']):focus {
+  background: rgba(222, 222, 222, 0.125);
+  color: #dedede;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: none;
+}
+button:disabled {
+  cursor: default;
+}
+
+.button {
+  font-size: 0.70833rem;
+  line-height: 1.45833rem;
+  background: #ef3939;
+  border-radius: 0.25rem;
+  color: #dedede;
+  font-weight: bold;
+  padding: 0 0.625rem;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -389,6 +455,28 @@ body {
   width: 1px;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+.email-signup {
+  padding: 0.83333rem;
+}
+@media (min-width: 55em) {
+  .email-signup {
+    margin-bottom: -0.25rem;
+    margin-left: -0.83333rem;
+  }
+}
+.email-signup [for='mce-EMAIL'] {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.email-title {
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
 }
 
 [role='contentinfo'] {
