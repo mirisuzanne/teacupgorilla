@@ -8,11 +8,20 @@ upcoming:
     venue_url: http://physicopera.com/
     datetime: 2015-04-02
     image: 'neck.jpg'
+    with:
+      - name: Jen Korte
+        url: http://jkandtheloss.com
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
 
   - date: Apr. 17, 2015
     venue: Merchant's Mile High Saloon
     datetime: 2015-04-17
     with:
+      - name: Black Market Translation
+        url: http://www.blackmarkettranslation.com/
+      - name: Tom Waits For No Man
+        url: http://tomwaitsfornoman.com/
       - name: Open to the Hound
         url: http://www.opentothehound.com
 
