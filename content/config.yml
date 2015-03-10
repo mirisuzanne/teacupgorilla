@@ -2,7 +2,7 @@
 # Upcoming Shows
 upcoming:
   - date: Apr. 2, 2015
-    title: SideSaddle* Book Release
+    title: Riding SideSaddle* [Novel Affair]
     url: http://ridingsidesaddle.net/
     venue: Syntax Physic Opera
     venue_url: http://physicopera.com/
@@ -24,6 +24,10 @@ upcoming:
         url: http://tomwaitsfornoman.com/
       - name: Open to the Hound
         url: http://www.opentothehound.com
+
+  - date: This Summer! [stay tuned]
+    title: Riding SideSaddle* Midwest Tour
+    image: 'neck.jpg'
 
 
 # Recent Shows
