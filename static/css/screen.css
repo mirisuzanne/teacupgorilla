@@ -166,6 +166,7 @@ html {
   color: #dedede;
   height: 100%;
   letter-spacing: .05em;
+  text-shadow: 0 0 1px rgba(17, 17, 17, 0.75);
 }
 
 img, video, iframe {
@@ -685,7 +686,16 @@ button:disabled {
 .show + .show {
   margin-top: 0.83333rem;
 }
-.show .u-photo {
+.show.feature {
+  border-bottom: 0.125rem dashed #dedede;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.show.feature .u-photo {
+  display: block;
+  margin-bottom: 0.625rem;
+}
+.show .u-photo[style] {
   -moz-transition: all 300ms;
   -o-transition: all 300ms;
   -webkit-transition: all 300ms;
@@ -698,7 +708,7 @@ button:disabled {
   margin-right: 0.625rem;
   width: 2.91667rem;
 }
-.show .u-photo:hover, .show .u-photo:focus, .show .u-photo:active {
+.show .u-photo[style]:hover, .show .u-photo[style]:focus, .show .u-photo[style]:active {
   border-color: #ef3939;
 }
 .show .dt-start {
