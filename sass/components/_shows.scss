@@ -29,7 +29,18 @@
     margin-top: size(gutter);
   }
 
-  .u-photo {
+  &.feature {
+    border-bottom: size(border)/2 dashed color(text);
+    margin-bottom: size(gutter)*1.5;
+    padding-bottom: size(gutter)*1.5;
+
+    .u-photo {
+      display: block;
+      margin-bottom: size(shim);
+    }
+  }
+
+  .u-photo[style] {
     @include transition(all 300ms);
     background: no-repeat scroll;
     background-size: cover;

@@ -1,7 +1,16 @@
-<article class="show h-event">
-  {% set image_path='/static/images/shows/' %}
-  {% set image_url=show.image if show.image else 'default.jpg' %}
-  <a href="{{ image_path }}{{ image_url }}" style="background-image: url('{{ image_path }}{{ image_url }}');" class="u-photo"></a>
+{% set image_path='/static/images/shows/' %}
+{% set image_url=show.image if show.image else 'default.jpg' %}
+{% set image_location= [image_path, image_url]|join('') %}
+
+<article class="show h-event{% if show.feature %} feature{% endif %}">
+
+  {% if show.feature %}
+    <a href="{{ show.title_url or show.url or image_location }}" class="u-photo">
+      <img src="{{ image_location }}" alt="" class="feature-image" />
+    </a>
+  {% else %}
+    <a href="{{ show.title_url or show.url or image_location }}" style="background-image: url('{{ image_location }}');" class="u-photo"></a>
+  {% endif %}
 
   <h3 class="p-summary">
     {# Title #}
