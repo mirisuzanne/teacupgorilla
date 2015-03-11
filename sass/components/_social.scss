@@ -6,15 +6,6 @@
 }
 
 .social {
-  border: size(border) double color(border);
-  border-width: size(border) 0;
-
-  @include at(break) {
-    margin: size(gutter) 0;
-    margin-bottom: - size(border);
-    margin-left: - size(gutter);
-  }
-
   [rel='me'] {
     &:link,
     &:visited {
@@ -41,8 +32,8 @@
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  margin-bottom: size(gutter);
   max-width: size(logo);
-  padding: size(gutter) 0;
 
   .icon-text {
     @include is-hidden;
@@ -54,12 +45,8 @@
 // -----
 
 .email-signup {
-  padding: size(gutter);
-
-  @include at(break) {
-    margin-bottom: - size(border);
-    margin-left: - size(gutter);
-  }
+  margin: 0 auto;
+  max-width: size(logo);
 
   [for='mce-EMAIL'] {
     @include is-hidden;
@@ -67,6 +54,5 @@
 }
 
 .email-title {
-  @extend %caps;
-  @include font-size(small);
+  @include is-hidden;
 }

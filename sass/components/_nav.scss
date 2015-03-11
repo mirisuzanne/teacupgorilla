@@ -1,78 +1,39 @@
 // Nav
 // ===
 
-$nav: blog nouns adjectives verbs;
+$nav: home blog nouns adjectives verbs;
 $nav-bleed: size(rhythm) * 3;
 
 [role='navigation'] {
   @extend %caps;
-
-  @include at(max-break) {
-    @include font-size(small);
-    margin-bottom: size(spacer);
-    text-align: center;
-  }
-
-  @include at(break) {
-    margin-top: size(gutter);
-  }
+  @include font-size(small);
+  text-align: center;
 }
 
 
 [data-nav] {
   text-decoration: none;
 
-  @include at(max-break) {
-    &:link,
-    &:visited {
-      border-bottom: 0 solid color(border (rgba: .5));
-      transition: all 150ms;
-    }
-
-    &:hover,
-    &:focus,
-    &:active {
-      border-bottom-width: size(border)/2;
-    }
-
-    + [data-nav] {
-      margin-left: size(shim);
-    }
+  &:link,
+  &:visited {
+    border-bottom: 0 solid color(border (rgba: .5));
+    transition: all 150ms;
   }
 
-  @include at(break) {
-    &:link,
-    &:visited {
-      clear: both;
-      float: left;
-      margin-bottom: size(shim);
-      margin-left: - $nav-bleed;
-      padding-left: $nav-bleed;
-      padding-right: size(shim);
-      transition: all 150ms, padding 300ms;
-    }
+  &:hover,
+  &:focus,
+  &:active {
+    border-bottom-width: size(border)*2;
+    text-decoration: none;
+  }
 
-    &:hover,
-    &:focus,
-    &:active {
-      background: color(action (rgba: .5));
-      color: color(text);
-      padding-right: size(spacer) * 2;
-    }
+  + [data-nav] {
+    margin-left: size(shim);
   }
 }
 
 @each $item in $nav {
   [data-location='#{$item}'] [data-nav='#{$item}'] {
-    @include at(max-break) {
-      border-bottom: size(border)/2 solid color(border);
-    }
-
-    @include at(break) {
-      background: color(action);
-      color: color(text);
-      display: block;
-      float: none;
-    }
+    border-bottom: size(border)*2 solid color(border);
   }
 }

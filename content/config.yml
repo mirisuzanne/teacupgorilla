@@ -7,8 +7,8 @@ upcoming:
     venue: Syntax Physic Opera
     venue_url: http://physicopera.com/
     datetime: 2015-04-02
-    image: 'sidesaddle-cover.jpg'
-    feature: true
+    image: 'tg-jen.jpg'
+    feature: True
     with:
       - name: Jen Korte
         url: http://jkandtheloss.com
@@ -17,6 +17,7 @@ upcoming:
 
   - date: Apr. 17, 2015
     venue: Merchant's Mile High Saloon
+    venue_url: http://facebook.com/MerchantsMileHighSaloon
     datetime: 2015-04-17
     with:
       - name: Black Market Translation
@@ -27,7 +28,9 @@ upcoming:
         url: http://www.opentothehound.com
 
   - date: This Summer! [stay tuned]
-    title: Riding SideSaddle* Midwest Tour
+    title: Riding SideSaddle*
+    venue: Midwest Tour
+    title_url: http://ridingsidesaddle.net
     image: 'sidesaddle-cover.jpg'
 
 
@@ -224,7 +227,7 @@ demo: '<iframe width="100%" height="420" scrolling="no" frameborder="no" src="ht
 nav:
   - url: '/blog/'
     name: blog
-  - url: '/'
+  - url: '/verbs/'
     name: verbs
   - url: '/nouns/'
     name: nouns

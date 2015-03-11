@@ -1,6 +1,11 @@
 // Face Sketch
 // ===========
 
+.faces {
+  margin: size(spacer) auto 0;
+  max-width: size(page);
+}
+
 .face-sketch {
   stroke: color(background);
   stroke-linecap: round;

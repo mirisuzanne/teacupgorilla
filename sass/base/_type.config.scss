@@ -15,7 +15,7 @@ $focus: '&:hover, &:focus, &:active';
 
 %h1 {
   @extend %serif;
-  @include font-size(large);
+  @include font-size(large, 2);
 }
 
 %h2 {
@@ -35,12 +35,14 @@ $focus: '&:hover, &:focus, &:active';
   &:link,
   &:visited {
     color: color(action);
+    text-decoration: none;
   }
 
   &:hover,
   &:active,
   &:focus {
     color: color(focus);
+    text-decoration: underline;
   }
 }
 

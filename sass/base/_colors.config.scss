@@ -15,8 +15,9 @@ $colors: (
   background: dark,
   border: primary,
   action: primary,
-  focus: action (tint: 30%),
+  focus: action (tint: 15%),
 
   outline: 'gray',
   shadow: dark (shade: 20%, rgba: .75),
+  overlay: shadow (rgba: .95),
 );

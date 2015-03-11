@@ -3,12 +3,6 @@
 
 .gallery {
   @include micro-clearfix;
-  margin-bottom: size(spacer);
-
-  &:not(:last-child) {
-    border-bottom: size(border) dashed color(border);
-    padding-bottom: size(spacer);
-  }
 }
 
 .gallery-body {
@@ -43,6 +37,7 @@
 
   * {
     @include stretch;
+    height: 100%;
   }
 }
 

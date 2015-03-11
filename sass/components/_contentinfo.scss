@@ -4,16 +4,15 @@
 [role='contentinfo'] {
   @extend %caps;
   @include font-size(small);
-  padding-bottom: size(shim);
   text-align: center;
   text-transform: lowercase;
 
-  @include at(break) {
-    padding-top: 0;
+  .container {
+    border-bottom: 0;
+    text-align: center;
+  }
 
-    p {
-      border-top: size(border) dashed color(border);
-      padding: size(shim) 0;
-    }
+  .p-name {
+    font-weight: bold;
   }
 }

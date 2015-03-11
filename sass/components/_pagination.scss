@@ -4,7 +4,10 @@
 .pagination {
   @extend %serif;
   @include font-size(small);
-  margin-bottom: size(spacer);
+  border-bottom: size(border) dashed color(border);
+  margin: 0 auto;
+  max-width: size(page);
+  padding: size(spacer) size(gutter);
   text-align: center;
 
   .prev,
@@ -30,5 +33,9 @@
     font-weight: bold;
     margin: 0 size(shim)/2;
     vertical-align: middle;
+  }
+
+  .disabled {
+    opacity: .25;
   }
 }

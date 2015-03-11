@@ -1,6 +1,7 @@
 {% if config.gallery %}
 {% for gallery in config.gallery %}
-<figure class="gallery">
+<figure class="gallery section">
+<div class="container">
   {% include "gallery/_caption.html" %}
 
   <div class="gallery-body">
@@ -24,6 +25,7 @@
     {{ gallery.citation|safe }}
   </cite>
   {% endif %}
+</div>
 </figure>
 {% endfor %}
 {% endif %}

@@ -1,26 +1,29 @@
 // Shows
 // =====
 
-.shows {
-  @include micro-clearfix;
 
-  &.upcoming {
-    border-bottom: size(border) dashed color(border);
-    margin-bottom: size(spacer);
-    padding-bottom: size(spacer);
-  }
+.feature {
+  background: no-repeat scroll;
+  background-size: cover;
+  padding: size(gutter);
+  transition: all 300ms;
+}
 
-  &.recent {
-    padding-bottom: size(spacer);
+.feature-inner {
+  background: color(overlay);
+  border-radius: size(corners);
+  margin: size(spacer) auto size(gutter);
+  max-width: size(page);
+  padding: size(gutter);
+
+  @include at(40em) {
+    margin: size(spacer)*4 auto size(spacer);
   }
 }
 
-.shows-title {
-  @extend %serif;
-  @include font-size(small);
-  @include wrap-content('[' ']');
-  margin-bottom: size(gutter);
-}
+
+// Show
+// ----
 
 .show {
   @include micro-clearfix;
@@ -40,20 +43,28 @@
     }
   }
 
-  .u-photo[style] {
+  .u-photo {
+    @include square(photo);
     background: no-repeat scroll;
     background-size: cover;
     border: 1px solid color(outline);
+    display: none;
     float: left;
-    height: size(rhythm)*2;
     margin-right: size(shim);
     transition: all 300ms;
-    width: size(rhythm)*2;
+
+    @include at(break) {
+      display: block;
+    }
 
     &:hover,
     &:focus,
     &:active {
       border-color: color(primary);
+    }
+
+    .feature & {
+      display: none;
     }
   }
 
@@ -65,7 +76,13 @@
 
   .p-summary {
     @extend %serif;
-    @include ellipsis;
+  }
+
+  .p-summary,
+  .show-meta {
+    @include at(break) {
+      padding-left: size(photo) + size(shim);
+    }
   }
 
   .p-name,

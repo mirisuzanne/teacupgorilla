@@ -9,6 +9,7 @@ gallery:
     caption: |
       <a href="http://greengreenmud.com">Into the Green Green Mud</a>
       chapter 13, with music.
+
 summary: |
   Eric reads from chapter 13 of
   `Into The Green Green Mud`_,

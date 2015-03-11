@@ -1,12 +1,16 @@
-<section class="shows recent" aria-labelledby='recent-title'>
-  <h2 class="shows-title" id="recent-title">Past Imperfect</h2>
+{% import "music/_macros.html.j2" as music %}
+
+<section class="shows recent section" aria-labelledby='recent-title'>
+<div class="container">
+  <h2 class="section-title" id="recent-title">Past Imperfect</h2>
   {% for show in config.recent %}
   {% if not module.count or loop.index <= module.count %}
-  {% include "music/_show.html" %}
+    {{ music.show(show) }}
   {% endif %}
   {% endfor %}
 
   {% if module.count and config.recent|length > module.count %}
   <a href="/verbs/" class="more">more imperfection »</a>
   {% endif %}
+</div>
 </section>

@@ -1,5 +1,6 @@
 {% macro list(post) %}
-<article class="post">
+<article class="post section">
+<div class="container">
   {% if post.title %}
     <h2 class="title">
       <a href="{{ link_to('page', slug=post.slug) }}">
@@ -20,6 +21,7 @@
       {{ post.render_contents() }}
     {% endif %}
   </div>
+</div>
 </article>
 {% endmacro %}
 

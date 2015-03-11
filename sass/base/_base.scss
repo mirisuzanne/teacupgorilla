@@ -10,8 +10,8 @@
 @import 'base/box.config';
 
 
-@mixin image-url($img) {
-  @return '../images/#{$img}';
+@function image-url($img) {
+  @return url('../images/#{$img}');
 }
 
 
@@ -25,9 +25,47 @@ html {
   background: color(background) image-url('black_paper.png') repeat fixed;
   border-left: size(shim) solid color(border);
   color: color(text);
-  height: 100%;
   letter-spacing: .05em;
   text-shadow: 0 0 1px color(shadow);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+[role="banner"] {
+  padding: size(gutter) 0;
+}
+
+.page-header {
+  margin: 0 auto;
+  max-width: size(page);
+  padding: 0 size(gutter);
+
+  + .section .container {
+    padding-top: 0;
+  }
+}
+
+.section-title {
+  @extend %serif;
+  @include font-size(small);
+  @include wrap-content(' [ ' ' ] ');
+  margin-bottom: size(gutter);
+}
+
+.container {
+  @include micro-clearfix;
+  border-bottom: size(border) dashed color(border);
+  margin: 0 auto;
+  max-width: size(page);
+  padding: size(gutter);
+  transition: all 300ms;
+
+  @include at(break) {
+    padding: size(spacer) size(gutter);
+  }
 }
 
 

@@ -17,20 +17,21 @@ $sizes: (
   smaller: -2,
 
   rhythm: large,
-  gutter: small,
+  gutter: rhythm,
 
-  border: -8,
+  border: 1px,
   corners: -8,
 
   logo: 16,
   mobile: 19,
-  page: 21,
+  page: 34rem,
 
-  break: 55em,
+  break: page,
 );
 
 $sizes: map-merge($sizes, (
   shim: size(gutter)/2,
   half-shim: size(gutter)/4,
-  spacer: size(gutter)*2,
+  spacer: size(gutter)*3,
+  photo: size(rhythm)*2,
 ));

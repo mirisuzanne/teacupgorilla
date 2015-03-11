@@ -24,6 +24,7 @@ input:not([type='checkbox']):not([type='radio']) {
   &:focus {
     background: color(light (rgba: .125));
     color: color(text);
+    outline: 0;
   }
 }
 
@@ -59,6 +60,6 @@ button {
   border-radius: size(corners);
   color: color(light);
   font-weight: bold;
-  padding: 0 size(shim);
+  padding: size(half-shim) size(shim);
   text-transform: uppercase;
 }
