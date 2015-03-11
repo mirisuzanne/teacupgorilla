@@ -1,6 +1,17 @@
 // Typography
 // ----------
 
+$link: '&:link, &:visited';
+$focus: '&:hover, &:focus, &:active';
+
+
+@mixin ellipsis($no-wrap: true) {
+  @if $no-wrap { white-space: nowrap; }
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 %h1 {
   @extend %serif;
@@ -21,30 +32,75 @@
 }
 
 %link {
-  &:link, &:visited {
+  &:link,
+  &:visited {
     color: color(action);
   }
-  &:hover, &:active, &:focus {
+
+  &:hover,
+  &:active,
+  &:focus {
     color: color(focus);
   }
 }
 
 %body {
-  h1 { @extend %h1; }
-  h2 { @extend %h2; }
-  h3 { @extend %h3; }
-  h4 { @extend %h4; }
+  h1 {
+    @extend %h1;
+  }
 
-  strong { font-weight: bold; }
-  em, blockquote { @extend %caps; }
-  blockquote em { font-style: normal; }
+  h2 {
+    @extend %h2;
+  }
 
-  p, ul, ol, pre, blockquote, figure { margin-bottom: size(gutter); }
-  p:empty { display: none; }
-  ul { list-style-type: disc; }
-  ol { list-style-type: decimal; }
+  h3 {
+    @extend %h3;
+  }
 
-  ul, ol, blockquote {
-    ul, ol { margin-left: size(gutter); }
+  h4 {
+    @extend %h4;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em,
+  blockquote {
+    @extend %caps;
+  }
+
+  blockquote em {
+    font-style: normal;
+  }
+
+  p,
+  ul,
+  ol,
+  pre,
+  blockquote,
+  figure {
+    margin-bottom: size(gutter);
+  }
+
+  p:empty {
+    display: none;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul,
+  ol,
+  blockquote {
+    ul,
+    ol {
+      margin-left: size(gutter);
+    }
   }
 }

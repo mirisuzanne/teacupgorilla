@@ -1,13 +1,27 @@
 // Base Styles
 // ===========
 
+@import 'base/requirements.config';
+@import 'base/colors.config';
+@import 'base/scale.config';
+@import 'base/queries.config';
+@import 'base/fonts.config';
+@import 'base/type.config';
+@import 'base/box.config';
+
+
+@mixin image-url($img) {
+  @return '../images/#{$img}';
+}
+
 
 @include fonts;
-@include establish-baseline;
 @include global-box-sizing;
+
 
 html {
   @extend %sans;
+  @include baseline;
   background: color(background) image-url('black_paper.png') repeat fixed;
   border-left: size(shim) solid color(border);
   color: color(text);
@@ -36,7 +50,9 @@ a {
 // Media
 // -----
 
-img, video, iframe {
+img,
+video,
+iframe {
   max-width: 100%;
   vertical-align: top;
 }

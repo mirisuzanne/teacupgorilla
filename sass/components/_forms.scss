@@ -2,20 +2,8 @@
 // =====
 
 
-::-webkit-input-placeholder {
-   color: color('gray');
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: color('gray');
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: color('gray');
-}
-
-:-ms-input-placeholder {
-   color: color('gray');
+:placeholder-shown {
+  color: color('gray');
 }
 
 

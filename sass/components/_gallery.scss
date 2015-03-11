@@ -2,7 +2,7 @@
 // =======
 
 .gallery {
-  @include clearfix;
+  @include micro-clearfix;
   margin-bottom: size(spacer);
 
   &:not(:last-child) {
@@ -12,10 +12,12 @@
 }
 
 .gallery-body {
-  @include clearfix;
+  @include micro-clearfix;
   margin: 0 0 - size(shim);
 
-  iframe, video, img {
+  iframe,
+  video,
+  img {
     border: 1px solid color(outline);
     width: 100%;
   }
@@ -34,7 +36,14 @@
 }
 
 .video-wrap {
-  @include fluid-media;
+  height: 0;
+  padding-top: percentage(9/16);
+  position: relative;
+  width: 100%;
+
+  * {
+    @include stretch;
+  }
 }
 
 .gallery-citation {

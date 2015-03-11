@@ -1,37 +1,23 @@
 // Requirements
 // ------------
 
-@import "compass";
-@import "compass/layout";
-@import "compass/reset";
-@import "accoutrement";
-@import "breakpoint";
 
-
-// Base
-// ----
-
-@import "base/colors.config";
-@import "base/scale.config";
-@import "base/fonts.config";
-@import "base/type.config";
-@import "base/box.config";
-@import "base/base";
-@import "base/layout";
+@import 'base/base';
+@import 'base/layout';
 
 
 // Components
 // ----------
 
-@import "components/icons";
-@import "components/forms";
-@import "components/logo";
-@import "components/nav";
-@import "components/social";
-@import "components/contentinfo";
-@import "components/gallery";
-@import "components/faces";
-@import "components/post";
-@import "components/pagination";
-@import "components/shows";
-@import "components/demos";
+@import 'components/icons';
+@import 'components/forms';
+@import 'components/logo';
+@import 'components/nav';
+@import 'components/social';
+@import 'components/contentinfo';
+@import 'components/gallery';
+@import 'components/faces';
+@import 'components/post';
+@import 'components/pagination';
+@import 'components/shows';
+@import 'components/demos';

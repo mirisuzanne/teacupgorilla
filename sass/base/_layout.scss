@@ -9,7 +9,7 @@ body {
   padding: size(small);
 }
 
-@include breakpoint(size(break)) {
+@include at(break) {
   body {
     margin: 0;
     max-width: size(page);

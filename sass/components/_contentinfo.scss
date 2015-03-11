@@ -8,7 +8,7 @@
   text-align: center;
   text-transform: lowercase;
 
-  @include breakpoint(size(break, em)) {
+  @include at(break) {
     padding-top: 0;
 
     p {

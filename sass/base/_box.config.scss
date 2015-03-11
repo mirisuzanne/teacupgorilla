@@ -1,23 +1,10 @@
 // Box Config
 // ==========
 
-@mixin global-box-sizing(
-  $box: border-box,
-  $inherit: false
-) {
-  @if $inherit {
-    @at-root {
-       html { @include box-sizing($box); }
-       *, *:before, *:after { box-sizing: inherit; }
-     }
-  } @else {
-    *, *:before, *:after { @include box-sizing($box); }
-  }
-}
 
 @mixin flex-column {
-  @include align-items(stretch);
-  @include display-flex;
-  @include flex-flow(column);
-  @include flex-shrink(0);
+  align-items: stretch;
+  display: flex;
+  flex-flow: column;
+  flex-shrink: 0;
 }

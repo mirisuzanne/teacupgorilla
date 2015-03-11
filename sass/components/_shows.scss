@@ -2,7 +2,7 @@
 // =====
 
 .shows {
-  @include clearfix;
+  @include micro-clearfix;
 
   &.upcoming {
     border-bottom: size(border) dashed color(border);
@@ -23,7 +23,7 @@
 }
 
 .show {
-  @include clearfix;
+  @include micro-clearfix;
 
   + .show {
     margin-top: size(gutter);
@@ -41,13 +41,13 @@
   }
 
   .u-photo[style] {
-    @include transition(all 300ms);
     background: no-repeat scroll;
     background-size: cover;
     border: 1px solid color(outline);
     float: left;
     height: size(rhythm)*2;
     margin-right: size(shim);
+    transition: all 300ms;
     width: size(rhythm)*2;
 
     &:hover,

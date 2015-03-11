@@ -2,9 +2,9 @@
 // ===========
 
 .face-sketch {
-  stroke-linejoin: round;
-  stroke-linecap: round;
   stroke: color(background);
+  stroke-linecap: round;
+  stroke-linejoin: round;
 
   path {
     fill: none;
@@ -13,8 +13,8 @@
   }
 
   rect {
-    @include transition(fill 300ms);
     fill: color(text (rgba: .75));
+    transition: fill 300ms;
 
     &:hover {
       fill: color(action);

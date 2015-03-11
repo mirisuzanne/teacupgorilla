@@ -9,23 +9,27 @@
   border: size(border) double color(border);
   border-width: size(border) 0;
 
-  @include breakpoint(size(break, em)) {
+  @include at(break) {
     margin: size(gutter) 0;
     margin-bottom: - size(border);
     margin-left: - size(gutter);
   }
 
   [rel='me'] {
-    &:link, &:visited {
-      @include transition(all 300ms);
+    &:link,
+    &:visited {
       border: 2px solid color(action);
       border-radius: 100%;
       display: inline-block;
       line-height: size(normal);
       padding: size(shim);
       position: relative;
+      transition: all 300ms;
     }
-    &:hover, &:focus, &:active {
+
+    &:hover,
+    &:focus,
+    &:active {
       background: color(action);
       color: color(text);
     }
@@ -33,9 +37,9 @@
 }
 
 .social-list {
-  @include align-items(center);
-  @include display-flex;
-  @include justify-content(space-around);
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
   margin: 0 auto;
   max-width: size(logo);
   padding: size(gutter) 0;
@@ -52,7 +56,7 @@
 .email-signup {
   padding: size(gutter);
 
-  @include breakpoint(size(break, em)) {
+  @include at(break) {
     margin-bottom: - size(border);
     margin-left: - size(gutter);
   }

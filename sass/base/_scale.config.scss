@@ -34,14 +34,3 @@ $sizes: map-merge($sizes, (
   half-shim: size(gutter)/4,
   spacer: size(gutter)*2,
 ));
-
-// Settings
-// --------
-
-$rhythm-unit                      : rem;
-$rem-with-px-fallback             : false;
-
-$base-font-size                   : size(normal, px);
-$base-line-height                 : size(rhythm, px);
-
-$round-to-nearest-half-line       : true;

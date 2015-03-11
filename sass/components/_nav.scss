@@ -7,13 +7,13 @@ $nav-bleed: size(rhythm) * 3;
 [role='navigation'] {
   @extend %caps;
 
-  @include breakpoint(max-width size(break, em)) {
+  @include at(max-break) {
     @include font-size(small);
     margin-bottom: size(spacer);
     text-align: center;
   }
 
-  @include breakpoint(size(break, em)) {
+  @include at(break) {
     margin-top: size(gutter);
   }
 }
@@ -22,13 +22,16 @@ $nav-bleed: size(rhythm) * 3;
 [data-nav] {
   text-decoration: none;
 
-  @include breakpoint(max-width size(break, em)) {
-    &:link, &:visited {
-      @include transition(all 150ms);
+  @include at(max-break) {
+    &:link,
+    &:visited {
       border-bottom: 0 solid color(border (rgba: .5));
+      transition: all 150ms;
     }
 
-    &:hover, &:focus, &:active {
+    &:hover,
+    &:focus,
+    &:active {
       border-bottom-width: size(border)/2;
     }
 
@@ -37,18 +40,21 @@ $nav-bleed: size(rhythm) * 3;
     }
   }
 
-  @include breakpoint(size(break, em)) {
-    &:link, &:visited {
-      @include transition(all 150ms, padding 300ms);
+  @include at(break) {
+    &:link,
+    &:visited {
       clear: both;
       float: left;
       margin-bottom: size(shim);
       margin-left: - $nav-bleed;
       padding-left: $nav-bleed;
       padding-right: size(shim);
+      transition: all 150ms, padding 300ms;
     }
 
-    &:hover, &:focus, &:active {
+    &:hover,
+    &:focus,
+    &:active {
       background: color(action (rgba: .5));
       color: color(text);
       padding-right: size(spacer) * 2;
@@ -58,11 +64,11 @@ $nav-bleed: size(rhythm) * 3;
 
 @each $item in $nav {
   [data-location='#{$item}'] [data-nav='#{$item}'] {
-    @include breakpoint(max-width size(break, em)) {
+    @include at(max-break) {
       border-bottom: size(border)/2 solid color(border);
     }
 
-    @include breakpoint(size(break, em)) {
+    @include at(break) {
       background: color(action);
       color: color(text);
       display: block;

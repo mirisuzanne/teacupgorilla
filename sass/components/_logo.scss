@@ -2,20 +2,18 @@
 // ====
 
 .logo {
+  fill: transparent;
   margin: 0 auto;
   max-width: size(logo);
-
-  fill: transparent;
   stroke: color(text);
   stroke-width: 3;
 
-  .e, .bang {
-    stroke: color(action);
-  }
-
-  @include breakpoint(25em size(break, em)) {
+  @include at(25em root-size(break)) {
     stroke-width: 2;
   }
+
+  .e,
+  .bang {
+    stroke: color(action);
+  }
 }
-
-
