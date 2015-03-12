@@ -7,13 +7,24 @@
   {% block htmlhead %}
 
   <!-- Page Info -->
-  <title>{% block title %}Teacup Gorilla{% endblock %}</title>
-  <meta name="description" content="{% block description %}Multimedia arts collective with post-rock tendencies.{% endblock description %}" />
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{{ config.description }}" />
+
+  <!-- Facebook OG Info -->
+  <meta property="og:title" content="{{ config.title }}" />
+  <meta property="og:site_name" content="{{ config.title }}"/>
+  <meta property="og:url" content="{{ config.canonical_url }}" />
+  <meta property="og:description" content="{{ config.longdesc }}" />
+  <meta property="og:image" content="{{ config.canonical_url }}static/images/{{ config.fb_image }}" />
+  <meta property="og:image:width" content="{{ config.fb_image_width }}" />
+  <meta property="og:image:height" content="{{ config.fb_image_height }}" />
+
 
   <!-- Site Info -->
+  <!-- Site Info -->
   {% block robots %}<meta name="robots" content="index, follow" />{% endblock %}
-  <meta name="author" content="Teacup Gorilla" />
-  <meta name="keywords" content="post-rock, music, denver" />
+  <meta name="author" content="{{ config.author_full }}" />
+  <meta name="keywords" content="{{ config.keywords }}" />
   <meta name="language" content="en-us" />
 
   <link href="/feed.atom" rel="alternate" title="Feed" type="application/atom+xml">

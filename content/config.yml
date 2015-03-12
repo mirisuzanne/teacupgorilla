@@ -247,13 +247,29 @@ social:
     url: 'http://soundcloud.com/teacupgorilla/'
 
 
-#defaults
+# Defaults
+title: Teacup Gorilla
 author: teacupgorilla
-copyright: 2014
+location: home
+
+
+# Meta
+copyright: 2015
+author_full: Teacup Gorilla
+description: "A petite & deadly ground-dwelling band that inhabits the china-shops of Denver with angular riffs, twisted stories, and obtuse stomping."
+longdesc: "A petite & deadly ground-dwelling band that inhabits the china-shops of Denver with angular riffs, twisted stories, and obtuse stomping. Teacup Gorilla has performed in poetry readings, bars, book releases, & hard-core house shows, composed live theatre soundtracks, and founded the The Bakery arts warehouse."
+keywords: music, rock, indie, multimedia, poetry, post-rock, art-rock, experimental, denver
+
+
+# FB
+fb_image: 'shows/tg-jen.jpg'
+fb_image_width: 1500
+fb_image_height: 1000
+
 
 # Site Config
 active_modules: [blog, typogrify, author, wrap]
-canonical_url: http://teacupgorilla.com/
+canonical_url: http://www.teacupgorilla.com/
 output_folder: ../../teacupgorilla-pages
 template_path: ../templates
 modules:

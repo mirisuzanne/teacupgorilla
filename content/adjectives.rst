@@ -8,8 +8,8 @@ before:
 Adjectives
 ==========
 
-**Teacup Gorilla** are petite & deadly ground-dwelling apes
-that inhabit the china shops of Denver
+**Teacup Gorilla** are a petite & deadly ground-dwelling band
+that inhabits the china shops of Denver
 with angular riffs,
 twisted stories,
 and obtuse stomping.
@@ -18,20 +18,20 @@ and obtuse stomping.
 .. ----
 
 `Daniel`_, `Eric`_, and `Sondra`_ have been
-playing/fighting together since 2001
-in a mix of bands, theatres, and web design companies —
-finally forming their own band in 2010.
+playing/fighting together over ten years,
+and across a wide range of media,
+before forming their own band in 2010.
 
 
 .. BUSINESS
 .. --------
 
 Since then Teacup Gorilla has performed at
-poetry readings, book releases,
-& hard-core house shows,
+book releases and bars,
+poetry readings, and hard-core house shows —
 composed live theatre soundtracks,
-and founded the `The Bakery`_ arts warehouse —
-while playing regularly around great local venues
+founded the `The Bakery`_ arts warehouse,
+and infiltrated great local venues
 like Larimer Lounge, and Pikes Peak Brewing Co, and Lion's Lair.
 
 
@@ -42,13 +42,14 @@ With a dark indie sound,
 post-rock tendencies,
 and a strong literary bent — 
 Teacup Gorilla has been
-compared to Velvet Underground,
+compared to Rabbit is a Sphere,
+Velvet Underground,
 Everything Absent or Distorted (a love story),
-Rabbit is a Sphere, and more.
-They are also clearly decended from the bonobo,
+and Low.
+They are descended from the bonobo,
 `Tom Waits`_, `Modest Mouse`_, `Mogwai`_, `Bad Luck City`_,
 `Songs: Ohia`_, `Godspeed You! Black Emperor`_,
-`Fugazi`_, and `Low`_ (to name an odd few).
+and `Fugazi`_ (to name an odd few).
 
 They may be fine artists in the parlor,
 but they're nasty in the garage.
