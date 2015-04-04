@@ -1,0 +1,14 @@
+// Quotes
+// ======
+
+blockquote {
+  @include font-size(medium);
+  border-left: size(4px) solid;
+  padding: size(shim);
+
+  .attribution {
+    @include font-size(small);
+    margin: - size(shim) 0 0;
+  }
+}
+
