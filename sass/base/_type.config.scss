@@ -67,13 +67,8 @@ $focus: '&:hover, &:focus, &:active';
     font-weight: bold;
   }
 
-  em,
-  blockquote {
+  em {
     @extend %caps;
-  }
-
-  blockquote em {
-    font-style: normal;
   }
 
   p,

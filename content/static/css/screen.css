@@ -59,8 +59,6 @@ a:hover, a:active, a:focus {
 
 .body strong {
   font-weight: bold; }
-.body blockquote em {
-  font-style: normal; }
 .body p, .body ul, .body ol, .body pre, .body blockquote, .body figure {
   margin-bottom: 1.45833rem; }
 .body p:empty {
@@ -103,7 +101,7 @@ html {
   
   src: url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.woff') format('woff'), url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.ttf') format('truetype'); }
 
-.body em, .body blockquote, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at {
+.body em, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at {
   font-family: 'susycaps', Baskerville, Palatino, Cambria, Georgia, serif; }
 
 @font-face {
@@ -269,13 +267,16 @@ button {
 [data-location='blog'] [data-nav='blog'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='nouns'] [data-nav='nouns'] {
+[data-location='media'] [data-nav='media'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='adjectives'] [data-nav='adjectives'] {
+[data-location='bio'] [data-nav='bio'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='verbs'] [data-nav='verbs'] {
+[data-location='shows'] [data-nav='shows'] {
+  border-bottom: 0.08333rem solid #ef3939; }
+
+[data-location='press'] [data-nav='press'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
 .social [rel='me']:link, .social [rel='me']:visited {
@@ -534,6 +535,16 @@ button {
   line-height: 1.45833rem; }
 .show .with {
   display: inline-block; }
+
+blockquote {
+  font-size: 1.20833rem;
+  line-height: 1.45833rem;
+  border-left: 0.16667rem solid;
+  padding: 0.72917rem; }
+  blockquote .attribution {
+    font-size: 0.83333rem;
+    line-height: 1.45833rem;
+    margin: -0.72917rem 0 0; }
 
 
 /*# sourceMappingURL=screen.css.map */

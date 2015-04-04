@@ -1,6 +1,6 @@
 public: yes
 hide_title: yes
-location: nouns
+location: media
 before:
   - include: 'gallery/_gallery.html'
   - include: 'music/_demos.html'

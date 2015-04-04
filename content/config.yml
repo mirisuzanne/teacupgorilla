@@ -27,7 +27,17 @@ upcoming:
       - name: Open to the Hound
         url: http://www.opentothehound.com
 
-  - date: This Summer! [stay tuned]
+  - date: June 18, 2015
+    venue: Sidewinder Tavern
+    venue_url: http://sidewindertavern.com
+    datetime: 2015-06-18
+    with:
+      - name: Kronen
+        url: https://kronen.bandcamp.com/
+      - name: Troy Petty
+        url: http://www.troypettymusic.com
+
+  - date: July 30 — August 14 [stay tuned]
     title: Riding SideSaddle*
     venue: Midwest Tour
     title_url: http://ridingsidesaddle.net
@@ -36,6 +46,7 @@ upcoming:
 
 # Recent Shows
 recent:
+
   - date: Jan. 24, 2015
     title: Gorilla Hound Party
     url: https://www.facebook.com/events/978753592154777/
@@ -228,11 +239,13 @@ nav:
   - url: '/blog/'
     name: blog
   - url: '/verbs/'
-    name: verbs
+    name: shows
   - url: '/nouns/'
-    name: nouns
+    name: media
   - url: '/adjectives/'
-    name: adjectives
+    name: bio
+  - url: '/press/'
+    name: press
 
 
 # Social Links
@@ -256,8 +269,8 @@ location: home
 # Meta
 copyright: 2015
 author_full: Teacup Gorilla
-description: "A petite & deadly ground-dwelling band that inhabits the china-shops of Denver with angular riffs, twisted stories, and obtuse stomping."
-longdesc: "A petite & deadly ground-dwelling band that inhabits the china-shops of Denver with angular riffs, twisted stories, and obtuse stomping. Teacup Gorilla has performed in poetry readings, bars, book releases, & hard-core house shows, composed live theatre soundtracks, and founded the The Bakery arts warehouse."
+description: "A petite & deadly ground-dwelling band that inhabits the china shops of Denver with angular riffs, twisted stories, and obtuse stomping."
+longdesc: "A petite & deadly ground-dwelling band that inhabits the china shops of Denver with angular riffs, twisted stories, and obtuse stomping. Teacup Gorilla has performed in book releases and bars, poetry readings, and hard-core house shows — composed live theatre soundtracks, and founded the The Bakery arts warehouse."
 keywords: music, rock, indie, multimedia, poetry, post-rock, art-rock, experimental, denver
 
 

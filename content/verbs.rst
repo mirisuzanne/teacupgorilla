@@ -1,6 +1,6 @@
 public: yes
 hide_title: yes
-location: verbs
+location: shows
 before:
   - include: 'music/_upcoming.html'
 after:
