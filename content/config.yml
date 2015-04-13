@@ -37,6 +37,20 @@ upcoming:
       - name: Troy Petty
         url: http://www.troypettymusic.com
 
+  - date: July 10, 2015
+    venue: Merchant's Mile High Saloon
+    venue_url: http://facebook.com/MerchantsMileHighSaloon
+    datetime: 2015-07-10
+    with:
+      - name: Signal Down
+        url: http://signaldown.net/
+      - name: Death Day Cabaret
+        url: http://deathdaycabaret.com/
+      - name: Symple Man
+        url: http://www.reverbnation.com/sympleman
+      - name: Brother Sister Hex
+        url: https://www.facebook.com/BrotherSisterHex
+
   - date: July 30 — August 14 [stay tuned]
     title: Riding SideSaddle*
     venue: Midwest Tour
