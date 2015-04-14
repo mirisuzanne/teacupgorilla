@@ -1,0 +1,9 @@
+{% import "gallery/macros.j2" as media %}
+
+{% if config.nouns %}
+{% for gallery in config.nouns %}
+  {% if loop.index <= config.show_nouns %}
+    {{ media.figure(gallery) }}
+  {% endif %}
+{% endfor %}
+{% endif %}

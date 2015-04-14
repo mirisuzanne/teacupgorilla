@@ -1,24 +1,12 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: Apr. 2, 2015
-    title: Riding SideSaddle* [Novel Affair]
-    url: http://ridingsidesaddle.net/
-    venue: Syntax Physic Opera
-    venue_url: http://physicopera.com/
-    datetime: 2015-04-02
-    image: 'tg-jen.jpg'
-    feature: True
-    with:
-      - name: Jen Korte
-        url: http://jkandtheloss.com
-      - name: Open to the Hound
-        url: http://www.opentothehound.com
-
   - date: Apr. 17, 2015
     venue: Merchant's Mile High Saloon
     venue_url: http://facebook.com/MerchantsMileHighSaloon
     datetime: 2015-04-17
+    image: 'nouns/150402-sidesaddle/affair-12.jpg'
+    feature: True
     with:
       - name: Black Market Translation
         url: http://www.blackmarkettranslation.com/
@@ -31,6 +19,7 @@ upcoming:
     venue: Sidewinder Tavern
     venue_url: http://sidewindertavern.com
     datetime: 2015-06-18
+    image: 'nouns/150402-sidesaddle/affair-15.jpg'
     with:
       - name: Kronen
         url: https://kronen.bandcamp.com/
@@ -41,6 +30,7 @@ upcoming:
     venue: Merchant's Mile High Saloon
     venue_url: http://facebook.com/MerchantsMileHighSaloon
     datetime: 2015-07-10
+    image: 'nouns/150402-sidesaddle/affair-9.jpg'
     with:
       - name: Signal Down
         url: http://signaldown.net/
@@ -55,11 +45,23 @@ upcoming:
     title: Riding SideSaddle*
     venue: Midwest Tour
     title_url: http://ridingsidesaddle.net
-    image: 'sidesaddle-cover.jpg'
+    image: 'shows/sidesaddle-cover.jpg'
 
 
 # Recent Shows
 recent:
+  - date: Apr. 2, 2015
+    title: Riding SideSaddle* [Novel Affair]
+    url: http://ridingsidesaddle.net/
+    venue: Syntax Physic Opera
+    venue_url: http://physicopera.com/
+    datetime: 2015-04-02
+    image: 'nouns/150402-sidesaddle/affair-18.jpg'
+    with:
+      - name: Jen Korte
+        url: http://jkandtheloss.com
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
 
   - date: Jan. 24, 2015
     title: Gorilla Hound Party
@@ -242,6 +244,75 @@ recent:
     with:
       - name: Vicious Trap
         url: http://vicioustrap.com/
+
+
+# Nouns
+show_nouns: 6
+nouns:
+  - body:
+      - image: 'nouns/150402-sidesaddle/affair-18.jpg'
+        class: full
+      - image: 'nouns/150402-sidesaddle/affair-10.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-9.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-12.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-14.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-15.jpg'
+        class: full
+      - image: 'nouns/150402-sidesaddle/affair-13.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-11.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-17.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-16.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-7.jpg'
+        class: full
+      - image: 'nouns/150402-sidesaddle/affair-8.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-6.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-5.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-4.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-1.jpg'
+        class: full
+      - image: 'nouns/150402-sidesaddle/affair-3.jpg'
+      - image: 'nouns/150402-sidesaddle/affair-2.jpg'
+    caption: '04.15 <a href="http://ridingsidesaddle.net">Riding SideSaddle*</a> Novel Affair'
+    citation: 'photos by Kenny Storms &amp; Stevie Caldarola'
+
+  - body:
+      - video: '<iframe src="http://player.vimeo.com/video/119834636?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        class: full
+    caption: '02.15 A Dark Plane — Demo Recording Session'
+    citation: 'Words by Gil Scott Heron'
+
+  - body:
+      - video: '<iframe src="http://player.vimeo.com/video/96653953?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        class: full
+    caption: '05.14 Bouldering Poets'
+
+  - body:
+      - video: '<iframe src="http://player.vimeo.com/video/86631301?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        class: full
+    caption: '01.14 Larimer Lounge'
+    citation: 'video by Kenny Storms'
+
+  - body:
+      - video: '<iframe src="http://player.vimeo.com/video/80691654?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+        class: full
+      - image: 'nouns/130919-hermans/hermans1.jpg'
+      - image: 'nouns/130919-hermans/hermans2.jpg'
+      - image: 'nouns/130919-hermans/hermans4.jpg'
+        class: full
+      - image: 'nouns/130919-hermans/hermans5.jpg'
+      - image: 'nouns/130919-hermans/hermans6.jpg'
+      - image: 'nouns/130919-hermans/hermans3.jpg'
+        class: full
+    caption: "09.13 Herman's Hideaway"
+    citation: 'video by Megan Sumner :: photos by Kenny Storms'
+
+  - body:
+      - image: 'nouns/130322-bouldering/bouldering.jpg'
+        class: full
+      - image: 'nouns/130322-bouldering/bouldering1.jpg'
+      - image: 'nouns/130322-bouldering/bouldering2.jpg'
+    caption: '03.13 Bouldering Poets'
+    citation: 'photos by Elyse Brownell &amp; Christopher Shugrue'
 
 
 # Demo

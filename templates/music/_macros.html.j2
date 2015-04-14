@@ -1,8 +1,8 @@
 {% macro show(show, feature=none) %}
 {% if feature or (not show.feature) %}
 
-{% set image_path='/static/images/shows/' %}
-{% set image_url=show.image if show.image else 'default.jpg' %}
+{% set image_path='/static/pictures/' %}
+{% set image_url=show.image if show.image else 'shows/default.jpg' %}
 {% set image_location= [image_path, image_url]|join('') %}
 
 <article class="show h-event">
@@ -51,7 +51,6 @@
       {% if show.before_with %}{{ show.before_with }}{% endif %}
       <b class="at">with</b>
       {% for feature in show.with -%}
-      {%- if loop.last and not loop.first %} <b class="at">and</b> {% endif %}
       {%- if feature.url -%}
       <a href="{{ feature.url }}" class="with">{{ feature.name }}</a>
       {%- else -%}
