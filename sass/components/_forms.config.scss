@@ -1,0 +1,17 @@
+// Form Config
+// ===========
+
+%button-reset {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-shadow: none;
+
+  &:disabled { cursor: default; }
+}

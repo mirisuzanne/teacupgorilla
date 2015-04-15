@@ -1,0 +1,11 @@
+{% import "mailchimp/macros.html.j2" as email %}
+
+<section class="section mailchimp" aria-labelledby="mailchimp-title">
+<div class="container">
+  <h2 class="section-title" id="mailchimp-title">GorillaMail Signup</h2>
+  {% if config.mailchimp %}
+    <p class="mailchimp-action">{{ config.mailchimp }}</p>
+  {% endif %}
+  {{ email.signup(compact=false) }}
+</div>
+</section>

@@ -29,3 +29,16 @@ $fonts: (
     stack: $stack,
   ),
 );
+
+@mixin font(
+  $family,
+  $fonts: $fonts
+) {
+  @if map-has-key($fonts, $family) {
+    $font: map-get($fonts, $family);
+
+    font-family: map-get($font, name), map-get($font, stack);
+  } @else {
+    @warn '#{$family} is not a valid font-family';
+  }
+}

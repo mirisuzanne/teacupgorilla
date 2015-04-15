@@ -1,65 +1,94 @@
 // Forms
 // =====
 
-
-:placeholder-shown {
-  color: color('gray');
-}
+@import 'forms.config';
 
 
 // Inputs
 // ------
 
-input:not([type='checkbox']):not([type='radio']) {
-  @include font-size(small);
+[data-input~="text"] {
   background: transparent;
-  border: 2px solid color(border);
+  border: 0;
   color: color(action);
-  font-family: inherit;
-  margin-bottom: size(shim)/2;
-  padding: 0 size(shim)/2;
+  flex: 1;
+  font: inherit;
+  margin: 0;
+  padding: 0 size(half-shim);
   transition: all 300ms;
-  width: 100%;
 
   &:focus {
     background: color(light (rgba: .125));
-    color: color(text);
     outline: 0;
   }
 }
 
 
-// Form Actions
-// ------------
+// Forms
+// -----
+
+.form-field {
+  @include font(serif);
+  @include font-size(small, 1);
+  border-bottom: 1px dashed color(outline);
+  cursor: pointer;
+  display: flex;
+  margin: size(gutter) size(half-shim);
+}
+
+.ff-label {
+  @include font-size(smaller, 1);
+  padding: 0 size(half-shim);
+
+  @include after(':') {
+    color: color(outline);
+  }
+
+  .is-optional & {
+    @include after(' (optional):');
+  }
+}
 
 .form-actions {
-  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 0 size(half-shim);
+}
+
+.fa-extra {
+  @include font-size(smaller, 1);
+  flex: 1;
+  order: 2;
+  padding: 0 size(half-shim);
 }
 
 
-// Button
-// ------
+// Buttons
+// -------
 
-button {
-  background: none;
-  border: 0;
-  color: inherit;
-  cursor: pointer;
-  display: inline-block;
-  font: inherit;
-  padding: 0;
-  text-decoration: none;
-  text-shadow: none;
-
-  &:disabled { cursor: default; }
-}
-
-.button {
-  @include font-size(smaller);
-  background: color(action);
+[data-btn] {
+  @extend %button-reset;
+  @include font(serif);
+  @include font-size(small, 1);
   border-radius: size(corners);
-  color: color(light);
   font-weight: bold;
-  padding: size(half-shim) size(shim);
-  text-transform: uppercase;
+  padding: 0 size(shim);
+  transition: background-color 150ms;
+
+  #{$focus} {
+    outline: 0;
+  }
+}
+
+[data-btn~='action'] {
+  @include contrasted(action);
+
+  #{$focus} {
+    @include contrasted(action (shade: 15%));
+  }
+
+  &:active {
+    box-shadow: 0 -1px 1px color(action) inset, 0 0 2px color(shadow) inset;
+  }
 }

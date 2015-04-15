@@ -32,27 +32,9 @@
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  margin-bottom: size(gutter);
   max-width: size(logo);
 
   .icon-text {
     @include is-hidden;
   }
-}
-
-
-// Email
-// -----
-
-.email-signup {
-  margin: 0 auto;
-  max-width: size(logo);
-
-  [for='mce-EMAIL'] {
-    @include is-hidden;
-  }
-}
-
-.email-title {
-  @include is-hidden;
 }
