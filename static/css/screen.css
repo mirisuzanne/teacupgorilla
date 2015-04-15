@@ -179,59 +179,98 @@ img, video, iframe {
   fill: currentColor;
   vertical-align: middle; }
 
-::-webkit-input-placeholder {
-  color: #8f9999; }
-
-::-moz-placeholder {
-  color: #8f9999; }
-
-:-ms-input-placeholder {
-  color: #8f9999; }
-
-:placeholder-shown {
-  color: #8f9999; }
-
-input:not([type='checkbox']):not([type='radio']) {
-  font-size: 0.83333rem;
-  line-height: 1.45833rem;
-  background: transparent;
-  border: 2px solid #ef3939;
-  color: #ef3939;
-  font-family: inherit;
-  margin-bottom: 0.36458rem;
-  padding: 0 0.36458rem;
-  transition: all 300ms;
-  width: 100%; }
-  input:not([type='checkbox']):not([type='radio']):focus {
-    background: rgba(221, 224, 224, 0.125);
-    color: #dde0e0;
-    outline: 0; }
-
-.form-actions {
-  text-align: right; }
-
-button {
+[data-btn] {
   background: none;
   border: 0;
   color: inherit;
   cursor: pointer;
   display: inline-block;
   font: inherit;
+  margin: 0;
   padding: 0;
   text-decoration: none;
   text-shadow: none; }
-  button:disabled {
+  [data-btn]:disabled {
     cursor: default; }
 
-.button {
+[data-input~="text"] {
+  background: transparent;
+  border: 0;
+  color: #ef3939;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font: inherit;
+  margin: 0;
+  padding: 0 0.36458rem;
+  transition: all 300ms; }
+  [data-input~="text"]:focus {
+    background: rgba(221, 224, 224, 0.125);
+    outline: 0; }
+
+.form-field {
+  font-family: 'narrator', Baskerville, Palatino, Cambria, Georgia, serif;
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
+  border-bottom: 1px dashed #8f9999;
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.45833rem 0.36458rem; }
+
+.ff-label {
   font-size: 0.70833rem;
-  line-height: 0.72917rem;
-  background: #ef3939;
+  line-height: 1.45833rem;
+  padding: 0 0.36458rem; }
+  .ff-label:after {
+    content: ':';
+    color: #8f9999; }
+  .is-optional .ff-label:after {
+    content: ' (optional):'; }
+
+.form-actions {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 0.36458rem; }
+
+.fa-extra {
+  font-size: 0.70833rem;
+  line-height: 1.45833rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  padding: 0 0.36458rem; }
+
+[data-btn] {
+  font-family: 'narrator', Baskerville, Palatino, Cambria, Georgia, serif;
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
   border-radius: 0.25rem;
-  color: #dde0e0;
   font-weight: bold;
-  padding: 0.36458rem 0.72917rem;
-  text-transform: uppercase; }
+  padding: 0 0.72917rem;
+  transition: background-color 150ms; }
+  [data-btn]:hover, [data-btn]:focus, [data-btn]:active {
+    outline: 0; }
+
+[data-btn~='action'] {
+  background-color: #ef3939;
+  color: #fff; }
+  [data-btn~='action']:hover, [data-btn~='action']:focus, [data-btn~='action']:active {
+    background-color: #cb3030;
+    color: #fff; }
+  [data-btn~='action']:active {
+    box-shadow: 0 -1px 1px #ef3939 inset, 0 0 2px rgba(16, 17, 17, 0.75) inset; }
 
 .logo {
   fill: transparent;
@@ -302,7 +341,6 @@ button {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto;
-  margin-bottom: 1.45833rem;
   max-width: 18.5rem; }
   .social-list .icon-text {
     clip: rect(1px, 1px, 1px, 1px);
@@ -312,27 +350,6 @@ button {
     overflow: hidden;
     position: absolute;
     width: 1px; }
-
-.email-signup {
-  margin: 0 auto;
-  max-width: 18.5rem; }
-  .email-signup [for='mce-EMAIL'] {
-    clip: rect(1px, 1px, 1px, 1px);
-    -webkit-clip-path: inset(1px 1px 1px 1px);
-    clip-path: inset(1px 1px 1px 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    width: 1px; }
-
-.email-title {
-  clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(1px 1px 1px 1px);
-  clip-path: inset(1px 1px 1px 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  width: 1px; }
 
 [role='contentinfo'] {
   font-size: 0.83333rem;
