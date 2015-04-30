@@ -6,6 +6,8 @@ location: press
 Press
 =====
 
+|PRESS|
+
     "Teacup Gorilla have a sound that's a gorgeous blend of Pixies & Pavement"
 
     -- Sam O'Daniel, `Your Older Brother`_
@@ -27,7 +29,10 @@ Press
 .. _Colorado Music Buzz: http://www.colomusicbuzz.com/eric-suzanne-drops-non-linear-novel-in-conjunction-with-teacup-gorilla/
 
 
-Get the `Riding SideSaddle* Press Kit »`_
+.. |PRESS| raw:: html
 
-.. _`Riding SideSaddle* Press Kit »`: https://www.dropbox.com/sh/hernur1iocol84n/AADgWeHZLaCL0YuRA5MP6mMXa?dl=0
-
+  <div class="press-kit">
+    <a href="https://www.dropbox.com/sh/gf8kkf0m0d6kc6v/AABWfeTdmYYYbRyVBZfj7SmOa?dl=0" data-btn="action">
+      Get the <strong>Midwest Tour</strong> Press Kit »
+    </a>
+  </div>

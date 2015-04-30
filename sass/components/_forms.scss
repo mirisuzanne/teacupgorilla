@@ -72,7 +72,6 @@
   @include font(serif);
   @include font-size(small, 1);
   border-radius: size(corners);
-  font-weight: bold;
   padding: 0 size(shim);
   transition: background-color 150ms;
 
@@ -82,7 +81,10 @@
 }
 
 [data-btn~='action'] {
-  @include contrasted(action);
+  &,
+  #{$link} {
+    @include contrasted(action);
+  }
 
   #{$focus} {
     @include contrasted(action (shade: 15%));

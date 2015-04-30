@@ -1,19 +1,18 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: Apr. 17, 2015
-    venue: Merchant's Mile High Saloon
-    venue_url: http://facebook.com/MerchantsMileHighSaloon
-    datetime: 2015-04-17
-    image: 'nouns/150402-sidesaddle/affair-12.jpg'
+  - date: May 11, 2015
+    venue: Gypsy House Cafe
+    url: https://www.facebook.com/events/1438931603085393/
+    venue_url: https://www.facebook.com/GypsyHouse
+    datetime: 2015-05-11
+    image: 'shows/walkbysea.jpg'
     feature: True
     with:
-      - name: Black Market Translation
-        url: http://www.blackmarkettranslation.com/
-      - name: Tom Waits For No Man
-        url: http://tomwaitsfornoman.com/
-      - name: Open to the Hound
-        url: http://www.opentothehound.com
+      - name: Brennan Mackey (King Cardinal)
+        url: https://www.facebook.com/KingCardinalmusic
+      - name: Walk by Sea
+        url: https://www.facebook.com/walkbysea
 
   - date: June 18, 2015
     venue: Sidewinder Tavern
@@ -50,6 +49,19 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: Apr. 17, 2015
+    venue: Merchant's Mile High Saloon
+    venue_url: http://facebook.com/MerchantsMileHighSaloon
+    datetime: 2015-04-17
+    image: 'nouns/150402-sidesaddle/affair-12.jpg'
+    with:
+      - name: Black Market Translation
+        url: http://www.blackmarkettranslation.com/
+      - name: Tom Waits For No Man
+        url: http://tomwaitsfornoman.com/
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
+
   - date: Apr. 2, 2015
     title: Riding SideSaddle* [Novel Affair]
     url: http://ridingsidesaddle.net/
