@@ -257,20 +257,19 @@ img, video, iframe {
   font-size: 0.83333rem;
   line-height: 1.45833rem;
   border-radius: 0.25rem;
-  font-weight: bold;
   padding: 0 0.72917rem;
   transition: background-color 150ms; }
   [data-btn]:hover, [data-btn]:focus, [data-btn]:active {
     outline: 0; }
 
-[data-btn~='action'] {
+[data-btn~='action'], [data-btn~='action']:link, [data-btn~='action']:visited {
   background-color: #ef3939;
   color: #fff; }
-  [data-btn~='action']:hover, [data-btn~='action']:focus, [data-btn~='action']:active {
-    background-color: #cb3030;
-    color: #fff; }
-  [data-btn~='action']:active {
-    box-shadow: 0 -1px 1px #ef3939 inset, 0 0 2px rgba(16, 17, 17, 0.75) inset; }
+[data-btn~='action']:hover, [data-btn~='action']:focus, [data-btn~='action']:active {
+  background-color: #cb3030;
+  color: #fff; }
+[data-btn~='action']:active {
+  box-shadow: 0 -1px 1px #ef3939 inset, 0 0 2px rgba(16, 17, 17, 0.75) inset; }
 
 .logo {
   fill: transparent;
@@ -552,6 +551,12 @@ img, video, iframe {
   line-height: 1.45833rem; }
 .show .with {
   display: inline-block; }
+
+.press-kit {
+  margin-bottom: 1.45833rem;
+  text-align: center; }
+  .press-kit strong {
+    font-weight: bold; }
 
 blockquote {
   font-size: 1.20833rem;
