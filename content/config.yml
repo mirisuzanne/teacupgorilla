@@ -81,7 +81,7 @@ recent:
     venue: The Bakery
     venue_url: http://www.thebakerydenver.com/
     datetime: 2015-01-24
-    image: 'OttH_TCG.jpg'
+    image: 'shows/OttH_TCG.jpg'
     with:
       - name: Open to the Hound
         url: http://www.opentothehound.com
