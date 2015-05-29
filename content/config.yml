@@ -18,32 +18,22 @@ upcoming:
     venue_url: http://www.hi-dive.com/
     datetime: 2015-07-09
     image: 'shows/hidive.jpg'
-
-  # - date: July 10, 2015
-  #   venue: Merchant's Mile High Saloon
-  #   venue_url: http://facebook.com/MerchantsMileHighSaloon
-  #   datetime: 2015-07-10
-  #   image: 'nouns/150402-sidesaddle/affair-9.jpg'
-  #   with:
-  #     - name: Signal Down
-  #       url: http://signaldown.net/
-  #     - name: Death Day Cabaret
-  #       url: http://deathdaycabaret.com/
-  #     - name: Symple Man
-  #       url: http://www.reverbnation.com/sympleman
-  #     - name: Brother Sister Hex
-  #       url: https://www.facebook.com/BrotherSisterHex
+    with:
+      - name: Bad Luck City
+        url: https://www.facebook.com/badluckcity
+      - name: Coastal Wives
+        url: https://www.facebook.com/Coastalwives
 
   - date: August 2, 2015
     title: Midwest Tour
-    venue: Kirby's Beer Store
+    venue: Kirby's Beer Store [Wichita, KS]
     venue_url: http://www.kirbysbeerstore.com/
     datetime: 2015-08-02
     image: 'shows/kirbys-tour.jpg'
 
   - date: August 3, 2015
     title: Midwest Tour
-    venue: Eighth Street Taproom
+    venue: Eighth Street Taproom [Lawrence, KS]
     venue_url: http://eighthstreettaproom.com/
     datetime: 2015-08-03
     image: 'shows/taproom-tour.jpg'
@@ -68,7 +58,7 @@ upcoming:
 
   - date: August 7, 2015
     title: Midwest Tour
-    venue: Milwaukee, WI
+    venue: Chicago, IL
     datetime: 2015-08-07
     image: 'shows/sidesaddle-cover.jpg'
 
@@ -86,7 +76,7 @@ upcoming:
 
   - date: August 10, 2015
     title: Midwest Tour
-    venue: Chicago, IL
+    venue: Milwaukee, WI
     datetime: 2015-08-10
     image: 'shows/sidesaddle-cover.jpg'
 
