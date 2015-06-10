@@ -2,14 +2,17 @@
 # Upcoming Shows
 upcoming:
   - date: June 18, 2015
-    venue: Sidewinder Tavern
-    venue_url: http://sidewindertavern.com
+    title: Departure Tour
+    venue: Tennyson's Tap
+    url: https://www.facebook.com/events/454599778045587/
     datetime: 2015-06-18
     image: 'shows/troy-petty.jpg'
     feature: True
     with:
       - name: Troy Petty
         url: http://www.troypettymusic.com
+      - name: Signal Down
+        url: http://signaldown.net/
 
   - date: June 9, 2015
     title: The Holes They Leave [EP Release]
