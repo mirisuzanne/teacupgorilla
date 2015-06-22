@@ -7,7 +7,7 @@ upcoming:
     venue: Hi Dive
     venue_url: http://www.hi-dive.com/
     datetime: 2015-07-09
-    image: 'shows/blc.jpg'
+    image: 'shows/thtl.jpg'
     feature: True
     with:
       - name: Bad Luck City

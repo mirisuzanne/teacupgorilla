@@ -29,6 +29,6 @@ Check out the `full press kit`_ for details!
 
   <figure>
     <a href="http://ridingsidesaddle.net">
-      <img src="/static/pictures/shows/ep-art.png" alt="The Holes They Leave" />
+      <img src="/static/pictures/shows/thtl.jpg" alt="The Holes They Leave" />
     </a>
   </figure>
