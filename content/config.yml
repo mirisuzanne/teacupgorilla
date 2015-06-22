@@ -1,31 +1,21 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: June 18, 2015
-    title: Departure Tour
-    venue: Tennyson's Tap
-    url: https://www.facebook.com/events/454599778045587/
-    datetime: 2015-06-18
-    image: 'shows/troy-petty.jpg'
-    feature: True
-    with:
-      - name: Troy Petty
-        url: http://www.troypettymusic.com
-      - name: Signal Down
-        url: http://signaldown.net/
-
   - date: June 9, 2015
     title: The Holes They Leave [EP Release]
     url: http://www.hi-dive.com/event/864133-teacup-gorilla-denver/
     venue: Hi Dive
     venue_url: http://www.hi-dive.com/
     datetime: 2015-07-09
-    image: 'shows/hidive.jpg'
+    image: 'shows/blc.jpg'
+    feature: True
     with:
       - name: Bad Luck City
         url: https://www.facebook.com/badluckcity
       - name: Coastal Wives
         url: https://www.facebook.com/Coastalwives
+      - name: Jen Korte
+        url: http://jkandtheloss.com
 
   - date: August 2, 2015
     title: Wichita, KS
@@ -40,11 +30,6 @@ upcoming:
     venue_url: http://eighthstreettaproom.com/
     datetime: 2015-08-03
     image: 'shows/taproom-tour.jpg'
-
-  - date: August 4, 2015
-    title: St. Louis, MO
-    datetime: 2015-08-04
-    image: 'shows/sidesaddle-cover.jpg'
 
   - date: August 5, 2015
     title: Kansas City, MO
@@ -63,37 +48,56 @@ upcoming:
 
   - date: August 8, 2015
     title: Goshen, IN
+    venue: Art House
+    venue_url: http://gah.mobi/
     datetime: 2015-08-08
     image: 'shows/goshen.jpg'
 
-  - date: August 9, 2015
-    title: Grand Rapids, MI
-    datetime: 2015-08-09
-    image: 'shows/sidesaddle-cover.jpg'
-
-  - date: August 10, 2015
-    title: Milwaukee, WI
-    datetime: 2015-08-10
-    image: 'shows/sidesaddle-cover.jpg'
+  # - date: August 10, 2015
+  #   title: Milwaukee, WI
+  #   datetime: 2015-08-10
+  #   image: 'shows/sidesaddle-cover.jpg'
 
   - date: August 11, 2015
     title: Iowa City, IA
+    venue: Gabes Iowa City
+    venue-url: 'http://www.icgabes.com/'
     datetime: 2015-08-11
     image: 'shows/sidesaddle-cover.jpg'
 
-  - date: August 12, 2015
-    title: Omaha, NE
-    datetime: 2015-08-12
-    image: 'shows/sidesaddle-cover.jpg'
+  # - date: August 13, 2015
+  #   title: Lincoln, NE
+  #   datetime: 2015-08-13
+  #   image: 'shows/sidesaddle-cover.jpg'
 
-  - date: August 13, 2015
-    title: Lincoln, NE
+  - date: September 24-26, 2015
+    title: ReTriplicate
     datetime: 2015-08-13
-    image: 'shows/sidesaddle-cover.jpg'
+    with:
+      - name: Clyfford Still Museum
+        url: https://clyffordstillmuseum.org/
+      - name: Buntport Theater
+        url: http://www.buntport.com/
+      - name: Hoarded Stuff
+        url: http://lauraannsamuelson.com/
+      - name: Screw Tooth
+        url: http://www.screwtooth.com/
 
 
 # Recent Shows
 recent:
+  - date: June 18, 2015
+    title: Departure Tour
+    venue: Tennyson's Tap
+    url: https://www.facebook.com/events/454599778045587/
+    datetime: 2015-06-18
+    image: 'shows/troy-petty.jpg'
+    with:
+      - name: Troy Petty
+        url: http://www.troypettymusic.com
+      - name: Black Market Translation
+        url: http://www.blackmarkettranslation.com/
+
   - date: May 11, 2015
     venue: Gypsy House Cafe
     url: https://www.facebook.com/events/1438931603085393/
