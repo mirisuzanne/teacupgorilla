@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Recent Blog Posts</title>
   <id>http://www.teacupgorilla.com/feed.atom</id>
-  <updated>2015-06-10T00:00:00Z</updated>
+  <updated>2015-06-23T00:00:00Z</updated>
   <link href="http://www.teacupgorilla.com/" />
   <link href="http://www.teacupgorilla.com/feed.atom" rel="self" />
   <subtitle type="text">Recent blog posts</subtitle>
   <generator>Werkzeug</generator>
+  <entry xml:base="http://www.teacupgorilla.com/feed.atom">
+    <title type="text">New Single: Just Like That</title>
+    <id>http://www.teacupgorilla.com/2015/06/23/single</id>
+    <updated>2015-06-23T00:00:00Z</updated>
+    <link href="http://www.teacupgorilla.com/2015/06/23/single" />
+    <author>
+      <name>teacupgorilla</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;figure class="demo"&gt;
+  &lt;iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2647440777/size=large/bgcol=ffffff/linkcol=ef3939/tracklist=false/artwork=small/transparent=true/" seamless&gt;&lt;a href="http://teacupgorilla.bandcamp.com/track/just-like-that-single"&gt;Just Like That [single] by Teacup Gorilla&lt;/a&gt;&lt;/iframe&gt;
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Excited to release the single, &lt;a class="reference external" href="https://teacupgorilla.bandcamp.com/track/just-like-that-single"&gt;Just Like That&lt;/a&gt;, from our upcoming &lt;span class="caps"&gt;EP&lt;/span&gt;, &lt;a class="reference external" href="/2015/06/10/ep-release"&gt;The Holes They Leave&lt;/a&gt; —
+available to stream or download now on&amp;nbsp;bandcamp!&lt;/p&gt;
+</content>
+  </entry>
   <entry xml:base="http://www.teacupgorilla.com/feed.atom">
     <title type="text">EP Release with Bad Luck City at the Hi Dive!</title>
     <id>http://www.teacupgorilla.com/2015/06/10/ep-release</id>
@@ -172,19 +187,6 @@ which may grow into a full&amp;nbsp;performance.&lt;/p&gt;
 &lt;p&gt;Eric is working hard to put it all online,
 and the process is public,
 so feel free to &lt;a class="reference external" href="http://greengreenmud.com/"&gt;follow&amp;nbsp;along&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry xml:base="http://www.teacupgorilla.com/feed.atom">
-    <title type="text">Five[5] Demo</title>
-    <id>http://www.teacupgorilla.com/2012/02/11/five5-demo</id>
-    <updated>2012-02-11T00:00:00Z</updated>
-    <link href="http://www.teacupgorilla.com/2012/02/11/five5-demo" />
-    <author>
-      <name>teacupgorilla</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;figure&gt;
-  &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F36314485&amp;amp;color=ff6600&amp;amp;auto_play=false&amp;amp;show_artwork=false"&gt;&lt;/iframe&gt;
-&lt;/figure&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -568,5 +568,12 @@ blockquote {
     line-height: 1.45833rem;
     margin: -0.72917rem 0 0; }
 
+.demo {
+  margin: 0 auto 1.45833rem;
+  max-width: 700px; }
+
+#player {
+  max-width: 100%; }
+
 
 /*# sourceMappingURL=screen.css.map */
