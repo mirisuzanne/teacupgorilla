@@ -43,8 +43,13 @@ upcoming:
 
   - date: August 7, 2015
     title: Chicago, IL
+    venue: Red Line Tap
+    venue_url: http://www.redlinetap.com/
     datetime: 2015-08-07
     image: 'shows/sidesaddle-cover.jpg'
+    with:
+      - name: Troy Petty
+        url: http://www.troypettymusic.com
 
   - date: August 8, 2015
     title: Goshen, IN
@@ -52,6 +57,9 @@ upcoming:
     venue_url: http://gah.mobi/
     datetime: 2015-08-08
     image: 'shows/goshen.jpg'
+    with:
+      - name: Shiny Shiny Black
+        url: http://www.shinyshinyblack.com/
 
   # - date: August 10, 2015
   #   title: Milwaukee, WI
@@ -61,7 +69,7 @@ upcoming:
   - date: August 11, 2015
     title: Iowa City, IA
     venue: Gabes Iowa City
-    venue-url: 'http://www.icgabes.com/'
+    venue_url: http://www.icgabes.com/
     datetime: 2015-08-11
     image: 'shows/sidesaddle-cover.jpg'
 
@@ -397,8 +405,9 @@ nouns:
 
 
 # Demo
-demo: '<iframe width="100%" height="420" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
-
+demos:
+  - embed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2647440777/size=large/bgcol=ffffff/linkcol=ef3939/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://teacupgorilla.bandcamp.com/track/just-like-that-single">Just Like That [single] by Teacup Gorilla</a></iframe>'
+  - embed: '<iframe width="100%" height="420" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ef3939&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 
 # Navigation
 nav:

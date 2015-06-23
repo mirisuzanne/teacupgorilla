@@ -1,0 +1,12 @@
+// Demos
+// =====
+// scss-lint:disable IdSelector
+
+.demo {
+  margin: 0 auto size(gutter);
+  max-width: 700px;
+}
+
+#player {
+  max-width: 100%;
+}

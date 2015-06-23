@@ -1,8 +1,12 @@
-{% if config.demo %}
-<figure class="demos section">
+{% if config.demos %}
+<section class="demos section">
 <div class="container">
-  <figcaption class="section-title">Sounds</figcaption>
-  {{ config.demo|safe }}
+  <h2 class="section-title">Sounds</h2>
+  {% for demo in config.demos %}
+    <figure class="demo">
+      {{ demo.embed|safe }}
+    </figure>
+  {% endfor %}
 </div>
-</figure>
+</section>
 {% endif %}
