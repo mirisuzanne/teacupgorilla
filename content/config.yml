@@ -17,6 +17,21 @@ upcoming:
       - name: Jen Korte
         url: http://jkandtheloss.com
 
+  - date: July 10, 2015
+    title: Species of the Stars
+    url: https://www.facebook.com/events/117031751963399/
+    venue: Live Stream Online!
+    venue_url: /2015/07/02/species/
+    datetime: 2015-07-10
+    image: 'shows/sots.jpg'
+    with:
+      - name: Face Man
+        url: https://www.facebook.com/pages/Face-Man/121419593563
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
+      - name: Carly Howard and the Youthnicorns
+        url: https://www.facebook.com/carly.howard
+
   - date: August 2, 2015
     title: Wichita, KS
     venue: Kirby's Beer Store
@@ -61,22 +76,12 @@ upcoming:
       - name: Shiny Shiny Black
         url: http://www.shinyshinyblack.com/
 
-  # - date: August 10, 2015
-  #   title: Milwaukee, WI
-  #   datetime: 2015-08-10
-  #   image: 'shows/sidesaddle-cover.jpg'
-
   - date: August 11, 2015
     title: Iowa City, IA
     venue: Gabes Iowa City
     venue_url: http://www.icgabes.com/
     datetime: 2015-08-11
     image: 'shows/sidesaddle-cover.jpg'
-
-  # - date: August 13, 2015
-  #   title: Lincoln, NE
-  #   datetime: 2015-08-13
-  #   image: 'shows/sidesaddle-cover.jpg'
 
   - date: September 24-26, 2015
     title: ReTriplicate
