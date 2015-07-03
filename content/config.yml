@@ -61,7 +61,7 @@ upcoming:
     venue: Red Line Tap
     venue_url: http://www.redlinetap.com/
     datetime: 2015-08-07
-    image: 'shows/sidesaddle-cover.jpg'
+    image: 'shows/redline.jpg'
     with:
       - name: Troy Petty
         url: http://www.troypettymusic.com
@@ -78,14 +78,15 @@ upcoming:
 
   - date: August 11, 2015
     title: Iowa City, IA
-    venue: Gabes Iowa City
+    venue: Gabe's Iowa City
     venue_url: http://www.icgabes.com/
     datetime: 2015-08-11
-    image: 'shows/sidesaddle-cover.jpg'
+    image: 'shows/gabes.jpg'
 
   - date: September 24-26, 2015
     title: ReTriplicate
     datetime: 2015-08-13
+    image: 'shows/clyffordstill.jpg'
     with:
       - name: Clyfford Still Museum
         url: https://clyffordstillmuseum.org/
@@ -411,7 +412,7 @@ nouns:
 
 # Demo
 demos:
-  - embed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2647440777/size=large/bgcol=ffffff/linkcol=ef3939/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://teacupgorilla.bandcamp.com/track/just-like-that-single">Just Like That [single] by Teacup Gorilla</a></iframe>'
+  - embed: '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1383025660/size=large/bgcol=ffffff/linkcol=ef3939/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://teacupgorilla.bandcamp.com/album/the-holes-they-leave">The Holes They Leave by Teacup Gorilla</a></iframe>'
   - embed: '<iframe width="100%" height="420" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9012016&amp;color=ef3939&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
 
 # Navigation
