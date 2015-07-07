@@ -6,7 +6,14 @@ location: press
 Press
 =====
 
-|PRESS|
+    "`The Holes They Leave`_ occupies a middle place
+    that immediately brings solace to the weary ear."
+
+    -- Darren Thornberry, `Stubborn Sounds`_
+
+.. _The Holes They Leave: http://teacupgorilla.bandcamp.com/album/the-holes-they-leave
+.. _Stubborn Sounds: https://stubbornsounds.wordpress.com/
+
 
     "Teacup Gorilla have a sound that's a gorgeous blend of Pixies & Pavement"
 
@@ -28,6 +35,8 @@ Press
 
 .. _Colorado Music Buzz: http://www.colomusicbuzz.com/eric-suzanne-drops-non-linear-novel-in-conjunction-with-teacup-gorilla/
 
+
+|PRESS|
 
 .. |PRESS| raw:: html
 

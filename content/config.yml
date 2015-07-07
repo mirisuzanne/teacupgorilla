@@ -7,7 +7,7 @@ upcoming:
     venue: Hi Dive
     venue_url: http://www.hi-dive.com/
     datetime: 2015-07-09
-    image: 'shows/thtl.jpg'
+    image: 'shows/blc.jpg'
     feature: True
     with:
       - name: Bad Luck City
@@ -31,6 +31,11 @@ upcoming:
         url: http://www.opentothehound.com
       - name: Carly Howard and the Youthnicorns
         url: https://www.facebook.com/carly.howard
+
+  - date: July 23-26, 2015
+    title: Underground Music Showcase
+    url: http://theums.com/
+    image: 'ums/14-25/accordion-crimes.jpg'
 
   - date: August 2, 2015
     title: Wichita, KS
