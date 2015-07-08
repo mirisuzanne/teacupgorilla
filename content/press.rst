@@ -12,7 +12,7 @@ Press
     -- Darren Thornberry, `Stubborn Sounds`_
 
 .. _The Holes They Leave: http://teacupgorilla.bandcamp.com/album/the-holes-they-leave
-.. _Stubborn Sounds: https://stubbornsounds.wordpress.com/
+.. _Stubborn Sounds: https://stubbornsounds.wordpress.com/2015/07/07/teacup-gorilla-the-holes-they-leave-in-review/
 
 
     "Teacup Gorilla have a sound that's a gorgeous blend of Pixies & Pavement"
