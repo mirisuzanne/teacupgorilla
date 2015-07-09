@@ -11,9 +11,9 @@
   {% endfor %}
 
   {% if module.count and config.upcoming|length > module.count %}
-    <a href="/verbs/" class="more-link">more perfection »</a>
+    <a href="/verbs/" class="more-link">more »</a>
   {% elif module.more %}
-    <a href="/verbs/" class="more-link">past imperfection »</a>
+    <a href="/verbs/" class="more-link">{{ module.more }} »</a>
   {% endif %}
 </div>
 </section>

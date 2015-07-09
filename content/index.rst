@@ -5,7 +5,7 @@ before:
   - include: 'music/_feature.html'
   - include: 'music/_demos.html'
   - include: 'music/_upcoming.html'
-    more: true
+    more: past shows
 
 
 Home

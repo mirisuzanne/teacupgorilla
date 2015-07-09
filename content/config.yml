@@ -53,13 +53,10 @@ upcoming:
     datetime: 2015-08-03
     image: 'shows/taproom-tour.jpg'
 
-  - date: August 5, 2015
-    title: Kansas City, MO
-    datetime: 2015-08-05
-    image: 'shows/the-brick.jpg'
-
   - date: August 6, 2015
     title: Duluth, MN
+    venue: Red Herring Lounge
+    venue_url: http://redherringlounge.com/
     datetime: 2015-08-06
     image: 'shows/sidesaddle-cover.jpg'
 
@@ -92,7 +89,7 @@ upcoming:
 
   - date: September 24-26, 2015
     title: ReTriplicate
-    venu: Buntport Theater
+    venue: Buntport Theater
     venue_url: http://www.buntport.com/
     datetime: 2015-08-13
     image: 'shows/clyffordstill.jpg'
