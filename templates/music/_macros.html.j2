@@ -1,6 +1,4 @@
 {% macro show(show, feature=none) %}
-{% if feature or (not show.feature) %}
-
 {% set image_path='/static/pictures/' %}
 {% set image_url=show.image if show.image else 'shows/default.jpg' %}
 {% set image_location= [image_path, image_url]|join('') %}
@@ -63,6 +61,4 @@
     {% endif %}
   </div>
 </article>
-
-{% endif %}
 {% endmacro %}

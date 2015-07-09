@@ -2,7 +2,7 @@
 
 <section class="shows recent section" aria-labelledby='recent-title'>
 <div class="container">
-  <h2 class="section-title" id="recent-title">Past Imperfect</h2>
+  <h2 class="section-title" id="recent-title">Past Shows</h2>
   {% for show in config.recent %}
   {% if not module.count or loop.index <= module.count %}
     {{ music.show(show) }}
