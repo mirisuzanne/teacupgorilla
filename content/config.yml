@@ -1,7 +1,7 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: July 9, 2015
+  - date: 'July 9, 2015 @ 9:00pm'
     title: The Holes They Leave [EP Release]
     url: http://www.hi-dive.com/event/864133-teacup-gorilla-denver/
     venue: Hi Dive
@@ -17,7 +17,7 @@ upcoming:
       - name: Jen Korte
         url: http://jkandtheloss.com
 
-  - date: July 10, 2015
+  - date: 'July 10, 2015 @ 8:00pm'
     title: Species of the Stars
     url: https://www.facebook.com/events/117031751963399/
     venue: Live Stream Online!
