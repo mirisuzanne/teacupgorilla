@@ -32,9 +32,11 @@ upcoming:
       - name: Carly Howard and the Youthnicorns
         url: https://www.facebook.com/carly.howard
 
-  - date: July 23-26, 2015
+  - date: 'July 25, 2015 @ 5:00pm'
     title: Underground Music Showcase
     url: http://theums.com/
+    venue: Historians Ale House
+    venue_url: http://historiansalehouse.com/
     image: 'ums/14-25/accordion-crimes.jpg'
 
   - date: August 2, 2015
