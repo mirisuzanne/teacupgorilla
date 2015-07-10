@@ -1,0 +1,18 @@
+{% if config.press %}
+<section class="section section--press">
+<div class="container">
+  {% for item in config.press %}
+    <blockquote class="clipping">
+      <p class="quote">{{ item.quote|safe }}</p>
+      <p class="citation">
+        {{ item.credit }},
+        <a href="{{ item.url }}">{{ item.source }}</a>
+        {% if item.datetime %}
+          <time datetime="{{ item.datetime }}" class="pubdate">[{{ item.date or item.datetime }}]</time>
+        {% endif %}
+      </p>
+    </blockquote>
+  {% endfor %}
+</div>
+</section>
+{% endif %}

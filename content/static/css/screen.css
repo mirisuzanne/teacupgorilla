@@ -43,11 +43,11 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block; }
 
-.body h1, .title {
+.body h1, .section--press h1, .title {
   font-size: 1.45833rem;
   line-height: 2.91667rem; }
 
-.body h2 {
+.body h2, .section--press h2 {
   text-transform: uppercase; }
 
 a:link, a:visited {
@@ -57,17 +57,17 @@ a:hover, a:active, a:focus {
   color: #f15656;
   text-decoration: underline; }
 
-.body strong {
+.body strong, .section--press strong {
   font-weight: bold; }
-.body p, .body ul, .body ol, .body pre, .body blockquote, .body figure {
+.body p, .section--press p, .body ul, .section--press ul, .body ol, .section--press ol, .body pre, .section--press pre, .body blockquote, .section--press blockquote, .body figure, .section--press figure {
   margin-bottom: 1.45833rem; }
-.body p:empty {
+.body p:empty, .section--press p:empty {
   display: none; }
-.body ul {
+.body ul, .section--press ul {
   list-style-type: disc; }
-.body ol {
+.body ol, .section--press ol {
   list-style-type: decimal; }
-.body ul ul, .body ul ol, .body ol ul, .body ol ol, .body blockquote ul, .body blockquote ol {
+.body ul ul, .section--press ul ul, .body ul ol, .section--press ul ol, .body ol ul, .section--press ol ul, .body ol ol, .section--press ol ol, .body blockquote ul, .section--press blockquote ul, .body blockquote ol, .section--press blockquote ol {
   margin-left: 1.45833rem; }
 
 @font-face {
@@ -101,7 +101,7 @@ html {
   
   src: url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.woff') format('woff'), url('../fonts/susy/greenmudsusy-smallcapsbold-webfont.ttf') format('truetype'); }
 
-.body em, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at {
+.body em, .section--press em, [role='navigation'], [role='contentinfo'], .gallery-citation, .byline, .show .at, .clipping .citation {
   font-family: 'susycaps', Baskerville, Palatino, Cambria, Georgia, serif; }
 
 @font-face {
@@ -118,7 +118,7 @@ html {
   
   src: url('../fonts/narrator/greenmudnarrator-bold-webfont.woff') format('woff'), url('../fonts/narrator/greenmudnarrator-bold-webfont.ttf') format('truetype'); }
 
-.body h1, .title, .body h2, .body h3, .body h4, .section-title, .gallery-caption, .pagination, .show .dt-start, .show .p-summary {
+.body h1, .section--press h1, .title, .body h2, .section--press h2, .body h3, .section--press h3, .body h4, .section--press h4, .section-title, .gallery-caption, .pagination, .show .dt-start, .show .p-summary {
   font-family: 'narrator', Baskerville, Palatino, Cambria, Georgia, serif; }
 
 *, *:before, *:after {
@@ -305,16 +305,13 @@ img, video, iframe {
 [data-location='blog'] [data-nav='blog'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='media'] [data-nav='media'] {
+[data-location='videos'] [data-nav='videos'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='bio'] [data-nav='bio'] {
+[data-location='about'] [data-nav='about'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
-[data-location='shows'] [data-nav='shows'] {
-  border-bottom: 0.08333rem solid #ef3939; }
-
-[data-location='press'] [data-nav='press'] {
+[data-location='store'] [data-nav='store'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
 .social [rel='me']:link, .social [rel='me']:visited {
@@ -552,21 +549,24 @@ img, video, iframe {
 .show .with {
   display: inline-block; }
 
+.clipping .quote {
+  margin: 0; }
+  .clipping .quote:before, .clipping .quote:after {
+    content: "“"; }
+  .clipping .quote:after {
+    content: "”"; }
+.clipping .citation {
+  font-size: 0.83333rem;
+  line-height: 1.45833rem;
+  margin: 0; }
+  .clipping .citation:before {
+    content: '— '; }
+
 .press-kit {
   margin-bottom: 1.45833rem;
   text-align: center; }
   .press-kit strong {
     font-weight: bold; }
-
-blockquote {
-  font-size: 1.20833rem;
-  line-height: 1.45833rem;
-  border-left: 0.16667rem solid;
-  padding: 0.72917rem; }
-  blockquote .attribution {
-    font-size: 0.83333rem;
-    line-height: 1.45833rem;
-    margin: -0.72917rem 0 0; }
 
 
 /*# sourceMappingURL=screen.css.map */

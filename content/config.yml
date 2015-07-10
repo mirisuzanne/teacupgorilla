@@ -342,6 +342,13 @@ recent:
 # Nouns
 nouns:
   - body:
+    - video: '<iframe src="https://www.youtube.com/embed/iD1AUleBlLg?rel=0" frameborder="0" allowfullscreen></iframe>'
+      class: full
+    caption: 'Species of the Stars — Live Stream'
+    citation: 'filmed by <a href="http://www.sparrowtree.org/">Sparrowtree Arts</a>'
+    feature: true
+
+  - body:
       - video: '<iframe src="https://player.vimeo.com/video/125217583?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
         class: full
       - image: 'nouns/150402-sidesaddle/affair-18.jpg'
@@ -404,7 +411,6 @@ nouns:
     caption: "09.13 Herman's Hideaway"
     citation: 'video by Megan Sumner :: photos by Kenny Storms'
     slug: 'hermans'
-    feature: true
 
   - body:
       - image: 'nouns/130322-bouldering/bouldering.jpg'
@@ -421,18 +427,46 @@ demos:
   - embed: '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=1383025660/size=large/bgcol=ffffff/linkcol=ef3939/artwork=small/transparent=true/" seamless><a href="http://teacupgorilla.bandcamp.com/album/the-holes-they-leave">The Holes They Leave by Teacup Gorilla</a></iframe>'
 
 
+# Press
+press:
+  - quote: '<a href="http://teacupgorilla.bandcamp.com/album/the-holes-they-leave">The Holes They Leave</a> occupies a middle place that immediately brings solace to the weary ear.'
+    credit: Darren Thornberry
+    source: Stubborn Sounds
+    url: https://stubbornsounds.wordpress.com/2015/07/07/teacup-gorilla-the-holes-they-leave-in-review/
+    date: July 7, 2015
+    datetime: 2015-07-07
+
+  - quote: 'Teacup Gorilla have a sound that’s a gorgeous blend of Pixies & Pavement'
+    credit: Sam O'Daniel
+    source: Your Older Brother
+    url: http://www.yourolderbrother.com/
+
+  - quote: "Expect performances that blend mediums, styles and disciplines."
+    credit: Luke Leavitt
+    source: The Westword
+    url: http://www.westword.com/arts/music-art-and-words-are-in-the-cards-at-the-riding-sidesaddle-book-launch-6626798
+
+  - quote: "One of the most ambitious projects that has come across our desk recently."
+    credit: Tim Wenger
+    source: Colorado Music Buzz
+    url: http://www.colomusicbuzz.com/eric-suzanne-drops-non-linear-novel-in-conjunction-with-teacup-gorilla/
+
+press_kit: Midwest Tour
+press_kit_url: https://www.dropbox.com/sh/gf8kkf0m0d6kc6v/AABWfeTdmYYYbRyVBZfj7SmOa?dl=0
+
+
 # Navigation
 nav:
+  - url: '/'
+    name: home
+  - url: '/nouns/'
+    name: store
+  - url: '/videos/'
+    name: videos
+  - url: '/adjectives/'
+    name: about
   - url: '/blog/'
     name: blog
-  - url: '/verbs/'
-    name: shows
-  - url: '/nouns/'
-    name: media
-  - url: '/adjectives/'
-    name: bio
-  - url: '/press/'
-    name: press
 
 
 # Social Links

@@ -1,6 +1,25 @@
 // Press
 // =====
 
+.section--press {
+  @extend %body;
+}
+
+.clipping {
+  .quote {
+    @include wrap-content;
+    margin: 0;
+  }
+
+  .citation {
+    @extend %caps;
+    @include before('— ');
+    @include font-size(small, 1);
+    margin: 0;
+  }
+}
+
+
 .press-kit {
   margin-bottom: size(gutter);
   text-align: center;

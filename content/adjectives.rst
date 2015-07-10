@@ -1,7 +1,8 @@
 public: yes
 hide_title: yes
-location: bio
+location: about
 before:
+  - include: 'modules/_press.html.j2'
   - include: 'faces/_faces.html'
 
 
@@ -44,18 +45,11 @@ With a dark indie sound,
 post-rock tendencies,
 and a strong literary bent — 
 Teacup Gorilla is often compared to
-`Velvet Underground`_, `Modest Mouse`_, and `Low`_.
-According to `Stubborn Sounds`_,
-"It’s not quite minimalist, not sparse enough for that.
-It’s not an explosion in the sky, either.
-No, the debut e.p. by Denver’s Teacup Gorilla –
-The Holes They Leave –
-occupies a middle place that immediately brings solace to the weary ear."
+`Velvet Underground`_, early `Modest Mouse`_, and `Low`_.
 
 .. _Velvet Underground: http://olivier.landemaine.free.fr/vu/
 .. _Modest Mouse: http://modestmouse.com/
 .. _Low: http://chairkickers.com/
-.. _Stubborn Sounds: https://stubbornsounds.wordpress.com/2015/07/07/teacup-gorilla-the-holes-they-leave-in-review/
 
 
 .. OTHER INSPIRATION?
