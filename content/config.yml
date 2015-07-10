@@ -1,29 +1,14 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: 'July 9, 2015 @ 9:00pm'
-    title: The Holes They Leave [EP Release]
-    url: http://www.hi-dive.com/event/864133-teacup-gorilla-denver/
-    venue: Hi Dive
-    venue_url: http://www.hi-dive.com/
-    datetime: 2015-07-09
-    image: 'shows/blc.jpg'
-    feature: True
-    with:
-      - name: Bad Luck City
-        url: https://www.facebook.com/badluckcity
-      - name: Coastal Wives
-        url: https://www.facebook.com/Coastalwives
-      - name: Jen Korte
-        url: http://jkandtheloss.com
-
   - date: 'July 10, 2015 @ 8:00pm'
     title: Species of the Stars
-    url: https://www.facebook.com/events/117031751963399/
+    url: /2015/07/02/species/
     venue: Live Stream Online!
     venue_url: /2015/07/02/species/
     datetime: 2015-07-10
     image: 'shows/sots.jpg'
+    feature: True
     with:
       - name: Face Man
         url: https://www.facebook.com/pages/Face-Man/121419593563
@@ -106,6 +91,21 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: 'July 9, 2015 @ 9:00pm'
+    title: The Holes They Leave [EP Release]
+    url: http://www.hi-dive.com/event/864133-teacup-gorilla-denver/
+    venue: Hi Dive
+    venue_url: http://www.hi-dive.com/
+    datetime: 2015-07-09
+    image: 'shows/blc.jpg'
+    with:
+      - name: Bad Luck City
+        url: https://www.facebook.com/badluckcity
+      - name: Coastal Wives
+        url: https://www.facebook.com/Coastalwives
+      - name: Jen Korte
+        url: http://jkandtheloss.com
+
   - date: June 18, 2015
     title: Departure Tour
     venue: Tennyson's Tap
