@@ -1,28 +1,13 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: 'July 10, 2015 @ 8:00pm'
-    title: Species of the Stars
-    url: /2015/07/02/species/
-    venue: Live Stream Online!
-    venue_url: /2015/07/02/species/
-    datetime: 2015-07-10
-    image: 'shows/sots.jpg'
-    feature: True
-    with:
-      - name: Face Man
-        url: https://www.facebook.com/pages/Face-Man/121419593563
-      - name: Open to the Hound
-        url: http://www.opentothehound.com
-      - name: Carly Howard and the Youthnicorns
-        url: https://www.facebook.com/carly.howard
-
   - date: 'July 25, 2015 @ 5:00pm'
     title: Underground Music Showcase
     url: http://theums.com/
     venue: Historians Ale House
     venue_url: http://historiansalehouse.com/
     image: 'ums/14-25/accordion-crimes.jpg'
+    feature: True
 
   - date: August 2, 2015
     title: Wichita, KS
@@ -91,6 +76,21 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: 'July 10, 2015 @ 8:00pm'
+    title: Species of the Stars
+    url: /2015/07/02/species/
+    venue: Live Stream Online!
+    venue_url: /2015/07/02/species/
+    datetime: 2015-07-10
+    image: 'shows/sots.jpg'
+    with:
+      - name: Face Man
+        url: https://www.facebook.com/pages/Face-Man/121419593563
+      - name: Open to the Hound
+        url: http://www.opentothehound.com
+      - name: Carly Howard and the Youthnicorns
+        url: https://www.facebook.com/carly.howard
+
   - date: 'July 9, 2015 @ 9:00pm'
     title: The Holes They Leave [EP Release]
     url: http://www.hi-dive.com/event/864133-teacup-gorilla-denver/
