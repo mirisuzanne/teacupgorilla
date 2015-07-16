@@ -463,10 +463,10 @@ nav:
     name: store
   - url: '/videos/'
     name: videos
-  - url: '/adjectives/'
-    name: about
   - url: '/blog/'
     name: blog
+  - url: '/adjectives/'
+    name: about
 
 
 # Social Links
