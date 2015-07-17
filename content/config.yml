@@ -50,6 +50,16 @@ upcoming:
       - name: Shiny Shiny Black
         url: http://www.shinyshinyblack.com/
 
+  - date: August 10, 2015
+    title: Madison, WI
+    venue: High Noon Saloon
+    venue_url: http://www.high-noon.com/
+    datetime: 2015-08-10
+    image: 'shows/hewn.jpg'
+    with:
+      - name: Hewn
+        url: https://www.facebook.com/hewn1
+
   - date: August 11, 2015
     title: Iowa City, IA
     venue: Gabe's Iowa City
