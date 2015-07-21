@@ -21,10 +21,13 @@
 
 
 .press-kit {
-  margin-bottom: size(gutter);
+  border-top: size(border) dashed color(border);
+  display: block;
+  margin-bottom: size(spacer) + size(gutter);
   text-align: center;
+}
 
-  strong {
-    font-weight: bold;
-  }
+.press-link {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
 }

@@ -435,6 +435,14 @@ nouns:
 # Demo
 demos:
   - embed: '<iframe style="border: 0; width: 100%; height: 310px;" src="https://bandcamp.com/EmbeddedPlayer/album=1383025660/size=large/bgcol=ffffff/linkcol=ef3939/artwork=small/transparent=true/" seamless><a href="http://teacupgorilla.bandcamp.com/album/the-holes-they-leave">The Holes They Leave by Teacup Gorilla</a></iframe>'
+    caption: |
+        Also on
+        <a href="http://open.spotify.com/artist/4IAoUcTC0NUX5j9JMGLTRV">Spotify</a>,
+        <a href="https://itunes.apple.com/us/artist/teacup-gorilla/id1016168345">iTunes</a>,
+        <a href="http://www.amazon.com/Holes-They-Leave-Teacup-Gorilla/dp/B010XWM06Q/">Amazon</a>,
+        <a href="https://play.google.com/store/music/artist/Teacup_Gorilla?id=Afdkqtqywb3bqmlsurcupcqpbzy">Google Play</a>,
+        <a href="http://rd.io/x/QFp1PhnPDA/">Rdio</a>,
+        and more!
 
 
 # Press
@@ -443,10 +451,8 @@ press:
     credit: Darren Thornberry
     source: Stubborn Sounds
     url: https://stubbornsounds.wordpress.com/2015/07/07/teacup-gorilla-the-holes-they-leave-in-review/
-    date: July 7, 2015
-    datetime: 2015-07-07
 
-  - quote: 'Teacup Gorilla have a sound that’s a gorgeous blend of Pixies & Pavement'
+  - quote: "Teacup Gorilla have elements of the familiar, but the way they assemble the sounds feels like you're discovering something new."
     credit: Sam O'Daniel
     source: Your Older Brother
     url: http://www.yourolderbrother.com/
@@ -461,22 +467,22 @@ press:
     source: Colorado Music Buzz
     url: http://www.colomusicbuzz.com/eric-suzanne-drops-non-linear-novel-in-conjunction-with-teacup-gorilla/
 
-press_kit: Midwest Tour
-press_kit_url: https://www.dropbox.com/sh/gf8kkf0m0d6kc6v/AABWfeTdmYYYbRyVBZfj7SmOa?dl=0
+press_kit: Press One-Sheet
+press_kit_url: '/static/one-sheet.pdf'
 
 
 # Navigation
 nav:
   - url: '/'
-    name: home
-  - url: '/nouns/'
-    name: store
+    name: music
+  # - url: '/nouns/'
+  #   name: store
   - url: '/videos/'
     name: videos
   - url: '/blog/'
-    name: blog
+    name: news
   - url: '/adjectives/'
-    name: about
+    name: 'press & bio'
 
 
 # Social Links
@@ -494,7 +500,7 @@ social:
 # Defaults
 title: Teacup Gorilla
 author: teacupgorilla
-location: home
+location: music
 signup_footer: true
 
 

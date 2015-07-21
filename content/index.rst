@@ -1,6 +1,6 @@
 public: yes
 hide_title: yes
-location: home
+location: music
 before:
   - include: 'music/_feature.html'
   - include: 'music/_demos.html'

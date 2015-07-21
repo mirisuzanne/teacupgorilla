@@ -1,10 +1,15 @@
 {% if config.demos %}
 <section class="demos section">
 <div class="container">
-  <h2 class="section-title" id="demo-title">Music</h2>
   {% for demo in config.demos %}
-    <figure class="demo">
+    <figure class="gallery">
       {{ demo.embed|safe }}
+
+      {% if demo.caption %}
+        <figcaption class="gallery-caption">
+          {{ demo.caption|safe }}
+        </figcaption>
+      {% endif %}
     </figure>
   {% endfor %}
 </div>

@@ -299,10 +299,16 @@ img, video, iframe {
   [data-nav] + [data-nav] {
     margin-left: 0.72917rem; }
 
+[data-location='music'] [data-nav='music'] {
+  border-bottom: 0.08333rem solid #ef3939; }
+
 [data-location='home'] [data-nav='home'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
 [data-location='blog'] [data-nav='blog'] {
+  border-bottom: 0.08333rem solid #ef3939; }
+
+[data-location='news'] [data-nav='news'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
 [data-location='videos'] [data-nav='videos'] {
@@ -312,6 +318,9 @@ img, video, iframe {
   border-bottom: 0.08333rem solid #ef3939; }
 
 [data-location='store'] [data-nav='store'] {
+  border-bottom: 0.08333rem solid #ef3939; }
+
+[data-location='press & bio'] [data-nav='press & bio'] {
   border-bottom: 0.08333rem solid #ef3939; }
 
 .social [rel='me']:link, .social [rel='me']:visited {
@@ -563,10 +572,15 @@ img, video, iframe {
     content: '— '; }
 
 .press-kit {
-  margin-bottom: 1.45833rem;
+  border-top: 0.04167rem dashed #ef3939;
+  display: block;
+  margin-bottom: 5.83333rem;
   text-align: center; }
-  .press-kit strong {
-    font-weight: bold; }
+
+.press-link {
+  position: absolute;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0); }
 
 
 /*# sourceMappingURL=screen.css.map */

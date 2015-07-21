@@ -1,6 +1,14 @@
 {% if config.press %}
 <section class="section section--press">
 <div class="container">
+  {% if config.press_kit_url %}
+    <div class="press-kit">
+      <a href="{{ config.press_kit_url }}" data-btn="flat action" class="press-link">
+        {{ config.press_kit or 'Press Kit'}} »
+      </a>
+    </div>
+  {% endif %}
+
   {% for item in config.press %}
     <blockquote class="clipping">
       <p class="quote">{{ item.quote|safe }}</p>

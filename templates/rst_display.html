@@ -2,7 +2,7 @@
 {% block title %}{{ rst.title }}{% endblock %}
 
 
-{% block location %}{% if ctx.pub_date %}blog{% else %}{{ super() }}{% endif %}{% endblock %}
+{% block location %}{% if ctx.pub_date %}news{% else %}{{ super() }}{% endif %}{% endblock %}
 
 
 {% block body %}
