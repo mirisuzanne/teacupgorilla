@@ -13,8 +13,7 @@ Adjectives
 **Teacup Gorilla** inhabits the venues of Denver, CO
 with dark indie-rock soundscapes and evocative poetry —
 often compared to early `Modest Mouse`_ and `Low`_.
-The trio
-(`Daniel`_, `Sondra`_, and `Eric`_)
+`Daniel`_, `Sondra`_, and `Eric`_
 have been playing together over fifteen years,
 across a wide range of projects.
 In the summer of 2015 they
