@@ -1,14 +1,6 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: 'July 25, 2015 @ 5:00pm'
-    title: Underground Music Showcase
-    url: http://theums.com/
-    venue: Historians Ale House
-    venue_url: http://historiansalehouse.com/
-    image: 'shows/tg-hidive.jpg'
-    feature: True
-
   - date: August 2, 2015
     title: Wichita, KS
     url: https://www.facebook.com/events/879491972144066/
@@ -16,6 +8,7 @@ upcoming:
     venue_url: http://www.kirbysbeerstore.com/
     datetime: 2015-08-02
     image: 'shows/kirbys-tour.jpg'
+    feature: True
     with:
       - name: Hot Books
         url: https://soundcloud.com/hot-books/sets/hot-books-demo
@@ -31,6 +24,8 @@ upcoming:
     with:
       - name: 88er
         url: http://www.88er.bandcamp.com/
+      - name: Megan Kaminski
+        url: http://www.megankaminski.com/
 
   - date: August 4, 2015
     title: New Buffalo, MI
@@ -43,7 +38,12 @@ upcoming:
     venue: Red Herring Lounge
     venue_url: http://redherringlounge.com/
     datetime: 2015-08-06
-    image: 'shows/sidesaddle-cover.jpg'
+    image: 'shows/spacecarpet.jpg'
+    with:
+      - name: Space Carpet
+        url: https://www.facebook.com/SpaceCarpetJams
+      - name: Valet
+        url: https://www.facebook.com/pages/Valet/218111948266242
 
   - date: August 7, 2015
     title: Chicago, IL
@@ -57,6 +57,8 @@ upcoming:
         url: http://www.troypettymusic.com
       - name: Craig Scott
         url: http://www.craigscottmusic.net/
+      - name: WaxWorks
+        url: https://waxworksmusic.bandcamp.com/
 
   - date: August 8, 2015
     title: Goshen, IN
@@ -78,8 +80,10 @@ upcoming:
     datetime: 2015-08-10
     image: 'shows/hewn.jpg'
     with:
-      - name: Hewn/The Deeps
-        url: https://www.facebook.com/hewn1
+      - name: The Deeps
+        url: https://thedeeps.bandcamp.com/releases
+      - name: Tween Wolf
+        url: http://tweenwolff.bandcamp.com/
 
   - date: August 11, 2015
     title: Iowa City, IA
@@ -107,6 +111,13 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: 'July 25, 2015 @ 5:00pm'
+    title: Underground Music Showcase
+    url: http://theums.com/
+    venue: Historians Ale House
+    venue_url: http://historiansalehouse.com/
+    image: 'shows/tg-hidive.jpg'
+
   - date: 'July 10, 2015 @ 8:00pm'
     title: Species of the Stars
     url: /2015/07/02/species/
