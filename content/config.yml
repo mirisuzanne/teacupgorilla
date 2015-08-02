@@ -8,7 +8,7 @@ upcoming:
     venue_url: http://www.kirbysbeerstore.com/
     datetime: 2015-08-02
     image: 'shows/kirbys-tour.jpg'
-    feature: True
+    tour: The Holes They Leave
     with:
       - name: Hot Books
         url: https://soundcloud.com/hot-books/sets/hot-books-demo
@@ -22,6 +22,7 @@ upcoming:
     venue_url: http://eighthstreettaproom.com/
     datetime: 2015-08-03
     image: 'shows/taproom-tour.jpg'
+    tour: The Holes They Leave
     with:
       - name: 88er
         url: http://www.88er.bandcamp.com/
@@ -33,18 +34,23 @@ upcoming:
     venue: Private Beach Party
     datetime: 2015-08-04
     image: 'shows/bocce.jpg'
+    tour: The Holes They Leave
 
   - date: August 6, 2015
     title: Duluth, MN
+    url: http://redherringlounge.com/events/space-carpet/
     venue: Red Herring Lounge
     venue_url: http://redherringlounge.com/
     datetime: 2015-08-06
     image: 'shows/spacecarpet.jpg'
+    tour: The Holes They Leave
     with:
       - name: Space Carpet
         url: https://www.facebook.com/SpaceCarpetJams
       - name: Valet
         url: https://www.facebook.com/pages/Valet/218111948266242
+      - name: Low Forms
+        url: https://www.facebook.com/lowforms
 
   - date: August 7, 2015
     title: Chicago, IL
@@ -53,13 +59,14 @@ upcoming:
     venue_url: http://www.redlinetap.com/
     datetime: 2015-08-07
     image: 'shows/redline.jpg'
+    tour: The Holes They Leave
     with:
-      - name: Troy Petty
-        url: http://www.troypettymusic.com
-      - name: Craig Scott
-        url: http://www.craigscottmusic.net/
       - name: WaxWorks
         url: https://waxworksmusic.bandcamp.com/
+      - name: Craig Scott
+        url: http://www.craigscottmusic.net/
+      - name: Troy Petty
+        url: http://www.troypettymusic.com
 
   - date: August 8, 2015
     title: Goshen, IN
@@ -68,6 +75,7 @@ upcoming:
     venue_url: http://gah.mobi/
     datetime: 2015-08-08
     image: 'shows/goshen.jpg'
+    tour: The Holes They Leave
     with:
       - name: Shiny Shiny Black
         url: http://www.shinyshinyblack.com/
@@ -81,6 +89,7 @@ upcoming:
     venue: High Noon Saloon
     datetime: 2015-08-10
     image: 'shows/hewn.jpg'
+    tour: The Holes They Leave
     with:
       - name: The Deeps
         url: https://thedeeps.bandcamp.com/releases
@@ -93,6 +102,7 @@ upcoming:
     venue_url: http://www.icgabes.com/
     datetime: 2015-08-11
     image: 'shows/gabes.jpg'
+    tour: The Holes They Leave
 
   - date: September 24-26, 2015
     title: ReTriplicate

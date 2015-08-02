@@ -1,17 +1,16 @@
 {% import "music/_macros.html.j2" as music %}
 
-{% for show in config.upcoming %}
-{% if show.feature %}
+{% set feature = config.upcoming[0] %}
+{% if feature %}
 
 {% set image_path='/static/pictures/' %}
-{% set image_url=show.image if show.image else 'shows/default.jpg' %}
+{% set image_url=feature.image if feature.image else 'shows/default.jpg' %}
 {% set image_location= [image_path, image_url]|join('') %}
 
 <section class="section feature" style="background-image: url('{{ image_location }}');">
 <div class="feature-inner">
-  {{ music.show(show) }}
+  {{ music.show(feature) }}
 </div>
 </section>
 
 {% endif %}
-{% endfor %}

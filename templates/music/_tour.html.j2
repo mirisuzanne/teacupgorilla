@@ -1,0 +1,24 @@
+{% import "music/_macros.html.j2" as music %}
+
+{% if module.tour %}
+<section class="shows tour section" aria-labelledby='tour-title'>
+<div class="container">
+  <h2 class="section-title" id="tour-title">
+    {{ module.tour }}
+    — Tour Dates
+  </h2>
+
+  {% for show in config.recent|reverse() %}
+  {% if show.tour == module.tour %}
+    {{ music.show(show) }}
+  {% endif %}
+  {% endfor %}
+
+  {% for show in config.upcoming %}
+  {% if show.tour == module.tour %}
+    {{ music.show(show) }}
+  {% endif %}
+  {% endfor %}
+</div>
+</section>
+{% endif %}
