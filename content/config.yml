@@ -1,20 +1,6 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: August 2, 2015
-    title: Wichita, KS
-    url: https://www.facebook.com/events/879491972144066/
-    venue: Kirby's Beer Store
-    venue_url: http://www.kirbysbeerstore.com/
-    datetime: 2015-08-02
-    image: 'shows/kirbys-tour.jpg'
-    tour: The Holes They Leave
-    with:
-      - name: Hot Books
-        url: https://soundcloud.com/hot-books/sets/hot-books-demo
-      - name: MariaElena
-        url: http://www.elcucomusic.com/
-
   - date: August 3, 2015
     title: Lawrence, KS
     url: https://www.facebook.com/events/900783029958277/
@@ -123,6 +109,20 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: August 2, 2015
+    title: Wichita, KS
+    url: https://www.facebook.com/events/879491972144066/
+    venue: Kirby's Beer Store
+    venue_url: http://www.kirbysbeerstore.com/
+    datetime: 2015-08-02
+    image: 'shows/kirbys-tour.jpg'
+    tour: The Holes They Leave
+    with:
+      - name: Hot Books
+        url: https://soundcloud.com/hot-books/sets/hot-books-demo
+      - name: MariaElena
+        url: http://www.elcucomusic.com/
+
   - date: 'July 25, 2015 @ 5:00pm'
     title: Underground Music Showcase
     url: http://theums.com/
