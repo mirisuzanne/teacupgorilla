@@ -1,41 +1,14 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: August 8, 2015
-    title: Goshen, IN
-    url: https://www.facebook.com/events/866567246712267/
-    venue: Art House
-    venue_url: http://gah.mobi/
-    datetime: 2015-08-08
-    image: 'shows/goshen.jpg'
-    tour: The Holes They Leave
+  - date: September 10, 2015
+    venue: "Lion's Lair"
+    venue_url: http://www.lionslairlounge.squarespace.com/
     with:
-      - name: Shiny Shiny Black
-        url: http://www.shinyshinyblack.com/
-      - name: Lookout Mountain
-        url: http://www.soundcloud.com/lookoutmountain-1
-      - name: Sara Wakefield
-
-  - date: August 10, 2015
-    title: Madison, WI
-    url: http://www.high-noon.com/event/913673-deeps-teacup-gorilla-madison/
-    venue: High Noon Saloon
-    datetime: 2015-08-10
-    image: 'shows/hewn.jpg'
-    tour: The Holes They Leave
-    with:
-      - name: The Deeps
-        url: https://thedeeps.bandcamp.com/releases
-      - name: Tween Wolf
-        url: http://tweenwolff.bandcamp.com/
-
-  - date: August 11, 2015
-    title: Iowa City, IA
-    venue: Gabe's Iowa City
-    venue_url: http://www.icgabes.com/
-    datetime: 2015-08-11
-    image: 'shows/gabes.jpg'
-    tour: The Holes They Leave
+      - name: Josh Moorehead And The Guestlist
+        url: http://joshandtheguestlist.com/
+      - name: Jack And The Coax
+        url: http://www.jackandthecoax.com/
 
   - date: September 24-26, 2015
     title: ReTriplicate
@@ -56,6 +29,42 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: August 11, 2015
+    title: Iowa City, IA
+    venue: Gabe's Iowa City
+    venue_url: http://www.icgabes.com/
+    datetime: 2015-08-11
+    image: 'shows/gabes.jpg'
+    tour: The Holes They Leave
+
+  - date: August 10, 2015
+    title: Madison, WI
+    url: http://www.high-noon.com/event/913673-deeps-teacup-gorilla-madison/
+    venue: High Noon Saloon
+    datetime: 2015-08-10
+    image: 'shows/hewn.jpg'
+    tour: The Holes They Leave
+    with:
+      - name: The Deeps
+        url: https://thedeeps.bandcamp.com/releases
+      - name: Tween Wolf
+        url: http://tweenwolff.bandcamp.com/
+
+  - date: August 8, 2015
+    title: Goshen, IN
+    url: https://www.facebook.com/events/866567246712267/
+    venue: Art House
+    venue_url: http://gah.mobi/
+    datetime: 2015-08-08
+    image: 'shows/goshen.jpg'
+    tour: The Holes They Leave
+    with:
+      - name: Shiny Shiny Black
+        url: http://www.shinyshinyblack.com/
+      - name: Lookout Mountain
+        url: http://www.soundcloud.com/lookoutmountain-1
+      - name: Sara Wakefield
+
   - date: August 7, 2015
     title: Chicago, IL
     url: https://www.facebook.com/events/663487130418255/
