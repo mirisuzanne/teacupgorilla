@@ -4,9 +4,8 @@ upcoming:
   - date: September 10, 2015
     venue: "Lion's Lair"
     venue_url: http://www.lionslairlounge.squarespace.com/
+    image: 'shows/jack-coax.jpg'
     with:
-      - name: Josh Moorehead And The Guestlist
-        url: http://joshandtheguestlist.com/
       - name: Jack And The Coax
         url: http://www.jackandthecoax.com/
 
