@@ -1,14 +1,6 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: September 10, 2015
-    venue: "Lion's Lair"
-    venue_url: http://www.lionslairlounge.squarespace.com/
-    image: 'shows/jack-coax.jpg'
-    with:
-      - name: Jack And The Coax
-        url: http://www.jackandthecoax.com/
-
   - date: September 24-26, 2015
     title: ReTriplicate
     venue: Buntport Theater
@@ -25,9 +17,25 @@ upcoming:
       - name: Screw Tooth
         url: http://www.screwtooth.com/
 
+  - date: November 5, 2015
+    venue: "Lion's Lair"
+    venue_url: http://www.lionslairlounge.squarespace.com/
+    image: 'shows/deadwoods.jpg'
+    with:
+      - name: The Dead Woods
+        url: https://wearethedeadwoods.bandcamp.com/
+
 
 # Recent Shows
 recent:
+  - date: September 10, 2015
+    venue: "Lion's Lair"
+    venue_url: http://www.lionslairlounge.squarespace.com/
+    image: 'shows/jack-coax.jpg'
+    with:
+      - name: Jack And The Coax
+        url: http://www.jackandthecoax.com/
+
   - date: August 11, 2015
     title: Iowa City, IA
     venue: Gabe's Iowa City
