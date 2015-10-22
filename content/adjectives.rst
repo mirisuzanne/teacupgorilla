@@ -13,7 +13,7 @@ Adjectives
 **Teacup Gorilla** inhabits the venues of Denver, CO
 with dark indie-rock soundscapes and evocative poetry —
 often compared to early `Modest Mouse`_ and `Low`_.
-`Daniel`_, `Sondra`_, and `Eric`_
+`Daniel`_, `Sondra`_, and `Miriam`_
 have been playing together over fifteen years,
 across a wide range of projects.
 In the summer of 2015 they
@@ -42,22 +42,22 @@ and the `Clyfford Still Museum`_.
     </div>
   </figure>
 
-.. _Modest Mouse: @@@
-.. _Low: @@@
+.. _Modest Mouse: http://modestmouse.com/
+.. _Low: http://www.chairkickers.com/
 
 .. _Daniel: http://thebakerydenver.com/
 .. _Sondra: http://sondraedesign.tumblr.com/
-.. _Eric: http://ericsuzanne.com/
+.. _Miriam: http://miriamsuzanne.com/
 
 .. _The Holes They Leave: http://teacupgorilla.bandcamp.com/album/the-holes-they-leave
-.. _`Riding SideSaddle*`: @@@
+.. _`Riding SideSaddle*`: http://ridingsidesaddle.com
 .. _Hi Dive: http://www.hi-dive.com/event/864133-bad-luck-city-denver/
 
-.. _Larimer Lounge: @@@
-.. _Syntax Physic Opera: @@@
-.. _Underground Music Showcase: @@@
-.. _Jen Korte: @@@
-.. _Bad Luck City: @@@
-.. _Buntport Theater: @@@
-.. _Bouldering Poets: @@@
-.. _Clyfford Still Museum: @@@
+.. _Larimer Lounge: http://www.larimerlounge.com/
+.. _Syntax Physic Opera: http://physicopera.com/
+.. _Underground Music Showcase: http://theums.com/
+.. _Jen Korte: http://www.jkandtheloss.com/
+.. _Bad Luck City: https://www.facebook.com/badluckcity
+.. _Buntport Theater: http://buntport.com/
+.. _Bouldering Poets: https://boulderingpoets.wordpress.com/
+.. _Clyfford Still Museum: https://clyffordstillmuseum.org/
