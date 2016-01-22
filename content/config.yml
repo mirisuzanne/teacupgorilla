@@ -3,12 +3,12 @@
 upcoming:
   - date: 'March 4-26, 2016'
     title: '10 Myths on the Proper Application of Beauty Products'
-    url: 'http://buntport.com/'
+    url: '/2016/01/22/10-myths/'
     datetime: 2016-03-04
     image: 'shows/10-myths-art.jpg'
     with:
       - name: 'Buntport Theater'
-        url: 'http://buntport.com/'
+        url: 'http://buntport.com/archive/archive.htm'
 
 
 # Recent Shows
