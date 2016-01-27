@@ -38,18 +38,26 @@ and put it all on stage,
 in a production called
 `10 Myths on the Proper Application of Beauty Products`_.
 
-Following a group of friends that resist order,
-category and completion,
-this play weaves myth and storytelling with every day rituals.
-It is about people deeply in love,
-suffering loss, celebrating strangeness,
-all while they pluck their eyebrows.
-It is about the Greek myth of Salmacis and Hermaphroditus,
-who are merged into "one being of both sexes"
-and about what we see when we look in the mirror.
-Oh, and the whole thing is underscored by a band
-(that's us)
-standing in the bathtub.
+The story follows a cast of friends as they navigate fluid genders,
+relationships, and bodies that resist order, category, or completion —
+written by a trans woman, and narrated from a transgender perspective.
+The dark comed is set in one shared bathroom
+(with a band in the bathtub),
+as the characters struggle with love,
+death, casserole, and the proper way to pluck their eyebrows.
+
+10 Myths on the Proper Application of Beauty Products
+-----------------------------------------------------
+March 4—26 at 717 Lipan Street, Denver
+
+- Thursdays-Saturdays at 8:00
+- Sundays, March 13th and 20th at 3:00
+- Monday, March 21st at 8:00
+
+Tickets are $16 ($13 for seniors)
+
+- $20 opening and closing nights, which includes a food-and-drink reception
+- Thursday, March 10th and Monday, March 21st are pay-what-you-can
 
 
 .. _Buntport Theater: http://buntport.com
