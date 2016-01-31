@@ -3,7 +3,7 @@ before:
   - include: 'gallery/_gallery.html'
 gallery:
   - body:
-    - image: 'shows/10-myths-art.jpg'
+    - image: 'shows/10-myths.png'
       class: full
 summary: |
   We're excited to be working with `Buntport Theater`_
@@ -45,6 +45,7 @@ The dark comed is set in one shared bathroom
 (with a band in the bathtub),
 as the characters struggle with love,
 death, casserole, and the proper way to pluck their eyebrows.
+
 
 10 Myths on the Proper Application of Beauty Products
 -----------------------------------------------------
