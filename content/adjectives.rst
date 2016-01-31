@@ -12,26 +12,36 @@ Adjectives
 
 **Teacup Gorilla** inhabits the venues of Denver, CO
 with dark indie-rock soundscapes and evocative poetry —
-often compared to early `Modest Mouse`_ and `Low`_.
-`Daniel`_, `Sondra`_, and `Miriam`_
-have been playing together over fifteen years,
-across a wide range of projects.
+often compared to early `Modest Mouse`_,
+`Low`_, or the Velvet Underground.
 In the summer of 2015 they
-released Teacup Gorilla's debut EP,
-`The Holes They Leave`_,
-along with the multimedia novel
+released a debut EP,
+`The Holes They Leave`_ —
+touring the Midwest to promote the album
+and related multimedia novel,
 `Riding SideSaddle*`_.
-
+Now they're collaborating with `Buntport Theater`_
+to adapt the novel for the stage.
 
 Since forming,
 Teacup Gorilla has enjoyed playing
 some of Denver's top venues — `Hi Dive`_,
 `Syntax Physic Opera`_, `Larimer Lounge`_,
 and the `Underground Music Showcase`_ —
-collaborating with everyone from
-`Jen Korte`_ and `Bad Luck City`_,
-to `Buntport Theater`_, `Bouldering Poets`_,
+playing with bands like
+`Bad Luck City`_,
+`FaceMan`_,
+`Muscle Beach`_,
+and `Open to the Hound`_,
+and collaborating with
+`poets`_, video arists, dancers,
 and the `Clyfford Still Museum`_.
+
+Teacup Gorilla is
+`Daniel Eisenstat`_,
+`Sondra Eby`_,
+`Miriam Suzanne`_,
+and `Jen Korte`_.
 
 
 .. |faces| raw:: html
@@ -45,9 +55,10 @@ and the `Clyfford Still Museum`_.
 .. _Modest Mouse: http://modestmouse.com/
 .. _Low: http://www.chairkickers.com/
 
-.. _Daniel: http://thebakerydenver.com/
-.. _Sondra: http://sondraedesign.tumblr.com/
-.. _Miriam: http://miriamsuzanne.com/
+.. _Daniel Eisenstat: http://thebakerydenver.com/
+.. _Sondra Eby: http://sondraedesign.tumblr.com/
+.. _Miriam Suzanne: http://miriamsuzanne.com/
+.. _Jen Korte: http://www.jkandtheloss.com/
 
 .. _The Holes They Leave: http://teacupgorilla.bandcamp.com/album/the-holes-they-leave
 .. _`Riding SideSaddle*`: http://ridingsidesaddle.com
@@ -56,8 +67,10 @@ and the `Clyfford Still Museum`_.
 .. _Larimer Lounge: http://www.larimerlounge.com/
 .. _Syntax Physic Opera: http://physicopera.com/
 .. _Underground Music Showcase: http://theums.com/
-.. _Jen Korte: http://www.jkandtheloss.com/
 .. _Bad Luck City: https://www.facebook.com/badluckcity
+.. _FaceMan: http://www.facemanmusic.com/
+.. _Muscle Beach: https://musclebeachdenver.bandcamp.com/
+.. _Open to the Hound: http://opentothehound.com/
 .. _Buntport Theater: http://buntport.com/
-.. _Bouldering Poets: https://boulderingpoets.wordpress.com/
+.. _poets: https://boulderingpoets.wordpress.com/
 .. _Clyfford Still Museum: https://clyffordstillmuseum.org/
