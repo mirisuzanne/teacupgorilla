@@ -12,7 +12,7 @@ along with `Bad Luck City`_,
 `Coastal Wives`_,
 and special guest `Jen Korte`_.
 The EP merges our dark, indie sound with words from
-bassist `Eric Suzanne’s`_ recently-published multimedia novel,
+bassist `Miriam Suzanne’s`_ recently-published multimedia novel,
 `Riding SideSaddle*`_.
 
 Check out the `full press kit`_ for details!
@@ -21,7 +21,7 @@ Check out the `full press kit`_ for details!
 .. _`Bad Luck City`: https://www.facebook.com/badluckcity
 .. _`Coastal Wives`: http://coastalwives.com/
 .. _`Jen Korte`: http://www.jkandtheloss.com
-.. _`Eric Suzanne’s`: http://ericsuzanne.com/
+.. _`Miriam Suzanne’s`: http://ericsuzanne.com/
 .. _`Riding SideSaddle*`: http://ridingsidesaddle.net/
 .. _`full press kit`: https://www.dropbox.com/sh/gf8kkf0m0d6kc6v/AABWfeTdmYYYbRyVBZfj7SmOa?dl=0
 
