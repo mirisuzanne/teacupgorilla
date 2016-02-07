@@ -1,10 +1,21 @@
 ---
 # Upcoming Shows
 upcoming:
+  - date: 'February 10, 2016'
+    venue: 'Seventh Circle Music Collective'
+    url: 'https://www.facebook.com/events/1661588870774671/'
+    datetime: '2016-02-10'
+    image: 'shows/north-by-north.jpg'
+    with:
+      - name: 'NORTH BY NORTH'
+        url: 'www.northbynorth.bandcamp.com'
+      - name: 'The Truth & Spectacle'
+        url: 'http://thetruthandspectacle.com/'
+
   - date: 'March 4-26, 2016'
     title: '10 Myths on the Proper Application of Beauty Products'
     url: '/2016/01/22/10-myths/'
-    datetime: 2016-03-04
+    datetime: '2016-03-04'
     image: 'shows/10-myths.png'
     with:
       - name: 'Buntport Theater'
@@ -13,16 +24,16 @@ upcoming:
 
 # Recent Shows
 recent:
-  - date: November 5, 2015
+  - date: 'November 5, 2015'
     venue: "Lion's Lair"
-    venue_url: http://www.lionslairlounge.squarespace.com/
-    datetime: 2015-11-05
+    venue_url: 'http://www.lionslairlounge.squarespace.com/'
+    datetime: '2015-11-05'
     image: 'shows/deadwoods.jpg'
     with:
-      - name: The Dead Woods
-        url: https://wearethedeadwoods.bandcamp.com/
-      - name: Rocket to Nowhere
-        url: https://www.facebook.com/Rocket-to-Nowhere-366076513438547/
+      - name: 'The Dead Woods'
+        url: 'https://wearethedeadwoods.bandcamp.com/'
+      - name: 'Rocket to Nowhere'
+        url: 'https://www.facebook.com/Rocket-to-Nowhere-366076513438547/'
 
   - date: September 24-26, 2015
     title: ReTriplicate
