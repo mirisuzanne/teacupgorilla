@@ -15,7 +15,7 @@ To view the site live locally, run ``make serve`` and visit
 ``http://localhost:5000`` in your browser.
 
 To regenerate the site as static HTML files
-under the ``../teacupgorilla-pages/`` directory,
+under the ``gh-pages`` directory,
 run ``make build``.
 
 .. _virtualenv: http://www.virtualenv.org

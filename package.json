@@ -1,7 +1,7 @@
 {
   "name": "teacupgorilla",
   "version": "1.0.0",
-  "description": "an art collective with post-rock tendencies",
+  "description": "Dark indie soundscapes and evocative poetry in Denver, CO.",
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
@@ -15,7 +15,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericam/teacupgorilla.git"
+    "url": "https://github.com/mirisuzanne/teacupgorilla.git"
   },
   "ignore": [
     "**/.*",
@@ -33,10 +33,10 @@
     "music",
     "multimedia"
   ],
-  "author": "Eric M. Suzanne",
+  "author": "Miriam Suzanne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ericam/teacupgorilla/issues"
+    "url": "https://github.com/mirisuzanne/teacupgorilla/issues"
   },
-  "homepage": "https://github.com/ericam/teacupgorilla"
+  "homepage": "https://github.com/mirisuzanne/teacupgorilla"
 }

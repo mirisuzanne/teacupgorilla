@@ -1,11 +1,11 @@
 {
   "name": "teacupgorilla",
   "version": "1.0.0",
-  "homepage": "https://github.com/ericam/teacupgorilla",
+  "homepage": "https://github.com/mirisuzanne/teacupgorilla",
   "authors": [
-    "Eric M Suzanne <eric@oddbird.net>"
+    "Miriam Suzanne <miriam@oddbird.net>"
   ],
-  "description": "an open-source novel",
+  "description": "Dark indie-rock soundscapes and evocative poetry in Denver, CO.",
   "main": "index.html",
   "license": "MIT",
   "ignore": [

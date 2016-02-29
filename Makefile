@@ -1,6 +1,6 @@
 clean:
 	find content -name *~ -delete
-	rm -rf ../teacupgorilla-pages/*
+	rm -rf gh-pages/*
 
 build: clean
 	python run.py build content/
