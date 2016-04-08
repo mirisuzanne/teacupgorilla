@@ -7,7 +7,7 @@
 {% set image_url=feature.image if feature.image else 'shows/default.jpg' %}
 {% set image_location= [image_path, image_url]|join('') %}
 
-<section class="section feature" style="background-image: url('{{ image_location }}');">
+<section class="section feature" style="background-image: url('{{ image_location }}');{% if feature.image_position %} background-position:{{ feature.image_position  }};{% endif %}">
 <div class="feature-inner">
   {{ music.show(feature) }}
 </div>
