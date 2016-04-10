@@ -12,6 +12,15 @@ upcoming:
       - name: 'Naked on a Mountain'
         url: 'https://www.facebook.com/NOAM4U/'
 
+  - date: 'May 29, 2016'
+    venue: 'Seventh Circle Music Collective'
+    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective'
+    datetime: '2016-05-29'
+    image: 'shows/crazy.jpg'
+    with:
+      - name: 'Crazy Eyes'
+        url: 'http://crazyeyesarelookingatyou.com/'
+
 
 # Recent Shows
 recent:
