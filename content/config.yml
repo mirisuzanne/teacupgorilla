@@ -1,16 +1,19 @@
 ---
 # Upcoming Shows
 upcoming:
-  - date: 'April 22, 2016'
-    venue: 'The Squire Lounge'
-    datetime: '2016-04-22'
-    image: 'shows/squire.jpg'
-    image_position: 'top'
+  - date: 'May 7, 2016'
+    venue: "Lion's Lair"
+    venue_url: 'http://lionslairlounge.squarespace.com/'
+    datetime: '2016-05-07'
+    image: 'shows/lionlair.jpg'
     with:
-      - name: 'To Be Astronauts'
-        url: 'https://www.facebook.com/ToBeAstronauts/'
-      - name: 'Naked on a Mountain'
-        url: 'https://www.facebook.com/NOAM4U/'
+      - name: 'Before The Bulb'
+        url: 'http://www.beforethebulb.com/'
+      - name: 'Hello Mountain'
+        url: 'https://hellomountain.bandcamp.com/'
+
+  # - date: 'May 26, 2016'
+  #   title: 'MoonConf'
 
   - date: 'May 29, 2016'
     venue: 'Seventh Circle Music Collective'
@@ -24,6 +27,17 @@ upcoming:
 
 # Recent Shows
 recent:
+  - date: 'April 22, 2016'
+    venue: 'The Squire Lounge'
+    datetime: '2016-04-22'
+    image: 'shows/squire.jpg'
+    image_position: 'top'
+    with:
+      - name: 'To Be Astronauts'
+        url: 'https://www.facebook.com/ToBeAstronauts/'
+      - name: 'Naked on a Mountain'
+        url: 'https://www.facebook.com/NOAM4U/'
+
   - date: 'March 4-26, 2016'
     title: '10 Myths on the Proper Application of Beauty Products'
     url: 'https://www.facebook.com/events/195133744176557/'
