@@ -5,15 +5,20 @@ upcoming:
     venue: "Lion's Lair"
     venue_url: 'http://lionslairlounge.squarespace.com/'
     datetime: '2016-05-07'
-    image: 'shows/lionlair.jpg'
+    image: 'shows/bulb.jpg'
     with:
       - name: 'Before The Bulb'
         url: 'http://www.beforethebulb.com/'
       - name: 'Hello Mountain'
         url: 'https://hellomountain.bandcamp.com/'
 
-  # - date: 'May 26, 2016'
-  #   title: 'MoonConf'
+  - date: 'May 26, 2016'
+    title: 'MoonConf'
+    url: 'http://moonconf.org/'
+    datetime: '2016-05-26'
+    image: 'shows/moonconf.jpg'
+    with:
+      - name: 'TBA'
 
   - date: 'May 29, 2016'
     venue: 'Seventh Circle Music Collective'
@@ -23,6 +28,14 @@ upcoming:
     with:
       - name: 'Crazy Eyes'
         url: 'http://crazyeyesarelookingatyou.com/'
+
+  - date: 'July 22, 2016'
+    venue: "Lion's Lair"
+    venue_url: 'http://lionslairlounge.squarespace.com/'
+    datetime: '2016-07-22'
+    image: 'shows/lionlair.jpg'
+    with:
+      - name: 'TBA'
 
 
 # Recent Shows
