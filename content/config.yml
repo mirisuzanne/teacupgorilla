@@ -24,7 +24,9 @@ upcoming:
         url: 'https://www.facebook.com/theinactivists/'
 
   - date: 'June 4, 2016'
-    venue: 'Afternoon House Party!'
+    title: 'Afternoon House Party'
+    venue: '1005 W 14th'
+    venue_url: 'https://goo.gl/maps/3bY9HXN9cKF2'
     datetime: '2016-06-04'
     image: 'shows/house-party.jpg'
     with:
@@ -47,6 +49,13 @@ upcoming:
         url: 'http://andtheblackfeathers.com/index.php'
       - name: 'Vehicles'
         url: 'https://www.facebook.com/vehicles.fb/'
+
+  - date: 'August 11, 2016'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://physicopera.com/'
+    datetime: '2016-08-11'
+    with:
+      - name: 'TBA...'
 
 
 # Recent Shows
