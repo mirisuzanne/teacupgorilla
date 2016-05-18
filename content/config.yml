@@ -1,6 +1,56 @@
 ---
 # Upcoming Shows
 upcoming:
+
+  - date: 'May 26, 2016'
+    title: 'MoonConf'
+    url: 'http://moonconf.org/'
+    datetime: '2016-05-26'
+    image: 'shows/moonconf.jpg'
+    with:
+      - name: 'a conference full of functional programmers...'
+
+  - date: 'May 29, 2016'
+    venue: 'Seventh Circle Music Collective'
+    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective'
+    datetime: '2016-05-29'
+    image: 'shows/crazy.jpg'
+    with:
+      - name: 'Crazy Eyes'
+        url: 'http://crazyeyesarelookingatyou.com/'
+      - name: 'Wrinkle'
+        url: 'https://www.facebook.com/wrinklewrinklelittlestar'
+      - name: 'The Inactivists'
+        url: 'https://www.facebook.com/theinactivists/'
+
+  - date: 'June 4, 2016'
+    venue: 'Afternoon House Party!'
+    datetime: '2016-06-04'
+    image: 'shows/house-party.jpg'
+    with:
+      - name: 'Naked on a Mountain'
+        url: 'https://www.facebook.com/NOAM4U/'
+      - name: 'Flight Kamikaze'
+        url: 'https://www.facebook.com/flightkamikaze/'
+      - name: 'Granny Tweed'
+        url: 'http://grannytweed.com/'
+      - name: 'Enemy Myself'
+        url: 'https://www.facebook.com/enemymyself/'
+
+  - date: 'July 22, 2016'
+    venue: 'Lion’s Lair'
+    venue_url: 'http://lionslairlounge.squarespace.com/'
+    datetime: '2016-07-22'
+    image: 'shows/lionlair.jpg'
+    with:
+      - name: '...And The Black Feathers'
+        url: 'http://andtheblackfeathers.com/index.php'
+      - name: 'Vehicles'
+        url: 'https://www.facebook.com/vehicles.fb/'
+
+
+# Recent Shows
+recent:
   - date: 'May 7, 2016'
     venue: "Lion's Lair"
     venue_url: 'http://lionslairlounge.squarespace.com/'
@@ -12,34 +62,6 @@ upcoming:
       - name: 'Hello Mountain'
         url: 'https://hellomountain.bandcamp.com/'
 
-  - date: 'May 26, 2016'
-    title: 'MoonConf'
-    url: 'http://moonconf.org/'
-    datetime: '2016-05-26'
-    image: 'shows/moonconf.jpg'
-    with:
-      - name: 'TBA'
-
-  - date: 'May 29, 2016'
-    venue: 'Seventh Circle Music Collective'
-    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective'
-    datetime: '2016-05-29'
-    image: 'shows/crazy.jpg'
-    with:
-      - name: 'Crazy Eyes'
-        url: 'http://crazyeyesarelookingatyou.com/'
-
-  - date: 'July 22, 2016'
-    venue: "Lion's Lair"
-    venue_url: 'http://lionslairlounge.squarespace.com/'
-    datetime: '2016-07-22'
-    image: 'shows/lionlair.jpg'
-    with:
-      - name: 'TBA'
-
-
-# Recent Shows
-recent:
   - date: 'April 22, 2016'
     venue: 'The Squire Lounge'
     datetime: '2016-04-22'
