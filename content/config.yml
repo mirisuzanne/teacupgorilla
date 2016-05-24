@@ -50,6 +50,13 @@ upcoming:
       - name: 'Vehicles'
         url: 'https://www.facebook.com/vehicles.fb/'
 
+  - date: 'July 28-31, 2016'
+    title: 'The UMS'
+    url: 'http://theums.com/artists/teacupgorilla/'
+    venue: 'South Broadway'
+    datetime: '2016-07-28'
+    image: 'shows/ums-2016.jpg'
+
   - date: 'August 11, 2016'
     venue: 'Syntax Physic Opera'
     venue_url: 'http://physicopera.com/'
