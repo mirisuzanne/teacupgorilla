@@ -7,6 +7,8 @@ upcoming:
     url: 'http://moonconf.org/'
     datetime: '2016-05-26'
     image: 'shows/moonconf.jpg'
+    venue: 'Galvanize Boulder'
+    venue_url: 'http://www.galvanize.com/campuses/boulder-west-pearl/'
     with:
       - name: 'a conference full of functional programmers...'
 
@@ -25,7 +27,7 @@ upcoming:
 
   - date: 'June 4, 2016'
     title: 'Afternoon House Party'
-    venue: '1005 W 14th'
+    venue: '3563 W Kentucky Ave'
     venue_url: 'https://goo.gl/maps/3bY9HXN9cKF2'
     datetime: '2016-06-04'
     image: 'shows/house-party.jpg'
@@ -38,6 +40,15 @@ upcoming:
         url: 'http://grannytweed.com/'
       - name: 'Enemy Myself'
         url: 'https://www.facebook.com/enemymyself/'
+
+  - date: 'June 30, 2016'
+    title: 'Beat Soft Pop Album Release'
+    url: 'http://lost-lake.com/event_details.cfm?blogid=968'
+    venue: 'Lost Lake Lounge'
+    venue_url: 'http://lost-lake.com/'
+    with:
+      - name: 'Beat Soft Pop'
+        url: 'https://beatsoftpop.bandcamp.com/releases'
 
   - date: 'July 22, 2016'
     venue: 'Lion’s Lair'
@@ -61,8 +72,20 @@ upcoming:
     venue: 'Syntax Physic Opera'
     venue_url: 'http://physicopera.com/'
     datetime: '2016-08-11'
+
+  - date: 'August 18-27, 2016'
+    title: 'A Night of Grand Guignol'
+    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
+    venue: 'The Bakery'
+    venue_url: 'http://thebakerydenver.com'
     with:
-      - name: 'TBA...'
+      - name: 'Pandemic Collective'
+        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
+
+  - date: 'August 28, 2016'
+    title: 'BBQ Show'
+    venue: 'Larimer Lounge'
+    venue_url: 'http://larimerlounge.com'
 
 
 # Recent Shows
