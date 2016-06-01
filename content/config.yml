@@ -46,11 +46,6 @@ upcoming:
     datetime: '2016-07-28'
     image: 'shows/ums-2016.jpg'
 
-  - date: 'August 11, 2016'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://physicopera.com/'
-    datetime: '2016-08-11'
-
   - date: 'August 18-27, 2016'
     title: 'A Night of Grand Guignol'
     url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
@@ -64,6 +59,11 @@ upcoming:
     title: 'BBQ Show'
     venue: 'Larimer Lounge'
     venue_url: 'http://larimerlounge.com'
+
+  - date: 'September 8, 2016'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://physicopera.com/'
+    datetime: '2016-09-08'
 
 
 # Recent Shows
