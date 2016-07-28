@@ -2,47 +2,10 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'June 4, 2016'
-    title: 'Afternoon House Party'
-    venue: '1005 W 14th Ave'
-    venue_url: 'https://goo.gl/maps/3bY9HXN9cKF2'
-    datetime: '2016-06-04'
-    image: 'shows/house-party.jpg'
-    image_position: 'top'
-    with:
-      - name: 'Naked on a Mountain'
-        url: 'https://www.facebook.com/NOAM4U/'
-      - name: 'Flight Kamikaze'
-        url: 'https://www.facebook.com/flightkamikaze/'
-      - name: 'Granny Tweed'
-        url: 'http://grannytweed.com/'
-      - name: 'Enemy Myself'
-        url: 'https://www.facebook.com/enemymyself/'
-
-  - date: 'June 30, 2016'
-    title: 'Beat Soft Pop Album Release'
-    url: 'http://lost-lake.com/event_details.cfm?blogid=968'
-    venue: 'Lost Lake Lounge'
-    venue_url: 'http://lost-lake.com/'
-    with:
-      - name: 'Beat Soft Pop'
-        url: 'https://beatsoftpop.bandcamp.com/releases'
-
-  - date: 'July 22, 2016'
-    venue: 'Lion’s Lair'
-    venue_url: 'http://lionslairlounge.squarespace.com/'
-    datetime: '2016-07-22'
-    image: 'shows/lionlair.jpg'
-    with:
-      - name: '...And The Black Feathers'
-        url: 'http://andtheblackfeathers.com/index.php'
-      - name: 'Vehicles'
-        url: 'https://www.facebook.com/vehicles.fb/'
-
-  - date: 'July 28-31, 2016'
+  - date: 'July 28, 2016'
     title: 'The UMS'
     url: 'http://theums.com/artists/teacupgorilla/'
-    venue: 'South Broadway'
+    venue: 'Illegal Pete’s'
     datetime: '2016-07-28'
     image: 'shows/ums-2016.jpg'
 
@@ -68,6 +31,43 @@ upcoming:
 
 # Recent Shows
 recent:
+
+  - date: 'July 22, 2016'
+    venue: 'Lion’s Lair'
+    venue_url: 'http://lionslairlounge.squarespace.com/'
+    datetime: '2016-07-22'
+    image: 'shows/lionlair.jpg'
+    with:
+      - name: '...And The Black Feathers'
+        url: 'http://andtheblackfeathers.com/index.php'
+      - name: 'Vehicles'
+        url: 'https://www.facebook.com/vehicles.fb/'
+
+  - date: 'June 30, 2016'
+    title: 'Beat Soft Pop Album Release'
+    url: 'http://lost-lake.com/event_details.cfm?blogid=968'
+    venue: 'Lost Lake Lounge'
+    venue_url: 'http://lost-lake.com/'
+    with:
+      - name: 'Beat Soft Pop'
+        url: 'https://beatsoftpop.bandcamp.com/releases'
+
+  - date: 'June 4, 2016'
+    title: 'Afternoon House Party'
+    venue: '1005 W 14th Ave'
+    venue_url: 'https://goo.gl/maps/3bY9HXN9cKF2'
+    datetime: '2016-06-04'
+    image: 'shows/house-party.jpg'
+    image_position: 'top'
+    with:
+      - name: 'Naked on a Mountain'
+        url: 'https://www.facebook.com/NOAM4U/'
+      - name: 'Flight Kamikaze'
+        url: 'https://www.facebook.com/flightkamikaze/'
+      - name: 'Granny Tweed'
+        url: 'http://grannytweed.com/'
+      - name: 'Enemy Myself'
+        url: 'https://www.facebook.com/enemymyself/'
 
   - date: 'May 26, 2016'
     title: 'MoonConf'
