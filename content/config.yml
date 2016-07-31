@@ -2,35 +2,53 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'August 18-27, 2016'
+    title: 'A Night of Grand Guignol'
+    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
+    venue: 'The Bakery'
+    venue_url: 'http://thebakerydenver.com'
+    image: 'shows/pandemic-gg.jpg'
+    with:
+      - name: 'Pandemic Collective'
+        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
+
+  - date: 'August 28, 2016 (2-8pm)'
+    title: 'Sunday BBQ Series'
+    url: 'http://www.larimerlounge.com/event_details.cfm?blogid=2412'
+    venue: 'Larimer Lounge'
+    venue_url: 'http://larimerlounge.com'
+    datetime: '2016-08-28'
+    with:
+      - name: 'Zero Found'
+        url: 'https://www.facebook.com/zerofoundband/'
+      - name: 'The Beeves'
+        url: 'https://www.facebook.com/TheBeeves/'
+      - name: 'Surrender Signal'
+        url: 'https://www.facebook.com/surrendersignal/'
+      - name: 'The Tens'
+        url: 'https://www.facebook.com/theroaringtens/'
+
+  - date: 'September 8, 2016'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://physicopera.com/'
+    datetime: '2016-09-08'
+    image: 'shows/altas.jpg'
+    with:
+      - name: 'Altas'
+        url: 'http://altasiscoming.com/'
+      - name: 'Open To The Hound'
+        url: 'http://opentothehound.com/'
+
+
+# Recent Shows
+recent:
+
   - date: 'July 28, 2016'
     title: 'The UMS'
     url: 'http://theums.com/artists/teacupgorilla/'
     venue: 'Illegal Pete’s'
     datetime: '2016-07-28'
     image: 'shows/ums-2016.jpg'
-
-  - date: 'August 18-27, 2016'
-    title: 'A Night of Grand Guignol'
-    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
-    venue: 'The Bakery'
-    venue_url: 'http://thebakerydenver.com'
-    with:
-      - name: 'Pandemic Collective'
-        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
-
-  - date: 'August 28, 2016'
-    title: 'BBQ Show'
-    venue: 'Larimer Lounge'
-    venue_url: 'http://larimerlounge.com'
-
-  - date: 'September 8, 2016'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://physicopera.com/'
-    datetime: '2016-09-08'
-
-
-# Recent Shows
-recent:
 
   - date: 'July 22, 2016'
     venue: 'Lion’s Lair'
@@ -552,6 +570,28 @@ nouns:
       class: full
     caption: 'Species of the Stars — Live Stream'
     citation: 'filmed by <a href="http://www.sparrowtree.org/">Sparrowtree Arts</a>'
+    feature: true
+
+  - body:
+      - image: 'nouns/160726-ums/ums-8.jpg'
+        class: 'full'
+      # - image: 'nouns/160726-ums/ums-1.jpg'
+      # - image: 'nouns/160726-ums/ums-2.jpg'
+      - image: 'nouns/160726-ums/ums-3.jpg'
+      - image: 'nouns/160726-ums/ums-12.jpg'
+      # - image: 'nouns/160726-ums/ums-4.jpg'
+      - image: 'nouns/160726-ums/ums-5.jpg'
+        class: 'full'
+      - image: 'nouns/160726-ums/ums-6.jpg'
+      - image: 'nouns/160726-ums/ums-7.jpg'
+      # - image: 'nouns/160726-ums/ums-10.jpg'
+      # - image: 'nouns/160726-ums/ums-11.jpg'
+      - image: 'nouns/160726-ums/ums-9.jpg'
+        class: 'full'
+      # - image: 'nouns/160726-ums/ums-13.jpg'
+    caption: 'Underground Music Showcase 2016'
+    citation: 'photos by Gioja Antonette and <a href="https://www.instagram.com/p/BIbbLqug76R/">bolderbeat.com</a>'
+    slug: 'ums-2016'
     feature: true
 
   - body:
