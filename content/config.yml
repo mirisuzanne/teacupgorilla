@@ -14,10 +14,11 @@ upcoming:
 
   - date: 'August 28, 2016 (2-8pm)'
     title: 'Sunday BBQ Series'
-    url: 'http://www.larimerlounge.com/event_details.cfm?blogid=2412'
+    url: 'https://www.facebook.com/events/1246370012082183/'
     venue: 'Larimer Lounge'
-    venue_url: 'http://larimerlounge.com'
+    venue_url: 'http://www.larimerlounge.com/event_details.cfm?blogid=2412'
     datetime: '2016-08-28'
+    image: 'shows/bbq.jpg'
     with:
       - name: 'Zero Found'
         url: 'https://www.facebook.com/zerofoundband/'
@@ -29,6 +30,7 @@ upcoming:
         url: 'https://www.facebook.com/theroaringtens/'
 
   - date: 'September 8, 2016'
+    url: 'https://www.facebook.com/events/1630270517264003/'
     venue: 'Syntax Physic Opera'
     venue_url: 'http://physicopera.com/'
     datetime: '2016-09-08'
@@ -38,6 +40,11 @@ upcoming:
         url: 'http://altasiscoming.com/'
       - name: 'Open To The Hound'
         url: 'http://opentothehound.com/'
+
+  - date: 'October 8, 2016'
+    venue: 'Globe Hall'
+    venue_url: 'http://www.globehall.com/music-hall/'
+    datetime: '2016-10-08'
 
 
 # Recent Shows
