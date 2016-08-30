@@ -2,15 +2,27 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'August 18-27, 2016'
-    title: 'A Night of Grand Guignol'
-    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
-    venue: 'The Bakery'
-    venue_url: 'http://thebakerydenver.com'
-    image: 'shows/pandemic-gg.jpg'
+  - date: 'September 8, 2016'
+    url: 'https://www.facebook.com/events/1630270517264003/'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://physicopera.com/'
+    datetime: '2016-09-08'
+    image: 'shows/moths.jpg'
+    image_position: 'bottom'
     with:
-      - name: 'Pandemic Collective'
-        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
+      - name: 'Altas'
+        url: 'http://altasiscoming.com/'
+      - name: 'Open To The Hound'
+        url: 'http://opentothehound.com/'
+
+  - date: 'October 8, 2016'
+    venue: 'Globe Hall'
+    venue_url: 'http://www.globehall.com/music-hall/'
+    datetime: '2016-10-08'
+
+
+# Recent Shows
+recent:
 
   - date: 'August 28, 2016 (2-8pm)'
     title: 'Sunday BBQ Series'
@@ -29,26 +41,15 @@ upcoming:
       - name: 'The Tens'
         url: 'https://www.facebook.com/theroaringtens/'
 
-  - date: 'September 8, 2016'
-    url: 'https://www.facebook.com/events/1630270517264003/'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://physicopera.com/'
-    datetime: '2016-09-08'
-    image: 'shows/altas.jpg'
+  - date: 'August 18-27, 2016'
+    title: 'A Night of Grand Guignol'
+    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
+    venue: 'The Bakery'
+    venue_url: 'http://thebakerydenver.com'
+    image: 'shows/pandemic-gg.jpg'
     with:
-      - name: 'Altas'
-        url: 'http://altasiscoming.com/'
-      - name: 'Open To The Hound'
-        url: 'http://opentothehound.com/'
-
-  - date: 'October 8, 2016'
-    venue: 'Globe Hall'
-    venue_url: 'http://www.globehall.com/music-hall/'
-    datetime: '2016-10-08'
-
-
-# Recent Shows
-recent:
+      - name: 'Pandemic Collective'
+        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
 
   - date: 'July 28, 2016'
     title: 'The UMS'
