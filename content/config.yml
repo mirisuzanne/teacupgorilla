@@ -2,6 +2,20 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'October 8, 2016'
+    venue: 'Globe Hall'
+    venue_url: 'http://www.globehall.com/music-hall/'
+    datetime: '2016-10-08'
+    with:
+      - name: 'The Patient Zeros'
+        url: 'http://www.thepatientzeros.com/'
+      - name: 'The Maykit'
+        url: 'http://themaykit.com/'
+
+
+# Recent Shows
+recent:
+
   - date: 'September 8, 2016'
     url: 'https://www.facebook.com/events/1630270517264003/'
     venue: 'Syntax Physic Opera'
@@ -14,15 +28,6 @@ upcoming:
         url: 'http://altasiscoming.com/'
       - name: 'Open To The Hound'
         url: 'http://opentothehound.com/'
-
-  - date: 'October 8, 2016'
-    venue: 'Globe Hall'
-    venue_url: 'http://www.globehall.com/music-hall/'
-    datetime: '2016-10-08'
-
-
-# Recent Shows
-recent:
 
   - date: 'August 28, 2016 (2-8pm)'
     title: 'Sunday BBQ Series'
