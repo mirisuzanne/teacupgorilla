@@ -2,6 +2,26 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'November 18-20, 2016'
+    title: 'FACEMAN’s 100 Year Storm'
+    url: 'https://www.facebook.com/events/324104087965656/'
+    venue: 'The Oriental Theater'
+    venue_url: 'http://www.theorientaltheater.com/event/260005/facemans-100-year-storm-'
+    datetime: '2016-11-18'
+
+
+# Recent Shows
+recent:
+
+  - date: 'October 28, 2016'
+    title: 'Halloween House Party'
+    datetime: '2016-10-28'
+    with:
+      - name: 'Naked on a Mountain'
+        url: 'https://www.facebook.com/NOAM4U/'
+      - name: 'Dramad'
+        url: 'https://dramad.bandcamp.com/'
+
   - date: 'October 8, 2016'
     venue: 'Globe Hall'
     venue_url: 'http://www.globehall.com/music-hall/'
@@ -11,10 +31,6 @@ upcoming:
         url: 'http://www.thepatientzeros.com/'
       - name: 'The Maykit'
         url: 'http://themaykit.com/'
-
-
-# Recent Shows
-recent:
 
   - date: 'September 8, 2016'
     url: 'https://www.facebook.com/events/1630270517264003/'
@@ -579,8 +595,14 @@ recent:
 # Nouns
 nouns:
   - body:
+    - video: '<iframe src="https://player.vimeo.com/video/182858323?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+      class: 'full'
+    caption: 'Whiskey From Strangers & <a href="http://ridingsidesaddle.com/">Riding SideSaddle*</a>'
+    feature: true
+
+  - body:
     - video: '<iframe src="https://www.youtube.com/embed/iD1AUleBlLg?rel=0" frameborder="0" allowfullscreen></iframe>'
-      class: full
+      class: 'full'
     caption: 'Species of the Stars — Live Stream'
     citation: 'filmed by <a href="http://www.sparrowtree.org/">Sparrowtree Arts</a>'
     feature: true
