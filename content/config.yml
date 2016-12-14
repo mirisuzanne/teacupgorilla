@@ -2,16 +2,29 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'Dec 17, 2016'
+    title: 'Empowerment Benefit Show'
+    url: 'https://www.facebook.com/events/566264573571495/'
+    image: 'shows/standingrock.jpg'
+    venue: 'Deer Pile'
+    venue_url: 'https://www.facebook.com/deerpile/'
+    datetime: '2016-12-17'
+    with:
+      - name: 'The Hunger Artist'
+        url: 'https://www.facebook.com/thehungerartistband1/'
+      - name: 'Pythian Whispers'
+        url: 'https://pythianwhispers.bandcamp.com/'
+
+
+# Recent Shows
+recent:
+
   - date: 'November 18-20, 2016'
     title: 'FACEMAN’s 100 Year Storm'
     url: 'https://www.facebook.com/events/324104087965656/'
     venue: 'The Oriental Theater'
     venue_url: 'http://www.theorientaltheater.com/event/260005/facemans-100-year-storm-'
     datetime: '2016-11-18'
-
-
-# Recent Shows
-recent:
 
   - date: 'October 28, 2016'
     title: 'Halloween House Party'
