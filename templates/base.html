@@ -10,17 +10,22 @@
   <title>{% block title %}{{ config.title }}{% endblock %} | Teacup Gorilla</title>
   <meta name="description" content="{{ config.description }}" />
 
-  <!-- Facebook OG Info -->
-  <meta property="og:title" content="{{ config.title }}" />
-  <meta property="og:site_name" content="{{ config.title }}"/>
-  <meta property="og:url" content="{{ config.canonical_url }}" />
-  <meta property="og:description" content="{{ config.longdesc }}" />
-  <meta property="og:image" content="{{ config.canonical_url }}static/images/{{ config.fb_image }}" />
-  <meta property="og:image:width" content="{{ config.fb_image_width }}" />
-  <meta property="og:image:height" content="{{ config.fb_image_height }}" />
+  <!-- Open Graph -->
+  {% set image = config.image[0].src if config.image else 'band.jpg' %}
+  {% set image = image if '://' in image else [config.canonical_url, 'static/pictures/', image]|join('') %}
+  <meta property="og:title" content="{{ self.title() }}" />
+  <meta property="og:site_name" content="TeacupGorilla" />
+  <meta property="og:type" content="{% block og_type %}website{% endblock og_type %}" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:url" content="{% block og_url %}{{ config.canonical_url }}{% endblock og_url %}" />
+  {% if config.summary %}
+    <meta property="og:description" content="{% block og_summary %}{% endblock og_summary %}" />
+  {% endif %}
+  <meta name="twitter:card" content="{% block twitter_type %}summary{% endblock %}" />
+  <meta name="twitter:site" content="@teacupgorilla" />
+  {% block extra_og %}
+  {% endblock extra_og %}
 
-
-  <!-- Site Info -->
   <!-- Site Info -->
   {% block robots %}<meta name="robots" content="index, follow" />{% endblock %}
   <meta name="author" content="{{ config.author_full }}" />
