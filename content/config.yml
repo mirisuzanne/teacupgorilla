@@ -2,6 +2,32 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'Feb 25, 2017'
+    url: 'https://www.facebook.com/events/1415801445161960/'
+    image: 'shows/7thcircle.jpg'
+    venue: '7th Circle'
+    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective/'
+    datetime: '2017-02-25'
+    with:
+      - name: 'Heathen Burial'
+      - name: 'Pathless Sea'
+      - name: 'Klaus'
+
+
+# Recent Shows
+recent:
+
+  - date: 'Feb 2, 2017'
+    title: 'ACLU Benefit'
+    url: 'https://www.facebook.com/events/993283477481829/'
+    image: 'shows/assemblage.jpg'
+    venue: 'The Bakery'
+    venue_url: 'https://thebakerydenver.com'
+    datetime: '2017-02-02'
+    with:
+      - name: 'The Assemblage'
+        url: 'assemblagemusic.com'
+
   - date: 'Dec 17, 2016'
     title: 'Empowerment Benefit Show'
     url: 'https://www.facebook.com/events/566264573571495/'
@@ -14,10 +40,6 @@ upcoming:
         url: 'https://www.facebook.com/thehungerartistband1/'
       - name: 'Pythian Whispers'
         url: 'https://pythianwhispers.bandcamp.com/'
-
-
-# Recent Shows
-recent:
 
   - date: 'November 18-20, 2016'
     title: 'FACEMAN’s 100 Year Storm'
@@ -171,7 +193,7 @@ recent:
         url: 'http://buntport.com/archive/archive.htm'
 
   - date: 'February 28, 2016'
-    venue: 'Seventh Circle Music Collective'
+    venue: '7th Circle Music Collective'
     url: 'https://www.facebook.com/events/194231020939688/'
     datetime: '2016-02-28'
     image: 'shows/almost-young.jpg'
@@ -186,7 +208,7 @@ recent:
         url: 'https://www.facebook.com/AlmostYoung/'
 
   - date: 'February 10, 2016'
-    venue: 'Seventh Circle Music Collective'
+    venue: '7th Circle Music Collective'
     url: 'https://www.facebook.com/events/1661588870774671/'
     datetime: '2016-02-10'
     image: 'shows/north-by-north.jpg'
