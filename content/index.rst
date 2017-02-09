@@ -8,5 +8,5 @@ before:
     more: past shows
 
 
-Home
-====
+Dark Soundscapes & Evocative Poetry
+===================================
