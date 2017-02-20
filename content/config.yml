@@ -13,6 +13,20 @@ upcoming:
       - name: 'Pathless Sea'
       - name: 'Klaus'
 
+  - date: 'Mar 5, 2017'
+    url: 'http://www.lost-lake.com/event/1435150-electric-lovegods-denver/'
+    image: 'shows/elgods.jpg'
+    venue: 'Lost Lake'
+    venue_url: 'http://www.lost-lake.com/'
+    datetime: '2017-03-05'
+    with:
+      - name: 'Electric LoveGods'
+        url: 'http://electriclovegods.com/'
+      - name: 'GALLERIES'
+        url: 'https://www.facebook.com/GALLERIESmusic/'
+      - name: 'GhostPulse'
+        url: 'https://www.facebook.com/GhostPulseofficial/'
+
 
 # Recent Shows
 recent:

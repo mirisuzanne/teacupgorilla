@@ -29,5 +29,5 @@ in the background.
     </div>
   </figure>
 
-.. _America Heard: https://www.youtube.com/channel/UCDzjD52izaD2jwMB19f91FA/videos?shelf_id=0&view=0&sort=dd
+.. _America Heard: https://americaheard.com/
 .. _Mia: http://miriamsuzanne.com/
