@@ -2,16 +2,22 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'Feb 25, 2017'
-    url: 'https://www.facebook.com/events/1415801445161960/'
-    image: 'shows/7thcircle.jpg'
-    venue: '7th Circle'
-    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective/'
-    datetime: '2017-02-25'
+  - date: 'Apr 27, 2017'
+    title: '"Just Like That" Video Release'
+    url: 'https://www.facebook.com/events/1845576042369221/'
+    image: 'shows/release17.jpg'
+    venue: 'Lost Lake'
+    venue_url: 'http://www.lost-lake.com/event/1454260-teacup-gorilla-video-release-denver/'
+    datetime: '2017-04-27'
     with:
-      - name: 'Heathen Burial'
-      - name: 'Pathless Sea'
-      - name: 'Klaus'
+      - name: 'The Raven & The Writing Desk'
+        url: 'https://www.facebook.com/RavenAndTheWritingDesk/'
+      - name: 'The Assemblage'
+        url: 'https://www.facebook.com/assemblagemusic/'
+
+
+# Recent Shows
+recent:
 
   - date: 'Mar 5, 2017'
     url: 'http://www.lost-lake.com/event/1435150-electric-lovegods-denver/'
@@ -26,10 +32,6 @@ upcoming:
         url: 'https://www.facebook.com/GALLERIESmusic/'
       - name: 'GhostPulse'
         url: 'https://www.facebook.com/GhostPulseofficial/'
-
-
-# Recent Shows
-recent:
 
   - date: 'Feb 2, 2017'
     title: 'ACLU Benefit'
