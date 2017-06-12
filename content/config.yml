@@ -2,6 +2,32 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'Jun 18, 2017'
+    title: 'Queer in the Headlights, Pride Party'
+    url: 'https://www.facebook.com/events/289923761413214/'
+    image: 'shows/pride17.jpg'
+    venue: 'Larimer Lounge'
+    venue_url: 'https://www.ticketfly.com/purchase/event/1489513'
+    datetime: '2017-06-18'
+    with:
+      - name: 'Great American House Fire'
+        url: 'https://www.facebook.com/GreatAmericanHouseFire/'
+      - name: 'Flower Crown Me A Queen'
+        url: 'https://www.facebook.com/FlowerCrownMeAQueen/'
+      - name: 'Eyebeams'
+        url: 'https://www.facebook.com/eyebeamsmusic/'
+      - name: 'Chromadrift'
+        url: 'https://www.facebook.com/chromadriftmusic/'
+      - name: 'Gone Full Heathen'
+        url: 'https://www.facebook.com/GONEFULLHEATHEN/'
+      - name: 'Space In Time'
+        url: 'https://www.facebook.com/spaceintimedenver/'
+      - name: 'Lisa Matthews'
+
+
+# Recent Shows
+recent:
+
   - date: 'Apr 27, 2017'
     title: '"Just Like That" Video Release'
     url: 'https://www.facebook.com/events/1845576042369221/'
@@ -14,10 +40,6 @@ upcoming:
         url: 'https://www.facebook.com/RavenAndTheWritingDesk/'
       - name: 'The Assemblage'
         url: 'https://www.facebook.com/assemblagemusic/'
-
-
-# Recent Shows
-recent:
 
   - date: 'Mar 5, 2017'
     url: 'http://www.lost-lake.com/event/1435150-electric-lovegods-denver/'
