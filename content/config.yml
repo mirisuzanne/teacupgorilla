@@ -2,6 +2,24 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'Jul 28, 2017'
+    title: 'Anti-UMS Fest'
+    url: 'https://www.facebook.com/events/726275280887396/'
+    image: 'shows/antiums-17.jpg'
+    venue: '1010 Workshop'
+    venue_url: 'https://glassspresents.bandcamp.com/merch/antiums-all-day-3-stage-wristband-1500-presale'
+    datetime: '2017-07-28'
+
+  - date: 'Aug 10, 2017'
+    image: 'shows/skylark.jpg'
+    venue: 'Skylark Lounge'
+    venue_url: 'http://skylarklounge.com'
+    datetime: '2017-08-10'
+
+
+# Recent Shows
+recent:
+
   - date: 'Jun 18, 2017'
     title: 'Queer in the Headlights, Pride Party'
     url: 'https://www.facebook.com/events/289923761413214/'
@@ -23,10 +41,6 @@ upcoming:
       - name: 'Space In Time'
         url: 'https://www.facebook.com/spaceintimedenver/'
       - name: 'Lisa Matthews'
-
-
-# Recent Shows
-recent:
 
   - date: 'Apr 27, 2017'
     title: '"Just Like That" Video Release'
