@@ -2,19 +2,38 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'Aug 10, 2017'
-    title: 'Claudzilla Curated Musical Mayhem'
-    url: 'https://www.facebook.com/events/113524225963434/'
-    image: 'shows/mayhem.jpg'
-    venue: 'Skylark Lounge'
-    venue_url: 'http://skylarklounge.com'
-    datetime: '2017-08-10'
+  - date: 'Sep 23, 2017'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://www.physicopera.com/'
+    image: 'shows/syntax.jpg'
+    datetime: '2017-09-23'
     with:
-      - name: 'Hypnotic Turtle'
-        url: 'https://www.facebook.com/hypnoticturtle/'
-      - name: 'The Proto Whats?'
-        url: 'https://www.facebook.com/protowhatsband/'
-      - name: 'Time Traveler'
+      - name: 'Electric LoveGods'
+        url: 'http://electriclovegods.com'
+
+  - date: 'Oct 4, 2017'
+    title: 'Weird Wednesday!'
+    url: 'http://www.3kingstavern.com/event/290158'
+    venue: '3 Kings Tavern'
+    image: 'shows/3kings.jpg'
+    datetime: '2017-10-04'
+    with:
+      - name: 'Zealot'
+      - name: 'The Far Stairs'
+
+  - date: 'Oct 27, 2017'
+    url: 'https://www.facebook.com/events/102819993760592/'
+    venue: 'Lion’s Lair'
+    venue_url: 'http://lionslairco.com/'
+    image: 'shows/lionlair.jpg'
+    datetime: '2017-10-27'
+    with:
+      - name: 'Hellgrammites'
+      - name: 'Meet The Giant'
+
+
+# Recent Shows
+recent:
 
   - date: 'Aug 18, 2017'
     url: 'https://www.facebook.com/events/314256545672625/'
@@ -28,18 +47,19 @@ upcoming:
       - name: 'Cocordian'
       - name: 'Wazee'
 
-  - date: 'Sep 23, 2017'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://www.physicopera.com/'
-    image: 'shows/syntax.jpg'
-    datetime: '2017-09-23'
+  - date: 'Aug 10, 2017'
+    title: 'Claudzilla Curated Musical Mayhem'
+    url: 'https://www.facebook.com/events/113524225963434/'
+    image: 'shows/mayhem.jpg'
+    venue: 'Skylark Lounge'
+    venue_url: 'http://skylarklounge.com'
+    datetime: '2017-08-10'
     with:
-      - name: 'Electric LoveGods'
-        url: 'http://electriclovegods.com'
-
-
-# Recent Shows
-recent:
+      - name: 'Hypnotic Turtle'
+        url: 'https://www.facebook.com/hypnoticturtle/'
+      - name: 'The Proto Whats?'
+        url: 'https://www.facebook.com/protowhatsband/'
+      - name: 'Time Traveler'
 
   - date: 'Jul 28, 2017'
     title: 'Anti-UMS Fest'

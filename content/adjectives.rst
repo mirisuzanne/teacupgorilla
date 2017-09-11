@@ -24,8 +24,6 @@ they collaborated with `Buntport Theater`_,
 adapting the novel for the stage,
 and underscoring it live
 to `rave reviews`_.
-Now they're working with `Pandemic Collective`_
-to underscore two new plays at `The Bakery`_.
 
 .. _Modest Mouse: http://modestmouse.com/
 .. _Low: http://www.chairkickers.com/
@@ -62,7 +60,7 @@ Teacup Gorilla is
 `Daniel Eisenstat`_,
 `Sondra Eby`_,
 `Miriam Suzanne`_,
-and `Jen Korte`_.
+and sometimes `Jen Korte`_.
 
 
 .. |faces| raw:: html
