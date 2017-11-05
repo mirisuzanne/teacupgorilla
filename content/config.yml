@@ -2,24 +2,39 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'Sep 23, 2017'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://www.physicopera.com/'
-    image: 'shows/syntax.jpg'
-    datetime: '2017-09-23'
+  - date: 'Nov 10, 2017'
+    url: ''
+    venue: '7th Circle Music Collective'
+    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective/'
+    image: 'shows/gone-full-heathen.jpg'
+    datetime: '2017-11-10'
     with:
-      - name: 'Electric LoveGods'
-        url: 'http://electriclovegods.com'
+      - name: 'Gone Full Heathen'
+        url: 'https://www.facebook.com/pg/GONEFULLHEATHEN/'
+      - name: 'Married A Dead Man'
+        url: 'https://www.facebook.com/marriedadeadman/'
 
-  - date: 'Oct 4, 2017'
-    title: 'Weird Wednesday!'
-    url: 'http://www.3kingstavern.com/event/290158'
-    venue: '3 Kings Tavern'
-    image: 'shows/3kings.jpg'
-    datetime: '2017-10-04'
+  - date: 'Nov 19, 2017'
+    url: 'https://www.facebook.com/events/125886928084249/'
+    title: 'Afternoon Show: Bands With Benefits'
+    venue: 'Mutiny Information Cafe'
+    image: 'shows/mutiny-benefits.jpg'
+    datetime: '2017-11-19'
     with:
-      - name: 'Zealot'
-      - name: 'The Far Stairs'
+      - name: 'faim'
+      - name: 'Hapless'
+
+  - date: 'Jan 12, 2018'
+    venue: 'Lion’s Lair'
+    venue_url: 'http://lionslairco.com/'
+    image: 'shows/lionlair.jpg'
+    datetime: '2018-01-12'
+    with:
+      - name: 'Grammar School'
+
+
+# Recent Shows
+recent:
 
   - date: 'Oct 27, 2017'
     url: 'https://www.facebook.com/events/102819993760592/'
@@ -31,9 +46,24 @@ upcoming:
       - name: 'Hellgrammites'
       - name: 'Meet The Giant'
 
+  - date: 'Oct 4, 2017'
+    title: 'Weird Wednesday!'
+    url: 'http://www.3kingstavern.com/event/290158'
+    venue: '3 Kings Tavern'
+    image: 'shows/3kings.jpg'
+    datetime: '2017-10-04'
+    with:
+      - name: 'Zealot'
+      - name: 'The Far Stairs'
 
-# Recent Shows
-recent:
+  - date: 'Sep 23, 2017'
+    venue: 'Syntax Physic Opera'
+    venue_url: 'http://www.physicopera.com/'
+    image: 'shows/syntax.jpg'
+    datetime: '2017-09-23'
+    with:
+      - name: 'Electric LoveGods'
+        url: 'http://electriclovegods.com'
 
   - date: 'Aug 18, 2017'
     url: 'https://www.facebook.com/events/314256545672625/'
