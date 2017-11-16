@@ -2,6 +2,55 @@
 # Upcoming Shows
 upcoming:
 
+  - date: 'Nov 19, 2017'
+    url: 'https://www.facebook.com/events/125886928084249/'
+    title: 'Afternoon Show: Bands With Benefits'
+    venue: 'Mutiny Information Cafe'
+    image: 'shows/mutiny-benefits.jpg'
+    datetime: '2017-11-19'
+    with:
+      - name: 'faim'
+      - name: 'Hapless'
+
+  - date: 'Nov 30, 2017'
+    url: 'https://www.facebook.com/events/311116622698462/'
+    title: 'Dsm-73: Queer Rock Night'
+    venue: 'Moon Room at Summit Music Hall'
+    venue_url: 'https://www.thesummitmusichall.com/'
+    image: 'shows/queer-rock.jpg'
+    datetime: '2017-11-30'
+    with:
+      - name: 'DJ Tocsin'
+      - name: 'Dutch'
+
+  - date: 'Dec 3, 2017'
+    url: 'https://www.facebook.com/events/125886928084249/'
+    title: 'Punk for Positive Change (AIDS Benefit)'
+    venue: 'Surfside 7'
+    venue_url: 'https://www.facebook.com/surfside7/'
+    image: 'shows/plasma-canvas.jpg'
+    datetime: '2017-12-03'
+    with:
+      - name: 'DOORS 7'
+      - name: 'Discount Price'
+      - name: 'Equine'
+      - name: 'Smashy Claw'
+      - name: 'Plasma Canvas'
+      - name: 'Sinister Pig'
+
+  - date: 'Jan 12, 2018'
+    url: 'https://www.facebook.com/events/136041710495512/'
+    venue: 'Lion’s Lair'
+    image: 'shows/lionlair.jpg'
+    datetime: '2018-01-12'
+    with:
+      - name: 'Grammar School'
+      - name: "I'm a boy"
+
+
+# Recent Shows
+recent:
+
   - date: 'Nov 10, 2017'
     url: ''
     venue: '7th Circle Music Collective'
@@ -13,28 +62,6 @@ upcoming:
         url: 'https://www.facebook.com/pg/GONEFULLHEATHEN/'
       - name: 'Married A Dead Man'
         url: 'https://www.facebook.com/marriedadeadman/'
-
-  - date: 'Nov 19, 2017'
-    url: 'https://www.facebook.com/events/125886928084249/'
-    title: 'Afternoon Show: Bands With Benefits'
-    venue: 'Mutiny Information Cafe'
-    image: 'shows/mutiny-benefits.jpg'
-    datetime: '2017-11-19'
-    with:
-      - name: 'faim'
-      - name: 'Hapless'
-
-  - date: 'Jan 12, 2018'
-    venue: 'Lion’s Lair'
-    venue_url: 'http://lionslairco.com/'
-    image: 'shows/lionlair.jpg'
-    datetime: '2018-01-12'
-    with:
-      - name: 'Grammar School'
-
-
-# Recent Shows
-recent:
 
   - date: 'Oct 27, 2017'
     url: 'https://www.facebook.com/events/102819993760592/'
