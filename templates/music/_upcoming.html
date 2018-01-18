@@ -6,7 +6,7 @@
   <h2 class="section-title" id="upcoming-title">Upcoming Shows</h2>
   {% for show in config.upcoming %}
   {% if not module.count or loop.index <= module.count %}
-    {{ music.show(show) }}
+    {{ music.show(show, config=config) }}
   {% endif %}
   {% endfor %}
 

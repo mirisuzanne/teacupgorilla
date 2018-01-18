@@ -2,26 +2,40 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'Nov 19, 2017'
-    url: 'https://www.facebook.com/events/125886928084249/'
-    title: 'Afternoon Show: Bands With Benefits'
-    venue: 'Mutiny Information Cafe'
-    image: 'shows/mutiny-benefits.jpg'
-    datetime: '2017-11-19'
+  - date: 'Feb 10, 2018'
+    title: 'Wolf, Woman, Man (with Dancers)'
+    url: 'https://www.facebook.com/events/452068901855054/'
+    venue: 'The Bakery'
+    venue_url: 'https://thebakerydenver.com'
+    image: 'shows/lost-walks.jpg'
+    datetime: '2018-02-10'
     with:
-      - name: 'faim'
-      - name: 'Hapless'
+      - name: 'Lost Walks'
+        url: 'https://www.facebook.com/LostWalks/'
 
-  - date: 'Nov 30, 2017'
-    url: 'https://www.facebook.com/events/311116622698462/'
-    title: 'Dsm-73: Queer Rock Night'
-    venue: 'Moon Room at Summit Music Hall'
-    venue_url: 'https://www.thesummitmusichall.com/'
-    image: 'shows/queer-rock.jpg'
-    datetime: '2017-11-30'
+  - date: 'Feb 23—Mar 3, 2018'
+    title: 'JANE/EYRE (stage adaptation)'
+    url: 'https://www.grapefruitlab.com/shows/janeeyre'
+    venue: 'The Bakery'
+    venue_url: 'https://thebakerydenver.com'
+    image: 'shows/javeyre.jpg'
+    datetime: '2018-02-23'
     with:
-      - name: 'DJ Tocsin'
-      - name: 'Dutch'
+      - name: 'Grapefruit Lab'
+        url: 'https://www.facebook.com/grapefruitlab/'
+
+
+# Recent Shows
+recent:
+
+  - date: 'Jan 12, 2018'
+    url: 'https://www.facebook.com/events/136041710495512/'
+    venue: 'Lion’s Lair'
+    image: 'shows/lionlair.jpg'
+    datetime: '2018-01-12'
+    with:
+      - name: 'Grammar School'
+      - name: "I'm a boy"
 
   - date: 'Dec 3, 2017'
     url: 'https://www.facebook.com/events/125886928084249/'
@@ -38,18 +52,26 @@ upcoming:
       - name: 'Plasma Canvas'
       - name: 'Sinister Pig'
 
-  - date: 'Jan 12, 2018'
-    url: 'https://www.facebook.com/events/136041710495512/'
-    venue: 'Lion’s Lair'
-    image: 'shows/lionlair.jpg'
-    datetime: '2018-01-12'
+  - date: 'Nov 30, 2017'
+    url: 'https://www.facebook.com/events/311116622698462/'
+    title: 'Dsm-73: Queer Rock Night'
+    venue: 'Moon Room at Summit Music Hall'
+    venue_url: 'https://www.thesummitmusichall.com/'
+    image: 'shows/queer-rock.jpg'
+    datetime: '2017-11-30'
     with:
-      - name: 'Grammar School'
-      - name: "I'm a boy"
+      - name: 'DJ Tocsin'
+      - name: 'Dutch'
 
-
-# Recent Shows
-recent:
+  - date: 'Nov 19, 2017'
+    url: 'https://www.facebook.com/events/125886928084249/'
+    title: 'Afternoon Show: Bands With Benefits'
+    venue: 'Mutiny Information Cafe'
+    image: 'shows/mutiny-benefits.jpg'
+    datetime: '2017-11-19'
+    with:
+      - name: 'faim'
+      - name: 'Hapless'
 
   - date: 'Nov 10, 2017'
     url: ''
@@ -979,7 +1001,7 @@ press:
 
 press_kit: Press One-Sheet
 press_kit_url: '/static/one-sheet.pdf'
-
+default_image: 'video-meta.jpg'
 
 # Navigation
 nav:

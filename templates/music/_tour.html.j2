@@ -10,13 +10,13 @@
 
   {% for show in config.recent|reverse() %}
   {% if show.tour == module.tour %}
-    {{ music.show(show) }}
+    {{ music.show(show, config=config) }}
   {% endif %}
   {% endfor %}
 
   {% for show in config.upcoming %}
   {% if show.tour == module.tour %}
-    {{ music.show(show) }}
+    {{ music.show(show, config=config) }}
   {% endif %}
   {% endfor %}
 </div>

@@ -11,7 +11,7 @@
   <meta name="description" content="{{ config.description }}" />
 
   <!-- Open Graph -->
-  {% set image = config.image[0].src if config.image else 'band.jpg' %}
+  {% set image = config.image[0].src if config.image else config.default_image %}
   {% set image = image if '://' in image else [config.canonical_url, 'static/pictures/', image]|join('') %}
   <meta property="og:title" content="{{ self.title() }}" />
   <meta property="og:site_name" content="TeacupGorilla" />

@@ -67,7 +67,7 @@ and sometimes `Jen Korte`_.
 
   <figure class="gallery">
     <div class="gallery-body">
-      <img src="/static/pictures/band.jpg" class="full" alt="" />
+      <img src="/static/pictures/video-meta.jpg" class="full" alt="" />
     </div>
   </figure>
 

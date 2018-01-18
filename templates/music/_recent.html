@@ -5,7 +5,7 @@
   <h2 class="section-title" id="recent-title">Past Shows</h2>
   {% for show in config.recent %}
   {% if not module.count or loop.index <= module.count %}
-    {{ music.show(show) }}
+    {{ music.show(show, config=config) }}
   {% endif %}
   {% endfor %}
 

@@ -9,7 +9,7 @@
 
 <section class="section feature" style="background-image: url('{{ image_location }}');{% if feature.image_position %} background-position:{{ feature.image_position  }};{% endif %}">
 <div class="feature-inner">
-  {{ music.show(feature) }}
+  {{ music.show(feature, config=config) }}
 </div>
 </section>
 

@@ -1,5 +1,5 @@
 {% import "music/_macros.html.j2" as music %}
 
 {% for show in config.shows %}
-  {{ music.show(show) }}
+  {{ music.show(show, config=config) }}
 {% endfor %}
