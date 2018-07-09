@@ -4,7 +4,7 @@
 {% if feature %}
 
 {% set image_path='/static/pictures/' %}
-{% set image_url=feature.image if feature.image else 'shows/default.jpg' %}
+{% set image_url=feature.image if feature.image else (config.default_image or 'shows/default.jpg') %}
 {% set image_location= [image_path, image_url]|join('') %}
 
 <section class="section feature" style="background-image: url('{{ image_location }}');{% if feature.image_position %} background-position:{{ feature.image_position  }};{% endif %}">

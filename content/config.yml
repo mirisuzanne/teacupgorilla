@@ -2,16 +2,15 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'Feb 10, 2018'
-    title: 'Wolf, Woman, Man (with Dancers)'
-    url: 'https://www.facebook.com/events/452068901855054/'
-    venue: 'The Bakery'
-    venue_url: 'https://thebakerydenver.com'
-    image: 'shows/lost-walks.jpg'
-    datetime: '2018-02-10'
-    with:
-      - name: 'Lost Walks'
-        url: 'https://www.facebook.com/LostWalks/'
+  - date: 'July 28, 2018'
+    title: 'Not the UMS'
+    venue: 'Remixed Gifts'
+    venue_url: 'https://remixedgifts.com/'
+    datetime: '2018-07-28'
+
+
+# Recent Shows
+recent:
 
   - date: 'Feb 23—Mar 3, 2018'
     title: 'JANE/EYRE (stage adaptation)'
@@ -24,9 +23,16 @@ upcoming:
       - name: 'Grapefruit Lab'
         url: 'https://www.facebook.com/grapefruitlab/'
 
-
-# Recent Shows
-recent:
+  - date: 'Feb 10, 2018'
+    title: 'Wolf, Woman, Man (with Dancers)'
+    url: 'https://www.facebook.com/events/452068901855054/'
+    venue: 'The Bakery'
+    venue_url: 'https://thebakerydenver.com'
+    image: 'shows/lost-walks.jpg'
+    datetime: '2018-02-10'
+    with:
+      - name: 'Lost Walks'
+        url: 'https://www.facebook.com/LostWalks/'
 
   - date: 'Jan 12, 2018'
     url: 'https://www.facebook.com/events/136041710495512/'
@@ -821,12 +827,12 @@ nouns:
     caption: 'Whiskey From Strangers & <a href="http://ridingsidesaddle.com/">Riding SideSaddle*</a>'
     feature: true
 
-  - body:
-    - video: '<iframe src="https://www.youtube.com/embed/iD1AUleBlLg?rel=0" frameborder="0" allowfullscreen></iframe>'
-      class: 'full'
-    caption: 'Species of the Stars — Live Stream (we start around 50min)'
-    citation: 'filmed by <a href="http://www.sparrowtree.org/">Sparrowtree Arts</a>'
-    feature: true
+  # - body:
+  #   - video: '<iframe src="https://www.youtube.com/embed/iD1AUleBlLg?rel=0" frameborder="0" allowfullscreen></iframe>'
+  #     class: 'full'
+  #   caption: 'Species of the Stars — Live Stream (we start around 50min)'
+  #   citation: 'filmed by <a href="http://www.sparrowtree.org/">Sparrowtree Arts</a>'
+  #   feature: true
 
   - body:
       - image: 'nouns/160726-ums/ums-8.jpg'
@@ -881,87 +887,87 @@ nouns:
       - image: 'nouns/160724-mix/tg-spring-8.jpg'
       - image: 'nouns/160724-mix/tg-spring-7.jpg'
       - image: 'nouns/160724-mix/tg-spring-6.jpg'
-      - image: 'nouns/160724-mix/tg-spring-5.jpg'
-      - image: 'nouns/160724-mix/tg-spring-4.jpg'
-      - image: 'nouns/160724-mix/tg-spring-2.jpg'
-      - image: 'nouns/160724-mix/tg-spring-1.jpg'
+      # - image: 'nouns/160724-mix/tg-spring-5.jpg'
+      # - image: 'nouns/160724-mix/tg-spring-4.jpg'
+      # - image: 'nouns/160724-mix/tg-spring-2.jpg'
+      # - image: 'nouns/160724-mix/tg-spring-1.jpg'
         class: 'full'
     citation: 'photos by Erin Rollman and Kyle Hollenbaugh'
     slug: 'spring-2016'
     feature: true
 
-  - body:
-      - video: '<iframe src="https://player.vimeo.com/video/125217583?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-      - image: 'nouns/150402-sidesaddle/affair-18.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-15.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-10.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-9.jpg'
-      - video: '<iframe src="https://player.vimeo.com/video/125217582?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-      - image: 'nouns/150402-sidesaddle/affair-12.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-14.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-13.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-11.jpg'
-      - video: '<iframe src="https://player.vimeo.com/video/125222247?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-      - image: 'nouns/150402-sidesaddle/affair-17.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-16.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-7.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-8.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-1.jpg'
-        class: full
-      - image: 'nouns/150402-sidesaddle/affair-3.jpg'
-      - image: 'nouns/150402-sidesaddle/affair-4.jpg'
-    caption: '04.15 <a href="http://ridingsidesaddle.net">Riding SideSaddle*</a> Novel Affair'
-    citation: 'photos and video by Kenny Storms'
-    slug: 'novel-affair'
-    feature: true
+  # - body:
+  #     - video: '<iframe src="https://player.vimeo.com/video/125217583?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #     - image: 'nouns/150402-sidesaddle/affair-18.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-15.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-10.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-9.jpg'
+  #     - video: '<iframe src="https://player.vimeo.com/video/125217582?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #     - image: 'nouns/150402-sidesaddle/affair-12.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-14.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-13.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-11.jpg'
+  #     - video: '<iframe src="https://player.vimeo.com/video/125222247?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #     - image: 'nouns/150402-sidesaddle/affair-17.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-16.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-7.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-8.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-1.jpg'
+  #       class: full
+  #     - image: 'nouns/150402-sidesaddle/affair-3.jpg'
+  #     - image: 'nouns/150402-sidesaddle/affair-4.jpg'
+  #   caption: '04.15 <a href="http://ridingsidesaddle.net">Riding SideSaddle*</a> Novel Affair'
+  #   citation: 'photos and video by Kenny Storms'
+  #   slug: 'novel-affair'
+  #   feature: true
 
-  - body:
-      - video: '<iframe src="http://player.vimeo.com/video/119834636?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-    caption: '02.15 A Dark Plane — Demo Recording Session'
-    citation: 'Words by Gil Scott Heron'
-    slug: 'dark-plane-demo'
-    feature: true
+  # - body:
+  #     - video: '<iframe src="http://player.vimeo.com/video/119834636?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #   caption: '02.15 A Dark Plane — Demo Recording Session'
+  #   citation: 'Words by Gil Scott Heron'
+  #   slug: 'dark-plane-demo'
+  #   feature: true
 
-  - body:
-      - video: '<iframe src="http://player.vimeo.com/video/96653953?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-    caption: '05.14 Bouldering Poets'
-    slug: 'bouldering-2'
+  # - body:
+  #     - video: '<iframe src="http://player.vimeo.com/video/96653953?color=ef3939&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #   caption: '05.14 Bouldering Poets'
+  #   slug: 'bouldering-2'
 
-  - body:
-      - video: '<iframe src="http://player.vimeo.com/video/86631301?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-        class: full
-    caption: '01.14 Larimer Lounge'
-    citation: 'video by Kenny Storms'
-    slug: 'larimerlounge-1'
+  # - body:
+  #     - video: '<iframe src="http://player.vimeo.com/video/86631301?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #       class: full
+  #   caption: '01.14 Larimer Lounge'
+  #   citation: 'video by Kenny Storms'
+  #   slug: 'larimerlounge-1'
 
-  - body:
-#      - video: '<iframe src="http://player.vimeo.com/video/80691654?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-#        class: full
-      - image: 'nouns/130919-hermans/hermans1.jpg'
-      - image: 'nouns/130919-hermans/hermans2.jpg'
-      - image: 'nouns/130919-hermans/hermans4.jpg'
-        class: full
-      - image: 'nouns/130919-hermans/hermans5.jpg'
-      - image: 'nouns/130919-hermans/hermans6.jpg'
-      - image: 'nouns/130919-hermans/hermans3.jpg'
-        class: full
-    caption: "09.13 Herman's Hideaway"
-    citation: 'video by Megan Sumner :: photos by Kenny Storms'
-    slug: 'hermans'
+  # - body:
+  #    - video: '<iframe src="http://player.vimeo.com/video/80691654?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+  #      class: full
+  #     - image: 'nouns/130919-hermans/hermans1.jpg'
+  #     - image: 'nouns/130919-hermans/hermans2.jpg'
+  #     - image: 'nouns/130919-hermans/hermans4.jpg'
+  #       class: full
+  #     - image: 'nouns/130919-hermans/hermans5.jpg'
+  #     - image: 'nouns/130919-hermans/hermans6.jpg'
+  #     - image: 'nouns/130919-hermans/hermans3.jpg'
+  #       class: full
+  #   caption: "09.13 Herman's Hideaway"
+  #   citation: 'video by Megan Sumner :: photos by Kenny Storms'
+  #   slug: 'hermans'
 
-  - body:
-      - image: 'nouns/130322-bouldering/bouldering.jpg'
-        class: full
-      - image: 'nouns/130322-bouldering/bouldering1.jpg'
-      - image: 'nouns/130322-bouldering/bouldering2.jpg'
-    caption: '03.13 Bouldering Poets'
-    citation: 'photos by Elyse Brownell &amp; Christopher Shugrue'
-    slug: 'bouldering-1'
+  # - body:
+  #     - image: 'nouns/130322-bouldering/bouldering.jpg'
+  #       class: full
+  #     - image: 'nouns/130322-bouldering/bouldering1.jpg'
+  #     - image: 'nouns/130322-bouldering/bouldering2.jpg'
+  #   caption: '03.13 Bouldering Poets'
+  #   citation: 'photos by Elyse Brownell &amp; Christopher Shugrue'
+  #   slug: 'bouldering-1'
 
 
 # Demo

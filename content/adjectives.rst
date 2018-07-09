@@ -19,49 +19,37 @@ released a debut EP
 (`The Holes They Leave`_)
 along with the multimedia novel
 `Riding SideSaddle*`_.
-In 2016,
-they collaborated with `Buntport Theater`_,
-adapting the novel for the stage,
-and underscoring it live
-to `rave reviews`_.
 
 .. _Modest Mouse: http://modestmouse.com/
 .. _Low: http://www.chairkickers.com/
 .. _The Holes They Leave: http://teacupgorilla.bandcamp.com/album/the-holes-they-leave
 .. _`Riding SideSaddle*`: http://ridingsidesaddle.com
-.. _Buntport Theater: http://buntport.com/archive/10myths.htm
-.. _rave reviews: http://buntport.com/reviews/10myths.htm
-.. _Pandemic Collective: http://www.pandemiccollective.org/2015---2016-season.html
-.. _The Bakery: http://thebakerydenver.com/
 
-Teacup Gorilla has enjoyed performing at
-some of Denver's top venues —
-`Hi Dive`_,
-`Syntax Physic Opera`_,
-`Larimer Lounge`_,
-`Globe Hall`_
-and the `Underground Music Showcase`_ —
-with bands like
-`Bad Luck City`_,
-`FaceMan`_,
-`Muscle Beach`_,
-`Altas`_,
-and `Open to the Hound`_.
-They also love collaborating
-across media —
-with
-theaters,
-video arists,
-writers,
-dancers,
-and even the `Clyfford Still Museum`_.
+Teacup Gorilla enjoys collaborating across media
+with performers, writers, dancers,
+and even the `Clyfford Still Museum`_,
+Their 2016 `Buntport Theater`_ collaboration --
+10 Myths on the Proper Application of Beauty Products --
+was honored with a `True West Award`_.
+In 2018,
+they worked with `Grapefruit Lab`_
+to create `JANE/EYRE`_:
+half-concert half theater adaptation.
+
+.. _Clyfford Still Museum: https://clyffordstillmuseum.org/
+.. _Buntport Theater: http://buntport.com/archive/10myths.htm
+.. _True West Award: http://www.denvercenter.org/blog-posts/news-center/2016/12/18/2016-true-west-award-miriam-suzanne
+.. _Grapefruit Lab: http://grapefruitlab.com/
+.. _`JANE/EYRE`: http://grapefruitlab.com/shows/janeeyre/
 
 Teacup Gorilla is
-`Daniel Eisenstat`_,
-`Sondra Eby`_,
+*Daniel Eisenstat* (founder of `The Bakery`_),
+*Sondra Eby*,
 `Miriam Suzanne`_,
-and sometimes `Jen Korte`_.
+and *Josselyn Cool*.
 
+.. _The Bakery: http://thebakerydenver.com/
+.. _Miriam Suzanne: http://miriamsuzanne.com/
 
 .. |faces| raw:: html
 
@@ -70,22 +58,3 @@ and sometimes `Jen Korte`_.
       <img src="/static/pictures/video-meta.jpg" class="full" alt="" />
     </div>
   </figure>
-
-.. _Daniel Eisenstat: http://thebakerydenver.com/
-.. _Sondra Eby: http://sondraedesign.tumblr.com/
-.. _Miriam Suzanne: http://miriamsuzanne.com/
-.. _Jen Korte: http://www.jkandtheloss.com/
-
-.. _Hi Dive: http://www.hi-dive.com/event/864133-bad-luck-city-denver/
-.. _Syntax Physic Opera: http://physicopera.com/
-.. _Larimer Lounge: http://www.larimerlounge.com/
-.. _Globe Hall: http://www.globehall.com/music-hall/
-.. _Underground Music Showcase: http://theums.com/
-
-.. _Bad Luck City: https://www.facebook.com/badluckcity
-.. _FaceMan: http://www.facemanmusic.com/
-.. _Muscle Beach: https://musclebeachdenver.bandcamp.com/
-.. _Altas: http://altasiscoming.com/
-.. _Open to the Hound: http://opentothehound.com/
-
-.. _Clyfford Still Museum: https://clyffordstillmuseum.org/
