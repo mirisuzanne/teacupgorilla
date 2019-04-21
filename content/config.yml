@@ -2,418 +2,440 @@
 # Upcoming Shows
 upcoming:
 
-  - date: 'July 28, 2018'
-    title: 'Not the UMS'
-    venue: 'Remixed Gifts'
-    venue_url: 'https://remixedgifts.com/'
-    datetime: '2018-07-28'
+  - date: Apr 28, 2019
+    url: https://www.facebook.com/events/2191187377812554/
+    title: PRF Denver
+    image: shows/prf19.jpg
+    venue: The Bakery
+    venue_url: https://thebakerydenver.com
+    datetime: 2019-04-28
 
 
 # Recent Shows
 recent:
 
-  - date: 'Feb 23—Mar 3, 2018'
-    title: 'JANE/EYRE (stage adaptation)'
-    url: 'https://www.grapefruitlab.com/shows/janeeyre'
-    venue: 'The Bakery'
-    venue_url: 'https://thebakerydenver.com'
-    image: 'shows/javeyre.jpg'
-    datetime: '2018-02-23'
+    - date: Jan 26, 2019
+    url: https://www.facebook.com/events/218314602434545/
+    venue: Lion’s Lair
+    image: shows/laurium.jpg
+    datetime: 2019-01-26
     with:
-      - name: 'Grapefruit Lab'
-        url: 'https://www.facebook.com/grapefruitlab/'
+      - name: Married a Dead Man
+      - name: Laurium
 
-  - date: 'Feb 10, 2018'
-    title: 'Wolf, Woman, Man (with Dancers)'
-    url: 'https://www.facebook.com/events/452068901855054/'
-    venue: 'The Bakery'
-    venue_url: 'https://thebakerydenver.com'
-    image: 'shows/lost-walks.jpg'
-    datetime: '2018-02-10'
+  - date: Nov 10, 2018
+    url: https://www.facebook.com/events/311460389444963/
+    venue: Ross-Cherry Creek Branch
+    title: Teacup Gorilla at the Library
+    datetime: 2018-11-10
+
+  - date: July 28, 2018
+    title: Not the UMS
+    venue: Remixed Gifts
+    venue_url: https://remixedgifts.com/
+    datetime: 2018-07-28
+
+  - date: Feb 23—Mar 3, 2018
+    title: JANE/EYRE (stage adaptation)
+    url: https://www.grapefruitlab.com/shows/janeeyre
+    venue: The Bakery
+    venue_url: https://thebakerydenver.com
+    image: shows/javeyre.jpg
+    datetime: 2018-02-23
     with:
-      - name: 'Lost Walks'
-        url: 'https://www.facebook.com/LostWalks/'
+      - name: Grapefruit Lab
+        url: https://www.facebook.com/grapefruitlab/
 
-  - date: 'Jan 12, 2018'
-    url: 'https://www.facebook.com/events/136041710495512/'
-    venue: 'Lion’s Lair'
-    image: 'shows/lionlair.jpg'
-    datetime: '2018-01-12'
+  - date: Feb 10, 2018
+    title: Wolf, Woman, Man (with Dancers)
+    url: https://www.facebook.com/events/452068901855054/
+    venue: The Bakery
+    venue_url: https://thebakerydenver.com
+    image: shows/lost-walks.jpg
+    datetime: 2018-02-10
     with:
-      - name: 'Grammar School'
-      - name: "I'm a boy"
+      - name: Lost Walks
+        url: https://www.facebook.com/LostWalks/
 
-  - date: 'Dec 3, 2017'
-    url: 'https://www.facebook.com/events/125886928084249/'
-    title: 'Punk for Positive Change (AIDS Benefit)'
-    venue: 'Surfside 7'
-    venue_url: 'https://www.facebook.com/surfside7/'
-    image: 'shows/plasma-canvas.jpg'
-    datetime: '2017-12-03'
+  - date: Jan 12, 2018
+    url: https://www.facebook.com/events/136041710495512/
+    venue: Lion’s Lair
+    image: shows/lionlair.jpg
+    datetime: 2018-01-12
     with:
-      - name: 'DOORS 7'
-      - name: 'Discount Price'
-      - name: 'Equine'
-      - name: 'Smashy Claw'
-      - name: 'Plasma Canvas'
-      - name: 'Sinister Pig'
+      - name: Grammar School
+      - name: I'm a boy
 
-  - date: 'Nov 30, 2017'
-    url: 'https://www.facebook.com/events/311116622698462/'
-    title: 'Dsm-73: Queer Rock Night'
-    venue: 'Moon Room at Summit Music Hall'
-    venue_url: 'https://www.thesummitmusichall.com/'
-    image: 'shows/queer-rock.jpg'
-    datetime: '2017-11-30'
+  - date: Dec 3, 2017
+    url: https://www.facebook.com/events/125886928084249/
+    title: Punk for Positive Change (AIDS Benefit)
+    venue: Surfside 7
+    venue_url: https://www.facebook.com/surfside7/
+    image: shows/plasma-canvas.jpg
+    datetime: 2017-12-03
     with:
-      - name: 'DJ Tocsin'
-      - name: 'Dutch'
+      - name: DOORS 7
+      - name: Discount Price
+      - name: Equine
+      - name: Smashy Claw
+      - name: Plasma Canvas
+      - name: Sinister Pig
 
-  - date: 'Nov 19, 2017'
-    url: 'https://www.facebook.com/events/125886928084249/'
-    title: 'Afternoon Show: Bands With Benefits'
-    venue: 'Mutiny Information Cafe'
-    image: 'shows/mutiny-benefits.jpg'
-    datetime: '2017-11-19'
+  - date: Nov 30, 2017
+    url: https://www.facebook.com/events/311116622698462/
+    title: Dsm-73: Queer Rock Night
+    venue: Moon Room at Summit Music Hall
+    venue_url: https://www.thesummitmusichall.com/
+    image: shows/queer-rock.jpg
+    datetime: 2017-11-30
     with:
-      - name: 'faim'
-      - name: 'Hapless'
+      - name: DJ Tocsin
+      - name: Dutch
 
-  - date: 'Nov 10, 2017'
-    url: ''
-    venue: '7th Circle Music Collective'
-    venue_url: 'https://www.facebook.com/SeventhCircleMusicCollective/'
-    image: 'shows/gone-full-heathen.jpg'
-    datetime: '2017-11-10'
+  - date: Nov 19, 2017
+    url: https://www.facebook.com/events/125886928084249/
+    title: Afternoon Show: Bands With Benefits
+    venue: Mutiny Information Cafe
+    image: shows/mutiny-benefits.jpg
+    datetime: 2017-11-19
     with:
-      - name: 'Gone Full Heathen'
-        url: 'https://www.facebook.com/pg/GONEFULLHEATHEN/'
-      - name: 'Married A Dead Man'
-        url: 'https://www.facebook.com/marriedadeadman/'
+      - name: faim
+      - name: Hapless
 
-  - date: 'Oct 27, 2017'
-    url: 'https://www.facebook.com/events/102819993760592/'
-    venue: 'Lion’s Lair'
-    venue_url: 'http://lionslairco.com/'
-    image: 'shows/lionlair.jpg'
-    datetime: '2017-10-27'
+  - date: Nov 10, 2017
+    venue: 7th Circle Music Collective
+    venue_url: https://www.facebook.com/SeventhCircleMusicCollective/
+    image: shows/gone-full-heathen.jpg
+    datetime: 2017-11-10
     with:
-      - name: 'Hellgrammites'
-      - name: 'Meet The Giant'
+      - name: Gone Full Heathen
+        url: https://www.facebook.com/pg/GONEFULLHEATHEN/
+      - name: Married A Dead Man
+        url: https://www.facebook.com/marriedadeadman/
 
-  - date: 'Oct 4, 2017'
-    title: 'Weird Wednesday!'
-    url: 'http://www.3kingstavern.com/event/290158'
-    venue: '3 Kings Tavern'
-    image: 'shows/3kings.jpg'
-    datetime: '2017-10-04'
+  - date: Oct 27, 2017
+    url: https://www.facebook.com/events/102819993760592/
+    venue: Lion’s Lair
+    venue_url: http://lionslairco.com/
+    image: shows/lionlair.jpg
+    datetime: 2017-10-27
     with:
-      - name: 'Zealot'
-      - name: 'The Far Stairs'
+      - name: Hellgrammites
+      - name: Meet The Giant
 
-  - date: 'Sep 23, 2017'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://www.physicopera.com/'
-    image: 'shows/syntax.jpg'
-    datetime: '2017-09-23'
+  - date: Oct 4, 2017
+    title: Weird Wednesday!
+    url: http://www.3kingstavern.com/event/290158
+    venue: 3 Kings Tavern
+    image: shows/3kings.jpg
+    datetime: 2017-10-04
     with:
-      - name: 'Electric LoveGods'
-        url: 'http://electriclovegods.com'
+      - name: Zealot
+      - name: The Far Stairs
 
-  - date: 'Aug 18, 2017'
-    url: 'https://www.facebook.com/events/314256545672625/'
-    venue: 'Globe Hall'
-    image: 'shows/stereo-no-aware.jpg'
-    datetime: '2017-08-18'
+  - date: Sep 23, 2017
+    venue: Syntax Physic Opera
+    venue_url: http://www.physicopera.com/
+    image: shows/syntax.jpg
+    datetime: 2017-09-23
     with:
-      - name: 'Stereo No Aware'
-        url: 'https://noaware.bandcamp.com/releases'
-      - name: 'GhostPulse'
-      - name: 'Cocordian'
-      - name: 'Wazee'
+      - name: Electric LoveGods
+        url: http://electriclovegods.com
 
-  - date: 'Aug 10, 2017'
-    title: 'Claudzilla Curated Musical Mayhem'
-    url: 'https://www.facebook.com/events/113524225963434/'
-    image: 'shows/mayhem.jpg'
-    venue: 'Skylark Lounge'
-    venue_url: 'http://skylarklounge.com'
-    datetime: '2017-08-10'
+  - date: Aug 18, 2017
+    url: https://www.facebook.com/events/314256545672625/
+    venue: Globe Hall
+    image: shows/stereo-no-aware.jpg
+    datetime: 2017-08-18
     with:
-      - name: 'Hypnotic Turtle'
-        url: 'https://www.facebook.com/hypnoticturtle/'
-      - name: 'The Proto Whats?'
-        url: 'https://www.facebook.com/protowhatsband/'
-      - name: 'Time Traveler'
+      - name: Stereo No Aware
+        url: https://noaware.bandcamp.com/releases
+      - name: GhostPulse
+      - name: Cocordian
+      - name: Wazee
 
-  - date: 'Jul 28, 2017'
-    title: 'Anti-UMS Fest'
-    url: 'https://www.facebook.com/events/726275280887396/'
-    image: 'shows/antiums-17.jpg'
-    venue: '1010 Workshop'
-    venue_url: 'https://glassspresents.bandcamp.com/merch/antiums-all-day-3-stage-wristband-1500-presale'
-    datetime: '2017-07-28'
-
-  - date: 'Jun 18, 2017'
-    title: 'Queer in the Headlights, Pride Party'
-    url: 'https://www.facebook.com/events/289923761413214/'
-    image: 'shows/pride17.jpg'
-    venue: 'Larimer Lounge'
-    venue_url: 'https://www.ticketfly.com/purchase/event/1489513'
-    datetime: '2017-06-18'
+  - date: Aug 10, 2017
+    title: Claudzilla Curated Musical Mayhem
+    url: https://www.facebook.com/events/113524225963434/
+    image: shows/mayhem.jpg
+    venue: Skylark Lounge
+    venue_url: http://skylarklounge.com
+    datetime: 2017-08-10
     with:
-      - name: 'Great American House Fire'
-        url: 'https://www.facebook.com/GreatAmericanHouseFire/'
-      - name: 'Flower Crown Me A Queen'
-        url: 'https://www.facebook.com/FlowerCrownMeAQueen/'
-      - name: 'Eyebeams'
-        url: 'https://www.facebook.com/eyebeamsmusic/'
-      - name: 'Chromadrift'
-        url: 'https://www.facebook.com/chromadriftmusic/'
-      - name: 'Gone Full Heathen'
-        url: 'https://www.facebook.com/GONEFULLHEATHEN/'
-      - name: 'Space In Time'
-        url: 'https://www.facebook.com/spaceintimedenver/'
-      - name: 'Lisa Matthews'
+      - name: Hypnotic Turtle
+        url: https://www.facebook.com/hypnoticturtle/
+      - name: The Proto Whats?
+        url: https://www.facebook.com/protowhatsband/
+      - name: Time Traveler
 
-  - date: 'Apr 27, 2017'
-    title: '"Just Like That" Video Release'
-    url: 'https://www.facebook.com/events/1845576042369221/'
-    image: 'shows/release17.jpg'
-    venue: 'Lost Lake'
-    venue_url: 'http://www.lost-lake.com/event/1454260-teacup-gorilla-video-release-denver/'
-    datetime: '2017-04-27'
+  - date: Jul 28, 2017
+    title: Anti-UMS Fest
+    url: https://www.facebook.com/events/726275280887396/
+    image: shows/antiums-17.jpg
+    venue: 1010 Workshop
+    venue_url: https://glassspresents.bandcamp.com/merch/antiums-all-day-3-stage-wristband-1500-presale
+    datetime: 2017-07-28
+
+  - date: Jun 18, 2017
+    title: Queer in the Headlights, Pride Party
+    url: https://www.facebook.com/events/289923761413214/
+    image: shows/pride17.jpg
+    venue: Larimer Lounge
+    venue_url: https://www.ticketfly.com/purchase/event/1489513
+    datetime: 2017-06-18
     with:
-      - name: 'The Raven & The Writing Desk'
-        url: 'https://www.facebook.com/RavenAndTheWritingDesk/'
-      - name: 'The Assemblage'
-        url: 'https://www.facebook.com/assemblagemusic/'
+      - name: Great American House Fire
+        url: https://www.facebook.com/GreatAmericanHouseFire/
+      - name: Flower Crown Me A Queen
+        url: https://www.facebook.com/FlowerCrownMeAQueen/
+      - name: Eyebeams
+        url: https://www.facebook.com/eyebeamsmusic/
+      - name: Chromadrift
+        url: https://www.facebook.com/chromadriftmusic/
+      - name: Gone Full Heathen
+        url: https://www.facebook.com/GONEFULLHEATHEN/
+      - name: Space In Time
+        url: https://www.facebook.com/spaceintimedenver/
+      - name: Lisa Matthews
 
-  - date: 'Mar 5, 2017'
-    url: 'http://www.lost-lake.com/event/1435150-electric-lovegods-denver/'
-    image: 'shows/elgods.jpg'
-    venue: 'Lost Lake'
-    venue_url: 'http://www.lost-lake.com/'
-    datetime: '2017-03-05'
+  - date: Apr 27, 2017
+    title: "Just Like That" Video Release
+    url: https://www.facebook.com/events/1845576042369221/
+    image: shows/release17.jpg
+    venue: Lost Lake
+    venue_url: http://www.lost-lake.com/event/1454260-teacup-gorilla-video-release-denver/
+    datetime: 2017-04-27
     with:
-      - name: 'Electric LoveGods'
-        url: 'http://electriclovegods.com/'
-      - name: 'GALLERIES'
-        url: 'https://www.facebook.com/GALLERIESmusic/'
-      - name: 'GhostPulse'
-        url: 'https://www.facebook.com/GhostPulseofficial/'
+      - name: The Raven & The Writing Desk
+        url: https://www.facebook.com/RavenAndTheWritingDesk/
+      - name: The Assemblage
+        url: https://www.facebook.com/assemblagemusic/
 
-  - date: 'Feb 2, 2017'
-    title: 'ACLU Benefit'
-    url: 'https://www.facebook.com/events/993283477481829/'
-    image: 'shows/assemblage.jpg'
-    venue: 'The Bakery'
-    venue_url: 'https://thebakerydenver.com'
-    datetime: '2017-02-02'
+  - date: Mar 5, 2017
+    url: http://www.lost-lake.com/event/1435150-electric-lovegods-denver/
+    image: shows/elgods.jpg
+    venue: Lost Lake
+    venue_url: http://www.lost-lake.com/
+    datetime: 2017-03-05
     with:
-      - name: 'The Assemblage'
-        url: 'assemblagemusic.com'
+      - name: Electric LoveGods
+        url: http://electriclovegods.com/
+      - name: GALLERIES
+        url: https://www.facebook.com/GALLERIESmusic/
+      - name: GhostPulse
+        url: https://www.facebook.com/GhostPulseofficial/
 
-  - date: 'Dec 17, 2016'
-    title: 'Empowerment Benefit Show'
-    url: 'https://www.facebook.com/events/566264573571495/'
-    image: 'shows/standingrock.jpg'
-    venue: 'Deer Pile'
-    venue_url: 'https://www.facebook.com/deerpile/'
-    datetime: '2016-12-17'
+  - date: Feb 2, 2017
+    title: ACLU Benefit
+    url: https://www.facebook.com/events/993283477481829/
+    image: shows/assemblage.jpg
+    venue: The Bakery
+    venue_url: https://thebakerydenver.com
+    datetime: 2017-02-02
     with:
-      - name: 'The Hunger Artist'
-        url: 'https://www.facebook.com/thehungerartistband1/'
-      - name: 'Pythian Whispers'
-        url: 'https://pythianwhispers.bandcamp.com/'
+      - name: The Assemblage
+        url: assemblagemusic.com
 
-  - date: 'November 18-20, 2016'
-    title: 'FACEMAN’s 100 Year Storm'
-    url: 'https://www.facebook.com/events/324104087965656/'
-    venue: 'The Oriental Theater'
-    venue_url: 'http://www.theorientaltheater.com/event/260005/facemans-100-year-storm-'
-    datetime: '2016-11-18'
-
-  - date: 'October 28, 2016'
-    title: 'Halloween House Party'
-    datetime: '2016-10-28'
+  - date: Dec 17, 2016
+    title: Empowerment Benefit Show
+    url: https://www.facebook.com/events/566264573571495/
+    image: shows/standingrock.jpg
+    venue: Deer Pile
+    venue_url: https://www.facebook.com/deerpile/
+    datetime: 2016-12-17
     with:
-      - name: 'Naked on a Mountain'
-        url: 'https://www.facebook.com/NOAM4U/'
-      - name: 'Dramad'
-        url: 'https://dramad.bandcamp.com/'
+      - name: The Hunger Artist
+        url: https://www.facebook.com/thehungerartistband1/
+      - name: Pythian Whispers
+        url: https://pythianwhispers.bandcamp.com/
 
-  - date: 'October 8, 2016'
-    venue: 'Globe Hall'
-    venue_url: 'http://www.globehall.com/music-hall/'
-    datetime: '2016-10-08'
+  - date: November 18-20, 2016
+    title: FACEMAN’s 100 Year Storm
+    url: https://www.facebook.com/events/324104087965656/
+    venue: The Oriental Theater
+    venue_url: http://www.theorientaltheater.com/event/260005/facemans-100-year-storm-
+    datetime: 2016-11-18
+
+  - date: October 28, 2016
+    title: Halloween House Party
+    datetime: 2016-10-28
     with:
-      - name: 'The Patient Zeros'
-        url: 'http://www.thepatientzeros.com/'
-      - name: 'The Maykit'
-        url: 'http://themaykit.com/'
+      - name: Naked on a Mountain
+        url: https://www.facebook.com/NOAM4U/
+      - name: Dramad
+        url: https://dramad.bandcamp.com/
 
-  - date: 'September 8, 2016'
-    url: 'https://www.facebook.com/events/1630270517264003/'
-    venue: 'Syntax Physic Opera'
-    venue_url: 'http://physicopera.com/'
-    datetime: '2016-09-08'
-    image: 'shows/moths.jpg'
-    image_position: 'bottom'
+  - date: October 8, 2016
+    venue: Globe Hall
+    venue_url: http://www.globehall.com/music-hall/
+    datetime: 2016-10-08
     with:
-      - name: 'Altas'
-        url: 'http://altasiscoming.com/'
-      - name: 'Open To The Hound'
-        url: 'http://opentothehound.com/'
+      - name: The Patient Zeros
+        url: http://www.thepatientzeros.com/
+      - name: The Maykit
+        url: http://themaykit.com/
 
-  - date: 'August 28, 2016 (2-8pm)'
-    title: 'Sunday BBQ Series'
-    url: 'https://www.facebook.com/events/1246370012082183/'
-    venue: 'Larimer Lounge'
-    venue_url: 'http://www.larimerlounge.com/event_details.cfm?blogid=2412'
-    datetime: '2016-08-28'
-    image: 'shows/bbq.jpg'
+  - date: September 8, 2016
+    url: https://www.facebook.com/events/1630270517264003/
+    venue: Syntax Physic Opera
+    venue_url: http://physicopera.com/
+    datetime: 2016-09-08
+    image: shows/moths.jpg
+    image_position: bottom
     with:
-      - name: 'Zero Found'
-        url: 'https://www.facebook.com/zerofoundband/'
-      - name: 'The Beeves'
-        url: 'https://www.facebook.com/TheBeeves/'
-      - name: 'Surrender Signal'
-        url: 'https://www.facebook.com/surrendersignal/'
-      - name: 'The Tens'
-        url: 'https://www.facebook.com/theroaringtens/'
+      - name: Altas
+        url: http://altasiscoming.com/
+      - name: Open To The Hound
+        url: http://opentothehound.com/
 
-  - date: 'August 18-27, 2016'
-    title: 'A Night of Grand Guignol'
-    url: 'https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337'
-    venue: 'The Bakery'
-    venue_url: 'http://thebakerydenver.com'
-    image: 'shows/pandemic-gg.jpg'
+  - date: August 28, 2016 (2-8pm)
+    title: Sunday BBQ Series
+    url: https://www.facebook.com/events/1246370012082183/
+    venue: Larimer Lounge
+    venue_url: http://www.larimerlounge.com/event_details.cfm?blogid=2412
+    datetime: 2016-08-28
+    image: shows/bbq.jpg
     with:
-      - name: 'Pandemic Collective'
-        url: 'http://www.pandemiccollective.org/2015---2016-season.html'
+      - name: Zero Found
+        url: https://www.facebook.com/zerofoundband/
+      - name: The Beeves
+        url: https://www.facebook.com/TheBeeves/
+      - name: Surrender Signal
+        url: https://www.facebook.com/surrendersignal/
+      - name: The Tens
+        url: https://www.facebook.com/theroaringtens/
 
-  - date: 'July 28, 2016'
-    title: 'The UMS'
-    url: 'http://theums.com/artists/teacupgorilla/'
-    venue: 'Illegal Pete’s'
-    datetime: '2016-07-28'
-    image: 'shows/ums-2016.jpg'
-
-  - date: 'July 22, 2016'
-    venue: 'Lion’s Lair'
-    venue_url: 'http://lionslairlounge.squarespace.com/'
-    datetime: '2016-07-22'
-    image: 'shows/lionlair.jpg'
+  - date: August 18-27, 2016
+    title: A Night of Grand Guignol
+    url: https://www.eventbrite.com/e/a-night-of-grand-guignol-tickets-18803019337
+    venue: The Bakery
+    venue_url: http://thebakerydenver.com
+    image: shows/pandemic-gg.jpg
     with:
-      - name: '...And The Black Feathers'
-        url: 'http://andtheblackfeathers.com/index.php'
-      - name: 'Vehicles'
-        url: 'https://www.facebook.com/vehicles.fb/'
+      - name: Pandemic Collective
+        url: http://www.pandemiccollective.org/2015---2016-season.html
 
-  - date: 'June 30, 2016'
-    title: 'Beat Soft Pop Album Release'
-    url: 'http://lost-lake.com/event_details.cfm?blogid=968'
-    venue: 'Lost Lake Lounge'
-    venue_url: 'http://lost-lake.com/'
-    with:
-      - name: 'Beat Soft Pop'
-        url: 'https://beatsoftpop.bandcamp.com/releases'
+  - date: July 28, 2016
+    title: The UMS
+    url: http://theums.com/artists/teacupgorilla/
+    venue: Illegal Pete’s
+    datetime: 2016-07-28
+    image: shows/ums-2016.jpg
 
-  - date: 'June 4, 2016'
-    title: 'Afternoon House Party'
-    venue: '1005 W 14th Ave'
-    venue_url: 'https://goo.gl/maps/3bY9HXN9cKF2'
-    datetime: '2016-06-04'
-    image: 'shows/house-party.jpg'
-    image_position: 'top'
+  - date: July 22, 2016
+    venue: Lion’s Lair
+    venue_url: http://lionslairlounge.squarespace.com/
+    datetime: 2016-07-22
+    image: shows/lionlair.jpg
     with:
-      - name: 'Naked on a Mountain'
-        url: 'https://www.facebook.com/NOAM4U/'
-      - name: 'Flight Kamikaze'
-        url: 'https://www.facebook.com/flightkamikaze/'
-      - name: 'Granny Tweed'
-        url: 'http://grannytweed.com/'
-      - name: 'Enemy Myself'
-        url: 'https://www.facebook.com/enemymyself/'
+      - name: ...And The Black Feathers
+        url: http://andtheblackfeathers.com/index.php
+      - name: Vehicles
+        url: https://www.facebook.com/vehicles.fb/
 
-  - date: 'May 26, 2016'
-    title: 'MoonConf'
-    url: 'http://moonconf.org/'
-    datetime: '2016-05-26'
-    image: 'shows/moonconf.jpg'
-    venue: 'Galvanize Boulder'
-    venue_url: 'http://www.galvanize.com/campuses/boulder-west-pearl/'
+  - date: June 30, 2016
+    title: Beat Soft Pop Album Release
+    url: http://lost-lake.com/event_details.cfm?blogid=968
+    venue: Lost Lake Lounge
+    venue_url: http://lost-lake.com/
     with:
-      - name: 'a conference full of functional programmers...'
+      - name: Beat Soft Pop
+        url: https://beatsoftpop.bandcamp.com/releases
 
-  - date: 'May 7, 2016'
-    venue: "Lion's Lair"
-    venue_url: 'http://lionslairlounge.squarespace.com/'
-    datetime: '2016-05-07'
-    image: 'shows/bulb.jpg'
+  - date: June 4, 2016
+    title: Afternoon House Party
+    venue: 1005 W 14th Ave
+    venue_url: https://goo.gl/maps/3bY9HXN9cKF2
+    datetime: 2016-06-04
+    image: shows/house-party.jpg
+    image_position: top
     with:
-      - name: 'Before The Bulb'
-        url: 'http://www.beforethebulb.com/'
-      - name: 'Hello Mountain'
-        url: 'https://hellomountain.bandcamp.com/'
+      - name: Naked on a Mountain
+        url: https://www.facebook.com/NOAM4U/
+      - name: Flight Kamikaze
+        url: https://www.facebook.com/flightkamikaze/
+      - name: Granny Tweed
+        url: http://grannytweed.com/
+      - name: Enemy Myself
+        url: https://www.facebook.com/enemymyself/
 
-  - date: 'April 22, 2016'
-    venue: 'The Squire Lounge'
-    datetime: '2016-04-22'
-    image: 'shows/squire.jpg'
-    image_position: 'top'
+  - date: May 26, 2016
+    title: MoonConf
+    url: http://moonconf.org/
+    datetime: 2016-05-26
+    image: shows/moonconf.jpg
+    venue: Galvanize Boulder
+    venue_url: http://www.galvanize.com/campuses/boulder-west-pearl/
     with:
-      - name: 'To Be Astronauts'
-        url: 'https://www.facebook.com/ToBeAstronauts/'
-      - name: 'Naked on a Mountain'
-        url: 'https://www.facebook.com/NOAM4U/'
+      - name: a conference full of functional programmers...
 
-  - date: 'March 4-26, 2016'
-    title: '10 Myths on the Proper Application of Beauty Products'
-    url: 'https://www.facebook.com/events/195133744176557/'
-    datetime: '2016-03-04'
-    image: 'shows/10-myths.png'
+  - date: May 7, 2016
+    venue: Lion's Lair
+    venue_url: http://lionslairlounge.squarespace.com/
+    datetime: 2016-05-07
+    image: shows/bulb.jpg
     with:
-      - name: 'Buntport Theater'
-        url: 'http://buntport.com/archive/archive.htm'
+      - name: Before The Bulb
+        url: http://www.beforethebulb.com/
+      - name: Hello Mountain
+        url: https://hellomountain.bandcamp.com/
 
-  - date: 'February 28, 2016'
-    venue: '7th Circle Music Collective'
-    url: 'https://www.facebook.com/events/194231020939688/'
-    datetime: '2016-02-28'
-    image: 'shows/almost-young.jpg'
+  - date: April 22, 2016
+    venue: The Squire Lounge
+    datetime: 2016-04-22
+    image: shows/squire.jpg
+    image_position: top
     with:
-      - name: 'Island on the Moon'
-        url: 'https://www.facebook.com/IslandOnTheMoon/'
-      - name: 'The Beeves'
-        url: 'https://www.facebook.com/TheBeeves/'
-      - name: 'Cicely O’Kain'
-        url: 'https://www.facebook.com/CicelyOkainMusic/'
-      - name: 'Almost Young'
-        url: 'https://www.facebook.com/AlmostYoung/'
+      - name: To Be Astronauts
+        url: https://www.facebook.com/ToBeAstronauts/
+      - name: Naked on a Mountain
+        url: https://www.facebook.com/NOAM4U/
 
-  - date: 'February 10, 2016'
-    venue: '7th Circle Music Collective'
-    url: 'https://www.facebook.com/events/1661588870774671/'
-    datetime: '2016-02-10'
-    image: 'shows/north-by-north.jpg'
+  - date: March 4-26, 2016
+    title: 10 Myths on the Proper Application of Beauty Products
+    url: https://www.facebook.com/events/195133744176557/
+    datetime: 2016-03-04
+    image: shows/10-myths.png
     with:
-      - name: 'NORTH BY NORTH'
-        url: 'www.northbynorth.bandcamp.com'
-      - name: 'The Truth & Spectacle'
-        url: 'http://thetruthandspectacle.com/'
+      - name: Buntport Theater
+        url: http://buntport.com/archive/archive.htm
 
-  - date: 'November 5, 2015'
-    venue: "Lion's Lair"
-    venue_url: 'http://www.lionslairlounge.squarespace.com/'
-    datetime: '2015-11-05'
-    image: 'shows/deadwoods.jpg'
+  - date: February 28, 2016
+    venue: 7th Circle Music Collective
+    url: https://www.facebook.com/events/194231020939688/
+    datetime: 2016-02-28
+    image: shows/almost-young.jpg
     with:
-      - name: 'The Dead Woods'
-        url: 'https://wearethedeadwoods.bandcamp.com/'
-      - name: 'Rocket to Nowhere'
-        url: 'https://www.facebook.com/Rocket-to-Nowhere-366076513438547/'
+      - name: Island on the Moon
+        url: https://www.facebook.com/IslandOnTheMoon/
+      - name: The Beeves
+        url: https://www.facebook.com/TheBeeves/
+      - name: Cicely O’Kain
+        url: https://www.facebook.com/CicelyOkainMusic/
+      - name: Almost Young
+        url: https://www.facebook.com/AlmostYoung/
+
+  - date: February 10, 2016
+    venue: 7th Circle Music Collective
+    url: https://www.facebook.com/events/1661588870774671/
+    datetime: 2016-02-10
+    image: shows/north-by-north.jpg
+    with:
+      - name: NORTH BY NORTH
+        url: www.northbynorth.bandcamp.com
+      - name: The Truth & Spectacle
+        url: http://thetruthandspectacle.com/
+
+  - date: November 5, 2015
+    venue: Lion's Lair
+    venue_url: http://www.lionslairlounge.squarespace.com/
+    datetime: 2015-11-05
+    image: shows/deadwoods.jpg
+    with:
+      - name: The Dead Woods
+        url: https://wearethedeadwoods.bandcamp.com/
+      - name: Rocket to Nowhere
+        url: https://www.facebook.com/Rocket-to-Nowhere-366076513438547/
 
   - date: September 24-26, 2015
     title: ReTriplicate
@@ -421,7 +443,7 @@ recent:
     venue: Buntport Theater
     venue_url: http://www.buntport.com/
     datetime: 2015-08-13
-    image: 'shows/clyffordstill.jpg'
+    image: shows/clyffordstill.jpg
     with:
       - name: Clyfford Still Museum
         url: https://clyffordstillmuseum.org/
@@ -433,9 +455,9 @@ recent:
         url: http://www.screwtooth.com/
 
   - date: September 10, 2015
-    venue: "Lion's Lair"
+    venue: Lion's Lai
     venue_url: http://www.lionslairlounge.squarespace.com/
-    image: 'shows/jack-coax.jpg'
+    image: shows/jack-coax.jpg
     with:
       - name: Jack And The Coax
         url: http://www.jackandthecoax.com/
@@ -445,7 +467,7 @@ recent:
     venue: Gabe's Iowa City
     venue_url: http://www.icgabes.com/
     datetime: 2015-08-11
-    image: 'shows/gabes.jpg'
+    image: shows/gabes.jpg
     tour: The Holes They Leave
 
   - date: August 10, 2015
@@ -453,7 +475,7 @@ recent:
     url: http://www.high-noon.com/event/913673-deeps-teacup-gorilla-madison/
     venue: High Noon Saloon
     datetime: 2015-08-10
-    image: 'shows/hewn.jpg'
+    image: shows/hewn.jpg
     tour: The Holes They Leave
     with:
       - name: The Deeps
@@ -467,7 +489,7 @@ recent:
     venue: Art House
     venue_url: http://gah.mobi/
     datetime: 2015-08-08
-    image: 'shows/goshen.jpg'
+    image: shows/goshen.jpg
     tour: The Holes They Leave
     with:
       - name: Shiny Shiny Black
@@ -482,7 +504,7 @@ recent:
     venue: Red Line Tap
     venue_url: http://www.redlinetap.com/
     datetime: 2015-08-07
-    image: 'shows/redline.jpg'
+    image: shows/redline.jpg
     tour: The Holes They Leave
     with:
       - name: WaxWorks
@@ -498,7 +520,7 @@ recent:
     venue: Red Herring Lounge
     venue_url: http://redherringlounge.com/
     datetime: 2015-08-06
-    image: 'shows/spacecarpet.jpg'
+    image: shows/spacecarpet.jpg
     tour: The Holes They Leave
     with:
       - name: Space Carpet
@@ -512,7 +534,7 @@ recent:
     title: New Buffalo, MI
     venue: Private Beach Party
     datetime: 2015-08-04
-    image: 'shows/bocce.jpg'
+    image: shows/bocce.jpg
     tour: The Holes They Leave
 
   - date: August 3, 2015
@@ -521,7 +543,7 @@ recent:
     venue: Eighth Street Taproom
     venue_url: http://eighthstreettaproom.com/
     datetime: 2015-08-03
-    image: 'shows/taproom-tour.jpg'
+    image: shows/taproom-tour.jpg
     tour: The Holes They Leave
     with:
       - name: 88er
@@ -535,7 +557,7 @@ recent:
     venue: Kirby's Beer Store
     venue_url: http://www.kirbysbeerstore.com/
     datetime: 2015-08-02
-    image: 'shows/kirbys-tour.jpg'
+    image: shows/kirbys-tour.jpg
     tour: The Holes They Leave
     with:
       - name: Hot Books
@@ -548,7 +570,7 @@ recent:
     url: http://theums.com/
     venue: Historians Ale House
     venue_url: http://historiansalehouse.com/
-    image: 'shows/tg-hidive.jpg'
+    image: shows/tg-hidive.jpg
 
   - date: 'July 10, 2015 @ 8:00pm'
     title: Species of the Stars
@@ -556,7 +578,7 @@ recent:
     venue: Live Stream Online!
     venue_url: /2015/07/02/species/
     datetime: 2015-07-10
-    image: 'shows/sots.jpg'
+    image: shows/sots.jpg
     with:
       - name: Face Man
         url: https://www.facebook.com/pages/Face-Man/121419593563
@@ -571,7 +593,7 @@ recent:
     venue: Hi Dive
     venue_url: http://www.hi-dive.com/
     datetime: 2015-07-09
-    image: 'shows/blc.jpg'
+    image: shows/blc.jpg
     with:
       - name: Bad Luck City
         url: https://www.facebook.com/badluckcity
@@ -585,7 +607,7 @@ recent:
     venue: Tennyson's Tap
     url: https://www.facebook.com/events/454599778045587/
     datetime: 2015-06-18
-    image: 'shows/troy-petty.jpg'
+    image: shows/troy-petty.jpg
     with:
       - name: Troy Petty
         url: http://www.troypettymusic.com
@@ -597,7 +619,7 @@ recent:
     url: https://www.facebook.com/events/1438931603085393/
     venue_url: https://www.facebook.com/GypsyHouse
     datetime: 2015-05-11
-    image: 'shows/walkbysea.jpg'
+    image: shows/walkbysea.jpg
     with:
       - name: Brennan Mackey (King Cardinal)
         url: https://www.facebook.com/KingCardinalmusic
@@ -608,7 +630,7 @@ recent:
     venue: Merchant's Mile High Saloon
     venue_url: http://facebook.com/MerchantsMileHighSaloon
     datetime: 2015-04-17
-    image: 'nouns/150402-sidesaddle/affair-12.jpg'
+    image: nouns/150402-sidesaddle/affair-12.jpg
     with:
       - name: Black Market Translation
         url: http://www.blackmarkettranslation.com/
@@ -623,7 +645,7 @@ recent:
     venue: Syntax Physic Opera
     venue_url: http://physicopera.com/
     datetime: 2015-04-02
-    image: 'nouns/150402-sidesaddle/affair-18.jpg'
+    image: nouns/150402-sidesaddle/affair-18.jpg
     with:
       - name: Jen Korte
         url: http://jkandtheloss.com
@@ -636,7 +658,7 @@ recent:
     venue: The Bakery
     venue_url: http://www.thebakerydenver.com/
     datetime: 2015-01-24
-    image: 'shows/OttH_TCG.jpg'
+    image: shows/OttH_TCG.jpg
     with:
       - name: Open to the Hound
         url: http://www.opentothehound.com
@@ -835,62 +857,62 @@ nouns:
   #   feature: true
 
   - body:
-      - image: 'nouns/160726-ums/ums-8.jpg'
+      - image: nouns/160726-ums/ums-8.jpg
         class: 'full'
-      # - image: 'nouns/160726-ums/ums-1.jpg'
-      # - image: 'nouns/160726-ums/ums-2.jpg'
-      - image: 'nouns/160726-ums/ums-3.jpg'
-      - image: 'nouns/160726-ums/ums-12.jpg'
-      # - image: 'nouns/160726-ums/ums-4.jpg'
-      - image: 'nouns/160726-ums/ums-5.jpg'
+      # - image: nouns/160726-ums/ums-1.jpg
+      # - image: nouns/160726-ums/ums-2.jpg
+      - image: nouns/160726-ums/ums-3.jpg
+      - image: nouns/160726-ums/ums-12.jpg
+      # - image: nouns/160726-ums/ums-4.jpg
+      - image: nouns/160726-ums/ums-5.jpg
         class: 'full'
-      - image: 'nouns/160726-ums/ums-6.jpg'
-      - image: 'nouns/160726-ums/ums-7.jpg'
-      # - image: 'nouns/160726-ums/ums-10.jpg'
-      # - image: 'nouns/160726-ums/ums-11.jpg'
-      - image: 'nouns/160726-ums/ums-9.jpg'
+      - image: nouns/160726-ums/ums-6.jpg
+      - image: nouns/160726-ums/ums-7.jpg
+      # - image: nouns/160726-ums/ums-10.jpg
+      # - image: nouns/160726-ums/ums-11.jpg
+      - image: nouns/160726-ums/ums-9.jpg
         class: 'full'
-      # - image: 'nouns/160726-ums/ums-13.jpg'
+      # - image: nouns/160726-ums/ums-13.jpg
     caption: 'Underground Music Showcase 2016'
     citation: 'photos by Gioja Antonette and <a href="https://www.instagram.com/p/BIbbLqug76R/">bolderbeat.com</a>'
     slug: 'ums-2016'
     feature: true
 
   - body:
-      - image: 'nouns/160724-mix/tg-spring-33.jpg'
+      - image: nouns/160724-mix/tg-spring-33.jpg
         class: 'full'
-      - image: 'nouns/160724-mix/tg-spring-30.jpg'
-      - image: 'nouns/160724-mix/tg-spring-31.jpg'
-      - image: 'nouns/160724-mix/tg-spring-32.jpg'
-      - image: 'nouns/160724-mix/tg-spring-25.jpg'
-      - image: 'nouns/160724-mix/tg-spring-29.jpg'
-      - image: 'nouns/160724-mix/tg-spring-26.jpg'
-      - image: 'nouns/160724-mix/tg-spring-27.jpg'
-      - image: 'nouns/160724-mix/tg-spring-28.jpg'
-      - image: 'nouns/160724-mix/tg-spring-20.jpg'
-      - image: 'nouns/160724-mix/tg-spring-21.jpg'
-      - image: 'nouns/160724-mix/tg-spring-34.jpg'
-      - image: 'nouns/160724-mix/tg-spring-22.jpg'
-      - image: 'nouns/160724-mix/tg-spring-23.jpg'
-      - image: 'nouns/160724-mix/tg-spring-14.jpg'
-      - image: 'nouns/160724-mix/tg-spring-24.jpg'
-      - image: 'nouns/160724-mix/tg-spring-9.jpg'
-      - image: 'nouns/160724-mix/tg-spring-15.jpg'
-      - image: 'nouns/160724-mix/tg-spring-16.jpg'
-      - image: 'nouns/160724-mix/tg-spring-17.jpg'
-      - image: 'nouns/160724-mix/tg-spring-18.jpg'
-      - image: 'nouns/160724-mix/tg-spring-19.jpg'
-      - image: 'nouns/160724-mix/tg-spring-13.jpg'
-      - image: 'nouns/160724-mix/tg-spring-12.jpg'
-      - image: 'nouns/160724-mix/tg-spring-11.jpg'
-      - image: 'nouns/160724-mix/tg-spring-10.jpg'
-      - image: 'nouns/160724-mix/tg-spring-8.jpg'
-      - image: 'nouns/160724-mix/tg-spring-7.jpg'
-      - image: 'nouns/160724-mix/tg-spring-6.jpg'
-      # - image: 'nouns/160724-mix/tg-spring-5.jpg'
-      # - image: 'nouns/160724-mix/tg-spring-4.jpg'
-      # - image: 'nouns/160724-mix/tg-spring-2.jpg'
-      # - image: 'nouns/160724-mix/tg-spring-1.jpg'
+      - image: nouns/160724-mix/tg-spring-30.jpg
+      - image: nouns/160724-mix/tg-spring-31.jpg
+      - image: nouns/160724-mix/tg-spring-32.jpg
+      - image: nouns/160724-mix/tg-spring-25.jpg
+      - image: nouns/160724-mix/tg-spring-29.jpg
+      - image: nouns/160724-mix/tg-spring-26.jpg
+      - image: nouns/160724-mix/tg-spring-27.jpg
+      - image: nouns/160724-mix/tg-spring-28.jpg
+      - image: nouns/160724-mix/tg-spring-20.jpg
+      - image: nouns/160724-mix/tg-spring-21.jpg
+      - image: nouns/160724-mix/tg-spring-34.jpg
+      - image: nouns/160724-mix/tg-spring-22.jpg
+      - image: nouns/160724-mix/tg-spring-23.jpg
+      - image: nouns/160724-mix/tg-spring-14.jpg
+      - image: nouns/160724-mix/tg-spring-24.jpg
+      - image: nouns/160724-mix/tg-spring-9.jpg
+      - image: nouns/160724-mix/tg-spring-15.jpg
+      - image: nouns/160724-mix/tg-spring-16.jpg
+      - image: nouns/160724-mix/tg-spring-17.jpg
+      - image: nouns/160724-mix/tg-spring-18.jpg
+      - image: nouns/160724-mix/tg-spring-19.jpg
+      - image: nouns/160724-mix/tg-spring-13.jpg
+      - image: nouns/160724-mix/tg-spring-12.jpg
+      - image: nouns/160724-mix/tg-spring-11.jpg
+      - image: nouns/160724-mix/tg-spring-10.jpg
+      - image: nouns/160724-mix/tg-spring-8.jpg
+      - image: nouns/160724-mix/tg-spring-7.jpg
+      - image: nouns/160724-mix/tg-spring-6.jpg
+      # - image: nouns/160724-mix/tg-spring-5.jpg
+      # - image: nouns/160724-mix/tg-spring-4.jpg
+      # - image: nouns/160724-mix/tg-spring-2.jpg
+      # - image: nouns/160724-mix/tg-spring-1.jpg
         class: 'full'
     citation: 'photos by Erin Rollman and Kyle Hollenbaugh'
     slug: 'spring-2016'
@@ -899,26 +921,26 @@ nouns:
   # - body:
   #     - video: '<iframe src="https://player.vimeo.com/video/125217583?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   #       class: full
-  #     - image: 'nouns/150402-sidesaddle/affair-18.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-15.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-10.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-9.jpg'
+  #     - image: nouns/150402-sidesaddle/affair-18.jpg
+  #     - image: nouns/150402-sidesaddle/affair-15.jpg
+  #     - image: nouns/150402-sidesaddle/affair-10.jpg
+  #     - image: nouns/150402-sidesaddle/affair-9.jpg
   #     - video: '<iframe src="https://player.vimeo.com/video/125217582?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   #       class: full
-  #     - image: 'nouns/150402-sidesaddle/affair-12.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-14.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-13.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-11.jpg'
+  #     - image: nouns/150402-sidesaddle/affair-12.jpg
+  #     - image: nouns/150402-sidesaddle/affair-14.jpg
+  #     - image: nouns/150402-sidesaddle/affair-13.jpg
+  #     - image: nouns/150402-sidesaddle/affair-11.jpg
   #     - video: '<iframe src="https://player.vimeo.com/video/125222247?color=ef3939&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   #       class: full
-  #     - image: 'nouns/150402-sidesaddle/affair-17.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-16.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-7.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-8.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-1.jpg'
+  #     - image: nouns/150402-sidesaddle/affair-17.jpg
+  #     - image: nouns/150402-sidesaddle/affair-16.jpg
+  #     - image: nouns/150402-sidesaddle/affair-7.jpg
+  #     - image: nouns/150402-sidesaddle/affair-8.jpg
+  #     - image: nouns/150402-sidesaddle/affair-1.jpg
   #       class: full
-  #     - image: 'nouns/150402-sidesaddle/affair-3.jpg'
-  #     - image: 'nouns/150402-sidesaddle/affair-4.jpg'
+  #     - image: nouns/150402-sidesaddle/affair-3.jpg
+  #     - image: nouns/150402-sidesaddle/affair-4.jpg
   #   caption: '04.15 <a href="http://ridingsidesaddle.net">Riding SideSaddle*</a> Novel Affair'
   #   citation: 'photos and video by Kenny Storms'
   #   slug: 'novel-affair'
@@ -948,23 +970,23 @@ nouns:
   # - body:
   #    - video: '<iframe src="http://player.vimeo.com/video/80691654?title=0&amp;byline=0&amp;portrait=0&amp;color=ef3939" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
   #      class: full
-  #     - image: 'nouns/130919-hermans/hermans1.jpg'
-  #     - image: 'nouns/130919-hermans/hermans2.jpg'
-  #     - image: 'nouns/130919-hermans/hermans4.jpg'
+  #     - image: nouns/130919-hermans/hermans1.jpg
+  #     - image: nouns/130919-hermans/hermans2.jpg
+  #     - image: nouns/130919-hermans/hermans4.jpg
   #       class: full
-  #     - image: 'nouns/130919-hermans/hermans5.jpg'
-  #     - image: 'nouns/130919-hermans/hermans6.jpg'
-  #     - image: 'nouns/130919-hermans/hermans3.jpg'
+  #     - image: nouns/130919-hermans/hermans5.jpg
+  #     - image: nouns/130919-hermans/hermans6.jpg
+  #     - image: nouns/130919-hermans/hermans3.jpg
   #       class: full
   #   caption: "09.13 Herman's Hideaway"
   #   citation: 'video by Megan Sumner :: photos by Kenny Storms'
   #   slug: 'hermans'
 
   # - body:
-  #     - image: 'nouns/130322-bouldering/bouldering.jpg'
+  #     - image: nouns/130322-bouldering/bouldering.jpg
   #       class: full
-  #     - image: 'nouns/130322-bouldering/bouldering1.jpg'
-  #     - image: 'nouns/130322-bouldering/bouldering2.jpg'
+  #     - image: nouns/130322-bouldering/bouldering1.jpg
+  #     - image: nouns/130322-bouldering/bouldering2.jpg
   #   caption: '03.13 Bouldering Poets'
   #   citation: 'photos by Elyse Brownell &amp; Christopher Shugrue'
   #   slug: 'bouldering-1'
