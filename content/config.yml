@@ -14,7 +14,7 @@ upcoming:
 # Recent Shows
 recent:
 
-    - date: Jan 26, 2019
+  - date: Jan 26, 2019
     url: https://www.facebook.com/events/218314602434545/
     venue: Lion’s Lair
     image: shows/laurium.jpg
@@ -83,7 +83,7 @@ recent:
 
   - date: Nov 30, 2017
     url: https://www.facebook.com/events/311116622698462/
-    title: Dsm-73: Queer Rock Night
+    title: 'Dsm-73: Queer Rock Night'
     venue: Moon Room at Summit Music Hall
     venue_url: https://www.thesummitmusichall.com/
     image: shows/queer-rock.jpg
@@ -94,7 +94,7 @@ recent:
 
   - date: Nov 19, 2017
     url: https://www.facebook.com/events/125886928084249/
-    title: Afternoon Show: Bands With Benefits
+    title: 'Afternoon Show: Bands With Benefits'
     venue: Mutiny Information Cafe
     image: shows/mutiny-benefits.jpg
     datetime: 2017-11-19
@@ -199,7 +199,7 @@ recent:
       - name: Lisa Matthews
 
   - date: Apr 27, 2017
-    title: "Just Like That" Video Release
+    title: Just Like That Video Release
     url: https://www.facebook.com/events/1845576042369221/
     image: shows/release17.jpg
     venue: Lost Lake
